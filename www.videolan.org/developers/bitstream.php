@@ -7,7 +7,7 @@
 <h1 class="bigtitle">biTStream</h1>
 
 <p> <code>biTStream</code> is a set of C headers allowing a simpler access to binary
-structures such as specified by MPEG, DVB, IETF, etc. </p>
+structures such as specified by MPEG, DVB, IETF, SMPTE, IEEE, SCTE, etc. </p>
 
 <h2>biTStream vs. libdvbpsi</h2>
 
@@ -23,10 +23,18 @@ and specifications.</p>
 <p><code>biTStream</code> currently implements the following specifications:</p>
 <ul class="bullets">
   <li> ISO/IEC 13818-1 (MPEG-2 systems) </li>
+  <li> ISO/IEC 13818-2 (MPEG-2 video) </li>
+  <li> ISO/IEC 13818-3 (MPEG-2 audio) </li>
+  <li> ISO/IEC 14496-3 (MPEG-4 advanced audio coding) </li>
+  <li> ISO/IEC 14496-10 (MPEG-4 advanced video coding) </li>
+  <li> ATSC A/52 </li>
   <li> ETSI EN 300 468 (Service Information in DVB systems) </li>
-  <li> IETF RFC 3550 (Real Time Protocol) </li>
   <li> ETSI EN 50 221 (Common Interface Specification) </li>
   <li> ETSI TS 103 194 (DVB Simulcrypt) </li>
+  <li> IETF RFC 3550 (Real Time Protocol) </li>
+  <li> SMPTE 2022-1 (Forward Error Correction) </li>
+  <li> IEEE 802.3 Ethernet frames </li>
+  <li> SCTE-35 Splice Information Table </li>
 </ul>
 
 <p>In particular it supports the following MPEG and DVB structures (parsers and writers):</p>
@@ -51,11 +59,11 @@ and specifications.</p>
 
 <h2>Get biTStream</h2>
 
-<p>The latest <code>biTStream</code> release is <a href="http://www.videolan.org/pub/videolan/bitstream/1.0/"><b>version 1.0</b></a>.</p>
+<p>The latest <code>biTStream</code> release is <a href="https://get.videolan.org/bitstream/1.1/"><b>version 1.1</b></a>.</p>
 <p> <code>biTStream</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
 <code>git clone git://git.videolan.org/bitstream.git</code></p>
 
-<p>All releases can be found by browsing the <a href="http://www.videolan.org/pub/videolan/bitstream/"><b>releases</b></a>.</p>
+<p>All releases can be found by browsing the <a href="https://get.videolan.org/bitstream/"><b>releases</b></a>.</p>
 <p>The source code can browsed at  <a href="http://git.videolan.org/?p=bitstream.git">git.videolan.org</a>.</p>
 
 <h2>Extending biTStream</h2>
@@ -76,6 +84,6 @@ or fix bugs in current structures, you'd be very nice to contribute them
 (again, there is no point in concealing this). Thanks.</p>
 
 <h2>Mailing list</h2>
-<p>There is no mailing-list dedicated to biTStream at present. For the moment you can discuss about biTStream on the <a href="/developers/lists.html">dvblast-devel</a> mailing list.</p>
+<p>There is a mailing-list dedicated to biTStream development. Patches can be sent there. Subscribe <a href="/developers/lists.html">here</a>.</p>
 
 <?php footer('$Id: bitstream.php 7045 2011-11-03 13:48:50Z jpsaman $'); ?>

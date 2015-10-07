@@ -15,11 +15,11 @@
                      DVBlast is a simple and powerful MPEG-2/TS demux and streaming
                      application.
                 </div>
-                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/2.2/dvblast-2.2.tar.bz2'>
+                <a id='downloadButton' href='https://get.videolan.org/dvblast/3.0/dvblast-3.0.tar.bz2'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
                     <div class='downloadText'>Download DVBlast</div>
                     <span id='downloadDetails' style='font-size: 12px;'>
-                        Version 2.2 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 72 KiB
+                        Version 3.0 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 80 KiB
                     </span>
                 </a>
             </div>
@@ -30,7 +30,7 @@
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />
                 <br />
-                No runtime dependancy, one build dependancy (<a href="/developers/bitstream.html">biTStream</a>)<br />
+                One runtime dependancy (<a href="http://libev.schmorp.de/">libev</a>), one build dependancy (<a href="/developers/bitstream.html">biTStream</a>)<br />
                 <br />
                 CAM menus (MMI) support via an external application<br />
                 <br />
@@ -59,17 +59,21 @@
                 <br />
 
                 <code>DVBlast</code> does <strong>not</strong> do any kind of
-                processing on the elementary streams, such as transcoding, PID remapping
+                processing on the elementary streams, such as transcoding,
                 or remultiplexing. If you were looking for these features, switch to
                 <a href="/vlc/">VLC</a>. It does <strong>not</strong> stream from plain files (have a look
                 at <a href="/projects/multicat.html">multicat</a> instead).
+                <br />
+                <br />
+
+                <code>DVBlast</code> compiles and run on Linux and Mac OS X (with limited feature set).
             </div>
             <div class="onecolumn">
                 <h1>Inputs - Outputs</h1>
                 <code>DVBlast</code> supports several input methods:<br />
                 <ul class="panel-blue-bullet">
                      <li> linux-dvb-supported cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
-                     <li> DVB-ASI cards (from <a href="http://www.computermodules.com/"> Computer Modules</a>)</li>
+                     <li> DVB-ASI cards (from <a href="http://www.computermodules.com/"> Computer Modules</a> or <a href="http://www.deltacast.tv/">Deltacast</a>)</li>
                      <li> UDP or RTP, unicast or multicast, streams carrying a transport stream</li>
                 </ul>
 
@@ -80,15 +84,12 @@
                    <li> PID-based or service-based demultiplexing</li>
                    <li> optional descrambling via CAM device</li>
                    <li> optional DVB tables </li>
+                   <li> optional PID and SID remapping </li>
                </ul>
             </div>
             <div class='lastcolumn'>
                 <h1>Support</h1>
-                    User support is handled in the <a
-                    href="/support/lists.html">streaming</a>
-                    mailing-list.<br />
-                    <br />
-                    Development is handled in the <a href="/developers/lists.html">dvblast-devel</a>
+                    User support and development is handled in the <a href="/developers/lists.html">dvblast-devel</a>
                     mailing-list.
                 <br />
                 <br />

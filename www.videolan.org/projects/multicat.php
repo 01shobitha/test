@@ -16,7 +16,8 @@ Transport Streams (ISO/IEC 13818-1) in particular.</p>
 
 <p>The multicat suite of applications is very lightweight and designed to
 operate in tight environments. Memory and CPU usages are kept to a minimum,
-and they feature only one thread of execution.</p>
+and they feature only one thread of execution. It is designed to run on
+Linux, FreeBSD and Mac OS X.</p>
 
 <h2>The <code>multicat</code> program</h2>
 
@@ -52,10 +53,8 @@ a simple and efficient TS file streamer.</p>
 <h2>Get Multicat</h2>
 
 <p> The latest official version of <code>Multicat</code>
-is numbered 2.0, and is available via <a
-href="http://downloads.videolan.org/pub/videolan/multicat/2.0/multicat-2.0.tar.bz2">HTTP</a>
-or <a
-href="ftp://ftp.videolan.org/pub/videolan/multicat/2.0/multicat-2.0.tar.bz2">FTP</a>.</p>
+is numbered 2.1, and is available <a
+href="https://get.videolan.org/multicat/2.1/multicat-2.1.tar.bz2">here</a>.</p>
 
 <p><a href="/developers/bitstream.html">biTStream</a> needs to be installed at build-time.</p>
 
@@ -64,10 +63,8 @@ href="http://wiki.videolan.org/Subversion">Subversion</a>.
 The code can be found at <code>svn://svn.videolan.org/multicat</code> and you can
 <a href="http://svn.videolan.org/listing.php?repname=Multicat&amp;path=%2F&amp;sc=0">browse the source online</a>.</p>
 
-<p>User support is handled in the <a
-href="/support/lists.html">streaming</a>
-mailing-list. There is also a developer-oriented <a
-href="/developers/lists.html">mailing-list</a>.</p>
+<p>User support and development is handled in the <a
+href="/developers/lists.html">multicat-devel mailing-list</a>.</p>
 
 <br />
 <br />

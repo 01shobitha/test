@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|9 October 2015|VLC for Android 1.6.0|VideoLAN and the Android teams are happy to present the release of VLC for Android 1.6.0. Ported to Android 6.0, this release should provide an important performance boost for decoding and the interface. Get it <a href="/vlc/download-android.html">now!</a>.
+
 |7 October 2015|DVBlast 3.0, multicat 2.1, bitstream 1.1|VideoLAN and the DVBlast teams are happy to present the simultaneous release of DVBlast 3.0, bitstream 1.1 and multicat 2.1!<br />DVBlast and multicat are now ported to OSX and DVBlast 3.0 is a major rewrite with new features like PID/SID remapping and stream monitoring. <a href="/projects/dvblast.html">DVBlast</a>, <a href="/developers/bitstream.html">bitstream</a> and <a href="/projects/multicat.html">multicat</a>.
 
 |4 October 2015|libbluray 0.9.0|VideoLAN and the libbluray team are releasing today libbluray 0.9.0. Adding numerous features, notably to better support BD-J menus and embedded subtitles files, it also fixes a few important issues, like font-caching. See more on <a href="/developers/libbluray.html">libbluray page</a>

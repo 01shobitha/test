@@ -477,7 +477,7 @@ function footer($tag = "", $alternate_lang=array()) {
             <a href='/legal.html'><?php echo _("Legal"); ?></a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
             VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="/videolan">VideoLAN non-profit organization.</a><br />
             VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.</p>
-            <p>Design by <a href="http://www.madebyargon.com">Made By Argon</a>. Some icons are licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-SA v3.0+</a>. <br />
+            <p>Design by <a href="http://www.madebyargon.com">Made By Argon</a>. Some icons are licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC BY-SA 3.0+</a>. <br />
             The VLC cone icon was designed by Richard Øiestad. Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.</p>
          </div>
       </div>

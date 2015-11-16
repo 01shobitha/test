@@ -13,7 +13,7 @@
 ?>
 
         <div class="clearme" style='padding-top: 26px;'>
-            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
+            <?php image( 'icons-VLC/VLC-300px-black.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div class="ltrFloatLeft" style='width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>

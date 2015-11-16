@@ -18,7 +18,7 @@
 ?>
     <div>
         <div class="projectMain">
-            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
+            <?php image( 'icons-VLC/VLC-300px-black.png', 'Large black VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div class="projectLeft">
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>

@@ -124,7 +124,14 @@
             A cross-platform development library to abstract access to binary structures such as found in MPEG or DVB.
         </div>
     </div>
-
+    <div class='clearme' style="padding-top: 30px;" ></div>
+    <div style='float: left; width: 180px; padding-right: 70px;'>
+        <div class='productName'><a href="/developers/libbdplus.html">libbdplus</a></div>
+        <div class='productDescription'>
+            A research project for implementing the bdplus standard.
+        </div>
+    </div>
+ 
 </div>
 
 <?php footer('$Id: index.php 3765 2006-08-16 16:19:00Z dionoea $'); ?>

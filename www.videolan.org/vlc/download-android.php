@@ -28,7 +28,7 @@
                   <li>Plays all files, in all formats, like the classic VLC.</li>
                   <li>Audio and video media library, with full search.</li>
                   <li>Support for network streams, including HLS.</li>
-                  <li>Supports Android from version 2.1 (platform-7).</li>
+                  <li>Supports Android from version 2.2 (platform-8).</li>
                   <li>Supports ARMv6, ARMv7, MIPS and x86.</li>
                   <li>Supports secondary display.</li>
                </ul>

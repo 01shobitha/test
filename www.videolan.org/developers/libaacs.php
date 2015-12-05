@@ -39,7 +39,7 @@ encrypted copyrighted material.</p>
 echo "<a href='ftp://ftp.videolan.org/pub/videolan/libaacs/$libaacs_version/libaacs-$libaacs_version.tar.bz2'>libaacs $libaacs_version</a>.</p>";
 ?>
 <p> <code>libaacs</code> is also available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
-<code>git clone git://git.videolan.org/libaacs.git</code></p>
+<code>git clone http://git.videolan.org/git/libaacs.git</code></p>
 <p>You can browse the source code at  <a href="http://git.videolan.org/?p=libaacs.git">git.videolan.org</a>.</p>
 
 <h2>Mailing list</h2>

@@ -96,7 +96,7 @@
 
                 <h1>Development</h1>
                     Hackers can participate to the development using <a href="http://wiki.videolan.org/Git">git</a>.
-                    The code is accessible from <code>git://git.videolan.org/dvblast.git</code> and
+                    The code is accessible from <code>http://git.videolan.org/git/dvblast.git</code> and
                     you can <a href="http://git.videolan.org/?p=dvblast.git">browse the source online</a>.
                     <br />
 

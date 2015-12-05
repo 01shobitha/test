@@ -33,7 +33,7 @@ and ITU-T H.222.0.</p>
 <p>The latest <code>libdvbpsi</code> (LGPL v2.1) release <a href="http://www.videolan.org/pub/libdvbpsi/1.3.0/"><b>version 1.3.0</b></a>. Note: the API has changed since version 0.2.2 you need to update your applications.</p>
 <p>The latest <code>libdvbpsi</code> GPL v2 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.1.7/"><b>version 0.1.7</b></a>.</p>
 <p> <code>libdvbpsi</code> source code is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
-<code>git clone git://git.videolan.org/libdvbpsi.git</code><br />
+<code>git clone http://git.videolan.org/git/libdvbpsi.git</code><br />
 The stable release source code archive is available through:<br />
 <code>git checkout -t origin/branch/1.3.0-bugfix</code>
 </p>

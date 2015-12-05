@@ -29,7 +29,7 @@
     <h2>Source</h2> 
     <p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p> 
  
-    <p><code># git clone git://git.videolan.org/x262.git</code></p> 
+    <p><code># git clone http://git.videolan.org/git/x262.git</code></p> 
  
     <p>You can <a href="http://git.videolan.org/?p=x262.git;a=summary">browse the source</a> on-line.</p> 
  

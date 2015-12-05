@@ -60,7 +60,7 @@
     <h2>Source</h2>
     <p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
 
-    <p><code># git clone git://git.videolan.org/x264.git</code></p>
+    <p><code># git clone http://git.videolan.org/git/x264.git</code></p>
 
     <p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
 

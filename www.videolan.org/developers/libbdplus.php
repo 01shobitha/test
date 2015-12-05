@@ -31,7 +31,7 @@ encrypted copyrighted material.</p>
 <?php echo "<a href='ftp://ftp.videolan.org/pub/videolan/libbdplus/$libbdplus_version/libbdplus-$libbdplus_version.tar.bz2'>libbdplus $libbdplus_version</a>.</p>"; ?>
 
 <p> <code>libbdplus</code> is also available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
-<code>git clone git://git.videolan.org/libbdplus.git</code></p>
+<code>git clone http://git.videolan.org/git/libbdplus.git</code></p>
 <p>You can browse the source code at  <a href="http://git.videolan.org/?p=libbdplus.git">git.videolan.org</a>.</p>
 
 <h2>Mailing list</h2>

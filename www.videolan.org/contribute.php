@@ -32,7 +32,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                             join the <a href="/support/">IRC channel</a> to get help on how to start coding.</li>
                         <li ><strong>Writers</strong>, to help improve the documentation.</li>
                         <li ><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a>
-                         <a href="/vlc">VLC</a>, <a href="/vlmc/">VLMC</a> or other projects.</li>
+                         <a href="/vlc">VLC</a> or other projects.</li>
                         <li ><strong>Moderators &amp; Support</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists.</li>
                         <li ><strong>Designers</strong>, for this website and VLC.</li>
                     </ul>

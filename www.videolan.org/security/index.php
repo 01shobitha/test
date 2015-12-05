@@ -6,11 +6,11 @@
 
 <h1>Security contacts</h1>
 <p><strong>Email</strong>: security@REMOVE@videolan.org.</p>
-<p>Please noted that signed emails are welcome, and responsible disclosure is appreciated.</p>
+<p>Please note that signed emails are welcome, and responsible disclosure is appreciated.</p>
 
 <h1>Past security advisories</h1>
 
-<p><strong>Note well</strong>:
+<p><strong>Please note</strong>:
 The VideoLAN project does not issue security advisories
 for underlying third party libraries.
 Please refer to the concerned third parties as appropriate.

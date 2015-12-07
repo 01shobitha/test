@@ -26,6 +26,9 @@ options:</p>
  <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a></h2>
 <div>
 <div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.1/vlc.ymp">VLC for Leap 42.1</a>
+</div>
+<div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
 </div>
 <div class="installbtn" style="float: left;">
@@ -33,12 +36,6 @@ options:</p>
 </div>
 <div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/13.1/vlc.ymp">VLC for 13.1</a>
-</div>
-<div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/12.3/vlc.ymp">VLC for 12.3</a>
-</div>
-<div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC for 11.4</a>
 </div>
 </div>
 
@@ -60,12 +57,10 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 Version. Supported at this time are :</p>
 <p>
 <ul>
+<li>Leap_42.1</li>
+<li>Tumbleweed</li>
 <li>13.2</li>
 <li>13.1</li>
-<li>12.3</li>
-<li>11.4</li>
-<li>Tumbleweed</li>
-<li>Factory</li>
 </ul>
 </p>
 <p>Finally, confirm the addition.<br />

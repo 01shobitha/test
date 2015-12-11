@@ -105,7 +105,8 @@ function start_head( $title,
                      $additional_meta= array(),
                      $alternate_lang = array(),
                      $body_onload    = "",
-                     $body_onunload  = "" )
+                     $body_onunload  = "",
+                     $new_design = false )
 {
     global $HTTP_GET_VARS;
 
@@ -128,6 +129,12 @@ function start_head( $title,
       >
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <?php
+            if ($new_design) {
+                echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
+                echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
+            }
+        ?>
         <meta http-equiv="Content-Language" content="<?php echo $language?>" />
 
         <meta name="Author" content="VideoLAN" />
@@ -173,6 +180,7 @@ function start_head( $title,
         } ?>
 
         <?php /* CSS */ ?>
+        <link rel="stylesheet" type="text/css" href="/style/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />
 
         <?php /* Misc */ ?>
@@ -185,6 +193,15 @@ function start_head( $title,
             }
         } ?>
 
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 7]>
+            * {
+                behavior: url("/style/box-sizing.htc");
+            }
+        <![endif]-->
         <!--[if lt IE 7]>
            <style type="text/css">
               @media screen{ body{behavior:url("/width.htc");} }
@@ -198,6 +215,7 @@ function start_head( $title,
         <?php /* jQuery */ ?>
         <?php /* Get the one in the Google CDN to get cached */ ?>
         <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>
+        <script src='/js/bootstrap.min.js' type='text/javascript'></script>
         <?php if( isset($additional_js) ) {
             foreach($additional_js as $js) {
                 echo '<script src="'.$js.'" type="text/javascript"></script>';
@@ -220,10 +238,10 @@ function start_head( $title,
 }
 
 /* Actual start of the body */
-function start_body( $body_color, $language, $b_show_donate = true )
+function start_body( $body_color, $language, $b_show_donate = true, $new_design_class = '' )
 {
-        echo '<body>';
-        echo "<div id='bodyInner' class='$body_color'>";
+    echo "<body class='$new_design_class'>";
+    echo "<div id='bodyInner' class='$body_color'>";
 
     switch( $body_color ){
     case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
@@ -510,10 +528,12 @@ if(!isset($body_onunload))  $body_onunload  = "";
 if(!isset($body_color))     $body_color     = "orange";
 if(!isset($nobanner))       $nobanner       = false;
 if(!isset($show_donate))    $show_donate    = true;
+if(!isset($new_design))     $new_design     = false;
 
+$new_design_class = 'new-design';
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
-           $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload );
-start_body( $body_color, $language, $show_donate );
+           $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload, $new_design );
+start_body( $body_color, $language, $show_donate, $new_design_class );
 draw_menus( $nobanner, $alternate_lang );
 ?>

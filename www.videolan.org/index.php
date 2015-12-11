@@ -2,7 +2,7 @@
    $language = "";
    $title = _("VLC: Official site - Free multimedia solutions for all OS!");
    $body_color = "blue";
-
+   $new_design = true;
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
 

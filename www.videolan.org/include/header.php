@@ -438,7 +438,6 @@ function footer($tag = "", $alternate_lang=array()) {
 ?>
     </div> <!-- BodyInner -->
     <div id='footer'>
-        <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
         <div class="container">
             <div class="row">
                 <a class="col-sm-12 col-md-3" href='/'>

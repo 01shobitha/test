@@ -67,7 +67,7 @@ ul, li
 
 body
 {
-    background: #FFF url(//images.videolan.org/style/images/background.png) repeat-x scroll top left;
+    background: #fff;
     text-align: center;
     font-family: Arial;
 }
@@ -279,20 +279,16 @@ html[dir="rtl"] #donate .button {
 
 #bodyInner
 {
-    background: transparent url(//images.videolan.org/style/images/highlight.png) no-repeat scroll top left;
+    background: #fff;
     padding: 80px 10px 20px;
     width: 980px;
     text-align: left;
     margin: 0 auto;
 }
 
-#footer
+#bodyInner .container
 {
-    clear: both;
-    float: left;
-    width: 100%;
-    text-align: left;
-    margin-top: 25px;
+    max-width: 980px;
 }
 
 /* =================================== DOWNLOAD ELEMENTS ===================================== */
@@ -545,9 +541,9 @@ html[dir="rtl"] .projectLeft {
 
 #footer
 {
-    background-color: white;
-    background-image: url('//images.videolan.org/style/images/footerBackground.png');
-    background-repeat: repeat-x;
+    text-align: left;
+    margin-top: 25px;
+    background: #e7e7e7;
 }
 .footer_col
 {
@@ -957,14 +953,14 @@ html[dir="rtl"] a.extraInfoLink[style]
 }
 
 /* ========================== Bootstrap backward compatibility ========================= */
-img {
+img, .normalButton {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
 
 /* =================================== New design ====================================== */
-.new-design img {
+.new-design img, .new-design .normalButton {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -978,6 +974,10 @@ img {
     overflow: hidden;
     padding: 80px 0 0 0;
     width: 100%;
+}
+
+.new-design #bodyInner .container {
+    max-width: 1200px;
 }
 
 .new-design h1.bigtitle {

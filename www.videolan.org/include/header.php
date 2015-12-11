@@ -238,34 +238,138 @@ function start_head( $title,
 }
 
 /* Actual start of the body */
-function start_body( $body_color, $language, $b_show_donate = true, $new_design_class = '' )
+function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $alternate_lang, $new_design_class )
 {
     echo "<body class='$new_design_class'>";
     echo "<div id='bodyInner' class='$body_color'>";
 
     switch( $body_color ){
-    case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
-    case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByArgonBlue.png";   break;
-    case "green": $imgSrc = "logoGreen.png";  $imgArSrc = "madeByArgonGreen.png";  break;
-    case "pink":  $imgSrc = "logoPink.png";   $imgArSrc = "madeByArgonPink.png";   break;
-    default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
+        case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
+        case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByArgonBlue.png";   break;
+        case "green": $imgSrc = "logoGreen.png";  $imgArSrc = "madeByArgonGreen.png";  break;
+        case "pink":  $imgSrc = "logoPink.png";   $imgArSrc = "madeByArgonPink.png";   break;
+        default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-    <div class="header clearfix">
-       <a class="ltrFloatLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-       <div class="ltrFloatLeft" id="nonprofitOrganizationDiv">
-       <?php
-        echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
-             _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
-       </div>
+    <?php echo draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate ); ?>
+    <div class="header container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href='/'><?php image( $imgSrc, "VideoLAN association", "center-block img-responsive"); ?></a>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-sm-7" id="nonprofitOrganizationDiv2">
+                <?php
+                echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
+                 _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
+            </div>
+        </div>
+        <div class="social-box">
+            <div id='plusone' style="padding: 3px 10px;">
+                <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
+            </div>
+            <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
+            <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
+        </div>
+    </div>
+<?php
+}
 
+/* Menus */
+function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
+{
+?>
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/#">
+        <?php image( $imgSrc, "VideoLAN association"); ?>
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="main-navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN</a>
+          <ul class="dropdown-menu">
+             <li><a href='//www.videolan.org/videolan/'><?php echo _("Project and Organization"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
+             <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
+             <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
+             <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="//www.videolan.org/vlc/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC</a>
+          <ul class="dropdown-menu">
+            <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
+            <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
+            <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
+            <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
+            <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
+            <li><hr /></li>
+            <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
+            <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
+            <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
+            <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="//www.videolan.org/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Projects"); ?></a>
+          <ul class="dropdown-menu">
+            <li><a href='//www.videolan.org/vlc/'>VLC media player</a></li>
+            <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
+            <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
+            <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+            <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
+            <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
+            <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
+            <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
+            <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
+            <li><hr /></li>
+            <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
+            <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
+            <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>
+            <li><a href='//www.videolan.org/developers/libaacs.html'>libaacs</a></li>
+            <li><a href='//www.videolan.org/developers/libdvbcsa.html'>libdvbcsa</a></li>
+            <li><a href='//www.videolan.org/developers/bitstream.html'>biTStream</a></li>
+            <li><hr /></li>
+            <li><a href='//www.videolan.org/projects/'><?php echo _("All Projects"); ?></a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="//www.videolan.org/contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Contribute"); ?></a>
+          <ul class="dropdown-menu">
+            <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
+            <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
+            <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="//www.videolan.org/support/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Support"); ?></a>
+          <ul class="dropdown-menu">
+            <li><a href='//www.videolan.org/support/'><?php echo _("Support center"); ?></a></li>
+            <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
+            <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
+            <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
+            <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
+            <li><a href='//www.videolan.org/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
+            <li><a href='//www.videolan.org/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
+          </ul>
+        </li>
+      </ul>
        <?php if ($b_show_donate == true ) {  ?>
-        <div id='donate'>
-            <div class="ltrFloatLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
-                <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
-            <img src='//images.videolan.org/images/paypal.png' class="ltrFloatRight" alt="paypal" />
-            <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                <p>
+        <ul class="nav navbar-nav pull-right donate-box">
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
                     <input name="cmd" value="_xclick" type="hidden"/>
                     <input name="business" value="sponsor@videolan.org" type="hidden"/>
                     <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
@@ -275,11 +379,12 @@ function start_body( $body_color, $language, $b_show_donate = true, $new_design_
                     <input name="lc" value="GB" type="hidden"/>
                     <input name="no_shipping" value="1" type="hidden"/>
                     <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                    <input class='text' type='text' name="amount" value='4.00' style='background: #fff url("//images.videolan.org/images/euro.png") no-repeat 65px 2px;' />
-                    <button class='button' type='submit'><?php echo _("donate"); ?></button>
-            </p></form>
-            <form style='clear: both; padding-top: 6px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                <p>
+                    <input class="euros" type='text' name="amount" value='4.00' />
+                    <button type='submit'><?php echo _("donate"); ?></button>
+                </form>
+            </li>
+            <li>
+                <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
                     <input name="cmd" value="_xclick" type="hidden"/>
                     <input name="business" value="sponsor@videolan.org" type="hidden"/>
                     <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
@@ -289,109 +394,37 @@ function start_body( $body_color, $language, $b_show_donate = true, $new_design_
                     <input name="lc" value="US" type="hidden"/>
                     <input name="no_shipping" value="1" type="hidden"/>
                     <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                    <input id="dtext" class='text' type='text' name="amount" value='5.00' style='background: #fff url("//images.videolan.org/images/dollar.png") no-repeat 0 3px; padding-right: 10px; width: 75px;' />
-                    <button class='button' type='submit'><?php echo _("donate"); ?></button>
-            </p></form>
-        </div>
+                    <input id="dtext" class="dollars" type='text' name="amount" value='5.00'/>
+                    <button type='submit'><?php echo _("donate"); ?></button>
+                </form>
+            </li>
+            <li class="dropdown visible-sm">
+                <a href="//www.videolan.org/contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="arrow down"></div>
+                </a>
+                <ul class="dropdown-menu pull-right">
+                    <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+                        <input name="cmd" value="_xclick" type="hidden"/>
+                        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                        <input name="no_note" value="0" type="hidden"/>
+                        <input name="currency_code" value="EUR" type="hidden"/>
+                        <input name="tax" value="0" type="hidden"/>
+                        <input name="lc" value="GB" type="hidden"/>
+                        <input name="no_shipping" value="1" type="hidden"/>
+                        <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
+                        <input class="euros" type='text' name="amount" value='4.00' />
+                        <button type='submit'><?php echo _("donate"); ?></button>
+                    </form>
+                </ul>
+            </li>
+        </ul>
         <?php } ?>
+    </div>
+ </div>
+</nav>
 
-        <div id='social'>
-            <div id='plusone' style="padding: 3px 10px;">
-                <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
-            </div>
-            <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
-            <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
-        </div>
-<?php
-}
-
-/* Menus */
-function draw_menus( $nobanner, $alternate_lang )
-{
-?>
-<div id='nav' class="clearfix">
-   <div class='link'>
-      <a href='//www.videolan.org/'><?php echo _("Home");?></a>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/news.html'><?php echo _("News");?></a>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/videolan/'>VideoLAN</a>
-      <ul>
-         <li><a href='//www.videolan.org/videolan/'><?php echo _("Project and Organization"); ?></a></li>
-         <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
-         <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
-         <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
-         <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
-         <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
-         <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
-         <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
-      </ul>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/vlc/'>VLC</a>
-      <ul>
-         <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
-         <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
-         <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
-         <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
-         <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
-         <li><hr /></li>
-         <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
-         <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
-         <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
-         <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
-      </ul>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/projects/'><?php echo _("Projects"); ?></a>
-      <ul>
-         <li><a href='//www.videolan.org/vlc/'>VLC media player</a></li>
-         <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
-         <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
-         <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
-         <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
-         <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
-         <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
-         <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
-         <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
-         <li><hr /></li>
-         <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
-         <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
-         <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>
-         <li><a href='//www.videolan.org/developers/libaacs.html'>libaacs</a></li>
-         <li><a href='//www.videolan.org/developers/libdvbcsa.html'>libdvbcsa</a></li>
-         <li><a href='//www.videolan.org/developers/bitstream.html'>biTStream</a></li>
-         <li><hr /></li>
-         <li><a href='//www.videolan.org/projects/'><?php echo _("All Projects"); ?></a></li>
-      </ul>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/contribute.html'><?php echo _("Contribute"); ?></a>
-      <ul>
-         <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
-         <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
-         <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
-      </ul>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/support/'><?php echo _("Support"); ?></a>
-      <ul>
-         <li><a href='//www.videolan.org/support/'><?php echo _("Support center"); ?></a></li>
-         <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
-         <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
-         <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
-         <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
-         <li><a href='//www.videolan.org/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
-         <li><a href='//www.videolan.org/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
-      </ul>
-   </div>
-   <div class='link'>
-      <a href='//www.videolan.org/developers/'><?php echo _("Dev' Zone"); ?></a>
-   </div>
-</div>
-</div> <!-- header -->
+<!-- header -->
 
 <?php
     /* Event banner */
@@ -538,6 +571,5 @@ $new_design_class = $new_design ? 'new-design' : '';
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload, $new_design );
-start_body( $body_color, $language, $show_donate, $new_design_class );
-draw_menus( $nobanner, $alternate_lang );
+start_body( $body_color, $language, $show_donate, $nobanner, $alternate_lang, $new_design_class );
 ?>

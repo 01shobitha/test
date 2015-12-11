@@ -280,7 +280,7 @@ html[dir="rtl"] #donate .button {
 #bodyInner
 {
     background: transparent url(//images.videolan.org/style/images/highlight.png) no-repeat scroll top left;
-    padding: 6px 10px 20px;
+    padding: 80px 10px 20px;
     width: 980px;
     text-align: left;
     margin: 0 auto;
@@ -293,101 +293,6 @@ html[dir="rtl"] #donate .button {
     width: 100%;
     text-align: left;
     margin-top: 25px;
-}
-
-#nav
-{
-    background-color: white;
-    border: 1px solid #F1F1F1;
-    float: left;
-    margin-bottom: 10px;
-    margin-top: 4px;
-    clear: left;
-}
-
-#nav .link
-{
-    position: relative;
-    display: block;
-    float: left;
-    font-size: 15px;
-    padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    text-decoration: none;
-    z-index: 9999;
-}
-
-#nav .link:hover
-{
-    position: relative;
-    display: block;
-    float: left;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    text-decoration: none;
-}
-
-#nav .link:hover a
-{
-    color: white;
-}
-
-#nav a:hover
-{
-    text-decoration: none;
-}
-
-#nav .link:hover ul
-{
-    display: block;
-}
-
-#nav ul
-{
-    display: none;
-    background-color: white;
-    border: 1px solid #CCC;
-    position: absolute;
-    top: 32px;
-    left: 0px;
-    width: 170px;
-    -webkit-box-shadow: 0px 0px 3px #DDD;
-    -moz-box-shadow: 0px 0px 3px #DDD;
-    box-shadow: 0px 0px 3px #DDD;
-}
-
-#nav ul li
-{
-    display: block;
-    padding-right: 10px;
-}
-
-#nav hr
-{
-    background: #CCC;
-    border: none;
-    height: 1px;
-    width: 100%;
-}
-
-#nav ul li a
-{
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 0px;
-    display: block;
-    width: 50px;
-}
-
-#nav .link:hover ul li a
-{
-    width: 100%;
-    color: black;
 }
 
 /* =================================== DOWNLOAD ELEMENTS ===================================== */
@@ -695,7 +600,8 @@ html[dir="rtl"] .projectLeft {
     background-color: #F48B00;
 }
 
-.orange #donate .button
+.orange #donate .button,
+.orange .donate2 button
 {
     background-color: #F48B00;
     border: 1px solid #E47B00;
@@ -730,7 +636,8 @@ html[dir="rtl"] .projectLeft {
     background-color: #ED1C24;
 }
 
-.red #donate .button
+.red #donate .button,
+.red .donate2 button
 {
     background-color: #ED1C24;
     border: 1px solid #DD0C14;
@@ -765,7 +672,8 @@ html[dir="rtl"] .projectLeft {
     background-color: #39B549;
 }
 
-.green #donate .button
+.green #donate .button,
+.green .donate2 button
 {
     background-color: #39B549;
     border: 1px solid #29A539;
@@ -795,7 +703,8 @@ html[dir="rtl"] .projectLeft {
     background-color: #0070BB;
 }
 
-.blue #donate .button
+.blue #donate .button,
+.blue .donate2 button
 {
     background-color: #0070BB;
     border: 1px solid #0060AB;
@@ -836,7 +745,8 @@ html[dir="rtl"] .projectLeft {
     background-color: #D3135A;
 }
 
-.pink #donate .button
+.pink #donate .button,
+.pink .donate2 button
 {
     background-color: #D3135A;
     border: 1px solid #C3034A;
@@ -1046,11 +956,32 @@ html[dir="rtl"] a.extraInfoLink[style]
     padding-top: 16px;
 }
 
+/* ========================== Bootstrap backward compatibility ========================= */
+img {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 /* =================================== New design ====================================== */
+.new-design img {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header.container {
+    position: relative;
+}
+
 .new-design #bodyInner {
     overflow: hidden;
-    padding: 0;
+    padding: 80px 0 0 0;
     width: 100%;
+}
+
+.new-design h1.bigtitle {
+    font-size: 48px;
 }
 
 .big-vlc-img {
@@ -1082,7 +1013,89 @@ html[dir="rtl"] a.extraInfoLink[style]
     margin-top: -21px;
 }
 
-/* Global helper */
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+#nonprofitOrganizationDiv2 {
+    color: #4D4D4D;
+    font-size: 12px;
+    padding: 14px 10px 5px 20px;
+    line-height: 20px;
+}
+
+/* ============================ Global helper =========================== */
+
 .padding-bottom-24 {
     padding-bottom: 24px;
+}
+
+/* ============================ ICON =========================== */
+
+.arrow {
+   height: 0;
+   width: 0;
+   border: 4px solid transparent;
+}
+
+.arrow.down {
+   border-top-color: #000;
+   margin-top: 8px;
+}
+
+/* ============================ SOCIAL BOX =========================== */
+
+.social-box {
+    position: absolute;
+    top: -12px;
+    right: 10px;
+}
+
+/* ================================= DONATE BOX ================================== */
+
+
+.nav.donate-box .dropdown-menu form {
+    width: 189px;
+}
+
+.nav.donate-box li {
+    display: inline-block;
+}
+
+.donate2 input {
+    color: #555;
+    border: 1px solid #CCC;
+    height: 30px;
+    margin: 10px 10px 10px 14px;
+    width: 60px;
+    padding-left: 18px;
+}
+
+.donate2 input.euros {
+    background: #fff url("//images.videolan.org/images/euro.png") no-repeat 0 4px;
+}
+
+.donate2 input.dollars {
+    background: #fff url("//images.videolan.org/images/dollar.png") no-repeat 0 4px;
+}
+
+.donate2 button {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    font-size: 14px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .donate2 {
+        padding-right: 10px;
+    }
+    .donate2 button {
+        height: 30px;
+        padding: 5px;
+    }
 }

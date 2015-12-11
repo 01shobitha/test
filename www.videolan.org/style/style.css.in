@@ -1041,6 +1041,11 @@ html[dir="rtl"] a.extraInfoLink[style]
     float: right;
 }
 
+#footer .row > a, #footer .row > div {
+    display: block;
+    padding-top: 16px;
+}
+
 /* =================================== New design ====================================== */
 .new-design #bodyInner {
     overflow: hidden;

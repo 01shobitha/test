@@ -530,7 +530,7 @@ if(!isset($nobanner))       $nobanner       = false;
 if(!isset($show_donate))    $show_donate    = true;
 if(!isset($new_design))     $new_design     = false;
 
-$new_design_class = 'new-design';
+$new_design_class = $new_design ? 'new-design' : '';
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload, $new_design );

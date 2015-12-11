@@ -100,6 +100,29 @@ function downloadButton()
 <?php replaceDLinfos();
 }
 
+function downloadButton2()
+{
+    global $dlUrl;
+    global $win32version;
+    ?>
+    <div class="row">
+        <div class="col-md-12">
+            <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+                <img style='position: absolute; top: -10px; left: -10px;' src='//images.videolan.org/images/downloadVLC.png' alt='Download VLC icon' />
+                <span class='downloadText'><?php echo _("Download VLC"); ?></span>
+                 <span id='downloadDetails' style='font-size: 12px; color: white;'>
+                 Version <span id='downloadVersion'><?php echo $win32version ?>
+                 </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
+                 </span>
+            </a>
+        </div>
+        <div class="col-xs-10 col-xs-offset-2">
+            <a class='extraInfoLink' href='/vlc/#download'><?php echo _("Other Systems");?></a>
+        </div>
+    </div>
+    <?php replaceDLinfos();
+}
+
 function Screenshot( $os )
 {
     $scr = array();

@@ -412,7 +412,7 @@ html[dir="rtl"] #donate .button {
 #downloadButton
 {
     behavior:url(//images.videolan.org/style/border-radius.htc);
-    height: 53px;
+    height: 88px;
     position: relative;
     clear: both;
     float: left;
@@ -1039,4 +1039,45 @@ html[dir="rtl"] a.extraInfoLink[style]
 {
     clear: right;
     float: right;
+}
+
+/* =================================== New design ====================================== */
+.new-design #bodyInner {
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.big-vlc-img {
+    padding-top: 28px;
+    display: block;
+    margin: 0 auto;
+}
+
+.new-design .downloadText {
+    font-size: 33px;
+}
+
+.new-design .projectDescription {
+    width: 100%;
+}
+
+/* To work with links */
+.media {
+    display: block;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+/* To respect the original design */
+.media.no-img {
+    margin-left: 104px;
+    margin-top: -21px;
+}
+
+/* Global helper */
+.padding-bottom-24 {
+    padding-bottom: 24px;
 }

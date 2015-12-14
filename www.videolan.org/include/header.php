@@ -297,14 +297,12 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
         <li class="dropdown">
           <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN</a>
           <ul class="dropdown-menu">
-             <li><a href='//www.videolan.org/videolan/'><?php echo _("Project and Organization"); ?></a></li>
-             <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
-             <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
-             <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
-             <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
+            <li><a href='//www.videolan.org/videolan/'><?php echo _("Team and Organization"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Friend"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Family album"); ?></a></li>
+             <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
              <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
-             <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
-             <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
+             <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -312,21 +310,14 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
             <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
-            <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
-            <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
-            <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
-            <li><hr /></li>
-            <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
-            <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
-            <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
-            <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
+            <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Customize"); ?></a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="//www.videolan.org/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Projects"); ?></a>
           <ul class="dropdown-menu">
-            <li><a href='//www.videolan.org/vlc/'>VLC media player</a></li>
-            <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
             <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
             <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
             <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
@@ -334,36 +325,28 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
             <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
             <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
             <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
-            <li><hr /></li>
+            <li><a href='//www.videolan.org/vlc/'>VLC media player</a></li>
+            <li role="separator" class="divider"></li>
             <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
             <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
             <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>
             <li><a href='//www.videolan.org/developers/libaacs.html'>libaacs</a></li>
             <li><a href='//www.videolan.org/developers/libdvbcsa.html'>libdvbcsa</a></li>
             <li><a href='//www.videolan.org/developers/bitstream.html'>biTStream</a></li>
-            <li><hr /></li>
+            <li role="separator" class="divider"></li>
             <li><a href='//www.videolan.org/projects/'><?php echo _("All Projects"); ?></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="//www.videolan.org/contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Contribute"); ?></a>
           <ul class="dropdown-menu">
-            <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
-            <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
-            <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="//www.videolan.org/support/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Support"); ?></a>
-          <ul class="dropdown-menu">
-            <li><a href='//www.videolan.org/support/'><?php echo _("Support center"); ?></a></li>
-            <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
-            <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
-            <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
-            <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
-            <li><a href='//www.videolan.org/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
+            <li><a href='//www.videolan.org/contribute.html'><?php echo _("Getting started"); ?></a></li>
+            <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate"); ?></a></li>
             <li><a href='//www.videolan.org/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
           </ul>
+        </li>
+        <li>
+          <a href="//www.videolan.org/support/"><?php echo _("Support"); ?></a>
         </li>
       </ul>
        <?php if ($b_show_donate == true ) {  ?>

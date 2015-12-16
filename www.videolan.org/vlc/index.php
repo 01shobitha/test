@@ -42,7 +42,7 @@
                     <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams."); ?>
                 <br /><br />
                     <?php echo _("Plays most codecs with no codec packs needed:")."<br />
-                    MPEG-2, DivX, H.264, MKV, WebM, WMV, MP3..."; ?>
+                    MPEG-2, MPEG-4, H.264, MKV, WebM, WMV, MP3..."; ?>
                 <br /><br />
                     <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
                 <br /><br />

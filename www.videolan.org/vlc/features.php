@@ -117,8 +117,8 @@ function writeVideoFeatures() {
           <table class="feature-list-table">
             <?php headers( "no" ); ?>
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MPEG-4 ASP, DivX 4/5/6, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DivX® (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MPEG-4 ASP, DivX® 4/5/6, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "H.264 / MPEG-4 AVC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

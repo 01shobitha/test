@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|17 December 2015|VLC for ChromeOS|VideoLAN and the Android teams are happy to announce the port of VLC to the ChromeOS operating system.<br />This is the port of the Android version to ChromeOS, using the Android Runtime on Chrome. You can <a href="https://chrome.google.com/webstore/detail/vlc/obpdeolnggmbekmklghapmfpnfhpcndf">download it now!</a>.
+
 |1 December 2015|VLC for Android 1.7.0|VideoLAN and the Android teams are happy to present the release of VLC for Android 1.7.0. This release includes a large refactoring that gives a new playlist, new notifications, a new subtitles engine, and uses less permissions. Get it <a href="/vlc/download-android.html">now!</a>.
 
 |9 October 2015|VLC for Android 1.6.0|VideoLAN and the Android teams are happy to present the release of VLC for Android 1.6.0. Ported to Android 6.0, this release should provide an important performance boost for decoding and the interface. Get it <a href="/vlc/download-android.html">now!</a>.

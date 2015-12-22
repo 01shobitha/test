@@ -8,7 +8,7 @@
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $version = "2.6.6";
+   $version = "2.7.0";
 ?>
 
     <h1 class="bigtitle"> VLC for iOS <?php echo $version; ?></h1>
@@ -33,9 +33,10 @@ You can synchronize media to your device using WiFi Upload, iTunes, various Clou
   <li>A media library, with WiFi Uploads & Downloads, Dropbox, Google Drive, iCloud Drive, OneDrive & Box.com integration and optional passcode lock.</li>
   <li>Web Interface for easy uploads and downloads to/from device.</li>
   <li>Integration for bluetooth headsets and AirPlay.</li>
+  <li>Full support for file servers (SMB / Windows shares and FTP)</li>
   <li>Local Network service discovery with UPnP and native support for Plex</li>
   <li>On-the-fly audio and subtitles track synchronization</li>
-  <li>Supports iOS 6.1 or later</li>
+  <li>Supports iOS 7.0 or later</li>
   <li>Full 64bit support on latest iPhone and latest iPad</li>
   <li>Completely free, libre and open source.</li>
 </ul>
@@ -66,7 +67,7 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch.</p>
+<p>VLC for iOS requires iOS 7.0 or later. It runs on any iPhone, iPad, or iPod touch. Previous releases for iOS 6.1 are available.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=12">our forum</a>.</p>
@@ -76,8 +77,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.6.6/MediaLibraryKit-2.5.5.tar.gz">MediaLibraryKit 2.5.5 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.6.6/VLCKit-2.2.2-pre5.tar.gz">MobileVLCKit 2.2.2-pre5 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.7.0/MediaLibraryKit-2.6.0.tar.gz">MediaLibraryKit 2.6.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.7.0/VLCKit-3.0.0-pre1.tar.gz">MobileVLCKit 3.0.0-pre1 source code</a></code><br />
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:

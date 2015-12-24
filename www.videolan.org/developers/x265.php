@@ -14,14 +14,6 @@
                 and is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
             </div>
-            <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x265/snapshots/last.tar.bz2'>
-                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download x265 icon' />
-                <span class='downloadText'>Download x265</span>
-                <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
-                </span>
-            </a>
-<!--            <a class='extraInfoLink' style="padding-left: 100px;" href='http://download.videolan.org/pub/videolan/x265/binaries/' >Binaries</a> -->
         </div>
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>

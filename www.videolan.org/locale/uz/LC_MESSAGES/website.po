@@ -1,20 +1,19 @@
 # Uzbek translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Hamza Foziljonov <hamza.foziljonov@gmail.com>, 2014
+# Hamza Foziljonov <hamza.foziljonov@gmail.com>, 2014-2015
 # Shuhrat Dehkanov <k+transifex@efir.uz>, 2014
-# Umid Almasov <u.almasov@gmail.com>, 2013
 # Umid Almasov <u.almasov@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-11-11 08:20+0000\n"
-"Last-Translator: Shuhrat Dehkanov <k+transifex@efir.uz>\n"
-"Language-Team: Uzbek (http://www.transifex.com/projects/p/vlc-trans/language/uz/)\n"
+"PO-Revision-Date: 2015-11-15 04:18+0000\n"
+"Last-Translator: Hamza Foziljonov <hamza.foziljonov@gmail.com>\n"
+"Language-Team: Uzbek (http://www.transifex.com/yaron/vlc-trans/language/uz/)\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +35,7 @@ msgstr "erkin va ochiq kodli multimedia yechimlarini ishlab chiqadigan hamda qoâ
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
 msgid "donate"
-msgstr "taqdim etish"
+msgstr "xayriya qilish"
 
 #: include/header.php:228
 msgid "why?"
@@ -44,7 +43,7 @@ msgstr "nega?"
 
 #: include/header.php:275
 msgid "Home"
-msgstr "Bosh sahifa"
+msgstr "Boshi"
 
 #: include/header.php:278 include/header.php:425
 msgid "News"
@@ -76,7 +75,7 @@ msgstr "Matbuot markazi"
 
 #: include/header.php:289 include/header.php:422
 msgid "Events"
-msgstr "Voqealar"
+msgstr "Tadbirlar"
 
 #: include/header.php:290 include/header.php:423
 msgid "Security center"
@@ -89,12 +88,12 @@ msgstr "Yuklab olish"
 #: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
-msgstr "Imkoniyatlar"
+msgstr "Xususiyatlari"
 
 #: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "Ekran suratlari"
+msgstr "Skrinshotlar"
 
 #: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
 msgid "Skins"
@@ -102,7 +101,7 @@ msgstr "Skinlar"
 
 #: include/header.php:300 include/header.php:377
 msgid "Extensions"
-msgstr "Modullar"
+msgstr "Kengaytmalar"
 
 #: include/header.php:304
 msgid "Projects"

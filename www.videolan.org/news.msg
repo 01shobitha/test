@@ -1,7 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|22 December 2015|VLC for iOS 2.7.0|VideoLAN and the VLC development team are excited to announce a major version of VLC for iOS today, which adds full support for iOS 9 including split screen and iPad Pro, for Windows shares (SMB), watchOS 2, a new subtitles engine, Right-to-Left interfaces, system-wide search (Spotlight), Touch ID protection, and more.</br>It will be available on the App Store shortly.
+|24 december 2015|libdvdcss 1.4.0|VideoLAN is proud to announce the release of version <b>1.4.0</b> of <a href="https://www.videolan.org/developers/libdvdcss.html">libdvdcss</a>.<br />This release adds support for network callbacks, to play ISOs over the network, Android support, and cleans the codebase.
+
+|22 december 2015|vlc for ios 2.7.0|videolan and the vlc development team are excited to announce a major version of vlc for ios today, which adds full support for ios 9 including split screen and ipad pro, for windows shares (smb), watchos 2, a new subtitles engine, right-to-left interfaces, system-wide search (spotlight), touch id protection, and more.</br>it will be available on the app store shortly.
 
 |17 December 2015|VLC for ChromeOS|VideoLAN and the Android teams are happy to announce the port of VLC to the ChromeOS operating system.<br />This is the port of the Android version to ChromeOS, using the Android Runtime on Chrome. You can <a href="https://chrome.google.com/webstore/detail/vlc/obpdeolnggmbekmklghapmfpnfhpcndf">download it now!</a>.
 

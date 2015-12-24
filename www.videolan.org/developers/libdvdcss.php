@@ -25,7 +25,7 @@ DVDs like a block device without having to bother about the decryption. </p>
 
 <h2>Get libdvdcss</h2>
 
-<p> The latest version of <code>libdvdcss</code> is <b>1.3.0</b>. </p>
+<p> The latest version of <code>libdvdcss</code> is <b>1.4.0</b>. </p>
 
 <p> Our Debian/Ubuntu repository can be accessed by adding the following lines to /etc/apt/sources.list<p>
 <p><code>deb http://download.videolan.org/pub/debian/stable/ /</code></p>

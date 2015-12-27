@@ -118,24 +118,9 @@
         <h2>Software using x265</h2>
         <ul class="soft_list">
         <li><a href="/vlc/">VLC media player</a></li>
+        <li><a href="https://handbrake.fr">HandBrake</a></li>
         </ul>
         <p>If you use <b>x265</b> in another project, let <em>us know</em>!</p>
 </div>
-
-<?php /*!--    <div class="onecolumn">
-        <h2>People using x265</h2>
-        <ul class="bullets">
-        <li><a href="http://www.youtube.com/">Youtube</a></li>
-        <li><a href="http://www.facebook.com/">Facebook</a></li>
-        <li><a href="http://www.hulu.com/">Hulu</a></li>
-        <li><a href="http://www.bitsontherun.com/">Bits on the Run</a></li>
-        <li><a href="http://video.google.com/">Google Video</a></li>
-        <li><a href="http://www.cs.washington.edu/research/MobileASL/">MobileASL</a></li>
-        <li><a href="http://speeddemosarchive.com">Speed Demos Archive</a></li>
-        <li><a href="http://TASvideos.org/">TASvideos</a></li>
-        </ul>
-
-        </div>!--> */?>
-
 
 <?php footer('$Id: x265.php 8049 2013-10-22 15:42:05Z jb $'); ?>

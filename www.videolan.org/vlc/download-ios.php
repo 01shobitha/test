@@ -8,7 +8,7 @@
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $version = "2.7.0";
+   $version = "2.7.1";
 ?>
 
     <h1 class="bigtitle"> VLC for iOS <?php echo $version; ?></h1>
@@ -77,8 +77,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.7.0/MediaLibraryKit-2.6.0.tar.gz">MediaLibraryKit 2.6.0 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.7.0/VLCKit-3.0.0-pre1.tar.gz">MobileVLCKit 3.0.0-pre1 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.7.1/MediaLibraryKit-2.6.1.tar.gz">MediaLibraryKit 2.6.1 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.7.1/VLCKit-3.0.0-pre2.tar.gz">MobileVLCKit 3.0.0-pre2 source code</a></code><br />
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:

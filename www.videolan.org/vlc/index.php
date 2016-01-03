@@ -13,8 +13,7 @@
 ?>
 
         <div class="clearme" style='padding-top: 26px;'>
-            <?php /*image( 'goodies/cone-eT5x.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' );*/ ?>
-            <img src='//images.videolan.org/images/goodies/cone-eT5x.png' alt='Large Orange VLC media player Traffic Cone Logo' class='projectImg' width='300' />
+            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div class="ltrFloatLeft" style='width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>

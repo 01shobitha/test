@@ -505,7 +505,7 @@ function footer($tag = "", $alternate_lang=array()) {
                     </ul>
                 </div>
             </div>
-            <div class="row" style='padding-bottom: 30px;'>
+            <div class="row">
                 <div id='translation' class="col-md-12" style="font-size: 9px;">
                 <?php
                     if( isset($alternate_lang) && count($alternate_lang) > 0 ) {
@@ -524,7 +524,7 @@ function footer($tag = "", $alternate_lang=array()) {
                 ?>
                 </div>
             </div>
-            <div class="row" style='padding-bottom: 30px;'>
+            <div class="row">
                 <div class="col-md-12" style='text-align: center; line-height: 14px; font-size: 9px; color: #999; direction: ltr;'>
                     <p>
                         <a href='/legal.html'><?php echo _("Legal"); ?></a> | <a href='/contact.html'>Report Trademark Abuse</a><br />

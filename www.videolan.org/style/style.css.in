@@ -575,6 +575,17 @@ html[dir="rtl"] .projectLeft {
     line-height: 12px;
 }
 
+#footer .container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#footer .row > a, #footer .row > div {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 .screenshot
 {
     cursor: pointer; width: 90px; height: 90px; margin: 5px; float: left;
@@ -954,11 +965,6 @@ html[dir="rtl"] a.extraInfoLink[style]
 {
     clear: right;
     float: right;
-}
-
-#footer .row > a, #footer .row > div {
-    display: block;
-    padding-top: 16px;
 }
 
 /* ========================== Bootstrap backward compatibility ========================= */

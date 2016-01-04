@@ -590,7 +590,9 @@ html[dir="rtl"] .projectLeft {
     color: #F48B00;
 }
 
-.orange #nav .link:hover, .orange #nav .link:hover ul li a:hover
+.orange #nav ul li > a:hover,
+.orange #nav ul li > a:focus,
+.orange #nav ul li.open > a
 {
     color: white;
     background-color: #F48B00;
@@ -626,7 +628,9 @@ html[dir="rtl"] .projectLeft {
     color: #ED1C24;
 }
 
-.red #nav .link:hover, .red #nav .link:hover ul li a:hover
+.red #nav ul li > a:hover,
+.red #nav ul li > a:focus,
+.red #nav ul li.open > a
 {
     color: white;
     background-color: #ED1C24;
@@ -662,7 +666,9 @@ html[dir="rtl"] .projectLeft {
     color: #39B549;
 }
 
-.green #nav .link:hover, .green #nav .link:hover ul li a:hover
+.green #nav ul li > a:hover,
+.green #nav ul li > a:focus,
+.green #nav ul li.open > a
 {
     color: white;
     background-color: #39B549;
@@ -693,7 +699,9 @@ html[dir="rtl"] .projectLeft {
     color: #0070BB;
 }
 
-.blue #nav .link:hover, .blue #nav .link:hover ul li a:hover
+.blue #nav ul li > a:hover,
+.blue #nav ul li > a:focus,
+.blue #nav ul li.open > a
 {
     color: white;
     background-color: #0070BB;
@@ -735,7 +743,9 @@ html[dir="rtl"] .projectLeft {
     color: #D3135A;
 }
 
-.pink #nav .link:hover, .pink #nav .link:hover ul li a:hover
+.pink #nav ul li > a:hover,
+.pink #nav ul li > a:focus,
+.pink #nav ul li.open > a
 {
     color: white;
     background-color: #D3135A;

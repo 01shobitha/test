@@ -1051,9 +1051,15 @@ img, .normalButton {
 
 /* ================================= DONATE BOX ================================== */
 
+.nav.donate-box .donate-dropdown li input {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
-.nav.donate-box .dropdown-menu form {
-    width: 191px;
+.nav.donate-box .donate-dropdown li button {
+    height: 30px;
+    padding: 5px;
 }
 
 .nav.donate-box li {

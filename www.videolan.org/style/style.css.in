@@ -1031,19 +1031,6 @@ img, .normalButton {
     padding-bottom: 24px;
 }
 
-/* ============================ ICON =========================== */
-
-.arrow {
-   height: 0;
-   width: 0;
-   border: 4px solid transparent;
-}
-
-.arrow.down {
-   border-top-color: #000;
-   margin-top: 8px;
-}
-
 /* ============================ SOCIAL BOX =========================== */
 
 .social-box {
@@ -1056,7 +1043,7 @@ img, .normalButton {
 
 
 .nav.donate-box .dropdown-menu form {
-    width: 189px;
+    width: 191px;
 }
 
 .nav.donate-box li {

@@ -181,7 +181,7 @@ function start_head( $title,
 
         <?php /* CSS */ ?>
         <link rel="stylesheet" type="text/css" href="/style/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />
+        <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
         <?php /* Misc */ ?>
         <link rel="dns-prefetch" href="//get.videolan.org" />
@@ -383,7 +383,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
             </li>
             <li class="dropdown visible-sm">
                 <a href="//www.videolan.org/contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    <div class="arrow down"></div>
+                    <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu pull-right">
                     <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">

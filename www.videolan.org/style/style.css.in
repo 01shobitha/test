@@ -1096,3 +1096,9 @@ img, .normalButton {
         padding: 5px;
     }
 }
+
+/* ============================ BOOTSTRAP ADJUSTMENTS =========================== */
+
+.navbar-brand {
+    padding: 8px 15px;
+}

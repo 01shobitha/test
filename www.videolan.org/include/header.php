@@ -295,7 +295,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
     <div id="main-navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN</a>
+          <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/videolan/'><?php echo _("Team and Organization"); ?></a></li>
              <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Friend"); ?></a></li>
@@ -306,7 +306,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
           </ul>
         </li>
         <li class="dropdown">
-          <a href="//www.videolan.org/vlc/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC</a>
+          <a href="//www.videolan.org/vlc/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
             <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
@@ -316,7 +316,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
           </ul>
         </li>
         <li class="dropdown">
-          <a href="//www.videolan.org/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Projects"); ?></a>
+          <a href="//www.videolan.org/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Projects"); ?> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
             <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
@@ -338,7 +338,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
           </ul>
         </li>
         <li class="dropdown">
-          <a href="//www.videolan.org/contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Contribute"); ?></a>
+          <a href="//www.videolan.org/contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Contribute"); ?> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/contribute.html'><?php echo _("Getting started"); ?></a></li>
             <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate"); ?></a></li>

@@ -254,11 +254,11 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
     <?php echo draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate ); ?>
     <div class="header container">
         <div class="row">
-            <div class="col-sm-3">
-                <a href='/'><?php image( $imgSrc, "VideoLAN association", "center-block img-responsive"); ?></a>
+            <div class="col-sm-3 col-md-2 padding-bottom-24">
+                <a href='/'><?php image( $imgSrc, "VideoLAN association", "center-xs img-responsive"); ?></a>
             </div>
             <div class="clearfix visible-xs-block"></div>
-            <div class="col-sm-7" id="nonprofitOrganizationDiv2">
+            <div class="col-sm-5" id="nonprofitOrganizationDiv2">
                 <?php
                 echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
                  _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
@@ -441,7 +441,7 @@ function footer($tag = "", $alternate_lang=array()) {
         <div class="container">
             <div class="row">
                 <a class="col-sm-12 col-md-3" href='/'>
-                <?php image( 'logoGrey.png', 'Association VideoLAN', 'center-block' ); ?></a>
+                <?php image( 'logoGrey.png', 'Association VideoLAN', 'center-xs center-sm' ); ?></a>
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'>VLC media player</div>
                     <ul>

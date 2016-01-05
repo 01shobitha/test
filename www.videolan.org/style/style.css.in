@@ -1047,6 +1047,14 @@ img, .normalButton {
     text-decoration: none;
 }
 
+.media.margin-bottom {
+    margin: 0 0 15px 0;
+}
+
+.media.margin-bottom:last-child {
+    margin: 0;
+}
+
 /* To respect the original design */
 .media.no-img {
     margin-left: 104px;
@@ -1064,6 +1072,15 @@ img, .normalButton {
 
 .padding-bottom-24 {
     padding-bottom: 24px;
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.extra-info-link2 {
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 /* ============================ SOCIAL BOX =========================== */

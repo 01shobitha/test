@@ -43,8 +43,8 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
     <div class="row">
         <div class="col-md-5 padding-bottom-24">
             <div class='audienceCallout'><?php echo _("For Everyone"); ?></div>
-            <ul class="media-list">
-                <li class="media">
+            <div class="row">
+                <div class="col-sm-6 col-md-12 media margin-bottom">
                     <a href='/vlc/'>
                         <div class="media-left media-middle">
                             <?php image('VLC-IconSmall.png', "VLC icon", "media-object"); ?>
@@ -56,8 +56,8 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                             </span>
                         </div>
                     </a>
-                </li>
-                <li class="media">
+                </div>
+                <div class="col-sm-6 col-md-12 media margin-bottom">
                     <a href='/vlmc/'>
                         <div class="media-left media-middle">
                             <?php image('VLMC-IconSmall.png', "VLMC icon", "media-object"); ?>
@@ -69,10 +69,11 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                             </span>
                         </div>
                     </a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5 padding-bottom-24">
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-sm-6 col-md-5 padding-bottom-24">
             <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
             <ul class="media-list">
                 <li class="media">
@@ -114,35 +115,42 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
             </ul>
         </div>
 
-        <div class="col-md-2 padding-bottom-24">
+        <div class="col-sm-6 col-md-2 padding-bottom-24">
             <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
-            <a href='/developers/libdvdcss.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libdvdcss</span>
-            </a>
-            <a href='/developers/libdvbpsi.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span>
-            </a>
-            <a href='/vlc/libvlc.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libVLC</span>
-            </a>
-            <a href='/developers/libbluray.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libbluray</span>
-            </a>
-            <a href='/developers/libaacs.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libaacs</span>
-            </a>
-            <a href='/developers/libdca.html' class='noUnderline'>
-                <span class='productName' style='padding-bottom: 16px;'>libdca</span>
-            </a>
-            <a href='/developers/bitstream.html' class='noUnderline'>
-                <span class='productName'>biTStream</span>
-            </a>
+            <div class="row">
+                <div class="col-xs-4 col-sm-12">
+                    <a href='/developers/libdvdcss.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libdvdcss</span>
+                    </a>
+                    <a href='/developers/libdvbpsi.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libdvdpsi</span>
+                    </a>
+                    <a href='/vlc/libvlc.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libVLC</span>
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-12">
+                    <a href='/developers/libbluray.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libbluray</span>
+                    </a>
+                    <a href='/developers/libaacs.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libaacs</span>
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-12">
+                    <a href='/developers/libdca.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libdca</span>
+                    </a>
+                    <a href='/developers/bitstream.html' class='noUnderline'>
+                        <span class='productName'>biTStream</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-
-    <a href='/projects/' class='extraInfoLink'
-       style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px; clear: both'>
-        <?php echo _("View All Projects"); ?></a>
+    <a href='/projects/' class="extra-info-link2">
+        <?php echo _("View All Projects"); ?>
+    </a>
 </div>
 <div class="container" style='padding-top: 20px;'>
     <h1><?php echo _("Help us out!"); ?></h1>

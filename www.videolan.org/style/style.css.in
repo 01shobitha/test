@@ -600,18 +600,23 @@ html[dir="rtl"] .projectLeft {
     color: #F48B00;
 }
 
-.orange #nav ul li > a:hover,
-.orange #nav ul li > a:focus,
-.orange #nav ul li.open > a
-{
+.orange .donate2 button:hover,
+.orange .donate2 a:hover,
+.orange #nav ul li > a:hover {
+    background-color: #F09D30; /* rgba(244, 139, 0, 0.8) */
     color: white;
-    background-color: #F48B00;
 }
 
 .orange #donate .button,
-.orange .donate2 button
-{
+.orange .donate2 button,
+.orange #nav .donate2 a,
+.orange #nav ul li.open > a {
     background-color: #F48B00;
+    color: white;
+}
+
+.orange #donate .button,
+.orange .donate2 button {
     border: 1px solid #E47B00;
 }
 
@@ -638,18 +643,23 @@ html[dir="rtl"] .projectLeft {
     color: #ED1C24;
 }
 
-.red #nav ul li > a:hover,
-.red #nav ul li > a:focus,
-.red #nav ul li.open > a
-{
+.red .donate2 button:hover,
+.red .donate2 a:hover,
+.red #nav ul li > a:hover {
+    background-color: #EE474D; /* rgba(237, 28, 36, 0.8) */
     color: white;
-    background-color: #ED1C24;
 }
 
 .red #donate .button,
-.red .donate2 button
-{
+.red .donate2 button,
+.red #nav .donate2 a,
+.red #nav ul li.open > a {
     background-color: #ED1C24;
+    color: white;
+}
+
+.red #donate .button,
+.red .donate2 button {
     border: 1px solid #DD0C14;
 }
 
@@ -676,18 +686,23 @@ html[dir="rtl"] .projectLeft {
     color: #39B549;
 }
 
-.green #nav ul li > a:hover,
-.green #nav ul li > a:focus,
-.green #nav ul li.open > a
-{
+.green .donate2 button:hover,
+.green .donate2 a:hover,
+.green #nav ul li > a:hover {
+    background-color: #5EC16B; /* rgba(57, 181, 73, 0.8) */
     color: white;
-    background-color: #39B549;
 }
 
 .green #donate .button,
-.green .donate2 button
-{
+.green .donate2 button,
+.green #nav .donate2 a,
+.green #nav ul li.open > a {
     background-color: #39B549;
+    color: white;
+}
+
+.green #donate .button,
+.green .donate2 button {
     border: 1px solid #29A539;
 }
 
@@ -709,18 +724,23 @@ html[dir="rtl"] .projectLeft {
     color: #0070BB;
 }
 
-.blue #nav ul li > a:hover,
-.blue #nav ul li > a:focus,
-.blue #nav ul li.open > a
-{
+.blue .donate2 button:hover,
+.blue .donate2 a:hover,
+.blue #nav ul li > a:hover {
+    background-color: #318AC6; /* rgba(0, 112, 187, 0.8) */
     color: white;
-    background-color: #0070BB;
 }
 
 .blue #donate .button,
-.blue .donate2 button
-{
+.blue .donate2 button,
+.blue #nav .donate2 a,
+.blue #nav ul li.open > a {
     background-color: #0070BB;
+    color: white;
+}
+
+.blue #donate .button,
+.blue .donate2 button {
     border: 1px solid #0060AB;
 }
 
@@ -753,18 +773,23 @@ html[dir="rtl"] .projectLeft {
     color: #D3135A;
 }
 
-.pink #nav ul li > a:hover,
-.pink #nav ul li > a:focus,
-.pink #nav ul li.open > a
-{
+.pink .donate2 button:hover,
+.pink .donate2 a:hover,
+.pink #nav ul li > a:hover {
+    background-color: #CF3D73; /* rgba(211, 19, 90, 0.8) */
     color: white;
-    background-color: #D3135A;
 }
 
 .pink #donate .button,
-.pink .donate2 button
-{
+.pink .donate2 button,
+.pink #nav .donate2 a,
+.pink #nav ul li.open > a {
     background-color: #D3135A;
+    color: white;
+}
+
+.pink #donate .button,
+.pink .donate2 button {
     border: 1px solid #C3034A;
 }
 

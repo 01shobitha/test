@@ -381,7 +381,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
                     <button type='submit'><?php echo _("donate"); ?></button>
                 </form>
             </li>
-            <li class="dropdown visible-sm">
+            <li class="dropdown visible-sm donate2">
                 <a href="//www.videolan.org/contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <?php echo _("Donate"); ?> <span class="caret"></span>
                 </a>

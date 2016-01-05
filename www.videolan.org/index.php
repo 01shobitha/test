@@ -19,10 +19,10 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img'); ?>
+        <div class="col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-6 col-xs-pull-2 col-sm-pull-0">
+            <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6">
             <h1 class='bigtitle'>VLC media player</h1>
 
             <div class='projectDescription'>

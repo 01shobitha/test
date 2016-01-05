@@ -227,6 +227,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
             <h1 style='margin-bottom: 13px;'><a href="/news.html"><?php echo _("News &amp; Updates"); ?></a>
             </h1>
             <?php shownews("full", 5); ?>
+            <a href="/news.html" class="extra-info-link2 padding-top"><?php echo _("More News"); ?></a>
         </div>
 
         <div class="col-md-6">

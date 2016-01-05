@@ -1082,6 +1082,11 @@ img, .normalButton {
     font-size: 13px;
 }
 
+.extra-info-link2.padding-top {
+    display: inline-block;
+    padding-top: 10px;
+}
+
 /* ============================ SOCIAL BOX =========================== */
 
 .social-box {

@@ -1173,7 +1173,7 @@ img, .normalButton {
 
 .navbar-brand > img {
     padding: 8px 15px;
-    height: 100%;
-    width: auto;
+    width: 130px; /* set width & height for ie < 9 */
+    height: 50px;
     box-sizing: border-box; /* for older design */
 }

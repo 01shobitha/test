@@ -603,7 +603,7 @@ html[dir="rtl"] .projectLeft {
 .orange .donate2 button:hover,
 .orange .donate2 a:hover,
 .orange #nav ul li > a:hover {
-    background-color: #F09D30; /* rgba(244, 139, 0, 0.8) */
+    background-color: #F09D30 !important; /* rgba(244, 139, 0, 0.8) */
     color: white;
 }
 
@@ -611,8 +611,12 @@ html[dir="rtl"] .projectLeft {
 .orange .donate2 button,
 .orange #nav .donate2 a,
 .orange #nav ul li.open > a {
-    background-color: #F48B00;
+    background-color: #F48B00 !important;
     color: white;
+}
+
+.orange #nav ul li.active > a {
+    background-color: #F8EEE0; /* rgba(244, 139, 0, 0.1); */
 }
 
 .orange #donate .button,
@@ -646,7 +650,7 @@ html[dir="rtl"] .projectLeft {
 .red .donate2 button:hover,
 .red .donate2 a:hover,
 .red #nav ul li > a:hover {
-    background-color: #EE474D; /* rgba(237, 28, 36, 0.8) */
+    background-color: #EE474D !important; /* rgba(237, 28, 36, 0.8) */
     color: white;
 }
 
@@ -654,8 +658,12 @@ html[dir="rtl"] .projectLeft {
 .red .donate2 button,
 .red #nav .donate2 a,
 .red #nav ul li.open > a {
-    background-color: #ED1C24;
+    background-color: #ED1C24 !important;
     color: white;
+}
+
+.red #nav ul li.active > a {
+    background-color: #F8E2E3; /* rgba(237, 28, 36, 0.1); */
 }
 
 .red #donate .button,
@@ -689,7 +697,7 @@ html[dir="rtl"] .projectLeft {
 .green .donate2 button:hover,
 .green .donate2 a:hover,
 .green #nav ul li > a:hover {
-    background-color: #5EC16B; /* rgba(57, 181, 73, 0.8) */
+    background-color: #5EC16B !important; /* rgba(57, 181, 73, 0.8) */
     color: white;
 }
 
@@ -697,8 +705,12 @@ html[dir="rtl"] .projectLeft {
 .green .donate2 button,
 .green #nav .donate2 a,
 .green #nav ul li.open > a {
-    background-color: #39B549;
+    background-color: #39B549 !important;
     color: white;
+}
+
+.green #nav ul li.active > a {
+    background-color: #E5F2E7; /* rgba(57, 181, 73, 0.1) */
 }
 
 .green #donate .button,
@@ -727,7 +739,7 @@ html[dir="rtl"] .projectLeft {
 .blue .donate2 button:hover,
 .blue .donate2 a:hover,
 .blue #nav ul li > a:hover {
-    background-color: #318AC6; /* rgba(0, 112, 187, 0.8) */
+    background-color: #318AC6 !important; /* rgba(0, 112, 187, 0.8) */
     color: white;
 }
 
@@ -735,8 +747,12 @@ html[dir="rtl"] .projectLeft {
 .blue .donate2 button,
 .blue #nav .donate2 a,
 .blue #nav ul li.open > a {
-    background-color: #0070BB;
+    background-color: #0070BB !important;
     color: white;
+}
+
+.blue #nav ul li.active > a {
+    background-color: #E0EBF2; /* rgba(0, 112, 187, 0.1) */
 }
 
 .blue #donate .button,
@@ -776,7 +792,7 @@ html[dir="rtl"] .projectLeft {
 .pink .donate2 button:hover,
 .pink .donate2 a:hover,
 .pink #nav ul li > a:hover {
-    background-color: #CF3D73; /* rgba(211, 19, 90, 0.8) */
+    background-color: #CF3D73 !important; /* rgba(211, 19, 90, 0.8) */
     color: white;
 }
 
@@ -784,8 +800,12 @@ html[dir="rtl"] .projectLeft {
 .pink .donate2 button,
 .pink #nav .donate2 a,
 .pink #nav ul li.open > a {
-    background-color: #D3135A;
+    background-color: #D3135A !important;
     color: white;
+}
+
+.pink #nav ul li.active > a {
+    background-color: #F5E1E9; /* rgba(211, 19, 90, 0.1); */
 }
 
 .pink #donate .button,

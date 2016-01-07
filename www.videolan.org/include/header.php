@@ -239,6 +239,19 @@ function start_head( $title,
               ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
+
+            //Open dropdown menu on hover
+            $(document).ready(function() {
+                $('#nav ul.nav li.dropdown').hover(function() {
+                    if (!$('.navbar-toggle').is(':visible') && !$(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                }, function() {
+                    if (!$('.navbar-toggle').is(':visible') && $(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                });
+            });
         </script>
     </head>
 <?php

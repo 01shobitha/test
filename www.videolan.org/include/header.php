@@ -94,6 +94,13 @@ function isRTL( $language ) {
         || ($language == "ur");
 }
 
+function isActive($location) {
+    $pos = strpos($_SERVER['REQUEST_URI'], $location);
+    if ($pos !== false) {
+        echo ' active ';
+    }
+}
+
 /*
 *  starthtml: beginning of the page
 */
@@ -294,7 +301,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
     </div>
     <div id="main-navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li class="dropdown <?php echo isActive("/videolan/") ?>">
           <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/videolan/'><?php echo _("Team and Organization"); ?></a></li>
@@ -305,7 +312,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
              <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown <?php echo isActive("/vlc/") ?>">
           <a href="//www.videolan.org/vlc/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
@@ -315,7 +322,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
             <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown <?php echo isActive("/projects/") ?>">
           <a href="//www.videolan.org/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Projects"); ?> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
@@ -337,7 +344,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
             <li><a href='//www.videolan.org/projects/'><?php echo _("All Projects"); ?></a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown <?php echo isActive("/contribute") ?>">
           <a href="//www.videolan.org/contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo _("Contribute"); ?> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href='//www.videolan.org/contribute.html'><?php echo _("Getting started"); ?></a></li>

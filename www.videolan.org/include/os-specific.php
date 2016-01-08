@@ -7,8 +7,10 @@ $iosversion = '2.7.1';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
+$windowsLocation = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
+$osxLocation = "$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg";
 
-function replaceDLinfos( )
+function replaceDLinfos( $downloadButton = "#downloadButton" )
 {
     global $version;
     global $win32version;
@@ -75,9 +77,8 @@ function replaceDLinfos( )
             OS="ios";
             latestVersion = '<?php echo "$iosversion"; ?>';
        }
-
        $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
-       $('#downloadButton').attr('href',eval(OS+"Details.location"))
+       $('<?php echo "$downloadButton"; ?>').attr('href',eval(OS+"Details.location"))
     });
     </script>
 <?php
@@ -104,23 +105,59 @@ function downloadButton2()
 {
     global $dlUrl;
     global $win32version;
+    global $windowsLocation;
+    global $osxLocation;
     ?>
-    <div class="row">
-        <div class="col-md-12">
-            <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
-                <img style='position: absolute; top: -10px; left: -10px;' src='//images.videolan.org/images/downloadVLC.png' alt='Download VLC icon' />
+    <div class="inner center-xs">
+        <div class="btn-group">
+            <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $dlUrl; ?>'>
                 <span class='downloadText'><?php echo _("Download VLC"); ?></span>
-                 <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                 Version <span id='downloadVersion'><?php echo $win32version ?>
-                 </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
-                 </span>
             </a>
+            <a href="/vlc/#download" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu platform-icons">
+                <li class="icon icon-windows">
+                    <a href="<?php echo $windowsLocation ?>">
+                        Windows
+                    </a>
+                </li>
+                <li class="icon icon-macosx">
+                    <a href="<?php echo $osxLocation ?>">
+                        Mac OS X
+                    </a>
+                 </li>
+                 <li class="icon icon-linux">
+                    <a href="/vlc/#download">
+                        GNU/Linux
+                    </a>
+                 </li>
+                 <li class="icon icon-android">
+                    <a href="/vlc/download-android.html">
+                        Android
+                    </a>
+                 </li>
+                 <li class="icon icon-ios">
+                    <a href="/vlc/download-ios.html">
+                        iOS
+                    </a>
+                  </li>
+            </ul>
         </div>
-        <div class="col-xs-10 col-xs-offset-2">
-            <a class='extraInfoLink' href='/vlc/#download'><?php echo _("Other Systems");?></a>
+        <div id="downloadDetails">
+            Version <span id='downloadVersion'><?php echo $win32version ?>
+            </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
+        </div>
+        <div class="platform-icons main-os-icons">
+            <a class="icon icon-windows" href="<?php echo $windowsLocation ?>"></a>
+            <a class="icon icon-macosx" href="<?php echo $osxLocation ?>"></a>
+            <a class="icon icon-linux" href="/vlc/#download"></a>
+            <a class="icon icon-android" href="/vlc/download-android.html"></a>
+            <a class="icon icon-ios" href="/vlc/download-ios.html"></a>
         </div>
     </div>
-    <?php replaceDLinfos();
+    <?php replaceDLinfos( "#downloadButton2" );
 }
 
 function Screenshot( $os )

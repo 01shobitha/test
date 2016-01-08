@@ -239,7 +239,7 @@ html[dir="rtl"] #donate .button {
 {
     float: right;
     padding-left: 60px;
-    width: 220px;
+    width: 280px;
 }
 #left { float: left; }
 #right { float: right; width: 230px; }
@@ -541,7 +541,7 @@ html[dir="rtl"] .projectLeft {
 #footer
 {
     text-align: left;
-    margin-top: 25px;
+    margin-top: 50px;
     background: #e7e7e7;
 }
 .footer_col
@@ -610,7 +610,8 @@ html[dir="rtl"] .projectLeft {
 .orange #donate .button,
 .orange .donate2 button,
 .orange #nav .donate2 a,
-.orange #nav ul li.open > a {
+.orange #nav ul li.open > a,
+.orange .btn-group.open .dropdown-toggle {
     background-color: #F48B00 !important;
     color: white;
 }
@@ -620,12 +621,21 @@ html[dir="rtl"] .projectLeft {
 }
 
 .orange #donate .button,
-.orange .donate2 button {
+.orange .donate2 button,
+.orange .open>.dropdown-toggle.btn-default:hover,
+.orange .open>.dropdown-toggle.btn-default:focus,
+.orange .btn-default:active:hover,
+.orange .open>.dropdown-toggle.btn-default:active,
+.orange .open>.dropdown-toggle.btn-default,
+.orange .btn-default {
     border: 1px solid #E47B00;
+    color: white;
 }
 
 .orange .btn-default {
     color: white;
+    /* gradient disable fallback */
+    background-color: #F48B00;
     background-image: -webkit-linear-gradient(top, #F48B00 0%, #F09D30 100%);
     background-image: -o-linear-gradient(top, #F48B00 0%, #F09D30 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#F48B00), to(#F09D30));
@@ -674,7 +684,8 @@ html[dir="rtl"] .projectLeft {
 .red #donate .button,
 .red .donate2 button,
 .red #nav .donate2 a,
-.red #nav ul li.open > a {
+.red #nav ul li.open > a,
+.red .btn-group.open .dropdown-toggle {
     background-color: #ED1C24 !important;
     color: white;
 }
@@ -684,12 +695,20 @@ html[dir="rtl"] .projectLeft {
 }
 
 .red #donate .button,
-.red .donate2 button {
+.red .donate2 button,
+.red .open>.dropdown-toggle.btn-default:hover,
+.red .open>.dropdown-toggle.btn-default:focus,
+.red .btn-default:active:hover,
+.red .open>.dropdown-toggle.btn-default:active,
+.red .open>.dropdown-toggle.btn-default,
+.red .btn-default {
     border: 1px solid #DD0C14;
+    color: white;
 }
 
 .red .btn-default {
     color: white;
+    background-color: #ED1C24;
     background-image: -webkit-linear-gradient(top, #ED1C24 0%, #EE474D 100%);
     background-image: -o-linear-gradient(top, #ED1C24 0%, #EE474D 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ED1C24), to(#EE474D));
@@ -738,7 +757,8 @@ html[dir="rtl"] .projectLeft {
 .green #donate .button,
 .green .donate2 button,
 .green #nav .donate2 a,
-.green #nav ul li.open > a {
+.green #nav ul li.open > a,
+.green .btn-group.open .dropdown-toggle {
     background-color: #39B549 !important;
     color: white;
 }
@@ -748,12 +768,20 @@ html[dir="rtl"] .projectLeft {
 }
 
 .green #donate .button,
-.green .donate2 button {
+.green .donate2 button,
+.green .open>.dropdown-toggle.btn-default:hover,
+.green .open>.dropdown-toggle.btn-default:focus,
+.green .btn-default:active:hover,
+.green .open>.dropdown-toggle.btn-default:active,
+.green .open>.dropdown-toggle.btn-default,
+.green .btn-default {
     border: 1px solid #29A539;
+    color: white;
 }
 
 .green .btn-default {
     color: white;
+    background-color: #39B549;
     background-image: -webkit-linear-gradient(top, #39B549 0%, #5EC16B 100%);
     background-image: -o-linear-gradient(top, #39B549 0%, #5EC16B 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#39B549), to(#5EC16B));
@@ -797,7 +825,8 @@ html[dir="rtl"] .projectLeft {
 .blue #donate .button,
 .blue .donate2 button,
 .blue #nav .donate2 a,
-.blue #nav ul li.open > a {
+.blue #nav ul li.open > a,
+.blue .btn-group.open .dropdown-toggle {
     background-color: #0070BB !important;
     color: white;
 }
@@ -807,12 +836,20 @@ html[dir="rtl"] .projectLeft {
 }
 
 .blue #donate .button,
-.blue .donate2 button {
+.blue .donate2 button,
+.blue .open>.dropdown-toggle.btn-default:hover,
+.blue .open>.dropdown-toggle.btn-default:focus,
+.blue .btn-default:active:hover,
+.blue .open>.dropdown-toggle.btn-default:active,
+.blue .open>.dropdown-toggle.btn-default,
+.blue .btn-default {
     border: 1px solid #0060AB;
+    color: white;
 }
 
 .blue .btn-default {
     color: white;
+    background-color: #0070BB;
     background-image: -webkit-linear-gradient(top, #0070BB 0%, #318AC6 100%);
     background-image: -o-linear-gradient(top, #0070BB 0%, #318AC6 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0070BB), to(#318AC6));
@@ -867,7 +904,8 @@ html[dir="rtl"] .projectLeft {
 .pink #donate .button,
 .pink .donate2 button,
 .pink #nav .donate2 a,
-.pink #nav ul li.open > a {
+.pink #nav ul li.open > a,
+.pink .btn-group.open .dropdown-toggle {
     background-color: #D3135A !important;
     color: white;
 }
@@ -877,12 +915,19 @@ html[dir="rtl"] .projectLeft {
 }
 
 .pink #donate .button,
-.pink .donate2 button {
+.pink .donate2 button,
+.pink .open>.dropdown-toggle.btn-default:hover,
+.pink .open>.dropdown-toggle.btn-default:focus,
+.pink .btn-default:active:hover,
+.pink .open>.dropdown-toggle.btn-default:active,
+.pink .open>.dropdown-toggle.btn-default,
+.pink .btn-default {
     border: 1px solid #C3034A;
 }
 
 .pink .btn-default {
     color: white;
+    background-color: #D3135A;
     background-image: -webkit-linear-gradient(top, #D3135A 0%, #CF3D73 100%);
     background-image: -o-linear-gradient(top, #D3135A 0%, #CF3D73 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#D3135A), to(#CF3D73));
@@ -1130,13 +1175,15 @@ img, .normalButton {
 }
 
 .big-vlc-img {
-    padding-top: 40px;
+    /* h1 margin */
+    padding-top: 24px;
     display: block;
     margin: 0 auto;
 }
 
 .new-design .downloadText {
     font-size: 33px;
+    padding-bottom: 0;
 }
 
 .new-design .projectDescription {
@@ -1245,15 +1292,6 @@ img, .normalButton {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
-    .donate2 {
-        padding-right: 10px;
-    }
-    .donate2 button {
-        height: 30px;
-        padding: 5px;
-    }
-}
 
 @media (min-width: 768px) and (max-width: 991px) {
     .center-sm {
@@ -1261,13 +1299,32 @@ img, .normalButton {
         margin-left: auto;
         margin-right: auto;
     }
+    .center-font-sm {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
+    .donate2 {
+        padding-right: 10px;
+    }
+    .donate2 button {
+        height: 30px;
+        padding: 5px;
+    }
     .center-xs {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .center-font-xs {
+        text-align: center;
+    }
+    .download-wrapper .big-vlc-img {
+        width: 150px;
+    }
+    .new-design .download-wrapper h1.bigtitle {
+        font-size: 40px;
     }
 }
 
@@ -1277,9 +1334,124 @@ img, .normalButton {
     padding: 0;
 }
 
+.btn-lg {
+    font-size: 24px;
+}
+
 .navbar-brand > img {
     padding: 8px 15px;
     width: 130px; /* set width & height for ie < 9 */
     height: 50px;
     box-sizing: border-box; /* for older design */
+}
+
+.v-align {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+/* ============================ VLC Download =========================== */
+
+.download-wrapper .inner {
+    width: 291px;
+}
+
+.download-wrapper img {
+    max-width: 250px;
+}
+
+.download-wrapper .btn-group {
+    margin-top: 20px;
+}
+
+#downloadDetails {
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.platform-icons.dropdown-menu {
+    left: 50%;
+    margin-left: -88px;
+    margin-top: -1px;
+}
+
+ul.platform-icons.dropdown-menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.platform-icons.dropdown-menu li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.platform-icons .icon {
+    background: #fff url('http://images.videolan.org/images/icons/platform-sprite.png') no-repeat;
+    background-size: 32px 608px;
+}
+
+.platform-icons li a:hover,
+.platform-icons li a:focus {
+    background: none;
+    color: #929292;
+}
+
+.platform-icons li:last-child {
+    border-bottom: none;
+}
+
+.platform-icons.dropdown-menu  li > a {
+    padding: 16px 10px 16px 50px;
+}
+
+.icon.icon-windows {
+    background-position: 10px 10px;
+}
+
+.icon.icon-windows:hover {
+    background-position: 10px -54px;
+}
+
+.icon.icon-macosx {
+    background-position: 10px -118px;
+}
+
+.icon.icon-macosx:hover {
+    background-position: 10px -182px;
+}
+
+.icon.icon-linux {
+    background-position: 10px -246px;
+}
+
+.icon.icon-linux:hover {
+    background-position: 10px -310px;
+}
+
+.icon.icon-android {
+    background-position: 10px -374px;
+}
+
+.icon.icon-android:hover {
+    background-position: 10px -438px;
+}
+
+.icon.icon-ios {
+    background-position: 10px -502px;
+}
+
+.icon.icon-ios:hover {
+    background-position: 10px -566px;
+}
+
+a.icon {
+    padding: 27px;
+    display: inline-block;
+}
+
+.main-os-icons {
+    padding-top: 10px;
 }

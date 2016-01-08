@@ -18,20 +18,24 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
 ?>
 
 <div class="container">
-    <div class="row">
-        <div class="col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-6 col-xs-pull-2 col-sm-pull-0">
+    <div class="row download-wrapper">
+        <div class="v-align col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-5 col-xs-pull-2 col-sm-pull-0">
             <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
         </div>
-        <div class="col-xs-12 col-sm-6">
-            <h1 class='bigtitle'>VLC media player</h1>
+        <div class="v-align col-xs-12 col-sm-7">
+            <h1 class="bigtitle center-font-xs">VLC media player</h1>
 
-            <div class='projectDescription'>
+            <div class="projectDescription center-font-xs">
                 <?php echo
                 _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
             </div>
-            <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
-            <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
-            <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
+            <!--
+            <div>
+                <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
+                <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
+                <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
+            </div>
+            -->
             <?php downloadButton2(); ?>
         </div>
     </div>

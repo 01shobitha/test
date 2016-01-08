@@ -1338,6 +1338,10 @@ img, .normalButton {
     font-size: 24px;
 }
 
+.navbar-default {
+    background-color: #fff;
+}
+
 .navbar-brand > img {
     padding: 8px 15px;
     width: 130px; /* set width & height for ie < 9 */

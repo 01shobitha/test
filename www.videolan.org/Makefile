@@ -46,7 +46,7 @@ clean: clean-recursive
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
 	@cd $(ROOT) || exit 1 ; \
-	if ! DOCUMENT_ROOT=$(ROOT) $(HERE)$(PHPCGI) $(HERE)$< > $(HERE)$@.tmp; then \
+	if ! REQUEST_URI=$(ROOT)$(HERE) DOCUMENT_ROOT=$(ROOT) $(HERE)$(PHPCGI) $(HERE)$< > $(HERE)$@.tmp; then \
 		cat $(HERE)$@.tmp | tail -1 ; \
 		rm -f $(HERE)$@.tmp ; \
 		exit 1 ; \

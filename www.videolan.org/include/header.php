@@ -284,16 +284,9 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
 ?>
     <?php echo draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate ); ?>
     <div class="header container">
-        <div class="row">
-            <div class="col-sm-3 col-md-2 padding-bottom-24">
-                <a href='/'><?php image( $imgSrc, "VideoLAN association", "center-xs img-responsive"); ?></a>
-            </div>
-            <div class="clearfix visible-xs-block"></div>
-            <div class="col-sm-5" id="nonprofitOrganizationDiv2">
+        <div id="nonprofitOrganizationDiv2" class="center-block">
                 <?php
-                echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
-                 _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
-            </div>
+                echo 'VideoLAN, '. _('a project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'.</a> ';?>
         </div>
         <div class="social-box">
             <div id='plusone' style="padding: 3px 10px;">

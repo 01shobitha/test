@@ -457,7 +457,7 @@ html[dir="rtl"] .projectLeft {
 {
     clear: both;
     color: rgb(77, 77, 77);
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     display: block;
     width: 460px;
@@ -1214,9 +1214,12 @@ img, .normalButton {
 }
 
 #nonprofitOrganizationDiv2 {
-    color: #4D4D4D;
-    font-size: 12px;
-    line-height: 20px;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* ============================ Global helper =========================== */

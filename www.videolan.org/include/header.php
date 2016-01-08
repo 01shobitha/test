@@ -468,6 +468,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
 function footer($tag = "", $alternate_lang=array()) {
 ?>
     </div> <!-- BodyInner -->
+    <div class="clearfix"></div>
     <div id='footer'>
         <div class="container">
             <div class="row">

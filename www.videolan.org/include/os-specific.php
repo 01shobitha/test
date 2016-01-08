@@ -111,36 +111,41 @@ function downloadButton2()
     <div class="inner center-xs">
         <div class="btn-group">
             <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $dlUrl; ?>'>
-                <span class='downloadText'><?php echo _("Download VLC"); ?></span>
+                <span class='downloadText'><?php echo _("Download"); ?> <b>VLC</b></span>
             </a>
             <a href="/vlc/#download" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <span class="caret"></span>
             </a>
 
-            <ul class="dropdown-menu platform-icons">
-                <li class="icon icon-windows">
+            <ul class="dropdown-menu dropdown-default platform-icons">
+                <li>
                     <a href="<?php echo $windowsLocation ?>">
                         Windows
                     </a>
                 </li>
-                <li class="icon icon-macosx">
+                <li>
                     <a href="<?php echo $osxLocation ?>">
                         Mac OS X
                     </a>
                  </li>
-                 <li class="icon icon-linux">
+                 <li>
                     <a href="/vlc/#download">
                         GNU/Linux
                     </a>
                  </li>
-                 <li class="icon icon-android">
+                 <li>
                     <a href="/vlc/download-android.html">
                         Android
                     </a>
                  </li>
-                 <li class="icon icon-ios">
+                 <li>
                     <a href="/vlc/download-ios.html">
                         iOS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/vlc/#download">
+                        <?php echo _('Other Systems'); ?>
                     </a>
                   </li>
             </ul>
@@ -173,6 +178,27 @@ function Screenshot( $os )
             "VLC on Mac OS X", 300, 200 );
     echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";
     echo $scr[$os][1]."\" />');";
+}
+
+function drawVLCdownloadSection() {
+    ?>
+    <section class="download-wrapper">
+        <div class="row">
+            <div class="v-align col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-5 col-xs-pull-2 col-sm-pull-0">
+                <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
+            </div>
+            <div class="v-align col-xs-12 col-sm-7">
+                <h1 class="bigtitle center-font-xs">VLC media player</h1>
+
+                <div class="projectDescription center-font-xs">
+                    <?php echo
+                    _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
+                </div>
+                <?php downloadButton2(); ?>
+            </div>
+        </div>
+    </section>
+    <?php
 }
 
 ?>

@@ -22,25 +22,7 @@
     }
 ?>
 <div class="container">
-    <div class="row download-wrapper padding-bottom-24">
-        <div class="v-align col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-6 col-xs-pull-2 col-sm-pull-0">
-            <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
-        </div>
-        <div class="v-align col-xs-12 col-sm-6">
-            <h1 class="bigtitle center-font-xs">VLC media player</h1>
-
-            <div class="projectDescription center-font-xs">
-                <?php echo
-                _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
-            </div>
-            <!--
-            <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
-            <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
-            <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
-            -->
-            <?php downloadButton2(); ?>
-        </div>
-    </div>
+    <?php drawVLCdownloadSection(); ?>
     <div class="row">
         <div class="col-sm-6 padding-bottom-24">
            <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>

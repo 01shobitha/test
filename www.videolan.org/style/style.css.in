@@ -595,14 +595,16 @@ html[dir="rtl"] .projectLeft {
 
 /* ORANGE */
 
-.orange a, .orange h1, .orange #nav a, .orange #nav .link:hover ul li a, .orange h2
+.orange a, .orange h1, .orange #nav a, .orange #nav .link:hover ul li a, .orange h2,
+.orange .dropdown-menu.dropdown-default li > a
 {
     color: #F48B00;
 }
 
 .orange .donate2 button:hover,
 .orange .donate2 a:hover,
-.orange #nav ul li > a:hover {
+.orange #nav ul li > a:hover,
+.orange ul.dropdown-default li > a:hover {
     background-color: #F09D30 !important; /* rgba(244, 139, 0, 0.8) */
     color: white;
 }
@@ -669,14 +671,16 @@ html[dir="rtl"] .projectLeft {
 
 /* RED */
 
-.red a, .red h1, .red #nav a, .red #nav .link:hover ul li a, .red h2
+.red a, .red h1, .red #nav a, .red #nav .link:hover ul li a, .red h2,
+.red .dropdown-menu.dropdown-default li > a
 {
     color: #ED1C24;
 }
 
 .red .donate2 button:hover,
 .red .donate2 a:hover,
-.red #nav ul li > a:hover {
+.red #nav ul li > a:hover,
+.red ul.dropdown-default li > a:hover {
     background-color: #EE474D !important; /* rgba(237, 28, 36, 0.8) */
     color: white;
 }
@@ -742,14 +746,16 @@ html[dir="rtl"] .projectLeft {
 
 /* GREEN */
 
-.green a, .green h1, .green #nav a, .green #nav .link:hover ul li a, .green h2
+.green a, .green h1, .green #nav a, .green #nav .link:hover ul li a, .green h2,
+.green .dropdown-menu.dropdown-default li > a
 {
     color: #39B549;
 }
 
 .green .donate2 button:hover,
 .green .donate2 a:hover,
-.green #nav ul li > a:hover {
+.green #nav ul li > a:hover,
+.green ul.dropdown-default li > a:hover {
     background-color: #5EC16B !important; /* rgba(57, 181, 73, 0.8) */
     color: white;
 }
@@ -810,14 +816,16 @@ html[dir="rtl"] .projectLeft {
 
 /* BLUE */
 
-.blue a, .blue h1, .blue #nav a, .blue #nav .link:hover ul li a, .blue h2
+.blue a, .blue h1, .blue #nav a, .blue #nav .link:hover ul li a, .blue h2,
+.blue .dropdown-menu.dropdown-default li > a
 {
     color: #0070BB;
 }
 
 .blue .donate2 button:hover,
 .blue .donate2 a:hover,
-.blue #nav ul li > a:hover {
+.blue #nav ul li > a:hover,
+.blue ul.dropdown-default li > a:hover {
     background-color: #318AC6 !important; /* rgba(0, 112, 187, 0.8) */
     color: white;
 }
@@ -845,6 +853,10 @@ html[dir="rtl"] .projectLeft {
 .blue .btn-default {
     border: 1px solid #0060AB;
     color: white;
+}
+
+.new-design .blue .downloadText {
+    text-shadow: 2px 1px 1px #0060AB;
 }
 
 .blue .btn-default {
@@ -889,14 +901,16 @@ html[dir="rtl"] .projectLeft {
 
 /* PINK */
 
-.pink a, .pink h1, .pink #nav a, .pink #nav .link:hover ul li a, .pink h2
+.pink a, .pink h1, .pink #nav a, .pink #nav .link:hover ul li a, .pink h2,
+.pink .dropdown-menu.dropdown-default li > a
 {
     color: #D3135A;
 }
 
 .pink .donate2 button:hover,
 .pink .donate2 a:hover,
-.pink #nav ul li > a:hover {
+.pink #nav ul li > a:hover,
+.pink ul.dropdown-default li > a:hover {
     background-color: #CF3D73 !important; /* rgba(211, 19, 90, 0.8) */
     color: white;
 }
@@ -1182,8 +1196,9 @@ img, .normalButton {
 }
 
 .new-design .downloadText {
-    font-size: 33px;
+    font-size: 26px;
     padding-bottom: 0;
+    font-family: "Raleway";
 }
 
 .new-design .projectDescription {
@@ -1329,9 +1344,16 @@ img, .normalButton {
     .new-design .download-wrapper h1.bigtitle {
         font-size: 40px;
     }
+    .new-design .download-wrapper .projectDescription {
+        font-size: 14px;
+    }
 }
 
 /* ============================ BOOTSTRAP ADJUSTMENTS =========================== */
+
+.btn {
+    border-radius: 4px;
+}
 
 .navbar-brand { /* firefox bug fix */
     padding: 0;
@@ -1360,9 +1382,12 @@ img, .normalButton {
 }
 
 /* ============================ VLC Download =========================== */
+.download-wrapper {
+    padding-bottom: 30px;
+}
 
 .download-wrapper .inner {
-    width: 291px;
+    display: table;
 }
 
 .download-wrapper img {
@@ -1373,7 +1398,8 @@ img, .normalButton {
     margin-top: 20px;
 }
 
-#downloadDetails {
+.download-wrapper #downloadDetails {
+    clear: both;
     text-align: center;
     color: #777777;
     font-size: 12px;
@@ -1381,8 +1407,9 @@ img, .normalButton {
 }
 
 .platform-icons.dropdown-menu {
+    width: 60%; /* Need to be defined to align middle */
     left: 50%;
-    margin-left: -88px;
+    margin-left: -30%;
     margin-top: -1px;
 }
 
@@ -1391,71 +1418,57 @@ ul.platform-icons.dropdown-menu {
     border-top-right-radius: 0;
 }
 
-.platform-icons.dropdown-menu li {
-    border-bottom: 1px solid #e5e5e5;
-}
-
 .platform-icons .icon {
-    background: #fff url('http://images.videolan.org/images/icons/platform-sprite.png') no-repeat;
+    background: #fff url('//images.videolan.org/images/icons/platform-sprite.png') no-repeat;
     background-size: 32px 608px;
-}
-
-.platform-icons li a:hover,
-.platform-icons li a:focus {
-    background: none;
-    color: #929292;
 }
 
 .platform-icons li:last-child {
     border-bottom: none;
 }
 
-.platform-icons.dropdown-menu  li > a {
-    padding: 16px 10px 16px 50px;
-}
-
 .icon.icon-windows {
-    background-position: 10px 10px;
+    background-position: 8px 10px;
 }
 
 .icon.icon-windows:hover {
-    background-position: 10px -54px;
+    background-position: 8px -54px;
 }
 
 .icon.icon-macosx {
-    background-position: 10px -118px;
+    background-position: 8px -118px;
 }
 
 .icon.icon-macosx:hover {
-    background-position: 10px -182px;
+    background-position: 8px -182px;
 }
 
 .icon.icon-linux {
-    background-position: 10px -246px;
+    background-position: 8px -246px;
 }
 
 .icon.icon-linux:hover {
-    background-position: 10px -310px;
+    background-position: 8px -310px;
 }
 
 .icon.icon-android {
-    background-position: 10px -374px;
+    background-position: 8px -374px;
 }
 
 .icon.icon-android:hover {
-    background-position: 10px -438px;
+    background-position: 8px -438px;
 }
 
 .icon.icon-ios {
-    background-position: 10px -502px;
+    background-position: 8px -502px;
 }
 
 .icon.icon-ios:hover {
-    background-position: 10px -566px;
+    background-position: 8px -566px;
 }
 
 a.icon {
-    padding: 27px;
+    padding: 24px;
     display: inline-block;
 }
 

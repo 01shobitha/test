@@ -101,6 +101,10 @@ function isActive($location) {
     }
 }
 
+function isDeveloper() {
+    return $_SERVER['HTTP_HOST'] != 'www.videolan.org';
+}
+
 /*
 *  starthtml: beginning of the page
 */
@@ -188,8 +192,15 @@ function start_head( $title,
 
         <?php /* CSS */ ?>
         <link rel="stylesheet" type="text/css" href="/style/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="/style/style.css" />
-
+        
+        <?php
+        if (isDeveloper()) {
+            echo '<link rel="stylesheet" type="text/css" href="/style/style.css.in" />';
+        } else {
+            echo '<link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />';
+        }
+        ?>
+        
         <?php /* Misc */ ?>
         <link rel="dns-prefetch" href="//get.videolan.org" />
         <link href="https://plus.google.com/+vlc" rel="publisher" />

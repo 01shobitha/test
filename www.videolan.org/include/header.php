@@ -1,5 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/include/layout_helper.php");
+require($_SERVER["DOCUMENT_ROOT"]."/include/developer.php");
 
 function getLocaleFromLanguage( $language )
 {
@@ -99,10 +100,6 @@ function isActive($location) {
     if ($pos !== false) {
         echo ' active ';
     }
-}
-
-function isDeveloper() {
-    return $_SERVER['HTTP_HOST'] != 'www.videolan.org';
 }
 
 /*

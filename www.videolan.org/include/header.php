@@ -321,8 +321,8 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
         <li class="dropdown <?php echo isActive("/videolan/") ?>">
           <a href="//www.videolan.org/videolan/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href='//www.videolan.org/videolan/'><?php echo _("Team and Organization"); ?></a></li>
-             <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Consulting Services"); ?></a></li>
+            <li><a href='//www.videolan.org/videolan/'><?php echo _("Team &amp; Organization"); ?></a></li>
+             <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Consulting Services &amp; Partners"); ?></a></li>
              <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
              <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
              <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>

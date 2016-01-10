@@ -189,15 +189,13 @@ function start_head( $title,
 
         <?php /* CSS */ ?>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        
+
         <?php
-        if (isDeveloper()) {
-            echo '<link rel="stylesheet" type="text/css" href="/style/style.css.in" />';
-        } else {
-            echo '<link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />';
-        }
+        echo '<link rel="stylesheet" type="text/css" href="';
+        echo isDeveloper()?"/style/style.css.in":"//images.videolan.org/style/style.css";
+        echo '" />';
         ?>
-        
+
         <?php /* Misc */ ?>
         <link rel="dns-prefetch" href="//get.videolan.org" />
         <link href="https://plus.google.com/+vlc" rel="publisher" />

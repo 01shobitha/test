@@ -1,0 +1,141 @@
+@import "style/mixins.scss";
+/* =================================== THEME RECOLORING RULES ====================================== */
+
+@mixin theme-colors($base, $dark) {
+    $medium: lighten($base, 6%);
+    $light: lighten($base, 40%);
+
+    a, h1, h2, #nav a, #nav .link:hover ul li a,
+    .dropdown-menu.dropdown-default li > a {
+        color: $base;
+    }
+
+    .donate2 button:hover,
+    .donate2 a:hover,
+    #nav ul li > a:hover,
+    ul.dropdown-default li > a:hover {
+        background-color: $medium !important;
+        color: white;
+    }
+
+    #donate .button,
+    .donate2 button,
+    #nav .donate2 a,
+    #nav ul li.open > a,
+    .btn-group.open .dropdown-toggle {
+        background-color: $base !important;
+        color: white;
+    }
+
+    #nav ul li.active > a {
+        background-color: $light;
+    }
+
+    #donate .button,
+    .donate2 button,
+    .open > .dropdown-toggle.btn-default:hover,
+    .open > .dropdown-toggle.btn-default:focus,
+    .btn-default:active:hover,
+    .open > .dropdown-toggle.btn-default:active,
+    .open > .dropdown-toggle.btn-default,
+    .btn-default {
+        border: 1px solid $dark;
+        color: white;
+    }
+
+    .btn-default {
+        color: white;
+        /* gradient disable fallback */
+        background-color: $base;
+        @include vendor-in-prefix('background-image', 'linear-gradient', "top, #{$base} 0%, #{$medium} 100%");
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$base, endColorstr=$medium, GradientType=0);
+        filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+        background-repeat: repeat-x;
+    }
+
+    .btn-default:hover,
+    .btn-default:focus {
+        background-color: $medium;
+        background-position: 0 -20px;
+    }
+
+    .screenshot {
+        border: 1px solid $base;
+    }
+
+    .productName {
+        color: $base;
+    }
+
+    .downloadText {
+        text-shadow: 2px 1px 1px $dark;
+    }
+}
+
+/* ORANGE */
+.orange {
+    $orange-base: #F48B00;
+    @include theme-colors($orange-base, #E47B00);
+    #downloadButton, .normalButton {
+        color: white;
+        background: $orange-base url(//images.videolan.org/style/images/downloadButtonGradientOrange.png) repeat-x;
+    }
+
+    #downloadButton:hover, .normalButton:hover {
+        background: $orange-base url(//images.videolan.org/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
+    }
+}
+
+/* RED */
+.red {
+    $red-base: #ED1C24;
+    @include theme-colors($red-base, #DD0C14);
+    #downloadButton, .normalButton {
+        color: white;
+        background: $red-base url(//images.videolan.org/style/images/downloadButtonGradientRed.png) repeat-x;
+    }
+    #downloadButton:hover, .normalButton:hover {
+        background: $red-base url(//images.videolan.org/style/images/downloadButtonGradientRedBright.png) repeat-x;
+    }
+}
+
+/* GREEN */
+.green {
+    $green-base: #39B549;
+    @include theme-colors($green-base, #29A539);
+    .green #downloadButton {
+        color: white;
+        background: $green-base url(//images.videolan.org/style/images/downloadButtonGradientGreen.png) repeat-x;
+    }
+    .green #downloadButton:hover {
+        background: $green-base url(//images.videolan.org/style/images/downloadButtonGradientGreenBright.png) repeat-x;
+    }
+}
+
+/* BLUE */
+.blue {
+    $blue-base: #0070BB;
+    @include theme-colors($blue-base, #0060AB);
+    #downloadButton, .normalButton {
+        color: white;
+        background: $blue-base url(//images.videolan.org/style/images/downloadButtonGradientBlue.png) repeat-x;
+    }
+
+    #downloadButton:hover, .normalButton:hover {
+        background: $blue-base url(//images.videolan.org/style/images/downloadButtonGradientBlueBright.png) repeat-x;
+    }
+}
+
+/* PINK */
+.pink {
+    $pink-base: #D3135A;
+    @include theme-colors($pink-base, #C3034A);
+    .pink #downloadButton {
+        color: white;
+        background: $pink-base url(//images.videolan.org/style/images/downloadButtonGradientPink.png) repeat-x;
+    }
+
+    .pink #downloadButton:hover {
+        background: $pink-base url(//images.videolan.org/style/images/downloadButtonGradientPinkBright.png) repeat-x;
+    }
+}

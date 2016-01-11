@@ -13,8 +13,12 @@ news-rss.html: news.msg
 
 index.html: news.msg
 
-style/style.css: style/style.css.in
-	@echo "Processing $@.in ..."
+style/style.css: style/style.scss
+	@echo "Processing $< ..."
+	sassc $< > $@
+
+style/style.min.css: style/style.css
+	@echo "Processing $< ..."
 	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
 	rm -f $@ && mv $@.tmp $@
 

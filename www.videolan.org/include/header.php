@@ -191,7 +191,7 @@ function start_head( $title,
 
         <?php
         echo '<link rel="stylesheet" type="text/css" href="';
-        echo isDeveloper()?"/style/style.css.in":"//images.videolan.org/style/style.css";
+        echo isDeveloper() ? "/style/style.css" : "//images.videolan.org/style/style.min.css";
         echo '" />';
         ?>
 

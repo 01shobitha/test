@@ -15,7 +15,7 @@ index.html: news.msg
 
 style/style.css: style/style.scss
 	@echo "Processing $< ..."
-	sassc $< > $@
+	sassc $< > $@ || sass $< > $@
 
 style/style.min.css: style/style.css
 	@echo "Processing $< ..."

@@ -19,5 +19,8 @@
 <p><a href="/press/lgpl-modules.html">VLC playback modules relicensed to LGPL</a></p>
 <p><a href="/press/win8ks.html">VLC for the new Windows 8 User Experience fundraiser</a></p>
 <p><a href="/press/win8ks-ended.html">Successful fundraising campaign for VLC ports to Windows 8, RT and Phone</a></p>
+<p><a href="/press/ios2out.html">VLC for iOS 2.0 released</a></p>
+<p><a href="/press/2014-1.html">2014-1</a></p>
+<p><a href="/press/vlc-2.2.0.html">VLC media player 2.2.0 released</a></p>
 
 <?php footer(); ?>

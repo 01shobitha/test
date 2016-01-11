@@ -81,7 +81,7 @@ Select it and click <b>Accept</b> to install it with all its dependencies.<br />
 This might require the SUSE CD or DVD.</p>
 
 <p><b>NB:</b>If you want VLC's Mozilla Plugin, you have to select the
-vlc-mozillaplugin manually. It does not get installed by default.</p>
+<code>vlc-npapi</code>. It does not get installed by default.</p>
 
 <p>
 You're done with the installation.

@@ -1,4 +1,6 @@
 <?php
+require_once($_SERVER["DOCUMENT_ROOT"]."/include/donate.php");
+
 /* Menus */
 function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
 {
@@ -76,34 +78,10 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
        <?php if ($b_show_donate == true ) {  ?>
         <ul class="nav navbar-nav pull-right donate-box">
             <li class="hidden-sm">
-                <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                    <input name="cmd" value="_xclick" type="hidden"/>
-                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                    <input name="no_note" value="0" type="hidden"/>
-                    <input name="currency_code" value="EUR" type="hidden"/>
-                    <input name="tax" value="0" type="hidden"/>
-                    <input name="lc" value="GB" type="hidden"/>
-                    <input name="no_shipping" value="1" type="hidden"/>
-                    <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                    <input class="euros" type='text' name="amount" value='4.00' />
-                    <button type='submit'><?php echo _("donate"); ?></button>
-                </form>
+                <?php echo draw_donate('EUR'); ?>
             </li>
             <li class="hidden-sm">
-                <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                    <input name="cmd" value="_xclick" type="hidden"/>
-                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                    <input name="no_note" value="0" type="hidden"/>
-                    <input name="currency_code" value="USD" type="hidden"/>
-                    <input name="tax" value="0" type="hidden"/>
-                    <input name="lc" value="US" type="hidden"/>
-                    <input name="no_shipping" value="1" type="hidden"/>
-                    <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                    <input id="dtext" class="dollars" type='text' name="amount" value='5.00'/>
-                    <button type='submit'><?php echo _("donate"); ?></button>
-                </form>
+                <?php echo draw_donate('USD'); ?>
             </li>
             <li class="dropdown visible-sm donate2">
                 <a href="//www.videolan.org/contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -111,34 +89,10 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
                 </a>
                 <ul class="dropdown-menu donate-dropdown pull-right">
                     <li>
-                        <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                            <input name="cmd" value="_xclick" type="hidden"/>
-                            <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                            <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                            <input name="no_note" value="0" type="hidden"/>
-                            <input name="currency_code" value="EUR" type="hidden"/>
-                            <input name="tax" value="0" type="hidden"/>
-                            <input name="lc" value="GB" type="hidden"/>
-                            <input name="no_shipping" value="1" type="hidden"/>
-                            <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                            <input class="euros" type='text' name="amount" value='4.00' />
-                            <button type='submit'><?php echo _("donate"); ?></button>
-                        </form>
+                        <?php echo draw_donate('EUR'); ?>
                     </li>
                     <li>
-                        <form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-                            <input name="cmd" value="_xclick" type="hidden"/>
-                            <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                            <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                            <input name="no_note" value="0" type="hidden"/>
-                            <input name="currency_code" value="USD" type="hidden"/>
-                            <input name="tax" value="0" type="hidden"/>
-                            <input name="lc" value="US" type="hidden"/>
-                            <input name="no_shipping" value="1" type="hidden"/>
-                            <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-                            <input id="dtext" class="dollars" type='text' name="amount" value='5.00'/>
-                            <button type='submit'><?php echo _("donate"); ?></button>
-                        </form>
+                        <?php echo draw_donate('USD'); ?>
                     </li>
                 </ul>
             </li>

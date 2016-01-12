@@ -64,11 +64,13 @@ We hope that you like our new release as much as we do and we are looking forwar
 <p>VideoLAN is a non-profit organization based in Paris, France, with no employees, that supports the development of free and open source multimedia solutions thanks to voluntary contributions from our users.<br />
 There is no business model under VLC usage, and VLC is completely free: we don't use any ads, any spyware or other mis-features, that could be deceptive to the users.</p>
 <h2>Links</h2>
+<p>
 VLC: <a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br />
-VLC on the App Store: <a href="https://itunes.apple.com/app/vlc-ios/id650377962">https://itunes.apple.com/app/vlc-ios/id650377962</a>
+VLC on the App Store: <a href="https://itunes.apple.com/app/vlc-ios/id650377962">https://itunes.apple.com/app/vlc-ios/id650377962</a><br />
 Personal blog post about the release: <a href="http://feepk.net/2018/01/12/vlc-tvos/">http://feepk.net/2018/01/12/vlc-tvos/</a>
+</p>
 <h2>Press Contact</h2>
-press@videolan.org<br
+<p>press@videolan.org</p><br
 /><br
 />
 </div>

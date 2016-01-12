@@ -52,19 +52,19 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
     <?php
     vlcscreenshot( "Apple-TV-device-playback.jpg",
                 "Apple-TV-device-playback-small.jpg",
-                "Playback on Apple TV");
+                "Playback on Apple TV","2.675×1.500px");
     vlcscreenshot( "Apple-TV-device-playback-speed.jpg",
                 "Apple-TV-device-playback-speed-small.jpg",
-                "Custom playback speed on Apple TV");
+                "Custom playback speed on Apple TV","2.675×1.500px");
     vlcscreenshot( "Apple-TV-device-browse.jpg",
                 "Apple-TV-device-browse-small.jpg",
-                "Server browsing on Apple TV");
+                "Server browsing on Apple TV","2.675×1.500px");
     vlcscreenshot( "Apple-TV-device-ipad-iphone-playback.jpg",
                 "Apple-TV-device-ipad-iphone-playback-small.jpg",
-                "Playback on Apple TV, iPhone and iPad");
+                "Playback on Apple TV, iPhone and iPad","2.675×1.500px");
     vlcscreenshot( "Apple-TV-device-ipad-iphone-browse.jpg",
                 "Apple-TV-device-ipad-iphone-browse-small.jpg",
-                "Server browsing on Apple TV, iPhone and iPad");
+                "Server browsing on Apple TV, iPhone and iPad","2.675×1.500px");
     ?>
 </div>
 

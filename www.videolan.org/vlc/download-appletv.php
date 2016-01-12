@@ -48,7 +48,7 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
     <br />  $desc<br />($size) </div>";
 }
 ?>
-<div style='float: left; width: 450px; padding-left: 70px;'>
+<div style='width: 450px; height: 300px; padding-left: 70px;'>
     <?php
     vlcscreenshot( "Apple-TV-device-playback.jpg",
                 "Apple-TV-device-playback-small.jpg",

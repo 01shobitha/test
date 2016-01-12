@@ -55,7 +55,7 @@ A user can drop one or multiple files on the browser to play those instantly, an
 Additionally, this works for pasting directly streams from compatible URLs and multiple actions can be sent to create the current playlist.<br />
 And of course, this web interface can be used to control playback.</p>
 <h2>Future versions</h2>
-<p>We extremely excited to share this initial version of VLC for Apple TV today and looking forward to deliver further features currently in development, notably native integration with Cloud Services, like Dropbox, OneDrive and Box. Those features will enter beta testing today.<br />
+<p>We are extremely excited to share this initial version of VLC for Apple TV today and looking forward to deliver further features currently in development, notably native integration with Cloud Services, like Dropbox, OneDrive and Box. Those features will enter beta testing today.<br />
 <br />
 After concluding 2015 with VLC's first version for Chrome OS, this is a head-start in 2016 with a large number of releases yet to come, notably VLC 3.0 for desktop computers as well as yet another new port!<br />
 <br />

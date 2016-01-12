@@ -42,7 +42,7 @@ And, following VideoLAN's mission, VLC on the Apple TV is fully free and open so
 </p>
 
 <?php
-function screenshot($img,$thumb,$desc,$size){
+function vlcscreenshot($img,$thumb,$desc,$size){
 echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/screenshots/appletv/$img'>
     <img class='screenshot' style='width: 450px;' src='http://images1.videolan.org/vlc/screenshots/appletv/$thumb' alt='VLC for Apple TV - $desc' /></a>
     <br />  $desc<br />($size) </div>";

@@ -42,12 +42,12 @@ And, following VideoLAN's mission, VLC on the Apple TV is fully free and open so
 </p>
 
 <div style='float: left; width: 100%; height: 1400px; padding-left: 70px;'>
-	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-small.jpg" alt="VLC for Apple TV" /> <br/>
-	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-small.jpg" alt="VLC for Apple TV" /> <br/>
-	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-small.jpg" alt="VLC for Apple TV" /> <br/>
-	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-small.jpg" alt="VLC for Apple TV" />
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-small.jpg" alt="VLC for Apple TV" /></a>
 	<br/>
-	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-small.jpg" alt="VLC for Apple TV" />
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-small.jpg" alt="VLC for Apple TV" /></a>
     <br />
 </div>
 

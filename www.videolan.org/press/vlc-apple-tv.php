@@ -67,7 +67,7 @@ There is no business model under VLC usage, and VLC is completely free: we don't
 <p>
 VLC: <a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br />
 VLC on the App Store: <a href="https://itunes.apple.com/app/vlc-ios/id650377962">https://itunes.apple.com/app/vlc-ios/id650377962</a><br />
-Personal blog post about the release: <a href="http://feepk.net/2018/01/12/vlc-tvos/">http://feepk.net/2018/01/12/vlc-tvos/</a>
+Personal blog post about the release: <a href="http://feepk.net/2016/01/12/vlc-tvos/">http://feepk.net/2016/01/12/vlc-tvos/</a>
 </p>
 <h2>Press Contact</h2>
 <p>press@videolan.org</p><br

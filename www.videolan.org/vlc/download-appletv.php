@@ -41,31 +41,14 @@ And, following VideoLAN's mission, VLC on the Apple TV is fully free and open so
 </ul>
 </p>
 
-<?php
-function vlcscreenshot($img,$thumb,$desc,$size){
-echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/screenshots/appletv/$img'>
-    <img class='screenshot' style='width: 450px;' src='http://images1.videolan.org/vlc/screenshots/appletv/$thumb' alt='VLC for Apple TV - $desc' /></a>
-    <br />  $desc<br />($size) </div>";
-}
-?>
-<div style='width: 450px; height: 300px; padding-left: 70px;'>
-    <?php
-    vlcscreenshot( "Apple-TV-device-playback.jpg",
-                "Apple-TV-device-playback-small.jpg",
-                "Playback on Apple TV","2.675×1.500px");
-    vlcscreenshot( "Apple-TV-device-playback-speed.jpg",
-                "Apple-TV-device-playback-speed-small.jpg",
-                "Custom playback speed on Apple TV","2.675×1.500px");
-    vlcscreenshot( "Apple-TV-device-browse.jpg",
-                "Apple-TV-device-browse-small.jpg",
-                "Server browsing on Apple TV","2.675×1.500px");
-    vlcscreenshot( "Apple-TV-device-ipad-iphone-playback.jpg",
-                "Apple-TV-device-ipad-iphone-playback-small.jpg",
-                "Playback on Apple TV, iPhone and iPad","2.675×1.500px");
-    vlcscreenshot( "Apple-TV-device-ipad-iphone-browse.jpg",
-                "Apple-TV-device-ipad-iphone-browse-small.jpg",
-                "Server browsing on Apple TV, iPhone and iPad","2.675×1.500px");
-    ?>
+<div style='float: left; width: 100%; height: 1400px; padding-left: 70px;'>
+	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-small.jpg" alt="VLC for Apple TV" /> <br/>
+	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-small.jpg" alt="VLC for Apple TV" /> <br/>
+	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-small.jpg" alt="VLC for Apple TV" /> <br/>
+	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-small.jpg" alt="VLC for Apple TV" />
+	<br/>
+	<img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-small.jpg" alt="VLC for Apple TV" />
+    <br />
 </div>
 
 <h2> Support </h2>

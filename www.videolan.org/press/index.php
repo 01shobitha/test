@@ -22,5 +22,7 @@
 <p><a href="/press/ios2out.html">VLC for iOS 2.0 released</a></p>
 <p><a href="/press/2014-1.html">2014-1</a></p>
 <p><a href="/press/vlc-2.2.0.html">VLC media player 2.2.0 released</a></p>
+<p><a href="/press/vlc-2.2.0.html">VLC media player 2.2.0 released</a></p>
+<p><a href="/press/vlc-apple-tv.html">Announcing VLC for Apple TV</a></p>
 
 <?php footer(); ?>

@@ -70,9 +70,18 @@ VLC on the App Store: <a href="https://itunes.apple.com/app/vlc-ios/id650377962"
 Personal blog post about the release: <a href="http://feepk.net/2016/01/12/vlc-tvos/">http://feepk.net/2016/01/12/vlc-tvos/</a>
 </p>
 <h2>Press Contact</h2>
-<p>press@videolan.org</p><br
-/><br
-/>
+<p>press@videolan.org</p>
+<h2>Pictures</h2>
+<div style='float: left; width: 100%; height: 1400px; padding-left: 70px;'>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-small.jpg" alt="VLC for Apple TV" /></a><br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-small.jpg" alt="VLC for Apple TV" /></a>
+	<br/>
+	<a href="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse.jpg"><img class="screenshot" style="width: 450px"' src="http://images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-small.jpg" alt="VLC for Apple TV" /></a>
+    <br />
+</div>
+<br/><br />
 </div>
 <?php footer('$Id:$'); ?>
 

@@ -13,7 +13,7 @@ news-rss.html: news.msg
 
 index.html: news.msg
 
-style/style.css: style/style.scss
+style/style.css: style/style.scss style/theme.scss style/mixins.scss
 	@echo "Processing $< ..."
 	sassc $< > $@ || sass $< > $@
 

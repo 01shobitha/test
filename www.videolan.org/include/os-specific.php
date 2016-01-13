@@ -155,8 +155,8 @@ function downloadButton2()
             </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
         </div>
         <div class="platform-icons main-os-icons">
-            <a class="icon icon-windows" href="<?php echo $windowsLocation ?>"></a>
-            <a class="icon icon-macosx" href="<?php echo $osxLocation ?>"></a>
+            <a class="icon icon-windows" href="/vlc/download-windows.html"></a>
+            <a class="icon icon-macosx" href="/vlc/download-macosx.html"></a>
             <a class="icon icon-linux" href="/vlc/#download"></a>
             <a class="icon icon-android" href="/vlc/download-android.html"></a>
             <a class="icon icon-ios" href="/vlc/download-ios.html"></a>

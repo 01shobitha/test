@@ -9,7 +9,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
 <nav id="nav" class="navbar navbar-default navbar-fixed-top">
  <div class="container">
     <div class="navbar-header">
-        <a class="navbar-brand" href="/#">
+        <a class="navbar-brand" href="<?php getLink('/'); ?>">
         <?php image( $imgSrc, "VideoLAN association"); ?>
         </a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">

@@ -1,5 +1,5 @@
 <?php
-
+require_once($_SERVER["DOCUMENT_ROOT"]."/include/developer.php");
 /* Create a colored panel */
 function panel_start( $color )
 { ?>
@@ -42,6 +42,10 @@ function image( $src_img, $alt, $id = "", $width = "") {
     if( !empty( $id ) ) echo " class='$id'";
     if( !empty( $width ) ) echo " width='$width'";
     echo " />\n";
+}
+
+function getLink($location) {
+    echo isDeveloper() ? $location : '//www.videolan.org'.$location;
 }
 
 ?>

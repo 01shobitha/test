@@ -967,6 +967,11 @@ img, .normalButton {
     .new-design .download-wrapper .projectDescription {
         font-size: 14px;
     }
+
+    //Fix Bootstrap bug on mobile
+    .caret {
+        border-top: 4px solid;
+    }
 }
 
 /* ============================ BOOTSTRAP ADJUSTMENTS =========================== */

@@ -1,4 +1,6 @@
 include/header.php
+include/menus.php
+include/footer.php
 include/package.php
 include/os-specific.php
 index.php

@@ -18,42 +18,98 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
     global $oldmacosxversion;
     global $iosversion;
     global $dlBase;
-
-    ?><script type='text/javascript'>
+    ?>
+    <script type='text/javascript'>
     //Editable details for the client side OS appropriate download detection.
-    var latestVersion  = '<?php echo "$version"; ?>';
     <?php
     echo "
-    var windowsDetails = {'name': 'Windows', 'size': '28&nbsp;MB', 'location':          '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '33&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg' };
-    var iosDetails     = {'name': 'iOS', 'size': '56.5&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
-    var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
-    var androidDetails = {'name': 'Android', 'size': '', 'location': '/vlc/download-android.html'};
-    var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
-    var ubuntuDetails  = {'name': 'Ubuntu', 'size': '', 'location': 'apt://vlc'};
-    var fedoraDetails  = {'name': 'Fedora Linux', 'size': '', 'location': '/vlc/download-fedora.html'};
-    var redhatDetails  = {'name': 'RedHat Linux', 'size': '', 'location': '/vlc/download-redhat.html'};
-    var gentooDetails  = {'name': 'Gentoo Linux', 'size': '', 'location': '/vlc/download-gentoo.html'};
-    var suseDetails    = {'name': 'Suse Linux', 'size': '', 'location': '/vlc/download-suse.html'};
-    var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
-    var beosDetails    = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
-    var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
+    var PLATFORMS = {
+        windows: {
+            name: 'Windows',
+            size: '28&nbsp;MB',
+            latestVersion: '$win32version',
+            location: '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'
+        },
+        osx: {
+            name: 'Mac OS X',
+            size: '33&nbsp;MB',
+            latestVersion: '$macosxversion',
+            location: '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg'
+        },
+        osx32: {
+            name: 'Mac OS X (32bit)',
+            size: '26&nbsp;MB',
+            location: '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg'
+        },
+        osxPPC: {
+            name: 'Mac OS X (PPC)',
+            size: '25&nbsp;MB',
+            location: '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg'
+        },
+        ios: {
+            name: 'iOS',
+            size: '56.5&nbsp;MB',
+            latestVersion: '$iosversion',
+            location: '/vlc/download-ios.html'
+        },
+        linux: {
+            name: 'Linux',
+            location: '/vlc/#download'
+        },
+        android: {
+            name: 'Android',
+            location: '/vlc/download-android.html'
+        },
+        debian: {
+            name: 'Debian GNU/Linux',
+            location: '/vlc/download-debian.html'
+        },
+        ubuntu: {
+            name: 'Ubuntu',
+            location: 'apt://vlc'
+        },
+        fedora: {
+            name: 'Fedora Linux',
+            location: '/vlc/download-fedora.html'
+        },
+        redhat: {
+            name: 'RedHat Linux',
+            location: '/vlc/download-redhat.html'
+        },
+        gentoo: {
+            name: 'Gentoo Linux',
+            location: '/vlc/download-gentoo.html'
+        },
+        suse: {
+            name: 'Suse Linux',
+            location: '/vlc/download-suse.html'
+        },
+        mandriva: {
+            name: 'Mandriva Linux',
+            location: '/vlc/download-mandriva.html'
+        },
+        beos: {
+            name: 'BeOS',
+            location: '/vlc/download-beos.html'
+        },
+        freebs: {
+            name: 'FreeBSD',
+            location: '/vlc/download-freebsd.html'
+        }
+    };"
+    ?>
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
     cache.src = '/style/images/downloadButtonGradientOrangeBright.png';
 
-    $(document).ready(function () {
-       var OS="windows"; //Default
+    function getOS() {
+        var OS="windows"; //Default
 
        if (navigator.appVersion.indexOf("Win")!=-1) {
          OS="windows";
-         latestVersion = '<?php echo "$win32version"; ?>';
        }
        if (navigator.appVersion.indexOf("Mac")!=-1) {
-          latestVersion = '<?php echo "$macosxversion"; ?>';
           if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
           else if (navigator.userAgent.indexOf("OS X 10.5")!=-1) OS="osx32";
           else OS="osx";
@@ -75,10 +131,19 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
        if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
        if (navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) {
             OS="ios";
-            latestVersion = '<?php echo "$iosversion"; ?>';
        }
-       $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
-       $('<?php echo "$downloadButton"; ?>').attr('href',eval(OS+"Details.location"))
+       return OS;
+    }
+
+    $(document).ready(function () {
+        var OS = getOS() || {};
+        var details = '';
+        var separator = " &nbsp;&#8226;&nbsp; ";
+        details += PLATFORMS[OS].latestVersion ? "Version " + PLATFORMS[OS].latestVersion : '';
+        details += PLATFORMS[OS].name ? separator + PLATFORMS[OS].name : '';
+        details += PLATFORMS[OS].size ? separator + PLATFORMS[OS].size : '';
+        if (details) $('#downloadDetails').html(details);
+        $('<?php echo "$downloadButton"; ?>').attr('href', PLATFORMS[OS].location || '/vlc/#download');
     });
     </script>
 <?php
@@ -151,8 +216,8 @@ function downloadButton2()
             </ul>
         </div>
         <div id="downloadDetails">
-            Version <span id='downloadVersion'><?php echo $win32version ?>
-            </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
+            Version <span id='downloadVersion'>
+            <?php echo $win32version ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
         </div>
         <div class="platform-icons main-os-icons">
             <a class="icon icon-windows" href="/vlc/download-windows.html"></a>

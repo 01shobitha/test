@@ -245,8 +245,16 @@ function start_head( $title,
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
 
-            //Open dropdown menu on hover
+            function isTouchDevice() {
+                return 'ontouchstart' in window || navigator.maxTouchPoints;
+            };
+
             $(document).ready(function() {
+                //Early return if touch device
+                if (isTouchDevice()) {
+                    return;
+                }
+                //Open dropdown menu on hover if not touch device & navbar-toggle not visible
                 $('#nav ul.nav li.dropdown').hover(function() {
                     if (!$('.navbar-toggle').is(':visible') && !$(this).hasClass('open')) {
                         $('.dropdown-toggle', this).trigger('click');
@@ -257,6 +265,7 @@ function start_head( $title,
                     }
                 });
             });
+
         </script>
     </head>
 <?php

@@ -1,4 +1,5 @@
 <?php
+require_once($_SERVER["DOCUMENT_ROOT"]."/include/layout_helper.php");
 /* Footer */
 function footer($tag = "", $alternate_lang=array()) {
 ?>
@@ -7,40 +8,40 @@ function footer($tag = "", $alternate_lang=array()) {
     <div id='footer'>
         <div class="container">
             <div class="row">
-                <a class="col-sm-12 col-md-3" href='/'>
+                <a class="col-sm-12 col-md-3" href="<?php getLink('/'); ?>">
                 <?php image( 'logoGrey.png', 'Association VideoLAN', 'center-xs center-sm' ); ?></a>
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'>VLC media player</div>
                     <ul>
-                        <li><a href='//www.videolan.org/vlc/'>VLC</a></li>
-                        <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
-                        <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
-                        <li><a href='//www.videolan.org/vlc/download-ubuntu.html'>VLC for Ubuntu</a></li>
-                        <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
-                        <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
-                        <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
+                        <li><a href="<?php getLink('/vlc/'); ?>">VLC</a></li>
+                        <li><a href="<?php getLink('/vlc/download-windows.html'); ?>">VLC for Windows</a></li>
+                        <li><a href="<?php getLink('/vlc/download-macosx.html'); ?>">VLC for Mac OS X</a></li>
+                        <li><a href="<?php getLink('/vlc/download-ubuntu.html'); ?>">VLC for Ubuntu</a></li>
+                        <li><a href="<?php getLink('/vlc/download-android.html'); ?>">VLC for Android</a></li>
+                        <li><a href="<?php getLink('/vlc/download-ios.html'); ?>">VLC for iOS</a></li>
+                        <li><a href="<?php getLink('/vlc/skins.html'); ?>"><?php echo _("Skins"); ?></a></li>
                         <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
-                        <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
-                        <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
-                        <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
+                        <li><a href="<?php getLink('/vlc/features.html'); ?>"><?php echo _("Features"); ?></a></li>
+                        <li><a href="<?php getLink('/vlc/screenshots.html'); ?>"><?php echo _("Screenshots"); ?></a></li>
+                        <li><a href="<?php getLink('/vlc/skineditor.html'); ?>">VLC Skin Editor</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'><?php echo _("All Projects"); ?></div>
                     <ul>
-                        <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
-                        <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
-                        <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
-                        <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
-                        <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
-                        <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
-                        <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
-                        <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
-                        <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
-                        <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>
-                        <li><a href='//www.videolan.org/developers/libaacs.html'>libaacs</a></li>
-                        <li><a href='//www.videolan.org/developers/libdvbcsa.html'>libdvbcsa</a></li>
-                        <li><a href='//www.videolan.org/developers/bitstream.html'>biTStream</a></li>
+                        <li><a href="<?php getLink('/vlmc/'); ?>">VideoLan Movie Creator</a></li>
+                        <li><a href="<?php getLink('/projects/dvblast.html'); ?>">DVBlast</a></li>
+                        <li><a href="<?php getLink('/developers/x264.html'); ?>">x264</a></li>
+                        <li><a href="<?php getLink('/developers/x262.html'); ?>">x262</a></li>
+                        <li><a href="<?php getLink('/developers/x265.html'); ?>">x265</a></li>
+                        <li><a href="<?php getLink('/projects/multicat.html'); ?>">multicat</a></li>
+                        <li><a href="<?php getLink('/projects/vlma/'); ?>">VLMa</a></li>
+                        <li><a href="<?php getLink('/developers/libdvdcss.html'); ?>">libdvdcss</a></li>
+                        <li><a href="<?php getLink('/developers/libbluray.html'); ?>">libbluray</a></li>
+                        <li><a href="<?php getLink('/developers/libdvbpsi.html'); ?>">libdvbpsi</a></li>
+                        <li><a href="<?php getLink('/developers/libaacs.html'); ?>">libaacs</a></li>
+                        <li><a href="<?php getLink('/developers/libdvbcsa.html'); ?>">libdvbcsa</a></li>
+                        <li><a href="<?php getLink('/developers/bitstream.html'); ?>">biTStream</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-2">
@@ -48,27 +49,27 @@ function footer($tag = "", $alternate_lang=array()) {
                     <ul>
                         <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
                         <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
-                        <li><a href='//www.videolan.org/support/lists.php'><?php echo _("Mailing-Lists"); ?></a></li>
-                        <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
-                        <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate money"); ?></a></li>
-                        <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
-                        <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
+                        <li><a href="<?php getLink('/support/lists.php'); ?>"><?php echo _("Mailing-Lists"); ?></a></li>
+                        <li><a href="<?php getLink('/support/faq.html'); ?>"><?php echo _("FAQ"); ?></a></li>
+                        <li><a href="<?php getLink('/contribute.html#money'); ?>"><?php echo _("Donate money"); ?></a></li>
+                        <li><a href="<?php getLink('/contribute.html'); ?>"><?php echo _("Donate time"); ?></a></li>
+                        <li><a href="<?php getLink('/goodies.html'); ?>"><?php echo _("Get Goodies"); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'>VideoLAN</div>
                     <ul>
-                        <li><a href='//www.videolan.org/videolan/'><?php echo _("Project and Organization"); ?></a></li>
-                        <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
-                        <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
-                        <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
-                        <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
-                        <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
-                        <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
-                        <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
-                        <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
-                        <li><a href='//www.videolan.org/contribute.html'><?php echo _("Get Involved"); ?></a></li>
-                        <li><a href='//www.videolan.org/news.html'><?php echo _("News");?></a></li>
+                        <li><a href="<?php getLink('/videolan/'); ?>"><?php echo _("Project and Organization"); ?></a></li>
+                        <li><a href="<?php getLink('/videolan/team/'); ?>"><?php echo _("Team"); ?></a></li>
+                        <li><a href="<?php getLink('/legal.html'); ?>"><?php echo _("Legal"); ?></a></li>
+                        <li><a href="<?php getLink('/contact.html'); ?>"><?php echo _("Contact us"); ?></a></li>
+                        <li><a href="<?php getLink('/videolan/partners.html'); ?>"><?php echo _("Partners"); ?></a></li>
+                        <li><a href="<?php getLink('/videolan/mirrors.html'); ?>"><?php echo _("Mirrors"); ?></a></li>
+                        <li><a href="<?php getLink('/press/'); ?>"><?php echo _("Press center"); ?></a></li>
+                        <li><a href="<?php getLink('/videolan/events/'); ?>"><?php echo _("Events"); ?></a></li>
+                        <li><a href="<?php getLink('/security/'); ?>"><?php echo _("Security center"); ?></a></li>
+                        <li><a href="<?php getLink('/contribute.html'); ?>"><?php echo _("Get Involved"); ?></a></li>
+                        <li><a href="<?php getLink('/news.html'); ?>"><?php echo _("News");?></a></li>
                     </ul>
                 </div>
             </div>

@@ -343,7 +343,7 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
                 echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
                 foreach($screenshots as $screenshot) {
                     $dom  = '<div class="screenshot2">';
-                    $dom .= '<img alt="'.$screenshot['name'].'" data-lazy="'.$screenshot['src'].'">';
+                    $dom .= '<img src="" alt="'.$screenshot['name'].'" data-lazy="'.$screenshot['src'].'">';
                     $dom .= '</div>';
                     echo $dom;
                 }

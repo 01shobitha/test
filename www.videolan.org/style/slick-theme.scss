@@ -6,9 +6,12 @@ $right-arrow: "/images/icons/arrow-right.png";
 $bg-color: rgba(0, 0, 0, 0.2);
 $bg-color-hover: rgba(0, 0, 0, 0.4);
 
-img.slick-loading {
+.slick-current.slick-active {
     background: #fff url('/images/icons/ripple-loader.svg') center center no-repeat;
-    color: white;
+}
+
+#header-carousel img[src=""] {
+    display: none;
 }
 
 /* Arrows */
@@ -78,6 +81,7 @@ img.slick-loading {
 }
 
 #header-carousel img {
+    text-align: center;
     max-width: 100%;
     height: auto;
     //max-height: 100%;

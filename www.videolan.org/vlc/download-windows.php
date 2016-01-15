@@ -1,57 +1,40 @@
 <?php
    $language = "";
    $title = "Download official VLC media player for Windows";
-
+   $new_design = true;
+   $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
+   $dropdownItems = array(
+       array(
+           "name"       => "7zip package",
+           "location"   => "vlc-$win32version-win32.7z",
+       ),
+       array(
+           "name"       => "Zip package",
+           "location"   => "vlc-$win32version-win32.zip",
+       ),
+       array(
+           "name"       => "64 bits installer",
+           "location"   => "vlc-$win32version-win64.exe",
+       ),
+       array(
+           "name"       => "Source code",
+           "location"   => "download-sources.html",
+       )
+   );
 ?>
 
-
-<h1 class="bigtitle"> VLC media player for Windows </h1>
-<div id="sidebar">
-<?php panel_start( "blue" ); ?>
-<h2>Windows version</h2>
-<p>Windows XP SP2, 2003 SP2, Vista SP1, 2008 SP1, 7, 8, 8.1 and 10</p>
-<?php panel_end(); ?>
+<div class="container">
+    <?php drawVLCdownloadSection("windows", $dropdownItems, false, "VLC for windows"); ?>
+    <h2>Download VLC for Windows 95/98/Me</h1>
+    <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
+    version of VLC</p>
+    <h2>Older versions</h2>
+    <?php browse_old("vlc") ?>
+    </div>
 </div>
-<div id="left">
-
-<h1>Download latest VLC - <?php echo $win32version; ?></h1>
-<p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
-<?php
-    pkgitem_sf("Installer package",
-                   "$win32version/win32","vlc-$win32version-win32.exe","vlc", "Exe installer",         "e563a65baea25cef8f49fb0228cb8555") ;
-    pkgitem_sf("7zip package",
-                  "$win32version/win32","vlc-$win32version-win32.7z",  "vlc", "(No installer needed)", "2ca6ca11ef2a8ac102702dc673eb8d01" );
-    pkgitem_sf("Zip package",
-                  "$win32version/win32","vlc-$win32version-win32.zip", "vlc", "(No installer needed)", "3386854def844b62f19a88aed920c431" );
-?>
-
-<div class="clearme"> </div>
-<h1>Download latest VLC source code</h2>
-
-<p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
-
-<br />
-<br />
-<h2>Download VLC for Windows x64</h1>
-<?php
-    pkgitem_sf("64 bits installer",
-                   "$win32version/win64","vlc-$win32version-win64.exe","vlc", "Exe installer",         "e563a65baea25cef8f49fb0228cb8555") ;
-?>
-
-
-<br />
-<br />
-<h2>Download VLC for Windows 95/98/Me</h1>
-<p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
-version of VLC</p>
-
-<h2>Older versions</h2>
-<?php browse_old("vlc") ?>
-
-</div>
-
 <?php footer('$Id$'); ?>

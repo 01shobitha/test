@@ -249,11 +249,14 @@ function drawVLCdownloadSection() {
     ?>
     <section class="download-wrapper">
         <div class="row">
-            <div class="v-align col-xs-8 col-xs-offset-4 col-sm-offset-0 col-sm-5 col-xs-pull-2 col-sm-pull-0">
+            <div class="hidden-xs v-align col-sm-5">
                 <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
             </div>
-            <div class="v-align col-xs-12 col-sm-7">
-                <h1 class="bigtitle center-font-xs">VLC media player</h1>
+            <div class="v-align col-sm-7">
+                <div class="center-font-xs">
+                    <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
+                    <h1 class="v-align bigtitle">VLC media player</h1>
+                </div>
 
                 <div class="projectDescription center-font-xs">
                     <?php echo

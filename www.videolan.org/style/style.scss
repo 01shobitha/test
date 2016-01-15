@@ -971,19 +971,28 @@ img, .normalButton {
     .center-font-xs {
         text-align: center;
     }
-    .download-wrapper .big-vlc-img {
-        width: 150px;
+    .new-design .download-wrapper {
+        padding-bottom: 10px;
+        .big-vlc-img {
+            padding-top: 0;
+            width: 44px;
+            margin: 6px 6px 0 -6px;
+        }
+        h1.bigtitle {
+            font-size: 32px;
+        }
+        .projectDescription {
+            font-size: 14px;
+        }
     }
-    .new-design .download-wrapper h1.bigtitle {
-        font-size: 40px;
-    }
-    .new-design .download-wrapper .projectDescription {
-        font-size: 14px;
-    }
-
     //Fix Bootstrap bug on mobile
     .caret {
         border-top: 4px solid;
+    }
+    #nonprofitOrganizationDiv2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
     }
 }
 

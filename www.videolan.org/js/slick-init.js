@@ -9,7 +9,8 @@ $(document).ready(function() {
         responsive: [{
             breakpoint: 767,
             settings: {
-                arrows: false
+                arrows: false,
+                autoplay: false
             }
         }]
     });

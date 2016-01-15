@@ -22,81 +22,7 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
     <script type='text/javascript'>
     //Editable details for the client side OS appropriate download detection.
     <?php
-    echo "
-    var PLATFORMS = {
-        windows: {
-            name: 'Windows',
-            size: '28&nbsp;MB',
-            latestVersion: '$win32version',
-            location: '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'
-        },
-        osx: {
-            name: 'Mac OS X',
-            size: '33&nbsp;MB',
-            latestVersion: '$macosxversion',
-            location: '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg'
-        },
-        osx32: {
-            name: 'Mac OS X (32bit)',
-            size: '26&nbsp;MB',
-            location: '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg'
-        },
-        osxPPC: {
-            name: 'Mac OS X (PPC)',
-            size: '25&nbsp;MB',
-            location: '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg'
-        },
-        ios: {
-            name: 'iOS',
-            size: '56.5&nbsp;MB',
-            latestVersion: '$iosversion',
-            location: '/vlc/download-ios.html'
-        },
-        linux: {
-            name: 'Linux',
-            location: '/vlc/#download'
-        },
-        android: {
-            name: 'Android',
-            location: '/vlc/download-android.html'
-        },
-        debian: {
-            name: 'Debian GNU/Linux',
-            location: '/vlc/download-debian.html'
-        },
-        ubuntu: {
-            name: 'Ubuntu',
-            location: 'apt://vlc'
-        },
-        fedora: {
-            name: 'Fedora Linux',
-            location: '/vlc/download-fedora.html'
-        },
-        redhat: {
-            name: 'RedHat Linux',
-            location: '/vlc/download-redhat.html'
-        },
-        gentoo: {
-            name: 'Gentoo Linux',
-            location: '/vlc/download-gentoo.html'
-        },
-        suse: {
-            name: 'Suse Linux',
-            location: '/vlc/download-suse.html'
-        },
-        mandriva: {
-            name: 'Mandriva Linux',
-            location: '/vlc/download-mandriva.html'
-        },
-        beos: {
-            name: 'BeOS',
-            location: '/vlc/download-beos.html'
-        },
-        freebs: {
-            name: 'FreeBSD',
-            location: '/vlc/download-freebsd.html'
-        }
-    };"
+    echo 'var PLATFORMS = '.getOS(null, 0, null, 'json').';';
     ?>
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
@@ -166,12 +92,112 @@ function downloadButton()
 <?php replaceDLinfos();
 }
 
-function downloadButton2()
+function getOS($os = null, $offset = 0, $count = null, $encode = null) {
+    global $windowsLocation;
+    global $osxLocation;
+    global $win32version;
+    global $version;
+    global $macosxversion;
+    global $oldmacosxversion;
+    global $iosversion;
+    global $dlBase;
+    $OSs = array(
+        "windows"   => array(
+            "name"          => "Windows",
+            "size"          => '28&nbsp;MB',
+            "latestVersion" => $win32version,
+            "location"      => $windowsLocation
+        ),
+        "osx"       => array(
+            "name"          => "Mac OS X",
+            "size"          => "33&nbsp;MB",
+            "latestVersion" => $macosxversion,
+            "location"      => $osxLocation
+        ),
+        "linux"     => array(
+            "name"          => "Linux",
+            "location"      => "/vlc/#download"
+        ),
+        "android"   => array(
+            "name"          => "Android",
+            "location"      => "/vlc/download-android.html"
+        ),
+        "ios"       => array(
+            "name"          => "iOS",
+            "size"          => "56.5&nbsp;MB",
+            "latestVersion" => $iosversion,
+            "location"      => "/vlc/download-ios.html"
+        ),
+        "osx32"     => array(
+            "name"          => "Mac OS X (32bit)",
+            "size"          => "26&nbsp;MB",
+            "location"      => "$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg"
+        ),
+        "osxPPC"    => array(
+            "name"          => "Mac OS X (PPC)",
+            "size"          => "25&nbsp;MB",
+            "location"      => "$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg"
+        ),
+        "debian"    => array(
+            "name"          => "Debian GNU/Linux",
+            "location"      => "/vlc/download-debian.html"
+        ),
+        "ubuntu"    => array(
+            "name"          => "Ubuntu",
+            "location"      => "apt://vlc"
+        ),
+        "fedora"    => array(
+            "name"          => "Fedora Linux",
+            "location"      => "/vlc/download-fedora.html"
+        ),
+        "redhat"    => array(
+            "name"          => "RedHat Linux",
+            "location"      => "/vlc/download-redhat.html"
+        ),
+        "gentoo"    => array(
+            "name"          => "Gentoo Linux",
+            "location"      => "/vlc/download-gentoo.html"
+        ),
+        "suse"      => array(
+            "name"          => "Suse Linux",
+            "location"      => "/vlc/download-suse.html"
+        ),
+        "mandriva"  => array(
+            "name"          => "Mandriva Linux",
+            "location"      => "/vlc/download-mandriva.html"
+        ),
+        "beos"      => array(
+            "name"          => "BeOS",
+            "location"      => "/vlc/download-beos.html"
+        ),
+        "freebs"    => array(
+            "name"          => "FreeBSD",
+            "location"      => "/vlc/download-freebsd.html"
+        )
+    );
+
+    //If $os is given $offset & $count are ignored
+    if (!is_null($os)) {
+        $slice = isset($OSs[$os]) ? $OSs[$os] : array();
+    }
+    else {
+        if (is_null($count)) {
+            $count = count($OSs);
+        }
+        $slice = array_slice($OSs, $offset, $count);
+    }
+    //order will not be conserved in js
+    return $encode === 'json' ?  json_encode($slice) : $slice;
+}
+
+function downloadButton2($dropdownItems = null)
 {
     global $dlUrl;
     global $win32version;
     global $windowsLocation;
     global $osxLocation;
+    $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 5) : $dropdownItems;
+    $defaultDetail = getOS("windows");
     ?>
     <div class="inner center-xs">
         <div class="btn-group">
@@ -181,43 +207,23 @@ function downloadButton2()
             <a href="/vlc/#download" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <span class="caret"></span>
             </a>
-
             <ul class="dropdown-menu dropdown-default platform-icons">
+                <?php
+                 foreach($dropdownItems as $item) {
+                     echo '<li><a href="'.$item['location'].'">'.$item['name'].'</a></li>';
+                 }
+                ?>
+                <li role="separator" class="divider"></li>
                 <li>
-                    <a href="<?php echo $windowsLocation ?>">
-                        Windows
-                    </a>
-                </li>
-                <li>
-                    <a href="<?php echo $osxLocation ?>">
-                        Mac OS X
-                    </a>
-                 </li>
-                 <li>
-                    <a href="/vlc/#download">
-                        GNU/Linux
-                    </a>
-                 </li>
-                 <li>
-                    <a href="/vlc/download-android.html">
-                        Android
-                    </a>
-                 </li>
-                 <li>
-                    <a href="/vlc/download-ios.html">
-                        iOS
-                    </a>
-                  </li>
-                  <li>
                     <a href="/vlc/#download">
                         <?php echo _('Other Systems'); ?>
                     </a>
-                  </li>
+                </li>
             </ul>
         </div>
         <div id="downloadDetails">
             Version <span id='downloadVersion'>
-            <?php echo $win32version ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
+            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
         </div>
         <div class="platform-icons main-os-icons">
             <a class="icon icon-windows" href="/vlc/download-windows.html"></a>

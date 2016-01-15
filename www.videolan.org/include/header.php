@@ -169,8 +169,9 @@ function start_head( $title,
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="//images.videolan.org/videolan-news.rss" />
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
-        <?php /* Alternate */ ?>
-        <?php if( isset($alternate_lang) ) {
+        <?php
+        /* Alternate */
+        if( isset($alternate_lang) ) {
             $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
             echo "<!-- ".$root_filename[0]." -->";
 
@@ -184,15 +185,13 @@ function start_head( $title,
                     */
                     echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
             }
-        } ?>
-
-        <?php /* CSS */ ?>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-        <?php
-        echo '<link rel="stylesheet" type="text/css" href="';
-        echo isDeveloper() ? "/style/style.css" : "//images.videolan.org/style/style.min.css";
-        echo '" />';
+        }
+        /* Common styles */
+        $base_css_url = isDeveloper() ? "/style/" : "//images.videolan.org/style/";
+        $main_css = isDeveloper() ? array("bootstrap.min.css", "style.css") : array("bootstrap.min.css", "style.min.css");
+        foreach ($main_css as $css) {
+            echo  '<link rel="stylesheet" type="text/css" href="'.$base_css_url.$css.'" />';
+        }
         ?>
 
         <?php /* Misc */ ?>

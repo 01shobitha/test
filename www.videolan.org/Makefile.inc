@@ -22,6 +22,15 @@ style/style.min.css: style/style.css
 	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
 	rm -f $@ && mv $@.tmp $@
 
+style/bootstrap.css: style/bootstrap.scss
+	@echo "Processing $< ..."
+	sassc $< > $@ || sass $< > $@
+
+style/bootstrap.min.css: style/bootstrap.css
+	@echo "Processing $< ..."
+	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
+	rm -f $@ && mv $@.tmp $@
+
 locales: index.af.php \
          index.an.php \
          index.ar.php \

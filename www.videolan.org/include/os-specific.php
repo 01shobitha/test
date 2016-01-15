@@ -245,14 +245,100 @@ function Screenshot( $os )
     echo $scr[$os][1]."\" />');";
 }
 
-function drawVLCdownloadSection() {
+function getScreenshots($os) {
+    $baseURL = "//images.videolan.org/images/screenshots";
+    $screenshots = array(
+        "All"  => array(
+            array(
+                "alt" => "VLC media player - Linux - Gnome",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
+            ),
+            array(
+                "alt" => "VLC media player - Windows 7 - Qt Interface",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+            ),
+            array(
+                "alt" => "VLC media player - Windows 7 - Qt Interface",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+            ),
+            array(
+                "alt" => "VLC media player - Windows 7 - Qt Interface",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
+            ),
+            array(
+                "alt" => "VLC media player - Windows Vista - Skins Interface",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
+            ),
+            array(
+                "alt" => "VLC media player - Windows Vista - Qt Interface",
+                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
+            )
+        ),
+        "Win32" => array(
+            array(
+                "alt" => "VLC on Windows",
+                "src" => "$baseURL/windows.jpg"
+            ),
+            array(
+                "src" => "$baseURL/windows.jpg"
+            )
+        ),
+        "Linux" => array(
+            array(
+                "alt" => "VLC on Linux",
+                "src" => "$baseURL/vlc-linux.jpg"
+            )
+        ),
+        "iOS" => array(
+            array(
+                "alt" => "VLC on Linux",
+                "src" => "$baseURL/vlc-ios.jpg"
+            )
+        ),
+        "OSX" => array(
+            array(
+                "alt" => "VLC on Linux",
+                "src" => "$baseURL/vlc-osx.jpg"
+            )
+        )
+    );
+
+    return isset($screenshots[$os]) ? $screenshots[$os] : null;
+}
+
+/*
+* Draw the download section.
+* If a OS is given it will draw a carousel of screenshots instead of a VLC icon.
+* Array of images are retrieved by calling the getScreenshots function.
+*/
+function drawVLCdownloadSection($os = null) {
+    $screenshots = null;
+    if (!is_null($os)) {
+        $screenshots = getScreenshots($os);
+    }
     ?>
     <section class="download-wrapper">
         <div class="row">
+            <?php
+            if (is_null($screenshots)) {
+            ?>
             <div class="hidden-xs v-align col-sm-5">
                 <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive'); ?>
             </div>
-            <div class="v-align col-sm-7">
+            <?php
+            } else {
+            echo '<div class="hidden-xs v-align col-sm-6 padding-right-40"><div id="header-carousel">';
+                    foreach($screenshots as $screenshot) {
+                        $dom  = '<div class="screenshot2">';
+                        $dom .= '<img alt="'.$screenshot['alt'].'" data-lazy="'.$screenshot['src'].'">';
+                        $dom .= '</div>';
+                        echo $dom;
+                    }
+                    echo '</div>';
+            echo '</div>';
+            }
+            ?>
+            <div class="v-align <?php echo is_null($os) ? 'col-sm-7' : 'col-sm-5'?>">
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">VLC media player</h1>

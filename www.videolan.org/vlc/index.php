@@ -2,8 +2,8 @@
    $language = "";
    $title = _("Official page for VLC media player, the Open Source video framework!");
    $new_design = true;
-   $additional_js = array("/js/slimbox2.js");
-   $additional_css= array("/js/css/slimbox2.css");
+   $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
 
@@ -22,7 +22,7 @@
     }
 ?>
 <div class="container">
-    <?php drawVLCdownloadSection(); ?>
+    <?php drawVLCdownloadSection("All"); ?>
     <div class="row">
         <div class="col-sm-6 padding-bottom-24">
            <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>

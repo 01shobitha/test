@@ -1,6 +1,7 @@
 /* =================================== CSS RESET =============================== */
 @import "style/theme";
 @import "style/mixins";
+@import "bootstrap/mixins/vendor-prefixes";
 
 *
 {
@@ -999,12 +1000,19 @@ img, .normalButton {
         font-size: 16px;
     }
     .row.reorder-xs {
-        transform: rotate(180deg);
-        direction: rtl; /* Fix the horizontal alignment */
+        @include rotate(180deg);
     }
     .row.reorder-xs > [class*="col-"] {
-        transform: rotate(-180deg);
-        direction: ltr; /* Fix the horizontal alignment */
+        @include rotate(-180deg);
+    }
+    html[dir="rtl"] .row.reorder-xs {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-xs {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-xs > [class*="col-"] {
+        direction: rtl; /* Fix the horizontal alignment */
     }
     .carousel-padding-xs {
         padding: 20px 0 0 0;

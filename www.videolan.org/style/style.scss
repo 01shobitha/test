@@ -1,5 +1,6 @@
 /* =================================== CSS RESET =============================== */
 @import "style/theme";
+@import "style/mixins";
 
 *
 {
@@ -822,8 +823,7 @@ img, .normalButton {
 }
 
 .big-vlc-img {
-    /* h1 margin */
-    padding-top: 24px;
+    max-width: 260px;
     display: block;
     margin: 0 auto;
 }
@@ -878,6 +878,10 @@ img, .normalButton {
 
 .padding-bottom-15 {
     padding-bottom: 15px;
+}
+
+.padding-right-40 {
+    padding-right: 40px;
 }
 
 .extra-info-link2 {
@@ -953,6 +957,11 @@ img, .normalButton {
     .center-font-sm {
         text-align: center;
     }
+    .new-design {
+        h1.bigtitle {
+            font-size: 36px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -974,9 +983,8 @@ img, .normalButton {
     .new-design .download-wrapper {
         padding-bottom: 10px;
         .big-vlc-img {
-            padding-top: 0;
             width: 44px;
-            margin: 6px 6px 0 -6px;
+            margin: 0 6px 12px -6px;
         }
         h1.bigtitle {
             font-size: 32px;
@@ -1032,14 +1040,14 @@ img, .normalButton {
 /* ============================ VLC Download =========================== */
 .download-wrapper {
     padding-bottom: 30px;
+    padding-top: 24px;
+    h1 {
+        margin-top: 0;
+    }
 }
 
 .download-wrapper .inner {
     display: table;
-}
-
-.download-wrapper img {
-    max-width: 250px;
 }
 
 .download-wrapper .btn-group {

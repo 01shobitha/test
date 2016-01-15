@@ -31,6 +31,21 @@ style/bootstrap.min.css: style/bootstrap.css
 	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
 	rm -f $@ && mv $@.tmp $@
 
+style/slick.css: style/slick.scss style/slick-theme.scss
+	@echo "Processing $< ..."
+	sassc $< > $@ || sass $< > $@
+
+style/slick.min.css: style/slick.css
+	@echo "Processing $< ..."
+	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
+	rm -f $@ && mv $@.tmp $@
+
+js/slick.min.js: js/slick.js
+	@echo "Processing $< ..."
+	yui-compressor --type js $< > $@.tmp || cp $< $@.tmp
+	rm -f $@ && mv $@.tmp $@
+
+
 locales: index.af.php \
          index.an.php \
          index.ar.php \

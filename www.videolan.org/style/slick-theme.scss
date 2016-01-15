@@ -1,0 +1,82 @@
+@import "style/mixins";
+@import "bootstrap/mixins/vendor-prefixes";
+
+$left-arrow: "/images/icons/arrow-left.png";
+$right-arrow: "/images/icons/arrow-right.png";
+$bg-color: rgba(0, 0, 0, 0.2);
+$bg-color-hover: rgba(0, 0, 0, 0.4);
+/* Arrows */
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 100%;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: transparent;
+    @include transition(background-color 200ms ease-out 0.1ms, opacity 80ms ease-out 0.1ms, background-size 20ms ease-out 0.1ms);
+}
+
+.slick-prev {
+    left: 0;
+    background: $bg-color url($left-arrow) center no-repeat;
+    background-size: 40px;
+    &:hover {
+        background: $bg-color-hover url($left-arrow) center no-repeat;
+        background-size: 50px;
+    }
+}
+
+.slick-next {
+    right: 0;
+    background: $bg-color url($right-arrow) center no-repeat;
+    background-size: 40px;
+    &:hover {
+        background: $bg-color-hover url($right-arrow) center no-repeat;
+        background-size: 50px;
+    }
+}
+
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+    opacity: .25;
+}
+
+[dir='rtl'] .slick-prev {
+    right: 0;
+    left: auto;
+    background: url($right-arrow) center no-repeat;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: 0;
+    background: url($left-arrow) center no-repeat;
+}
+
+.bg-nav-left,
+.bg-nav-right {
+    position: absolute;
+}
+
+#header-carousel .screenshot2 {
+    overflow: hidden;
+    max-height: 320px;
+    @include aspect-ratio(16, 9);
+}
+
+#header-carousel img {
+    max-width: 100%;
+    height: auto;
+    //max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

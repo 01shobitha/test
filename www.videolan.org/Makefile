@@ -29,7 +29,9 @@ ifneq ($(PHP_IGNORES),)
 endif
 
 TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/news-rss.html $(ROOT)/style/style.min.css \
-	$(ROOT)/style/bootstrap.min.css
+	$(ROOT)/style/bootstrap.min.css \
+	$(ROOT)/style/slick.min.css \
+	$(ROOT)/js/slick.min.js
 
 real-all: $(TARGETS) all-recursive
 

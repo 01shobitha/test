@@ -343,10 +343,13 @@ function drawVLCdownloadSection($os = null) {
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">VLC media player</h1>
                 </div>
-
-                <div class="projectDescription center-font-xs">
+                <div class="projectDescription hidden-sm hidden-xs">
                     <?php echo
                     _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
+                </div>
+                <div class="projectDescription visible-xs visible-sm center-font-xs">
+                    <?php echo
+                    _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."); ?>
                 </div>
                 <?php downloadButton2(); ?>
             </div>

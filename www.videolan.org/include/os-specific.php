@@ -190,19 +190,27 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     return $encode === 'json' ?  json_encode($slice) : $slice;
 }
 
-function downloadButton2($dropdownItems = null)
+function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOSicons = true, $alternativeTitle = null)
 {
     global $dlUrl;
     global $win32version;
     global $windowsLocation;
     global $osxLocation;
     $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 5) : $dropdownItems;
-    $defaultDetail = getOS("windows");
+    $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;
+    $defaultDetail = getOS($defaultOS);
     ?>
     <div class="inner center-xs">
         <div class="btn-group">
             <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $dlUrl; ?>'>
-                <span class='downloadText'><?php echo _("Download"); ?> <b>VLC</b></span>
+                <span class='downloadText'>
+                    <?php
+                    if (!is_null($alternativeTitle))
+                        echo _($alternativeTitle);
+                    else
+                        echo _("Download")." <b>VLC</b>";
+                    ?>
+                </span>
             </a>
             <a href="/vlc/#download" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <span class="caret"></span>
@@ -225,6 +233,7 @@ function downloadButton2($dropdownItems = null)
             Version <span id='downloadVersion'>
             <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
         </div>
+        <?php if ($displayMainOSicons) { ?>
         <div class="platform-icons main-os-icons">
             <a class="icon icon-windows" href="/vlc/download-windows.html"></a>
             <a class="icon icon-macosx" href="/vlc/download-macosx.html"></a>
@@ -232,8 +241,9 @@ function downloadButton2($dropdownItems = null)
             <a class="icon icon-android" href="/vlc/download-android.html"></a>
             <a class="icon icon-ios" href="/vlc/download-ios.html"></a>
         </div>
+        <?php } ?>
     </div>
-    <?php replaceDLinfos( "#downloadButton2" );
+    <?php if (is_null($targetOS)) replaceDLinfos( "#downloadButton2" );
 }
 
 function Screenshot( $os )
@@ -256,55 +266,52 @@ function getScreenshots($os) {
     $screenshots = array(
         "All"  => array(
             array(
-                "alt" => "VLC media player - Linux - Gnome",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
+                "name"  => "VLC media player - Linux - Gnome",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
             ),
             array(
-                "alt" => "VLC media player - Windows 7 - Qt Interface",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
             ),
             array(
-                "alt" => "VLC media player - Windows 7 - Qt Interface",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
             ),
             array(
-                "alt" => "VLC media player - Windows 7 - Qt Interface",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
             ),
             array(
-                "alt" => "VLC media player - Windows Vista - Skins Interface",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
+                "name"  => "VLC media player - Windows Vista - Skins Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
             ),
             array(
-                "alt" => "VLC media player - Windows Vista - Qt Interface",
-                "src" => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
+                "name"  => "VLC media player - Windows Vista - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
             )
         ),
-        "Win32" => array(
+        "windows" => array(
             array(
-                "alt" => "VLC on Windows",
-                "src" => "$baseURL/windows.jpg"
-            ),
-            array(
-                "src" => "$baseURL/windows.jpg"
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
             )
         ),
-        "Linux" => array(
+        "linux" => array(
             array(
-                "alt" => "VLC on Linux",
-                "src" => "$baseURL/vlc-linux.jpg"
+                "name"  => "VLC on Linux",
+                "src"   => "$baseURL/vlc-linux.jpg"
             )
         ),
-        "iOS" => array(
+        "ios" => array(
             array(
-                "alt" => "VLC on Linux",
-                "src" => "$baseURL/vlc-ios.jpg"
+                "name"  => "VLC on Linux",
+                "src"   => "$baseURL/vlc-ios.jpg"
             )
         ),
-        "OSX" => array(
+        "osx" => array(
             array(
-                "alt" => "VLC on Linux",
-                "src" => "$baseURL/vlc-osx.jpg"
+                "name"  => "VLC on Linux",
+                "src"   => "$baseURL/vlc-osx.jpg"
             )
         )
     );
@@ -317,7 +324,7 @@ function getScreenshots($os) {
 * If a OS is given it will draw a carousel of screenshots instead of a VLC icon.
 * Array of images are retrieved by calling the getScreenshots function.
 */
-function drawVLCdownloadSection($os = null) {
+function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainOSicons = true, $alternativeTitle = null) {
     $screenshots = null;
     if (!is_null($os)) {
         $screenshots = getScreenshots($os);
@@ -336,7 +343,7 @@ function drawVLCdownloadSection($os = null) {
                 echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
                 foreach($screenshots as $screenshot) {
                     $dom  = '<div class="screenshot2">';
-                    $dom .= '<img alt="'.$screenshot['alt'].'" data-lazy="'.$screenshot['src'].'">';
+                    $dom .= '<img alt="'.$screenshot['name'].'" data-lazy="'.$screenshot['src'].'">';
                     $dom .= '</div>';
                     echo $dom;
                 }
@@ -346,7 +353,14 @@ function drawVLCdownloadSection($os = null) {
             <div class="v-align <?php echo is_null($os) ? 'col-sm-7' : 'col-sm-5'?>">
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
-                    <h1 class="v-align bigtitle">VLC media player</h1>
+                    <h1 class="v-align bigtitle">
+                        <?php
+                        if (!is_null($alternativeTitle))
+                            echo _($alternativeTitle);
+                        else
+                            echo "VLC media player";
+                        ?>
+                    </h1>
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">
                     <?php echo
@@ -356,7 +370,7 @@ function drawVLCdownloadSection($os = null) {
                     <?php echo
                     _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."); ?>
                 </div>
-                <?php downloadButton2(); ?>
+                <?php downloadButton2($dropdownItems, $os, $displayMainOSicons); ?>
             </div>
         </div>
     </section>

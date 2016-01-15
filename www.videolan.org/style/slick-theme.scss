@@ -5,6 +5,12 @@ $left-arrow: "/images/icons/arrow-left.png";
 $right-arrow: "/images/icons/arrow-right.png";
 $bg-color: rgba(0, 0, 0, 0.2);
 $bg-color-hover: rgba(0, 0, 0, 0.4);
+
+img.slick-loading {
+    background: #fff url('/images/icons/ripple-loader.svg') center center no-repeat;
+    color: white;
+}
+
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -68,7 +74,6 @@ $bg-color-hover: rgba(0, 0, 0, 0.4);
 
 #header-carousel .screenshot2 {
     overflow: hidden;
-    max-height: 320px;
     @include aspect-ratio(16, 9);
 }
 

@@ -880,10 +880,6 @@ img, .normalButton {
     padding-bottom: 15px;
 }
 
-.padding-right-40 {
-    padding-right: 40px;
-}
-
 .extra-info-link2 {
     text-transform: uppercase;
     font-size: 13px;
@@ -1001,6 +997,17 @@ img, .normalButton {
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 16px;
+    }
+    .row.reorder-xs {
+        transform: rotate(180deg);
+        direction: rtl; /* Fix the horizontal alignment */
+    }
+    .row.reorder-xs > [class*="col-"] {
+        transform: rotate(-180deg);
+        direction: ltr; /* Fix the horizontal alignment */
+    }
+    .carousel-padding-xs {
+        padding: 20px 0 0 0;
     }
 }
 

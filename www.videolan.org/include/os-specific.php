@@ -289,6 +289,14 @@ function getScreenshots($os) {
                 "name"  => "VLC media player - Windows Vista - Qt Interface",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
             )
+            array(
+                "name"  => "VLC on iPad",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+            )
+            array(
+                "name"  => "VLC on Apple TV",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
+            )
         ),
         "windows" => array(
             array(
@@ -304,13 +312,17 @@ function getScreenshots($os) {
         ),
         "ios" => array(
             array(
-                "name"  => "VLC on Linux",
-                "src"   => "$baseURL/vlc-ios.jpg"
+                "name"  => "VLC on iPad",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+            )
+            array(
+                "name"  => "VLC on Apple Watch",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/vlc-ios-2.6-watch-list.jpg"
             )
         ),
         "osx" => array(
             array(
-                "name"  => "VLC on Linux",
+                "name"  => "VLC on OS X",
                 "src"   => "$baseURL/vlc-osx.jpg"
             )
         )

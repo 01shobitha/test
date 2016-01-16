@@ -341,11 +341,15 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
             <?php
             } else {
                 echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
+                $first = true;
                 foreach($screenshots as $screenshot) {
+                    $src = $first ? $screenshot['src'] : '';
+                    $srcLazy = $first ? '' : $screenshot['src'];
                     $dom  = '<div class="screenshot2">';
-                    $dom .= '<img src="" alt="'.$screenshot['name'].'" data-lazy="'.$screenshot['src'].'">';
+                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
                     $dom .= '</div>';
                     echo $dom;
+                    $first = false;
                 }
                 echo '</div></div>';
             }

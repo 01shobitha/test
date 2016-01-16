@@ -89,3 +89,17 @@ $bg-color-hover: rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-right: auto;
 }
+
+#header-carousel .screenshot2 {
+    &:first-child {
+        display: block;
+    }
+}
+
+#header-carousel .screenshot2 {
+    display: none;
+}
+
+#header-carousel .screenshot2.slick-slide {
+    display: block;
+}

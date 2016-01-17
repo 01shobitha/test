@@ -13,7 +13,26 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 
 <div id="fullwidth" >
 
-<h2 class="clearme">2.2 - Twoflower</h2>
+<h2 class="clearme">1.0 - Apple TV</h2>
+                <?php
+                screenshot( "appletv/Apple-TV-device-browse.jpg",
+                               "appletv/tm_Apple-TV-device-browse.jpg",
+                               "4th gen Apple TV - tvOS 9.0", "1774x1137")
+                screenshot( "appletv/Apple-TV-device-playback.jpg",
+                               "appletv/tm_Apple-TV-device-playback.jpg",
+                               "4th gen Apple TV - tvOS 9.0", "1787x1162")
+                screenshot( "appletv/Apple-TV-device-playback-speed.jpg",
+                               "appletv/tm_Apple-TV-device-playback-speed.jpg",
+                               "4th gen Apple TV - tvOS 9.0", "1781x1145")
+                screenshot( "appletv/Apple-TV-device-ipad-iphone-browse.jpg",
+                               "appletv/tm_Apple-TV-device-ipad-iphone-browse.jpg",
+                               "4th gen Apple TV - tvOS 9.0", "2694x1500")
+                screenshot( "appletv/Apple-TV-device-ipad-iphone-playback.jpg",
+                               "appletv/tm_Apple-TV-device-ipad-iphone-playback.jpg",
+                               "4th gen Apple TV - tvOS 9.0", "2675x1500")
+                ?>
+
+<h2 class="clearme">2.2 - Weatherwax</h2>
                 <?php
                 screenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
                                "2.2.0/tm_vlc-2.2-macosx-playback.jpg",

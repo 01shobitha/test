@@ -274,28 +274,40 @@ function getScreenshots($os) {
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
             ),
             array(
-                "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+                "name"  => "VLC on OS X",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
             ),
             array(
+                "name"  => "VLC on iPad",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+            ),
+            array(
                 "name"  => "VLC media player - Windows Vista - Skins Interface",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple TV",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+            ),
+            array(
+                "name"  => "VLC on OS X",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion-black.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows Vista - Qt Interface",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
             ),
             array(
-                "name"  => "VLC on iPad",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
-            ),
-            array(
-                "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
+                "name"  => "VLC on OS X",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-continue-playback.jpg"
             )
         ),
         "windows" => array(
@@ -323,7 +335,15 @@ function getScreenshots($os) {
         "osx" => array(
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "$baseURL/vlc-osx.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion.jpg"
+            ),
+            array(
+                "name"  => "VLC on OS X",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion-black.jpg"
+            ),
+            array(
+                "name"  => "VLC on OS X",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-continue-playback.jpg"
             )
         )
     );

@@ -4,8 +4,8 @@ $language = "";
 $title = _("VLC: Official site - Free multimedia solutions for all OS!");
 $body_color = "blue";
 $new_design = true;
-$additional_js = array("/js/slimbox2.js");
-$additional_css= array("/js/css/slimbox2.css");
+$additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
+$additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
 
 require($_SERVER["DOCUMENT_ROOT"] . "/include/language.php");
 require($_SERVER["DOCUMENT_ROOT"] . "/include/header.php");

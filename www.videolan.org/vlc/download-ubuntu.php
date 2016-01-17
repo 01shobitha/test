@@ -54,7 +54,6 @@
                             <a href="apt://vlc"><img src="https://apps.ubuntu.com/assets/images/scbutton-free-200px.png" title="Download for Ubuntu" alt="Download for Ubuntu button" /></a>
 			        </div>
 			        <div id="downloadDetails">
-			            Version <span id='downloadVersion'>
 			            <span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>
 			        </div>
 			    </div>
@@ -62,14 +61,23 @@
         </div>
     </section>
 
-<h2>
-Ubuntu 13.10 <span style='font-size: smaller'>&ldquo;Saucy Salamander&rdquo;</span><br />
+<h2>Supported releases</h2>
+<p class="projectDescription">Ubuntu 13.10 <span style='font-size: smaller'>&ldquo;Saucy Salamander&rdquo;</span><br />
 Ubuntu 13.04 <span style='font-size: smaller'>&ldquo;Raring Ringtail&rdquo;</span><br />
 Ubuntu 12.10 <span style='font-size: smaller'>&ldquo;Quantal Quetzal&rdquo;</span><br />
 Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;</span><br />
-</h2>
+</p>
 
-<h3>Graphical way</h3>
+<div id="right">
+<?php panel_start( "orange" ); ?>
+<h1>Playing DVD (libdvdcss)</h1>
+<p>In order to be able to play region-locked DVD, you need install libdvdcss2.
+You should follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
+to install libdvdcss2.</p>
+<?php panel_end(); ?>
+</div>
+
+<h2>Installation the Graphical way</h2>
 <p class="projectDescription"><p>Open <b>Synaptic</b> application (click on System -&gt; Administration -&gt; Synaptic Package Manager).
 </p>
 
@@ -78,7 +86,7 @@ You may also want to install <kbd>browser-plugin-vlc</kbd>.</p>
 <p class="projectDescription">If you are interested in streaming or transcoding,
 you should additionally install <kbd>libavcodec-extra-53</kbd>.</p>
 
-<h3>Command line way</h3>
+<h2>Installation the Command line way</h2>
 <p><blockquote>
 <pre>
 % sudo apt-get update
@@ -97,16 +105,6 @@ but no further major VLC version updates until the next Ubuntu release.
 If you need a more recent version, please consider upgrading Ubuntu.
 </p>
 
-</div>
-
-<div id="right">
-
-<?php panel_start( "orange" ); ?>
-<h1>Playing DVD (libdvdcss)</h1>
-<p>In order to be able to play region-locked DVD, you need install libdvdcss2.
-You should follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
-to install libdvdcss2.</p>
-<?php panel_end(); ?>
 </div>
 
 </div>

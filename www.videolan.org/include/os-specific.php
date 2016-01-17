@@ -360,23 +360,23 @@ function getScreenshots($os) {
         "tvos" => array(
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV, iPad and iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV, iPad and iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-medium.jpg"
             )
         ),
         "osx" => array(

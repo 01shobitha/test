@@ -34,12 +34,14 @@ $vlc_version_old = "2.0.10";
 	    "$vlc_version_old/macosx","vlc-$vlc_version_old-intel32.dmg","vlc", "dmg package", "5b3aedda97e06500c7954c56f0902cb3");
 	pkgitem_sf( "PowerPC",
 	    "$vlc_version_old/macosx","vlc-$vlc_version_old-powerpc.dmg","vlc", "dmg package", "4e4c956647ba6ed948f9fd89f250c999"); ?>
+	<div style="float: right; width: 40%; padding-left: 60%;">
     <h2>Older versions</h2>
 	<p>Use VLC <b>0.9.10</b> for 10.4 Tiger. <b>Mac OS X 10.4.7</b> or later is <b>required</b>.</p>
 	<p>Use VLC <b>0.8.6i</b> for 10.3 Panther.</p>
 	<p>Use VLC <b>0.8.4a</b> for 10.2 Jaguar.</p>
 	<p>Use VLC <b>0.7.0</b> for 10.1 Puma .</p>
     <?php browse_old("vlc") ?>
+    </div>
     </div>
 </div>
 <?php footer('$Id$'); ?>

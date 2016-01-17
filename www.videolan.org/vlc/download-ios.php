@@ -1,27 +1,70 @@
 <?php
-   $title = "VLC for iOS";
+   $title = "Official Download of VLC media player for iOS";
+   $new_design = true;
    $lang = "en";
    $menu = array( "vlc", "download" );
 
-   $additional_js = array("/js/slimbox2.js");
-   $additional_css= array("/js/css/slimbox2.css");
-
+   $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
    $version = "2.7.2";
 ?>
 
-    <h1 class="bigtitle"> VLC for iOS <?php echo $version; ?></h1>
+<div class="container">
+	<?php
+	$screenshots = getScreenshots("ios");
+	$defaultDetail = getOS("ios");
+	?>
+    <section class="download-wrapper">
+        <div class="row reorder-xs">
+            <?php
+                echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
+                $first = true;
+                foreach($screenshots as $screenshot) {
+                    $src = $first ? $screenshot['src'] : '';
+                    $srcLazy = $first ? '' : $screenshot['src'];
+                    $dom  = '<div class="screenshot2">';
+                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
+                    $dom .= '</div>';
+                    echo $dom;
+                    $first = false;
+                }
+                echo '</div></div>';
+            ?>
+            <div class="v-align 'col-sm-5'">
+                <div class="center-font-xs">
+                    <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
+                    <h1 class="v-align bigtitle">
+                        <?php
+                            echo "VLC for iOS";
+                        ?>
+                    </h1>
+                </div>
+                <div class="projectDescription hidden-sm hidden-xs">
+                    <?php echo
+                    _("VLC for iOS can play all your movies and shows in most formats directly without conversion. You can synchronize media to your device using WiFi Upload, iTunes, various Cloud services, or direct downloads from the web."); ?>
+                </div>
+                <div class="projectDescription visible-xs visible-sm center-font-xs">
+                    <?php echo
+                    _("VLC for iOS can play all your movies and shows in most formats directly without conversion. You can synchronize media to your device using WiFi Upload, iTunes, various Cloud services, or direct downloads from the web."); ?>
+                </div>
 
-<h2> Introduction </h2>
-<p>VLC for iOS can play all your movies and shows in most formats directly without conversion.<br />
-You can synchronize media to your device using WiFi Upload, iTunes, various Cloud services, or direct downloads from the web.<br />
-</p>
-
-<h2> Features </h2>
-
-<div style="margin-left: 0;margin-right:150px; width:220px; float: right;">
-<p><a href="https://itunes.apple.com/app/apple-store/id650377962?pt=454758&ct=vodownloadpage&mt=8"><img src="../images/appstoredownload-en.png" border="0" /></a>
+			    <div class="inner center-xs">
+			        <div class="btn-group">
+<a href="https://itunes.apple.com/app/apple-store/id650377962?pt=454758&ct=vodownloadpage&mt=8"><img src="../images/appstoredownload-en.png" border="0" /></a>
+			        </div>
+			        <div id="downloadDetails">
+			            Version <span id='downloadVersion'>
+			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
+			        </div>
+			    </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <p>
@@ -41,30 +84,6 @@ You can synchronize media to your device using WiFi Upload, iTunes, various Clou
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>
-
-<?php
-function vlcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='overflow: hidden; width: 300px;'><a href='//images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
-    src='//images1.videolan.org/vlc/screenshots/$thumb' alt='VLC for iOS - $desc' /></a>
-    </div>";
-}
-?>
-<div style='float: right; width: 450px; padding-left: 70px;'>
-    <?php
-    vlcscreenshot( "ios2/ipadblackplayback.jpg",
-                "ios2/ipadblackplayback-small.jpg",
-                "Playback on iPad");
-    vlcscreenshot( "ios2/ipadwhitelibrary.jpg",
-                "ios2/ipadwhitelibrary-small.jpg",
-                "iPad Library" );
-    vlcscreenshot( "ios2/iphoneblackplayback.jpg",
-                "ios2/iphoneblackplayback-small.jpg",
-                "Playback on iPhone" );
-    vlcscreenshot( "ios2/iphoneblacklibrary.jpg",
-                "ios2/iphoneblacklibrary-small.jpg",
-                "Library on iPhone" );
-    ?>
-</div>
 
 <h2> Devices and iOS version </h2>
 <p>VLC for iOS requires iOS 7.0 or later. It runs on any iPhone, iPad, or iPod touch. Previous releases for iOS 6.1 are available.</p>

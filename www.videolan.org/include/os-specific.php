@@ -358,7 +358,9 @@ function getScreenshots($os) {
 */
 function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainOSicons = true, $alternativeTitle = null) {
     $screenshots = null;
-    if (!is_null($os)) {
+    if (is_null($os)) {
+        $screenshots = getScreenshots("All");
+    } else {
         $screenshots = getScreenshots($os);
     }
     ?>

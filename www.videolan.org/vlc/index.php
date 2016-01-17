@@ -112,7 +112,6 @@
                 addos( "Fedora", "fedora", "download-fedora.html" );
                 addos( "Arch Linux", "archlinux", "download-archlinux.html" );
                 addos( "Slackware Linux", "slackware", "download-slackware.html" );
-                addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
                 addos( "ALT Linux", "altlinux", "download-altlinux.html" );
                 addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
             ?>

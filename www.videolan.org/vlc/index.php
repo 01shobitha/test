@@ -92,8 +92,10 @@
         <div class="col-sm-4">
             <h2>Windows</h2>
             <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
-            <h2>Mac OS X</h2>
-            <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true ); ?>
+            <h2>Apple Platforms</h2>
+            <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
+                  addos( "iOS", "ios", "download-ios.html" );
+                  addos( "Apple TV", "appletv", "download-appletv.html" ); ?>
             <h2><?php echo _("Sources"); ?></h2>
             <p><?php echo _("You can also directly get the").' <strong><a href="download-sources.html">'
                 ._("source code").'</a></strong>.</p>'; ?>
@@ -124,8 +126,6 @@
                 addos( "OpenBSD", "openbsd", "download-sources.html" );
                 addos( "Solaris", "solaris", "download-sources.html" );
                 addos( "Android", "android", "download-android.html" );
-                addos( "iOS", "ios", "download-ios.html" );
-                addos( "Apple TV", "appletv", "download-appletv.html" );
                 addos( "QNX", "qnx", "download-sources.html" );
                 addos( "Syllable", "syllable", "download-syllable.html" );
                 addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" );

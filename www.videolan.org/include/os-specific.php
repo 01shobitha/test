@@ -336,6 +336,10 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC on Linux",
                 "src"   => "$baseURL/vlc-linux.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Linux - Gnome",
+                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
             )
         ),
         "ios" => array(

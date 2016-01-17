@@ -29,8 +29,8 @@
 ?>
 
 <div class="container">
-    <?php drawVLCdownloadSection("windows", $dropdownItems, false, "VLC for windows"); ?>
-    <h2>Download VLC for Windows 95/98/Me</h1>
+    <?php drawVLCdownloadSection("windows", $dropdownItems, false, "VLC for Windows"); ?>
+    <h2>VLC for Windows 95/98/Me</h1>
     <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
     version of VLC</p>
     <h2>Older versions</h2>

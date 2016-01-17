@@ -20,6 +20,7 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
     global $oldmacosxversion;
     global $iosversion;
     global $tvosversion;
+    global $androidversion;
     global $dlBase;
     ?>
     <script type='text/javascript'>

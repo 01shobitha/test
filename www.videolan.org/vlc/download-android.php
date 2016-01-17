@@ -37,7 +37,7 @@
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">
-                        VLC for iOS
+                        VLC for Android&trade;
                     </h1>
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">
@@ -60,7 +60,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 			        </div>
 			        <div id="downloadDetails">
 			            Version <span id='downloadVersion'>
-			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
+			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span></span>
                         <br>
                         or download the <a href="//get.videolan.org/vlc-android/<?php echo $android_version; ?>/">APK package</a> from our mirrors.
 			        </div>
@@ -74,13 +74,13 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
    <div style='float: left; width: 480px; margin-bottom: 20px;'>
    <!--    <div class='audienceCallout'><?php echo _("Video"); ?></div> -->
        <div class='clearme'>
-           <div class='productDescription'>
+           <div class='bullets'>
                <ul>
                   <li>Plays all files, in all formats, like the classic VLC.</li>
                   <li>Audio and video media library, with full search.</li>
                   <li>Support for network streams, including HLS.</li>
-                  <li>Supports Android from version 2.2 (platform-8).</li>
-                  <li>Supports ARMv6, ARMv7, MIPS and x86.</li>
+                  <li>Supports Android Version 2.2 (platform-8) or later.</li>
+                  <li>Supports ARMv6, ARMv7, ARMv8 / AArch64, MIPS and x86.</li>
                   <li>Supports secondary display.</li>
                </ul>
            </div>
@@ -89,7 +89,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
    <div style='float: left; width: 480px;'>
 <!--       <div class='audienceCallout'><?php echo _("Audio"); ?></div> -->
        <div class='clearme'>
-           <div class='productDescription'>
+           <div class='bullets'>
                <ul>
                   <li>Subtitles support, embedded and external, including ASS and DVD subtitles.</li>
                   <li>Multi audio or subtitles tracks selection.</li>
@@ -105,35 +105,22 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 
 <h1 class='clearme'>Help us!</h1>
 <h2>Test it</h2>
-<p>We need help to test VLC under a variety of devices.</p>
-<p>Please join us on our <a href="http://forum.videolan.org/viewforum.php?f=35">forum</a>.</p>
-
-<!--><h2>Kickstart us!</h2>
-    <div class='productDescription'>
-<p>We need funding to:</p>
-        <ul>
-            <li>Buy or rent the large variety of devices;</li>
-            <li>Fund some developers and support people to fix bugs;</li>
-            <li>Buy various tools to speed-up development.</li>
-        </ul>
-<p>so VLC works perfectly on Android phones and tablets.</p>
-    </div>-->
+<p class="projectDescription">We need help to test VLC under a variety of devices.<br />
+    Please join us on our <a href="http://forum.videolan.org/viewforum.php?f=35">forum</a> to provide feedback and get assistance with any issues you might have.</p>
 
 <h2>Send us phones</h2>
-<p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
-<p><a href="/contact.html">Contact us</a>.</p>
-
+<p class="projectDescription">If you are a phone manufacturer or have spare phones, please send them to us :)<br />
+    <a href="/contact.html">Contact us</a>.</p>
 
 <h1>Decoding performance</h1>
 
-<p>VLC can decode video in software and hardware mode. Hardware decoding often provides better performance but is not supported on all devices. If your device Android version is below 4.3, software decoding may be the only working option for you. 
+<p class="projectDescription">VLC can decode video in software and hardware mode. Hardware decoding often provides better performance but is not supported on all devices. If your device Android version is below 4.3, software decoding may be the only supported option for you.</p>
 
 <h1>Documentation</h1>
-
-<p>See <a href="https://wiki.videolan.org/Documentation:Android/">here</a> for additional documentation.
+<p class="projectDescription">We have documentation available on our wiki - please have a look <a href="https://wiki.videolan.org/Documentation:Android/">here</a>.
 
 <h1>Thanks</h1>
-<p>
+<p class="projectDescription">
 We would like to thank people who helped us.<br />
 <a href="http://www.solutionslinux.fr/"><?php image( 'partners/android/SL.png', 'SolutionLinux', '' ); ?></a>
 <a href="http://www.dojocrea.fr/"><?php image( 'partners/android/dojocrea.jpg', 'Dojocrea', '' ); ?></a>

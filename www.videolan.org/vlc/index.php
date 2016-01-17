@@ -22,7 +22,7 @@
     }
 ?>
 <div class="container">
-    <?php drawVLCdownloadSection("All"); ?>
+    <?php drawVLCdownloadSection(); ?>
     <div class="row">
         <div class="col-sm-6 padding-bottom-24">
            <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>

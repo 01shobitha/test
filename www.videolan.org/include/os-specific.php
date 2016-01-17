@@ -202,7 +202,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
     ?>
     <div class="inner center-xs">
         <div class="btn-group">
-            <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $dlUrl; ?>'>
+            <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $defaultDetail["location"]; ?>'>
                 <span class='downloadText'>
                     <?php
                     if (!is_null($alternativeTitle))

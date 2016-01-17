@@ -14,6 +14,7 @@
    $version = "1.0.0";
 ?>
 
+<div class="container">
     <?php
     $screenshots = getScreenshots("tvos");
     $defaultDetail = getOS("tvos");
@@ -43,15 +44,11 @@
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">
                     <?php echo
-                    _("VLC on the Apple TV allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV.<br />
-Following the VLC goal &quot;<i>VLC plays everything and runs everywhere</i>&quot;, you will get every feature and format support you are used to in VLC, and a few Apple TV specific features.<br />
-And, following VideoLAN's mission, VLC on the Apple TV is fully free and open source, and available right now on the App Store."); ?>
+                    _("VLC on the Apple TV allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV. Following the VLC goal &quot;<i>VLC plays everything and runs everywhere</i>&quot;, you will get every feature and format support you are used to in VLC, and a few Apple TV specific features. And, following VideoLAN's mission, VLC on the Apple TV is fully free and open source, and available right now on the App Store."); ?>
                 </div>
                 <div class="projectDescription visible-xs visible-sm center-font-xs">
                     <?php echo
-                    _("VLC on the Apple TV allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV.<br />
-Following the VLC goal &quot;<i>VLC plays everything and runs everywhere</i>&quot;, you will get every feature and format support you are used to in VLC, and a few Apple TV specific features.<br />
-And, following VideoLAN's mission, VLC on the Apple TV is fully free and open source, and available right now on the App Store."); ?>
+                    _("VLC on the Apple TV allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV. Following the VLC goal &quot;<i>VLC plays everything and runs everywhere</i>&quot;, you will get every feature and format support you are used to in VLC, and a few Apple TV specific features. And, following VideoLAN's mission, VLC on the Apple TV is fully free and open source, and available right now on the App Store."); ?>
                 </div>
 
                 <div class="inner center-xs">
@@ -84,6 +81,9 @@ And, following VideoLAN's mission, VLC on the Apple TV is fully free and open so
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>
+
+<h2> Devices and tvOS version </h2>
+<p>VLC for Apple TV requires tvOS 9.0 or later. It runs on the fourth generation Apple TV. Previous devices are not supported.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for Apple TV? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>

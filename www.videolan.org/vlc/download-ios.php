@@ -64,6 +64,7 @@
         </div>
     </section>
 
+<h2> Features </h2>
 <p>
 <ul class="productDescription">
   <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
@@ -78,6 +79,7 @@
   <li>On-the-fly audio and subtitles track synchronization</li>
   <li>Supports iOS 7.0 or later</li>
   <li>Full 64bit support on latest iPhone and latest iPad</li>
+  <li>Apple Watch extension to control playback, browse the library and more</li>
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>

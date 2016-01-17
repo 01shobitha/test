@@ -7,22 +7,6 @@
 
 <div id="fullwidth">
 
-<?php /*
-<hr />
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress draft press release
-of the VideoLAN project.
-It has not been approved as a press release.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
-<hr />
-*/ ?>
-
 <h1>VLC media player to remain under GNU GPL version 2</h1>
 
 <p>

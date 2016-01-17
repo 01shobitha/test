@@ -35,13 +35,11 @@
                 }
                 echo '</div></div>';
             ?>
-            <div class="v-align 'col-sm-7'">
+            <div class="v-align col-sm-5">
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">
-                        <?php
-                            echo "VLC for iOS";
-                        ?>
+                        VLC for iOS
                     </h1>
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">

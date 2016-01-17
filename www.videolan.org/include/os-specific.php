@@ -275,7 +275,7 @@ function getScreenshots($os) {
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
@@ -299,7 +299,7 @@ function getScreenshots($os) {
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion-black.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-dark-medium.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows Vista - Qt Interface",
@@ -307,7 +307,7 @@ function getScreenshots($os) {
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-continue-playback.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-continue-playback-crop.jpg"
             )
         ),
         "windows" => array(
@@ -335,7 +335,7 @@ function getScreenshots($os) {
         "osx" => array(
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-lion.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
@@ -344,7 +344,11 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC on OS X",
                 "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-continue-playback.jpg"
-            )
+            ),
+			array(
+				"name"  => "VLC on OS X",
+				"src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark-medium.jpg"
+			)
         )
     );
 

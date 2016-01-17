@@ -68,7 +68,7 @@
 <h2> Features </h2>
 
 <p>
-<ul class="productDescription">
+<ul class="bullets">
   <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
   <li>Play MKV, multiple audio tracks, and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>

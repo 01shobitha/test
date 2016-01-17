@@ -4,6 +4,7 @@ $macosxversion = '2.2.1';
 $oldmacosxversion = '2.0.10';
 $version = '2.2.1';
 $iosversion = '2.7.2';
+$tvosversion = '1.0.1';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
@@ -17,6 +18,7 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
     global $macosxversion;
     global $oldmacosxversion;
     global $iosversion;
+    global $tvosversion;
     global $dlBase;
     ?>
     <script type='text/javascript'>
@@ -100,6 +102,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     global $macosxversion;
     global $oldmacosxversion;
     global $iosversion;
+    global %tvosversion;
     global $dlBase;
     $OSs = array(
         "windows"   => array(
@@ -127,6 +130,12 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "size"          => "56.5&nbsp;MB",
             "latestVersion" => $iosversion,
             "location"      => "/vlc/download-ios.html"
+        ),
+        "tvos"       => array(
+            "name"          => "Apple TV — tvOS",
+            "size"          => "21.7&nbsp;MB",
+            "latestVersion" => $tvosversion,
+            "location"      => "/vlc/download-appletv.html"
         ),
         "osx32"     => array(
             "name"          => "Mac OS X (32bit)",
@@ -346,6 +355,28 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC on iPhone",
                 "src"   => "//images1.videolan.org/vlc/screenshots/ios2/iphoneblacklibrary.jpg"
+            )
+        ),
+        "tvos" => array(
+            array(
+                "name"  => "VLC on Apple TV",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple TV",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple TV, iPad and iPhone",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple TV",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple TV, iPad and iPhone",
+                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse.jpg"
             )
         ),
         "osx" => array(

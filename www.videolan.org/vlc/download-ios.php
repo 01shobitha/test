@@ -66,7 +66,7 @@
 
 <h2> Features </h2>
 <p>
-<ul class="productDescription">
+<ul class="bullets">
   <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
   <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
@@ -85,13 +85,13 @@
 </p>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 7.0 or later. It runs on any iPhone, iPad, or iPod touch. Previous releases for iOS 6.1 are available.</p>
+<p class="projectDescription">VLC for iOS requires iOS 7.0 or later. It runs on any iPhone, iPad, or iPod touch. Previous releases for iOS 6.1 are available.</p>
 
 <h2> Support </h2>
-<p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
+<p class="projectDescription">You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
 
 <h2> Source </h2>
-<p> You can find the source code for the last release here:</p>
+<p class="projectDescription">You can find the source code for the last release here:</p>
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
@@ -99,7 +99,7 @@
 <code><a href="http://get.videolan.org/vlc-iOS/2.7.1/VLCKit-3.0.0-pre2.tar.gz">MobileVLCKit 3.0.0-pre2 source code</a></code><br />
 
 <h2> Binary </h2>
-<p> You can also get the binary from our servers instead of the App Store:
+<p class="projectDescription">You can also get the binary from our servers instead of the App Store:
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
@@ -107,7 +107,7 @@
 </p>
 
 <h2> License </h2>
-<p> VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
+<p class="projectDescription">VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
 
 </div>
 

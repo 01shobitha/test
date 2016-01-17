@@ -83,20 +83,20 @@
 </p>
 
 <h2> Devices and tvOS version </h2>
-<p>VLC for Apple TV requires tvOS 9.0 or later. It runs on the fourth generation Apple TV. Previous devices are not supported.</p>
+<p class="projectDescription">VLC for Apple TV requires tvOS 9.0 or later. It runs on the fourth generation Apple TV. Previous devices are not supported.</p>
 
 <h2> Support </h2>
-<p> You need help with VLC for Apple TV? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
+<p class="projectDescription">You need help with VLC for Apple TV? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
 
 <h2> Source </h2>
-<p> You can find the source code for the latest release here:</p>
+<p class="projectDescription">You can find the source code for the latest release here:</p>
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-appletv/$version/vlc-appletv-$version.tar.gz'>VLC for Apple TV $version source code</a></code><br />"; ?>
 <code><a href="http://get.videolan.org/vlc-iOS/2.7.1/VLCKit-3.0.0-pre2.tar.gz">MobileVLCKit 3.0.0-pre2 source code</a></code><br />
 
-<h2> License </h2>
-<p> VLC for Apple TV is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
+<h2>License </h2>
+<p class="projectDescription">VLC for Apple TV is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
 
 </div>
 

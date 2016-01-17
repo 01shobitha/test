@@ -340,6 +340,10 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC media player - Linux - Gnome",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
+            ),
+            array(
+                "name"  => "VLC media player - Linux - Debian / Gnome 3",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-debian.jpg"
             )
         ),
         "ios" => array(

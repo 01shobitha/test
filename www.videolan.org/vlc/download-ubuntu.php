@@ -5,7 +5,7 @@
    $menu = array( "vlc", "download" );
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
-   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css", "/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
@@ -68,15 +68,6 @@ Ubuntu 12.10 <span style='font-size: smaller'>&ldquo;Quantal Quetzal&rdquo;</spa
 Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;</span><br />
 </p>
 
-<div id="right">
-<?php panel_start( "orange" ); ?>
-<h1>Playing DVD (libdvdcss)</h1>
-<p>In order to be able to play region-locked DVD, you need install libdvdcss2.
-You should follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
-to install libdvdcss2.</p>
-<?php panel_end(); ?>
-</div>
-
 <h2>Installation the Graphical way</h2>
 <p class="projectDescription"><p>Open <b>Synaptic</b> application (click on System -&gt; Administration -&gt; Synaptic Package Manager).
 </p>
@@ -105,6 +96,13 @@ but no further major VLC version updates until the next Ubuntu release.
 If you need a more recent version, please consider upgrading Ubuntu.
 </p>
 
+<div id="right">
+<?php panel_start( "orange" ); ?>
+<h1>Playing DVD (libdvdcss)</h1>
+<p>In order to be able to play region-locked DVD, you need install libdvdcss2.
+You should follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
+to install libdvdcss2.</p>
+<?php panel_end(); ?>
 </div>
 
 </div>

@@ -35,7 +35,7 @@
                 }
                 echo '</div></div>';
             ?>
-            <div class="v-align 'col-sm-5'">
+            <div class="v-align 'col-sm-7'">
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">
@@ -65,7 +65,6 @@
             </div>
         </div>
     </section>
-</div>
 
 <p>
 <ul class="productDescription">
@@ -109,6 +108,8 @@
 
 <h2> License </h2>
 <p> VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
+
+</div>
 
 <?php
   footer('$Id$');

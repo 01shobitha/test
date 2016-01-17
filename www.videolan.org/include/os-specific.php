@@ -325,11 +325,27 @@ function getScreenshots($os) {
         "ios" => array(
             array(
                 "name"  => "VLC on iPad",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC on iPad",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadblackplayback.jpg"
             ),
             array(
                 "name"  => "VLC on Apple Watch",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/vlc-ios-2.6-watch-list.jpg"
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-list.jpg"
+            ),
+            array(
+                "name"  => "VLC on iPhone",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/iphoneblackplayback.jpg"
+            ),
+            array(
+                "name"  => "VLC on Apple Watch",
+                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-detail.jpg"
+            ),
+            array(
+                "name"  => "VLC on iPhone",
+                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/iphoneblacklibrary.jpg"
             )
         ),
         "osx" => array(

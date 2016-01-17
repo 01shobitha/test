@@ -46,23 +46,38 @@
             <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
             <?php
             vlcscreenshot( "1.0.0/VLC_Gnome.png",
-                        "1.0.0/tm_VLC_Gnome.jpg",
-                        "Linux - Gnome");
+                           "1.0.0/tm_VLC_Gnome.jpg",
+                           "Linux - Gnome");
             vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
-                        "1.0.0/tm_vlc_101_w7_2.jpg",
-                        "Windows 7 - Qt Interface" );
+                           "1.0.0/tm_vlc_101_w7_2.jpg",
+                           "Windows 7 - Qt Interface" );
             vlcscreenshot( "1.0.0/vlc_101_w7_1.jpg",
-                        "1.0.0/tm_vlc_101_w7_1.jpg",
-                        "Windows 7 - Qt Interface" );
+                           "1.0.0/tm_vlc_101_w7_1.jpg",
+                           "Windows 7 - Qt Interface" );
             vlcscreenshot( "1.0.0/vlc_101_w7.jpg",
-                        "1.0.0/tm_vlc_101_w7.jpg",
-                        "Windows 7 - Qt Interface" );
+                           "1.0.0/tm_vlc_101_w7.jpg",
+                           "Windows 7 - Qt Interface" );
             vlcscreenshot( "1.0.0/VLC_Goldneye.jpg",
-                        "1.0.0/tm_VLC_Goldneye.jpg",
-                        "Windows Vista - Skins Interface" );
+                           "1.0.0/tm_VLC_Goldneye.jpg",
+                           "Windows Vista - Skins Interface" );
             vlcscreenshot( "1.0.0/VLC_Qt4.jpg",
-                        "1.0.0/tm_VLC_Qt4.jpg",
-                        "Windows Vista - Qt Interface" );
+                           "1.0.0/tm_VLC_Qt4.jpg",
+                           "Windows Vista - Qt Interface" );
+            vlcscreenshot( "appletv/Apple-TV-device-playback.jpg",
+                           "appletv/tm_Apple-TV-device-playback.jpg",
+                           "VLC on Apple TV" );
+            vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback-dark.jpg",
+                           "2.2.0/tm_vlc-2.2-macosx-playback-dark.jpg",
+                           "VLC on OS X" );
+            vlcscreenshot( "2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg",
+                           "2.2.0/tm_vlc-2.2-macosx-audio-playback-dark.jpg",
+                           "VLC on OS X" );
+            vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
+                           "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
+                           "VLC on OS X" );
+            vlcscreenshot( "2.2.0/vlc-ios-2.4-ipad-library.jpg",
+                           "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
+                           "VLC on iPad" );
             ?>
             <div class="ltrClearLeft">
             </div>

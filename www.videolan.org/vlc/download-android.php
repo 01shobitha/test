@@ -43,13 +43,13 @@
                 <div class="projectDescription hidden-sm hidden-xs">
                     <?php echo
                     _("VLC media player is a free and open source cross-platform multimedia player that plays most multimedia files as well as discs, devices, and network streaming protocols.
-This is the port of VLC media player to the Android™ platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
+This is the port of VLC media player to the Android&trade; platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
 VLC for Android is a full audio player, with a complete database, an equalizer and filters, playing all weird audio formats."); ?>
                 </div>
                 <div class="projectDescription visible-xs visible-sm center-font-xs">
                     <?php echo
                     _("VLC media player is a free and open source cross-platform multimedia player that plays most multimedia files as well as discs, devices, and network streaming protocols.
-This is the port of VLC media player to the Android™ platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
+This is the port of VLC media player to the Android&trade; platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
 VLC for Android is a full audio player, with a complete database, an equalizer and filters, playing all weird audio formats."); ?>
                 </div>
 
@@ -74,8 +74,8 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
    <div style='float: left; width: 480px; margin-bottom: 20px;'>
    <!--    <div class='audienceCallout'><?php echo _("Video"); ?></div> -->
        <div class='clearme'>
-           <div class='bullets'>
-               <ul>
+           <div>
+               <ul class="bullets">
                   <li>Plays all files, in all formats, like the classic VLC.</li>
                   <li>Audio and video media library, with full search.</li>
                   <li>Support for network streams, including HLS.</li>
@@ -89,8 +89,8 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
    <div style='float: left; width: 480px;'>
 <!--       <div class='audienceCallout'><?php echo _("Audio"); ?></div> -->
        <div class='clearme'>
-           <div class='bullets'>
-               <ul>
+           <div>
+               <ul class="bullets">
                   <li>Subtitles support, embedded and external, including ASS and DVD subtitles.</li>
                   <li>Multi audio or subtitles tracks selection.</li>
                   <li>Multi-core decoding.</li>
@@ -121,7 +121,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 
 <h1>Thanks</h1>
 <p class="projectDescription">
-We would like to thank people who helped us.<br />
+We would like to thank our partners:<br />
 <a href="http://www.solutionslinux.fr/"><?php image( 'partners/android/SL.png', 'SolutionLinux', '' ); ?></a>
 <a href="http://www.dojocrea.fr/"><?php image( 'partners/android/dojocrea.jpg', 'Dojocrea', '' ); ?></a>
 <a href="http://www.jbmm.fr/"><?php image( 'partners/android/jbmm.png', 'JBMM', '' ); ?></a>

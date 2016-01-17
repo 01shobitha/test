@@ -5,6 +5,7 @@ $oldmacosxversion = '2.0.10';
 $version = '2.2.1';
 $iosversion = '2.7.2';
 $tvosversion = '1.0.1';
+$androidversion = '1.7.0';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
@@ -123,6 +124,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
         ),
         "android"   => array(
             "name"          => "Android",
+            "latestVersion" => $androidversion,
             "location"      => "/vlc/download-android.html"
         ),
         "ios"       => array(
@@ -132,7 +134,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "location"      => "/vlc/download-ios.html"
         ),
         "tvos"       => array(
-            "name"          => "Apple TV — tvOS",
+            "name"          => "Apple TV - tvOS",
             "size"          => "21.7&nbsp;MB",
             "latestVersion" => $tvosversion,
             "location"      => "/vlc/download-appletv.html"
@@ -317,6 +319,10 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC media player - Windows Vista - Qt Interface",
                 "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-medium.jpg"
             )
         ),
         "windows" => array(
@@ -391,6 +397,36 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC on OS X",
                 "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg"
+            )
+        ),
+        "android" => array(
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-landscape-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-tablet-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-portrait.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-landscape-tablet-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-audio-portrait.jpg"
+            ),
+            array(
+                "name"  => "VLC on Android",
+                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-music-album-portrait.jpg"
             )
         )
     );

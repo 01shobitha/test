@@ -1,22 +1,73 @@
 <?php
-   $title = "VLC media player for Android&trade;";
+   $title = "Official Download of VLC media player for Android&trade;";
+   $new_design = true;
    $lang = "en";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $android_version = "1.7.0";
+   $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>
+<div class="container">
+	<?php
+	$screenshots = getScreenshots("android");
+	$defaultDetail = getOS("android");
+	?>
+    <section class="download-wrapper">
+        <div class="row reorder-xs">
+            <?php
+                echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
+                $first = true;
+                foreach($screenshots as $screenshot) {
+                    $src = $first ? $screenshot['src'] : '';
+                    $srcLazy = $first ? '' : $screenshot['src'];
+                    $dom  = '<div class="screenshot2">';
+                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
+                    $dom .= '</div>';
+                    echo $dom;
+                    $first = false;
+                }
+                echo '</div></div>';
+            ?>
+            <div class="v-align col-sm-5">
+                <div class="center-font-xs">
+                    <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
+                    <h1 class="v-align bigtitle">
+                        VLC for iOS
+                    </h1>
+                </div>
+                <div class="projectDescription hidden-sm hidden-xs">
+                    <?php echo
+                    _("VLC media player is a free and open source cross-platform multimedia player that plays most multimedia files as well as discs, devices, and network streaming protocols.
+This is the port of VLC media player to the Android™ platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
+VLC for Android is a full audio player, with a complete database, an equalizer and filters, playing all weird audio formats."); ?>
+                </div>
+                <div class="projectDescription visible-xs visible-sm center-font-xs">
+                    <?php echo
+                    _("VLC media player is a free and open source cross-platform multimedia player that plays most multimedia files as well as discs, devices, and network streaming protocols.
+This is the port of VLC media player to the Android™ platform. VLC for Android can play any video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br/>
+VLC for Android is a full audio player, with a complete database, an equalizer and filters, playing all weird audio formats."); ?>
+                </div>
 
-<h1>VLC for Android&trade;</h1>
-
-<p><a href="/vlc/">VLC</a> for Android&trade; is still under heavy development. The current version is <?php echo $android_version; ?>.</p><br/>
-<div style="margin-left:auto;margin-right:auto;width:360px;">
-    <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
-    <a href="http://www.amazon.com/VLC-Mobile-Team-for-Fire/dp/B00U65KQMQ"><img src="/images/badges/Amazon-apps-black.png" height="60px" /></a>
-</div>
-<p>or download the <a href="//get.videolan.org/vlc-android/<?php echo $android_version; ?>/">APK package</a> from our mirrors.</p>
+			    <div class="inner center-xs">
+			        <div class="btn-group;width:360px">
+                        <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
+                        <a href="http://www.amazon.com/VLC-Mobile-Team-for-Fire/dp/B00U65KQMQ"><img src="/images/badges/Amazon-apps-black.png" height="60px" /></a>
+			        </div>
+			        <div id="downloadDetails">
+			            Version <span id='downloadVersion'>
+			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
+                        <br>
+                        or download the <a href="//get.videolan.org/vlc-android/<?php echo $android_version; ?>/">APK package</a> from our mirrors.
+			        </div>
+			    </div>
+            </div>
+        </div>
+    </section>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 
@@ -57,7 +108,7 @@
 <p>We need help to test VLC under a variety of devices.</p>
 <p>Please join us on our <a href="http://forum.videolan.org/viewforum.php?f=35">forum</a>.</p>
 
-<h2>Kickstart us!</h2>
+<!--><h2>Kickstart us!</h2>
     <div class='productDescription'>
 <p>We need funding to:</p>
         <ul>
@@ -66,8 +117,7 @@
             <li>Buy various tools to speed-up development.</li>
         </ul>
 <p>so VLC works perfectly on Android phones and tablets.</p>
-    </div>
-
+    </div>-->
 
 <h2>Send us phones</h2>
 <p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
@@ -76,7 +126,7 @@
 
 <h1>Decoding performance</h1>
 
-<p>VLC can decode video in sofware and hardware mode. Hardware decoding often provides better performance but is not supported on all devices. If your device Android version is below 4.3, software decoding may be the only working option for you. 
+<p>VLC can decode video in software and hardware mode. Hardware decoding often provides better performance but is not supported on all devices. If your device Android version is below 4.3, software decoding may be the only working option for you. 
 
 <h1>Documentation</h1>
 
@@ -90,6 +140,9 @@ We would like to thank people who helped us.<br />
 <a href="http://www.jbmm.fr/"><?php image( 'partners/android/jbmm.png', 'JBMM', '' ); ?></a>
 <a href="http://fr.asus.com/"><?php image( 'partners/android/asus.jpg', 'Asus France', '' ); ?></a>
 </p>
+
+</div>
+
 <?php
   footer('$Id$');
 ?>

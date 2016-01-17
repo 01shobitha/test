@@ -32,21 +32,23 @@
                     <p>In case you write an article about VideoLAN, we would be very glad to
                     have a copy of it to add to our press book. You can send us the article
                     at the <b>postal address</b>.</p>
+                    <p>To contact us by e-mail, please use <a href="mailto:press@REMOVETHIS@videolan.org">press@<span style="display:none">null</span>videolan.org</span></a>
+                    and write in French, German or English.</p>
             </td>
             <td>
                 <h2>Legal</h2>
                     <p>If you have a question regarding the use of a product, please check
                     the <a href="/legal.html">legal FAQ</a>.</p>
-                    <p>Any legal document must be sent to the <b>postal address</b>.</p>
+                    <p>Any legal document must be sent to the <b>postal address</b>.<br>We do <b>not</b> accept email or fax for legal matters.</p>
             </td>
         </tr>
     </table>
 
 <h2>E-mail</h2>
 <p>To contact us by e-mail, please use <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan@<span style="display:none">null</span>videolan.org</span></a>
-and write in French or English.</p>
-<p>Any question about <strong>VLC usage</strong> and <strong>BUGS</strong> will <strong>not be</strong> answered.
- See the <a href="/support">Support center</a> for these matters.</p>
+and write in French, German or English.</p>
+<!--<p>Any question about <strong>VLC usage</strong> and <strong>BUGS</strong> will <strong>not be</strong> answered.
+ See the <a href="/support">Support center</a> for these matters.</p>-->
 <p><strong>Remember</strong>, we are a <strong>volunteer non-profit organisation</strong>, and we do not offer jobs and
 cannot sponsor third party events.</p>
 
@@ -60,7 +62,7 @@ France
 <h2>Phone</h2>
 <p>The phone will very rarely answer and is <b>strictly NOT</b> for user support:</p>
 <pre>+33 951 11 20 20</pre>
-<p>You can send faxes to us; except for legal issues, where faxes are not accepted :</p>
+<p>You can send faxes to us; except for legal issues, where faxes are not accepted:</p>
 <pre>+33 956 11 20 20</pre>
 
 </div>

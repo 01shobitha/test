@@ -1,9 +1,12 @@
 <?php
    $title = "Press center";
    $lang = "en";
+   $new_design = true;
    $body_color = "orange";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
+
+<div class="container">
 
 <h1>Press Releases from VideoLAN</h1>
 
@@ -124,5 +127,7 @@
     <br />
     <b><a href="/press/2005-1.html">More</a></b>
 </p>
+
+</div>
 
 <?php footer(); ?>

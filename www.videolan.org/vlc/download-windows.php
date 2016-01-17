@@ -11,15 +11,15 @@
    $dropdownItems = array(
        array(
            "name"       => "7zip package",
-           "location"   => "vlc-$win32version-win32.7z",
+           "location"   => "$dlBase/$win32version/win32/vlc-$win32version-win32.7z",
        ),
        array(
            "name"       => "Zip package",
-           "location"   => "vlc-$win32version-win32.zip",
+           "location"   => "$dlBase/$win32version/win32/vlc-$win32version-win32.zip",
        ),
        array(
-           "name"       => "64 bits installer",
-           "location"   => "vlc-$win32version-win64.exe",
+           "name"       => "Installer for 64bit version",
+           "location"   => "$dlBase/$win32version/win64/vlc-$win32version-win64.exe",
        ),
        array(
            "name"       => "Source code",

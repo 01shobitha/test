@@ -15,6 +15,15 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 
 <h2 class="clearme">2.2 - Twoflower</h2>
                 <?php
+                screenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
+                               "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
+                               "Mac OS X 10.11", "1280x800")
+                screenshot( "2.2.0/vlc-2.2-macosx-playback-dark.jpg",
+                               "2.2.0/tm_vlc-2.2-macosx-playback-dark.jpg",
+                               "Mac OS X 10.11", "1280x800");
+                screenshot( "2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg",
+                               "2.2.0/tm_vlc-2.2-macosx-audio-playback-dark.jpg",
+                               "Mac OS X 10.11", "1280x800");
                 screenshot( "2.2.0/vlc-2.2-macosx-continue-playback.jpg",
                                "2.2.0/tm_vlc-2.2-macosx-continue-playback.jpg",
                                "Mac OS X 10.10", "940x340");

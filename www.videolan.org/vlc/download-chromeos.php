@@ -51,7 +51,7 @@
 
                 <div class="inner center-xs">
                     <div class="btn-group">
-<a href="//chrome.google.com/webstore/detail/vlc/obpdeolnggmbekmklghapmfpnfhpcndf"><img src="//images.videolan.org/images/chromewebstore-en.png" border="0" /></a>
+<a href="//chrome.google.com/webstore/detail/vlc/obpdeolnggmbekmklghapmfpnfhpcndf"><img src="//images.videolan.org/images/chromewebstore-en.png" border="0" width="288"/></a>
                     </div>
                     <div id="downloadDetails">
                         <span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>
@@ -61,16 +61,16 @@
         </div>
     </section>
 
-<p>This is the port of VLC media player to the Chrome OS platform. VLC for Chrome OS can play most video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br />
+<p class="projectDescription">This is the port of VLC media player to the Chrome OS platform. VLC for Chrome OS can play most video and audio files, as well as network streams and DVD ISOs, like the desktop version of VLC.<br />
 VLC for Chrome OS is also a full audio player, with a complete database, an equalizer and filters, playing all weird audio formats.<br />
 VLC is intended for everyone, is totally free, has no ads, no in-app-purchases, no spying and is developed by passionate volunteers. All the source code is available for free.
 </p>
 
 <h2>First start</h2>
-<p>At the first run, you need to select a folder where all your medias are! This is where the media database will index from!</p>
+<p class="projectDescription">At the first run, you need to select a folder where all your medias are! This is where the media database will index from!</p>
 
 <h2>Features</h2>
-<p>VLC for Chrome OS plays most local video and audio files, as well as network streams (including adaptive streaming), DVD ISOs, like the desktop version of VLC.<br />
+<p class="projectDescription">VLC for Chrome OS plays most local video and audio files, as well as network streams (including adaptive streaming), DVD ISOs, like the desktop version of VLC.<br />
 All formats are supported, including MKV, MP4, AVI, MOV, Ogg, FLAC, TS, M2TS, Wv and AAC. All codecs are included with no separate downloads.<br />
 VLC for Chrome OS has a media library for audio and video files, and allows to browse folders directly.<br />
 VLC has support for multi-track audio and subtitles. It supports auto-rotation, aspect-ratio adjustments and gestures to control volume, brightness and seeking.<br />

@@ -32,8 +32,7 @@
                     <p>In case you write an article about VideoLAN, we would be very glad to
                     have a copy of it to add to our press book. You can send us the article
                     at the <b>postal address</b>.</p>
-                    <p>To contact us by e-mail, please use <a href="mailto:press@REMOVETHIS@videolan.org">press@<span style="display:none">null</span>videolan.org</span></a>
-                    and write in French, German or English.</p>
+                    <p>To contact us by e-mail, please write in French, German or English to the address shown below.</p>
             </td>
             <td>
                 <h2>Legal</h2>

@@ -37,7 +37,7 @@
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">
-                        VLC for Apple TV
+                        VLC for Windows Store
                     </h1>
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">
@@ -55,7 +55,7 @@
                     </div>
                     <div id="downloadDetails">
                         Version <span id='downloadVersion'>
-                        <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
+                        <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
 
 <h2> Features </h2>
 
-<p>
+<p class="projectDescription">
 <ul class="bullets">
   <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
   <li>Play MKV, multiple audio tracks, and subtitles tracks (including SSA!).</li>

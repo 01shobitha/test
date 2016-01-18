@@ -190,7 +190,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "name"          => "FreeBSD",
             "location"      => "/vlc/download-freebsd.html"
         ),
-        "winrt"   => array(
+        "winrt"     => array(
             "name"          => "Windows Store",
             "latestVersion" => $winrtversion,
             "location"      => "/vlc/download-winrt.html"

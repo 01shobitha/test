@@ -95,6 +95,8 @@
         <div class="col-sm-4">
             <h2>Windows</h2>
             <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
+            <?php addos( "Windows Store", "winrt", "download-winrt.html" ); ?>
+            <?php addos( "Windows Phone", "windowsphone", "download-windowsphone.html" ); ?>
             <h2>Apple Platforms</h2>
             <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
                   addos( "iOS", "ios", "download-ios.html" );

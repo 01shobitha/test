@@ -10,8 +10,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
-
-   $version = "1.0.0";
 ?>
 
 <div class="container">
@@ -92,7 +90,7 @@
 <p class="projectDescription">You can find the source code for the latest release here:</p>
 
 <?php
-   echo "<code><a href='http://get.videolan.org/vlc-appletv/$version/vlc-appletv-$version.tar.gz'>VLC for Apple TV $version source code</a></code><br />"; ?>
+   echo "<code><a href='http://get.videolan.org/vlc-appletv/$tvosversion/vlc-appletv-$tvosversion.tar.gz'>VLC for Apple TV $tvosversion source code</a></code><br />"; ?>
 <code><a href="http://get.videolan.org/vlc-iOS/2.7.1/VLCKit-3.0.0-pre2.tar.gz">MobileVLCKit 3.0.0-pre2 source code</a></code><br />
 
 <h2>License </h2>

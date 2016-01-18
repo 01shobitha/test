@@ -194,6 +194,11 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "name"          => "Windows Store",
             "latestVersion" => $winrtversion,
             "location"      => "/vlc/download-winrt.html"
+        ),
+        "windowsphone"     => array(
+            "name"          => "Windows Phone",
+            "latestVersion" => $winrtversion,
+            "location"      => "/vlc/download-windowsphone.html"
         )
     );
 
@@ -455,6 +460,36 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC for Windows Store",
                 "src"   => "//images.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
+            )
+        ),
+        "windowsphone" => array(
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-music-landscape.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-portrait.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-shows-portrait.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/playback-landscape.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-music-artist-portrait.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-music-album-landscape.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Phone",
+                "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-music-bright-portrait.jpg"
             )
         )
     );

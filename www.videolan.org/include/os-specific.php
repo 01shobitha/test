@@ -325,6 +325,10 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC on Android",
                 "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Store",
+                "src"   => "//images1.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
             )
         ),
         "windows" => array(

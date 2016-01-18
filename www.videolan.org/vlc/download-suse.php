@@ -6,7 +6,7 @@
    $body_color = "green";
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
-   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css", "/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

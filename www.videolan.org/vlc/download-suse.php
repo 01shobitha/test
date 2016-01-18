@@ -3,6 +3,7 @@
    $new_design = true;
    $lang = "en";
    $menu = array( "vlc", "download" );
+   $body_color = "green";
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
    $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
@@ -10,8 +11,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
-
-   $body_color = "green";
 ?>
 
 <div class="container">

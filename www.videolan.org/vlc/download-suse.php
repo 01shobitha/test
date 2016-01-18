@@ -17,7 +17,6 @@
 <div class="container">
 	<?php
 	$screenshots = getScreenshots("linux");
-	$defaultDetail = getOS("linux");
 	?>
     <section class="download-wrapper">
         <div class="row reorder-xs">
@@ -67,8 +66,7 @@
                         </div>
 			        </div>
 			        <div id="downloadDetails">
-                        Install VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a><br />
-			            <span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>
+                        Install VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a>
 			        </div>
 			    </div>
             </div>
@@ -77,11 +75,8 @@
 
 <img src="/images/icons/openSUSE.jpg" style="float: right; border: 1px solid green;" alt="openSuSE logo" />
 
-<h2>Download VLC for openSUSE</h2>
-
 <h2 class='clearme'><a name="yast">Install VLC using YaST</a></h2>
 <p class="projectDescription">
-<b>Add VideoLAN's repository</b><br />
 First, add a new repository (installation source) in YaST (YaST2 ->
 Software -> Installation Sources)</p>
 
@@ -93,7 +88,7 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p class="projectDescription">Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <p class="projectDescription">
-<ul>
+<ul class="bullets">
 <li>Leap_42.1</li>
 <li>Tumbleweed</li>
 <li>13.2</li>

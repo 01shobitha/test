@@ -26,7 +26,7 @@
 <p><a href="/videolan/events/vdd11.html">For the third time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
 
 <h2>1 February 2011 - Ten years of open source</h2>
-<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>
+<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images.videolan.org/images/10years.png" /></a>
 
 <h2>18, 19, 20 December 2009 - Second Dev Days</h2>
 <p><a href="/videolan/events/vdd09.html">For the second time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>

@@ -35,8 +35,8 @@
         </div>
 <?php
 function vlmcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='height: 70px;'><a href='http://images1.videolan.org/vlmc/screenshots/$img'><img
-    src='http://images1.videolan.org/vlmc/screenshots/$thumb' alt='VLMC - $desc' /></a>
+    echo"<div class='screenshot' style='height: 70px;'><a href='http://images.videolan.org/vlmc/screenshots/$img'><img
+    src='http://images.videolan.org/vlmc/screenshots/$thumb' alt='VLMC - $desc' /></a>
     </div>";
 }
 ?>

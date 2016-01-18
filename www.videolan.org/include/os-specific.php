@@ -6,6 +6,7 @@ $version = '2.2.1';
 $iosversion = '2.7.2';
 $tvosversion = '1.0.0';
 $androidversion = '1.7.0';
+$winrtversion = '1.8.5';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
@@ -21,6 +22,7 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
     global $iosversion;
     global $tvosversion;
     global $androidversion;
+    global $winrtversion;
     global $dlBase;
     ?>
     <script type='text/javascript'>
@@ -106,6 +108,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     global $iosversion;
     global $tvosversion;
     global $androidversion;
+    global $winrtversion;
     global $dlBase;
     $OSs = array(
         "windows"   => array(
@@ -186,6 +189,11 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
         "freebs"    => array(
             "name"          => "FreeBSD",
             "location"      => "/vlc/download-freebsd.html"
+        ),
+        "winrt"   => array(
+            "name"          => "Windows Store",
+            "latestVersion" => $winrtversion,
+            "location"      => "/vlc/download-winrt.html"
         )
     );
 
@@ -280,61 +288,61 @@ function getScreenshots($os) {
         "All"  => array(
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
             ),
             array(
                 "name"  => "VLC on iPad",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
             ),
             array(
                 "name"  => "VLC media player - Linux - Gnome",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
             ),
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-dark.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-dark.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows Vista - Skins Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows Vista - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC for Windows Store",
-                "src"   => "//images1.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
             )
         ),
         "windows" => array(
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
             )
         ),
         "linux" => array(
@@ -344,103 +352,109 @@ function getScreenshots($os) {
             ),
             array(
                 "name"  => "VLC media player - Linux - Gnome",
-                "src"   => "//images1.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Gnome.png"
             ),
             array(
                 "name"  => "VLC media player - Linux - Debian / Gnome 3",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-debian.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-debian.jpg"
             )
         ),
         "ios" => array(
             array(
                 "name"  => "VLC on iPad",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/ios2/ipadwhitelibrary-medium.jpg"
             ),
             array(
                 "name"  => "VLC on iPad",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/ipadblackplayback.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/ios2/ipadblackplayback.jpg"
             ),
             array(
                 "name"  => "VLC on Apple Watch",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-list.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-list.jpg"
             ),
             array(
                 "name"  => "VLC on iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/iphoneblackplayback.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/ios2/iphoneblackplayback.jpg"
             ),
             array(
                 "name"  => "VLC on Apple Watch",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-detail.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.6-watch-detail.jpg"
             ),
             array(
                 "name"  => "VLC on iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/ios2/iphoneblacklibrary.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/ios2/iphoneblacklibrary.jpg"
             )
         ),
         "tvos" => array(
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-browse-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV, iPad and iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-playback-speed-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Apple TV, iPad and iPhone",
-                "src"   => "//images1.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/appletv/Apple-TV-device-ipad-iphone-browse-medium.jpg"
             )
         ),
         "osx" => array(
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-dark.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback-dark.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images1.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg"
             )
         ),
         "android" => array(
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-landscape-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/library-video-landscape-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-tablet-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/playback-tablet-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-portrait.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/library-video-portrait.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-video-landscape-tablet-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/library-video-landscape-tablet-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/playback-medium.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/playback-medium.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-audio-portrait.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/library-audio-portrait.jpg"
             ),
             array(
                 "name"  => "VLC on Android",
-                "src"   => "//images1.videolan.org/vlc/screenshots/android/library-music-album-portrait.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/android/library-music-album-portrait.jpg"
+            )
+        ),
+        "winrt" => array(
+            array(
+                "name"  => "VLC for Windows Store",
+                "src"   => "//images.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
             )
         )
     );

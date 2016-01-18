@@ -31,10 +31,10 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
   echo "</div>";*/
   $canvote = (!isset($_COOKIE["skinrated_$id"])) || ($_COOKIE["skinrated_$id"] != $id);
   echo "<div class=\"skin-container\"";
-  echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images1.videolan.org/vlc/skins2/".$img."','".$canvote."','".$min_version."')\"";
+  echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."','".$canvote."','".$min_version."')\"";
   echo ">\n";
   echo "  <div class=\"skin-container-title\">".$name."</div>\n";
-  echo "  <img src=\"http://images1.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\"/>\n";
+  echo "  <img src=\"http://images.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\"/>\n";
   echo "  <div class=\"skin-container-rating\">";
   if( $rating == -1 ) {
     echo "Not rated";
@@ -42,7 +42,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
   else {
     for( $i=0; $i<5; $i++ ) {
       $v = round(min(1,max(0,$rating-$i)),1)*10;
-      echo "<img alt='".($v>0?'+':'-')."' src='http://images1.videolan.org/images/skins/cone-$v.png' />";
+      echo "<img alt='".($v>0?'+':'-')."' src='http://images.videolan.org/images/skins/cone-$v.png' />";
     }
   }
   echo "  </div>\n";

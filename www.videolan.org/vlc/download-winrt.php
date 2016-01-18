@@ -51,7 +51,7 @@
 
                 <div class="inner center-xs">
                     <div class="btn-group">
-<a href="https://www.microsoft.com/store/apps/vlc-for-windows-store/9wzdncrfj3t0"><img src="http://images.videolan.org/images/windowstoredownload-en.png" border="0" /></a>
+<a href="//www.microsoft.com/store/apps/vlc-for-windows-store/9wzdncrfj3t0"><img src="http://images.videolan.org/images/windowstoredownload-en.png" border="0" /></a>
                     </div>
                     <div id="downloadDetails">
                         Version <span id='downloadVersion'>

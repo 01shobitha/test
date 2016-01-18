@@ -89,10 +89,10 @@
 <?php
 function vlcskins($img,$thumb, $skin){
     echo"<div style='width: 230px; font-size: 2em; float: left; text-align: center;'><div class='screenshot' style='overflow: hidden; width: 200px; height: 120px;'>"
-        ."<a href='http://images1.videolan.org/vlc/skins2/$img'><img
-        src='http://images1.videolan.org/vlc/skins2/$thumb' alt='VLC media player' /></a>
+        ."<a href='http://images.videolan.org/vlc/skins2/$img'><img
+        src='http://images.videolan.org/vlc/skins2/$thumb' alt='VLC media player' /></a>
     </div>";
-    echo "<a href='http://www1.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
+    echo "<a href='http://www.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
 }
         vlcskins('Preview.jpg', 'tm_Preview.jpg', 'eDark Vlc.vlt' );
         vlcskins('screen_vlc_def_mod.jpg', 'tm_screen_vlc_def_mod.jpg', 'default_mod_mentalrey.vlt' );

@@ -105,6 +105,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     global $oldmacosxversion;
     global $iosversion;
     global $tvosversion;
+    global $androidversion;
     global $dlBase;
     $OSs = array(
         "windows"   => array(

@@ -195,10 +195,14 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "latestVersion" => $winrtversion,
             "location"      => "/vlc/download-winrt.html"
         ),
-        "windowsphone"     => array(
+        "windowsphone"      => array(
             "name"          => "Windows Phone",
             "latestVersion" => $winrtversion,
             "location"      => "/vlc/download-windowsphone.html"
+        ),
+        "chromeos"  => array(
+            "name"          => "Chrome OS",
+            "location"      => "/vlc/download-chromeos.html"
         )
     );
 
@@ -502,6 +506,16 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC for Windows Phone",
                 "src"   => "//images.videolan.org/vlc/screenshots/windowsphone/library-music-bright-portrait.jpg"
+            )
+        ),
+        "chromeos" => array(
+            array(
+                "name"  => "VLC for Chrome OS",
+                "src"   => "//images.videolan.org/vlc/screenshots/chromeos/playback-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC for Chrome OS",
+                "src"   => "//images.videolan.org/vlc/screenshots/chromeos/library-medium.jpg"
             )
         )
     );

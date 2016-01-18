@@ -460,6 +460,18 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC for Windows Store",
                 "src"   => "//images.videolan.org/vlc/screenshots/winrt/artistpage-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Store",
+                "src"   => "//images.videolan.org/vlc/screenshots/winrt/yourartists-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Store",
+                "src"   => "//images.videolan.org/vlc/screenshots/winrt/yourmusic-medium.jpg"
+            ),
+            array(
+                "name"  => "VLC for Windows Store",
+                "src"   => "//images.videolan.org/vlc/screenshots/winrt/yourvideos-medium.jpg"
             )
         ),
         "windowsphone" => array(

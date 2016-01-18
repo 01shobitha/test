@@ -72,10 +72,6 @@
         </div>
     </section>
 
-<?php panel_start( "green" ); ?>
-<img src="/images/icons/openSUSE.jpg" style="float: right; border: 1px solid green;" alt="openSuSE logo" />
-<?php panel_end(); ?>
-
 <h2 class='clearme'><a name="yast">Install VLC using YaST</a></h2>
 <p class="projectDescription">
 First, add a new repository (installation source) in YaST (YaST2 ->

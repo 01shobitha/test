@@ -34,6 +34,9 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 
 <h2 class="clearme">2.2 - Weatherwax</h2>
                 <?php
+                screenshot( "winrt/artistpage.jpg",
+                               "winrt/tm_artistpage.jpg",
+                               "Windows 10", "2560x1600");
                 screenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
                                "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
                                "Mac OS X 10.11", "1280x800");

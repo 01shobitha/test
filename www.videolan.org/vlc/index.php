@@ -78,6 +78,9 @@
             vlcscreenshot( "2.2.0/vlc-ios-2.4-ipad-library-large.jpg",
                            "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
                            "VLC on iPad" );
+            vlcscreenshot( "winrt/artistpage-medium.jpg",
+                           "winrt/tm_artistpage.jpg",
+                           "VLC for Windows Store (Windows 10)" );
             ?>
             <div class="ltrClearLeft">
             </div>

@@ -523,6 +523,18 @@ function getScreenshots($os) {
     return isset($screenshots[$os]) ? $screenshots[$os] : null;
 }
 
+function getImageOrientation($imgPath) {
+    $aspect = 'landscape';
+    if (substr($imgPath, 0, 4) != "http" && substr($imgPath, 0, 2) == '//') {
+        $imgPath = 'http:'.$imgPath;
+    }
+    $size = getimagesize($imgPath);
+    if ($size[0] < $size[1]) {
+        $aspect = 'portrait';
+    }
+    return $aspect;
+}
+
 /*
 * Draw the download section.
 * If a OS is given it will draw a carousel of screenshots instead of a VLC icon.
@@ -551,7 +563,7 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
                 foreach($screenshots as $screenshot) {
                     $src = $first ? $screenshot['src'] : '';
                     $srcLazy = $first ? '' : $screenshot['src'];
-                    $dom  = '<div class="screenshot2">';
+                    $dom  = '<div class="screenshot2 '.getImageOrientation($screenshot['src']).'">';
                     $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'"/>';
                     $dom .= '</div>';
                     echo $dom;

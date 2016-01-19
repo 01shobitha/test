@@ -535,6 +535,21 @@ function getImageOrientation($imgPath) {
     return $aspect;
 }
 
+function drawScreenshots($screenshots) {
+    echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
+    $first = true;
+    foreach($screenshots as $screenshot) {
+        $src = $first ? $screenshot['src'] : '';
+        $srcLazy = $first ? '' : $screenshot['src'];
+        $dom  = '<div class="screenshot2 '.getImageOrientation($screenshot['src']).'">';
+        $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
+        $dom .= '</div>';
+        echo $dom;
+        $first = false;
+    }
+    echo '</div></div>';
+}
+
 /*
 * Draw the download section.
 * If a OS is given it will draw a carousel of screenshots instead of a VLC icon.
@@ -558,18 +573,7 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
             </div>
             <?php
             } else {
-                echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
-                $first = true;
-                foreach($screenshots as $screenshot) {
-                    $src = $first ? $screenshot['src'] : '';
-                    $srcLazy = $first ? '' : $screenshot['src'];
-                    $dom  = '<div class="screenshot2 '.getImageOrientation($screenshot['src']).'">';
-                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'"/>';
-                    $dom .= '</div>';
-                    echo $dom;
-                    $first = false;
-                }
-                echo '</div></div>';
+                drawScreenshots($screenshots);
             }
             ?>
             <div class="v-align <?php echo is_null($screenshots) ? 'col-sm-7' : 'col-sm-5'?>">

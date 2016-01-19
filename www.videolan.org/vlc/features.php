@@ -474,7 +474,7 @@ function headers( $extra )
             <th class="th-os"><a href="/vlc/download-beos.html">
               <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
             </a></th>
-            <th class="th-os"><a href="/vlc/download-sources.html">
+            <th class="th-os"><a class="inline-block" href="/vlc/download-sources.html">
               <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
 
               <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
@@ -490,30 +490,30 @@ if(!isset($_GET['fdiv'])) {
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h2>VLC playback Features</h2>
+<h1>VLC playback Features</h1>
 <table class="feature-table">
   <tr>
-    <td class="feature-table-lefttop">&nbsp;</td>
-    <td class="feature-table-top">&nbsp;</td>
-    <td class="feature-table-righttop">&nbsp;</td>
-  </tr>
-  <tr>
     <td class="feature-cat-list">
-    <!--Categories-->
-    <?php    
-          $cat = "input";
-          if(isset($_GET['cat'])) {
+        <!--Categories-->
+        <?php
+        $cat = "input";
+        if (isset($_GET['cat'])) {
             $cat = $_GET['cat'];
-          }
-    ?>
-    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" id="cat-input"><a href="/vlc/features.php?cat=input">Input formats</a></div>
-    <div class="feature-cat<?php if($cat=="video") echo "-sel"?>" id="cat-video"><a href="/vlc/features.php?cat=video">Video formats</a></div>
-    <div class="feature-cat<?php if($cat=="audio") echo "-sel"?>" id="cat-audio"><a href="/vlc/features.php?cat=audio">Audio formats</a></div>
-    <div class="feature-cat<?php if($cat=="sub") echo "-sel"?>" id="cat-sub"><a href="/vlc/features.php?cat=sub">Subtitle/Tag formats</a></div>
-    <div class="feature-cat<?php if($cat=="av") echo "-sel"?>" id="cat-av"><a href="/vlc/features.php?cat=av">A/V outputs</a></div>
-    <div class="feature-cat<?php if($cat=="filters") echo "-sel"?>" id="cat-filters"><a href="/vlc/features.php?cat=filters">A/V filters</a></div>
-    <div class="feature-cat<?php if($cat=="intf") echo "-sel"?>" id="cat-intf"><a href="/vlc/features.php?cat=intf">Interfaces</a></div>
-    <div class="feature-cat<?php if($cat=="misc") echo "-sel"?>" id="cat-misc"><a href="/vlc/features.php?cat=misc">Miscellaneous</a></div>
+        }
+
+        function getActiveCat($currentCat) {
+            global $cat;
+            echo $currentCat == $cat ? 'cat-active' : '';
+        }
+        ?>
+        <a class="feature-cat <?php getActiveCat('input'); ?>" id="cat-input" href="/vlc/features.php?cat=input">Input formats</a>
+        <a class="feature-cat <?php getActiveCat('video'); ?>" id="cat-video" href="/vlc/features.php?cat=video">Video formats</a>
+        <a class="feature-cat <?php getActiveCat('audio'); ?>" id="cat-audio" href="/vlc/features.php?cat=audio">Audio formats</a>
+        <a class="feature-cat <?php getActiveCat('sub'); ?>" id="cat-sub" href="/vlc/features.php?cat=sub">Subtitle/Tag formats</a>
+        <a class="feature-cat <?php getActiveCat('av'); ?>" id="cat-av" href="/vlc/features.php?cat=av">A/V outputs</a>
+        <a class="feature-cat <?php getActiveCat('filters'); ?>" id="cat-filters" href="/vlc/features.php?cat=filters">A/V filters</a>
+        <a class="feature-cat <?php getActiveCat('intf'); ?>" id="cat-intf" href="/vlc/features.php?cat=intf">Interfaces</a>
+        <a class="feature-cat <?php getActiveCat('misc'); ?>" id="cat-misc" href="/vlc/features.php?cat=misc">Miscellaneous</a>
     </td>
     <td class="feature-list">
       <div class="feature-div">
@@ -529,19 +529,17 @@ if(!isset($_GET['fdiv'])) {
         ?>
       </div>
     </td>
-    <td class="feature-table-right">&nbsp;</td>
   </tr>
   <tr>
-    <td class="feature-table-leftbottom">&nbsp;</td>
-    <td class="feature-table-bottom">
-      <ul class="feature-icon">
+    <td></td>
+    <td>
+      <ul class="feature-icon list-inline">
         <li><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> = Yes</li>
         <li><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" /> = Partial</li>
         <li><img src="http://images.videolan.org/images/features/cross.png" alt="No" /> = No</li>
         <li><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /> = Untested</li>
       </ul>
     </td>
-    <td class="feature-table-rightbottom">&nbsp;</td>
   </tr>
 </table>
 <h2>Streaming</h2>

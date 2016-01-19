@@ -130,13 +130,13 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
         "android"   => array(
             "name"          => "Android",
             "latestVersion" => $androidversion,
-            "location"      => "/vlc/download-android.html"
+            "location"      => "//play.google.com/store/apps/details?id=org.videolan.vlc"
         ),
         "ios"       => array(
             "name"          => "iOS",
             "size"          => "56.5&nbsp;MB",
             "latestVersion" => $iosversion,
-            "location"      => "/vlc/download-ios.html"
+            "location"      => "//itunes.apple.com/app/apple-store/id650377962?pt=454758&ct=vodownloadpage&mt=8"
         ),
         "tvos"       => array(
             "name"          => "Apple TV - tvOS",

@@ -77,8 +77,7 @@
 <p class="projectDescription">You can find the source code for the latest release here:</p>
 
 <?php
-   echo "<code><a href='http://get.videolan.org/vlc-appletv/$tvosversion/vlc-appletv-$tvosversion.tar.gz'>VLC for Apple TV $tvosversion source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.7.1/VLCKit-3.0.0-pre2.tar.gz">MobileVLCKit 3.0.0-pre2 source code</a></code><br />
+   echo "<code><a href='http://get.videolan.org/vlc-appletv/vlc-appletv-$tvosversion.tar.gz'>VLC for Apple TV $tvosversion source code</a></code><br />"; ?>
 
 <h2>License </h2>
 <p class="projectDescription">VLC for Apple TV is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>

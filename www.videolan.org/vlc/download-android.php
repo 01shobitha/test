@@ -62,7 +62,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 			            Version <span id='downloadVersion'>
 			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span></span>
                         <br>
-                        or download the <a href="//get.videolan.org/vlc-android/<?php echo $android_version; ?>/">APK package</a> from our mirrors.
+                        or download the <a href="//get.videolan.org/vlc-android/<?php echo $androidversion; ?>/">APK package</a> from our mirrors.
 			        </div>
 			    </div>
             </div>

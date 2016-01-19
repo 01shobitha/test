@@ -11,11 +11,11 @@
    $dropdownItems = array(
        array(
            "name"       => "VLC.app dmg package",
-           "location"   => "vlc-$macosxversion_intel.dmg",
+           "location"   => "$dlBase/$macosxversion/macosx/vlc-$macosxversion_intel.dmg",
        ),
        array(
            "name"       => "VLC Web Browser plugin package",
-           "location"   => "VLC-webplugin-$macosxversion_intel.dmg",
+           "location"   => "$dlBase/$macosxversion/macosx/VLC-webplugin-$macosxversion_intel.dmg",
        )
    );
 ?>

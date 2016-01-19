@@ -34,7 +34,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
 function writeInputFeatures() {
 ?>
 <div id="feature-list-input">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
             <?php headers( "yes" ); ?>
             <tr>
             <td class="category" rowspan="14"><b>Input media</b></td>
@@ -114,7 +114,7 @@ function writeInputFeatures() {
 function writeVideoFeatures() {
 ?>
 <div id="feature-list-video">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
             <?php headers( "no" ); ?>
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DivX® (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -159,7 +159,7 @@ function writeVideoFeatures() {
 function writeAudioFeatures() {
 ?>
 <div id="feature-list-audio">
-        <table class="feature-list-table">
+        <table class="feature-list-table table table-striped table-hover">
         <?php headers( "no" ); ?>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3 - MPEG Layer 3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -208,7 +208,7 @@ function writeAudioFeatures() {
 function writeSubFeatures() {
 ?>
 <div id="feature-list-sub">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
 	<?php headers( "yes" ); ?>
         <tr>
           <td class="category" rowspan="10"><b>Subtitles</b></td>
@@ -248,7 +248,7 @@ function writeSubFeatures() {
 function writeAVFeatures() {
 ?>
 <div id="feature-list-av">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
         <?php headers( "yes" ); ?>
         <tr>
           <td class="category" rowspan="6"><b>Video Outputs</b></td>
@@ -315,7 +315,7 @@ function writeAVFeatures() {
 function writeFilterFeatures() {
 ?>
 <div id="feature-list-filters">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
 	     <?php headers( "yes" ); ?>
                     <tr>
           <td class="category" rowspan="10"><b>Video Filters</b></td>
@@ -347,7 +347,7 @@ function writeFilterFeatures() {
 function writeIntfFeatures() {
 ?>
 <div id="feature-list-intf">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
 	   <?php headers( "no" ); ?>
           <tr>
           <td class="type">Default</td>
@@ -375,7 +375,7 @@ function writeIntfFeatures() {
 function writeMiscFeatures() {
 ?>
 <div id="feature-list-misc">
-          <table class="feature-list-table">
+          <table class="feature-list-table table table-striped table-hover">
 	   <?php headers( "no" ); ?>
            <?php writefeature( "SAP/SDP announces", "yes", "yes", "yes", "no", "yes", "no" ); ?>
            <?php writefeature( "Bonjour protocol", "no", "yes", "yes", "unt", "unt", "unt" ); ?>

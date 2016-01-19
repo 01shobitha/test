@@ -138,8 +138,8 @@ function start_head( $title,
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <?php
             if ($new_design) {
-                echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">';
-                echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
+                echo '<meta http-equiv="X-UA-Compatible" content="IE=edge" />';
+                echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
             }
         ?>
         <meta http-equiv="Content-Language" content="<?php echo $language?>" />

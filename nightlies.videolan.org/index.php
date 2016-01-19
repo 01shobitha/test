@@ -11,7 +11,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<div id="fullwidth">
+<div class="container">
     <h1 class="bigtitle">VLC media player nightly builds</h1>
     <div class="vlc-screenshot">
         <img width="246" height="170" src="screenshot.png" alt="VLC on Windows"/>

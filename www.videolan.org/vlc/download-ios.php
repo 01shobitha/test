@@ -21,20 +21,7 @@
 	?>
     <section class="download-wrapper">
         <div class="row reorder-xs">
-            <?php
-                echo '<div class="v-align carousel-padding-xs col-xs-12 col-sm-5 col-sm-offset-1 col-sm-pull-1"><div id="header-carousel">';
-                $first = true;
-                foreach($screenshots as $screenshot) {
-                    $src = $first ? $screenshot['src'] : '';
-                    $srcLazy = $first ? '' : $screenshot['src'];
-                    $dom  = '<div class="screenshot2">';
-                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
-                    $dom .= '</div>';
-                    echo $dom;
-                    $first = false;
-                }
-                echo '</div></div>';
-            ?>
+            <?php drawScreenshots($screenshots); ?>
             <div class="v-align col-sm-5">
                 <div class="center-font-xs">
                     <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>

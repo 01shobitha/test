@@ -552,7 +552,7 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
                     $src = $first ? $screenshot['src'] : '';
                     $srcLazy = $first ? '' : $screenshot['src'];
                     $dom  = '<div class="screenshot2">';
-                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
+                    $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'"/>';
                     $dom .= '</div>';
                     echo $dom;
                     $first = false;

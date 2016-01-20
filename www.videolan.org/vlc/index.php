@@ -12,11 +12,11 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    
    function vlcscreenshot($img, $thumb, $desc) {
-        echo"<div class='screenshot' style='overflow: hidden; width: 120px;'><a href='http://images.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
+        echo"<div class='screenshot-4-3-responsive screenshot-small'><a href='http://images.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
         src='//images.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
         </div>";
     }
-    
+
     function addos($name, $class, $url, $bold=false) {
         echo "<div class='$class'>"._("Get VLC for")." <a href='$url'><strong>$name</strong></a></div>";
     }
@@ -81,44 +81,46 @@
         <div class="row">
             <div class="col-md-12 padding-bottom-24">
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
-                <?php
-                vlcscreenshot( "1.0.0/VLC_Gnome.png",
-                            "1.0.0/tm_VLC_Gnome.jpg",
-                            "Linux - Gnome");
-                vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
-                            "1.0.0/tm_vlc_101_w7_2.jpg",
-                            "Windows 7 - Qt Interface" );
-                vlcscreenshot( "1.0.0/vlc_101_w7_1.jpg",
-                            "1.0.0/tm_vlc_101_w7_1.jpg",
-                            "Windows 7 - Qt Interface" );
-                vlcscreenshot( "1.0.0/vlc_101_w7.jpg",
-                            "1.0.0/tm_vlc_101_w7.jpg",
-                            "Windows 7 - Qt Interface" );
-                vlcscreenshot( "1.0.0/VLC_Goldneye.jpg",
-                            "1.0.0/tm_VLC_Goldneye.jpg",
-                            "Windows Vista - Skins Interface" );
-                vlcscreenshot( "1.0.0/VLC_Qt4.jpg",
-                            "1.0.0/tm_VLC_Qt4.jpg",
-                            "Windows Vista - Qt Interface" );
-                vlcscreenshot( "appletv/Apple-TV-device-playback-large.jpg",
-                            "appletv/tm_Apple-TV-device-playback.jpg",
-                            "VLC on Apple TV" );
-                vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback-dark.jpg",
-                            "2.2.0/tm_vlc-2.2-macosx-playback-dark.jpg",
-                            "VLC on OS X" );
-                vlcscreenshot( "2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg",
-                            "2.2.0/tm_vlc-2.2-macosx-audio-playback-dark.jpg",
-                            "VLC on OS X" );
-                vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
-                            "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
-                            "VLC on OS X" );
-                vlcscreenshot( "2.2.0/vlc-ios-2.4-ipad-library-large.jpg",
-                            "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
-                            "VLC on iPad" );
-                vlcscreenshot( "winrt/artistpage-medium.jpg",
-                            "winrt/tm_artistpage.jpg",
-                            "VLC for Windows Store (Windows 10)" );
-                ?>
+                <div id="content-carousel">
+                    <?php
+                    vlcscreenshot( "1.0.0/VLC_Gnome.png",
+                                "1.0.0/tm_VLC_Gnome.jpg",
+                                "Linux - Gnome");
+                    vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
+                                "1.0.0/tm_vlc_101_w7_2.jpg",
+                                "Windows 7 - Qt Interface" );
+                    vlcscreenshot( "1.0.0/vlc_101_w7_1.jpg",
+                                "1.0.0/tm_vlc_101_w7_1.jpg",
+                                "Windows 7 - Qt Interface" );
+                    vlcscreenshot( "1.0.0/vlc_101_w7.jpg",
+                                "1.0.0/tm_vlc_101_w7.jpg",
+                                "Windows 7 - Qt Interface" );
+                    vlcscreenshot( "1.0.0/VLC_Goldneye.jpg",
+                                "1.0.0/tm_VLC_Goldneye.jpg",
+                                "Windows Vista - Skins Interface" );
+                    vlcscreenshot( "1.0.0/VLC_Qt4.jpg",
+                                "1.0.0/tm_VLC_Qt4.jpg",
+                                "Windows Vista - Qt Interface" );
+                    vlcscreenshot( "appletv/Apple-TV-device-playback-large.jpg",
+                                "appletv/tm_Apple-TV-device-playback.jpg",
+                                "VLC on Apple TV" );
+                    vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback-dark.jpg",
+                                "2.2.0/tm_vlc-2.2-macosx-playback-dark.jpg",
+                                "VLC on OS X" );
+                    vlcscreenshot( "2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg",
+                                "2.2.0/tm_vlc-2.2-macosx-audio-playback-dark.jpg",
+                                "VLC on OS X" );
+                    vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
+                                "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
+                                "VLC on OS X" );
+                    vlcscreenshot( "2.2.0/vlc-ios-2.4-ipad-library-large.jpg",
+                                "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
+                                "VLC on iPad" );
+                    vlcscreenshot( "winrt/artistpage-medium.jpg",
+                                "winrt/tm_artistpage.jpg",
+                                "VLC for Windows Store (Windows 10)" );
+                    ?>
+                </div>
                 <div class="ltrClearLeft">
                 </div>
                 <a class="extra-info-link2 padding-top" style='padding-left: 5px;' href='/vlc/screenshots.html'><?php echo _("View all screenshots"); ?></a>

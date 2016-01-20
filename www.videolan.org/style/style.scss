@@ -1110,6 +1110,17 @@ a.icon {
     }
 }
 
+.screenshot-4-3-responsive {
+    @include aspect-ratio(4, 3);
+    display: inline-block;/* no js */
+    overflow: hidden;
+    margin: 0 5px;
+}
+
+.screenshot-small {
+    width: 120px;
+}
+
 /* Media queries */
 @media (max-width: 991px) {
     .features .items {

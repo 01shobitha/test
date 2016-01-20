@@ -7,10 +7,26 @@ $(document).ready(function() {
         autoplaySpeed: 3000,
         infinite: true,
         responsive: [{
-            breakpoint: 767,
+            breakpoint: 768,
             settings: {
                 arrows: false,
                 autoplay: false
+            }
+        }]
+    });
+
+    $('#content-carousel').slick({
+        centerMode: true,
+        slidesToShow: 8,
+        slidesToScroll: 2,
+        variableWidth: true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                autoplay: false,
+                centerMode: true,
+                slidesToShow: 3
             }
         }]
     });

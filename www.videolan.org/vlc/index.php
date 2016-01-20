@@ -23,26 +23,38 @@
 ?>
 <div class="container">
     <?php drawVLCdownloadSection(); ?>
-    <div class="row">
-        <div class="col-sm-6 padding-bottom-24">
-           <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
-            <?php echo _("Simple, fast and powerful media player."); ?>
-            <br /><br />
-            <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams."); ?>
-            <br /><br />
-            <?php echo _("Plays most codecs with no codec packs needed:")."<br />
-                MPEG-2, MPEG-4, H.264, MKV, WebM, WMV, MP3..."; ?>
-            <br /><br />
-            <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
-            <br /><br />
-            <?php echo _("Completely Free, no spyware, no ads and no user tracking."); ?>
-            <br /><br />
-            <?php echo _("Can do media conversion and streaming."); ?>
-            <br />
-            <a class="extra-info-link2 padding-top" href='/vlc/features.html'><?php echo _("Discover all features"); ?></a> 
+</div>
+<section class="features bg-gray">
+    <div class="container">
+        <h2 class="center-font-xs center-font-sm"><?php echo _("Simple, fast and powerful"); ?></h2>
+        <div class="row reorder-sm reorder-xs">
+            <div class="col-md-7 col-md-offset-1 col-md-pull-1">
+                <ul>
+                    <li>
+                        <?php echo "<b>"._("Plays everything")."</b> - "._("Files, Discs, Webcams, Devices and Streams."); ?>
+                    </li>
+                    <li>
+                        <?php echo "<b>"._("Plays most codecs with no codec packs needed")."</b> - MPEG-2, MPEG-4, H.264, MKV, WebM, WMV, MP3..." ?>
+                    </li>
+                    <li>
+                        <?php echo "<b>"._("Runs on all platforms")."</b> - Windows, Linux, Mac OS X, Unix, iOS, Android ..."; ?>
+                    </li>
+                    <li>
+                        <?php echo "<b>"._("Completely Free")."</b> - "._("no spyware, no ads and no user tracking."); ?>
+                    </li>
+                </ul>
+                <a class="extra-info-link2 padding-top" href='/vlc/features.html'><?php echo _("learn more"); ?></a>
+            </div>
+            <div class="col-md-4">
+                <img src="//images.videolan.org/vlc/screenshots/android/playback-medium.jpg" class="img-responsive">
+            </div>
         </div>
+    </div>
+</section>
 
-        <div class="col-sm-6 padding-bottom-24">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 padding-bottom-24">
             <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
             <?php
             vlcscreenshot( "1.0.0/VLC_Gnome.png",

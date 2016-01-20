@@ -943,82 +943,6 @@ img, .normalButton {
     font-size: 14px;
 }
 
-/* Media queries */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .center-sm {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .center-font-sm {
-        text-align: center;
-    }
-    .new-design {
-        h1.bigtitle {
-            font-size: 36px;
-        }
-    }
-}
-
-@media (max-width: 767px) {
-    .donate2 {
-        padding-right: 10px;
-    }
-    .donate2 button {
-        height: 30px;
-        padding: 5px;
-    }
-    .center-xs {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .center-font-xs {
-        text-align: center;
-    }
-    .new-design .download-wrapper {
-        padding-bottom: 10px;
-        .big-vlc-img {
-            width: 44px;
-            margin: 0 6px 12px -6px;
-        }
-        h1.bigtitle {
-            font-size: 32px;
-        }
-        .projectDescription {
-            font-size: 14px;
-        }
-    }
-    //Fix Bootstrap bug on mobile
-    .caret {
-        border-top: 4px solid;
-    }
-    #nonprofitOrganizationDiv2 {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 16px;
-    }
-    .row.reorder-xs {
-        @include rotate(180deg);
-    }
-    .row.reorder-xs > [class*="col-"] {
-        @include rotate(-180deg);
-    }
-    html[dir="rtl"] .row.reorder-xs {
-        direction: ltr;
-    }
-    html[dir="rtl"] .row.reorder-xs {
-        direction: ltr;
-    }
-    html[dir="rtl"] .row.reorder-xs > [class*="col-"] {
-        direction: rtl; /* Fix the horizontal alignment */
-    }
-    .carousel-padding-xs {
-        padding: 20px 0 0 0;
-    }
-}
-
 /* ============================ BOOTSTRAP ADJUSTMENTS =========================== */
 
 .btn {
@@ -1144,4 +1068,137 @@ a.icon {
 .main-os-icons {
     text-align: center;
     padding-top: 10px;
+}
+
+//Features
+.features {
+    padding: 50px 15px;
+    &.bg-gray {
+        background-color: #f7f7f7;
+    }
+    h2 {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    p, li {
+        color: rgb(77, 77, 77);
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+    }
+    img {
+        margin-top: -30px;
+    }
+    ul {
+        margin-left: 19px;
+        li {
+            margin-bottom: 16px;
+            &:before {
+                content: '';
+                display: inline-block;
+                height: 16px;
+                width: 16px;
+                background-image: url('/images/icons/check-outline.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding-left: 19px;
+            }
+        }
+    }
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+    .features img {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .center-sm {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center-font-sm {
+        text-align: center;
+    }
+    .new-design {
+        h1.bigtitle {
+            font-size: 36px;
+        }
+    }
+    .row.reorder-sm {
+        @include rotate(180deg);
+    }
+    .row.reorder-sm > [class*="col-"] {
+        @include rotate(-180deg);
+    }
+    html[dir="rtl"] .row.reorder-sm {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-sm {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-sm > [class*="col-"] {
+        direction: rtl; /* Fix the horizontal alignment */
+    }
+}
+
+@media (max-width: 767px) {
+    .donate2 {
+        padding-right: 10px;
+    }
+    .donate2 button {
+        height: 30px;
+        padding: 5px;
+    }
+    .center-xs {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center-font-xs {
+        text-align: center;
+    }
+    .new-design .download-wrapper {
+        padding-bottom: 10px;
+        .big-vlc-img {
+            width: 44px;
+            margin: 0 6px 12px -6px;
+        }
+        h1.bigtitle {
+            font-size: 32px;
+        }
+        .projectDescription {
+            font-size: 14px;
+        }
+    }
+    //Fix Bootstrap bug on mobile
+    .caret {
+        border-top: 4px solid;
+    }
+    #nonprofitOrganizationDiv2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .row.reorder-xs {
+        @include rotate(180deg);
+    }
+    .row.reorder-xs > [class*="col-"] {
+        @include rotate(-180deg);
+    }
+    html[dir="rtl"] .row.reorder-xs {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-xs {
+        direction: ltr;
+    }
+    html[dir="rtl"] .row.reorder-xs > [class*="col-"] {
+        direction: rtl; /* Fix the horizontal alignment */
+    }
+    .carousel-padding-xs {
+        padding: 20px 0 0 0;
+    }
 }

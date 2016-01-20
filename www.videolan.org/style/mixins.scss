@@ -26,3 +26,10 @@
     bottom: 0;
   }
 }
+
+@mixin v-align() {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-right: -4px;
+}

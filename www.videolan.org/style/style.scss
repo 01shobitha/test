@@ -970,10 +970,7 @@ img, .normalButton {
 }
 
 .v-align {
-    display: inline-block;
-    float: none;
-    vertical-align: middle;
-    margin-right: -4px;
+    @include v-align();
 }
 
 /* ============================ VLC Download =========================== */
@@ -1072,6 +1069,7 @@ a.icon {
 
 //Features
 .features {
+    $left: 19px;
     padding: 50px 15px;
     &.bg-gray {
         background-color: #f7f7f7;
@@ -1080,17 +1078,21 @@ a.icon {
         font-size: 26px;
         margin-bottom: 16px;
     }
-    p, li {
+    p, li, li a {
         color: rgb(77, 77, 77);
         font-size: 16px;
         line-height: 24px;
-        display: block;
     }
+    /*
     img {
         margin-top: -30px;
     }
+    */
+    .feat-margin-left {
+        margin-left: $left;
+    }
     ul {
-        margin-left: 19px;
+        margin-left: $left;
         li {
             margin-bottom: 16px;
             &:before {
@@ -1101,7 +1103,7 @@ a.icon {
                 background-image: url('/images/icons/check-outline.svg');
                 background-size: contain;
                 background-repeat: no-repeat;
-                padding-left: 19px;
+                padding-left: $left;
             }
         }
     }
@@ -1109,8 +1111,20 @@ a.icon {
 
 /* Media queries */
 @media (max-width: 991px) {
-    .features img {
-        margin-top: 30px;
+    .features .items {
+        padding-top: 26px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .v-align-md {
+        @include v-align();
+    }
+}
+
+@media (min-width: 1200px) {
+    .v-align-lg {
+        @include v-align();
     }
 }
 

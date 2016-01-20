@@ -486,65 +486,66 @@ if(!isset($_GET['fdiv'])) {
    $title = "VLC - Features";
    $lang = "en";
    $menu = array( "vlc", "features" );
+   $new_design = true;
    $additional_css = array("/vlc/features.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
+<div class="container">
+    <h1>VLC playback Features</h1>
+    <table class="feature-table">
+    <tr>
+        <td class="feature-cat-list">
+            <!--Categories-->
+            <?php
+            $cat = "input";
+            if (isset($_GET['cat'])) {
+                $cat = $_GET['cat'];
+            }
 
-<h1>VLC playback Features</h1>
-<table class="feature-table">
-  <tr>
-    <td class="feature-cat-list">
-        <!--Categories-->
-        <?php
-        $cat = "input";
-        if (isset($_GET['cat'])) {
-            $cat = $_GET['cat'];
-        }
-
-        function getActiveCat($currentCat) {
-            global $cat;
-            echo $currentCat == $cat ? 'cat-active' : '';
-        }
-        ?>
-        <a class="feature-cat <?php getActiveCat('input'); ?>" id="cat-input" href="/vlc/features.php?cat=input">Input formats</a>
-        <a class="feature-cat <?php getActiveCat('video'); ?>" id="cat-video" href="/vlc/features.php?cat=video">Video formats</a>
-        <a class="feature-cat <?php getActiveCat('audio'); ?>" id="cat-audio" href="/vlc/features.php?cat=audio">Audio formats</a>
-        <a class="feature-cat <?php getActiveCat('sub'); ?>" id="cat-sub" href="/vlc/features.php?cat=sub">Subtitle/Tag formats</a>
-        <!--<a class="feature-cat <?php getActiveCat('av'); ?>" id="cat-av" href="/vlc/features.php?cat=av">A/V outputs</a>-->
-        <!--<a class="feature-cat <?php getActiveCat('filters'); ?>" id="cat-filters" href="/vlc/features.php?cat=filters">A/V filters</a>-->
-        <a class="feature-cat <?php getActiveCat('intf'); ?>" id="cat-intf" href="/vlc/features.php?cat=intf">Interfaces</a>
-        <a class="feature-cat <?php getActiveCat('misc'); ?>" id="cat-misc" href="/vlc/features.php?cat=misc">Miscellaneous</a>
-    </td>
-    <td class="feature-list">
-      <div class="feature-div">
-        <?php
-          if($cat=="input") writeInputFeatures();
-          else if($cat=="video") writeVideoFeatures();
-          else if($cat=="audio") writeAudioFeatures();
-          else if($cat=="sub") writeSubFeatures();
-          else if($cat=="av") writeAVFeatures();
-          else if($cat=="filters") writeFilterFeatures();
-          else if($cat=="intf") writeIntfFeatures();
-          else if($cat=="misc") writeMiscFeatures();
-        ?>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <ul class="feature-icon list-inline">
-        <li><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> = Yes</li>
-        <li><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" /> = Partial</li>
-        <li><img src="http://images.videolan.org/images/features/cross.png" alt="No" /> = No</li>
-        <li><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /> = Untested</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-<h2>Streaming</h2>
-<p>See the <a href="/streaming-features.html">Streaming features page</a></p>
-<br/>
+            function getActiveCat($currentCat) {
+                global $cat;
+                echo $currentCat == $cat ? 'cat-active' : '';
+            }
+            ?>
+            <a class="feature-cat <?php getActiveCat('input'); ?>" id="cat-input" href="/vlc/features.php?cat=input">Input formats</a>
+            <a class="feature-cat <?php getActiveCat('video'); ?>" id="cat-video" href="/vlc/features.php?cat=video">Video formats</a>
+            <a class="feature-cat <?php getActiveCat('audio'); ?>" id="cat-audio" href="/vlc/features.php?cat=audio">Audio formats</a>
+            <a class="feature-cat <?php getActiveCat('sub'); ?>" id="cat-sub" href="/vlc/features.php?cat=sub">Subtitle/Tag formats</a>
+            <!--<a class="feature-cat <?php getActiveCat('av'); ?>" id="cat-av" href="/vlc/features.php?cat=av">A/V outputs</a>-->
+            <!--<a class="feature-cat <?php getActiveCat('filters'); ?>" id="cat-filters" href="/vlc/features.php?cat=filters">A/V filters</a>-->
+            <a class="feature-cat <?php getActiveCat('intf'); ?>" id="cat-intf" href="/vlc/features.php?cat=intf">Interfaces</a>
+            <a class="feature-cat <?php getActiveCat('misc'); ?>" id="cat-misc" href="/vlc/features.php?cat=misc">Miscellaneous</a>
+        </td>
+        <td class="feature-list">
+        <div class="feature-div">
+            <?php
+            if($cat=="input") writeInputFeatures();
+            else if($cat=="video") writeVideoFeatures();
+            else if($cat=="audio") writeAudioFeatures();
+            else if($cat=="sub") writeSubFeatures();
+            else if($cat=="av") writeAVFeatures();
+            else if($cat=="filters") writeFilterFeatures();
+            else if($cat=="intf") writeIntfFeatures();
+            else if($cat=="misc") writeMiscFeatures();
+            ?>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+        <ul class="feature-icon list-inline">
+            <li><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> = Yes</li>
+            <li><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" /> = Partial</li>
+            <li><img src="http://images.videolan.org/images/features/cross.png" alt="No" /> = No</li>
+            <li><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /> = Untested</li>
+        </ul>
+        </td>
+    </tr>
+    </table>
+    <h2>Streaming</h2>
+    <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
+</div>
 <?php footer('$Id: features.php 4814 2008-12-12 13:30 CEST altglass $'); ?>
 <?php
 } else {

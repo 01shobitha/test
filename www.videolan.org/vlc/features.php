@@ -510,8 +510,8 @@ if(!isset($_GET['fdiv'])) {
         <a class="feature-cat <?php getActiveCat('video'); ?>" id="cat-video" href="/vlc/features.php?cat=video">Video formats</a>
         <a class="feature-cat <?php getActiveCat('audio'); ?>" id="cat-audio" href="/vlc/features.php?cat=audio">Audio formats</a>
         <a class="feature-cat <?php getActiveCat('sub'); ?>" id="cat-sub" href="/vlc/features.php?cat=sub">Subtitle/Tag formats</a>
-        <a class="feature-cat <?php getActiveCat('av'); ?>" id="cat-av" href="/vlc/features.php?cat=av">A/V outputs</a>
-        <a class="feature-cat <?php getActiveCat('filters'); ?>" id="cat-filters" href="/vlc/features.php?cat=filters">A/V filters</a>
+        <!--<a class="feature-cat <?php getActiveCat('av'); ?>" id="cat-av" href="/vlc/features.php?cat=av">A/V outputs</a>-->
+        <!--<a class="feature-cat <?php getActiveCat('filters'); ?>" id="cat-filters" href="/vlc/features.php?cat=filters">A/V filters</a>-->
         <a class="feature-cat <?php getActiveCat('intf'); ?>" id="cat-intf" href="/vlc/features.php?cat=intf">Interfaces</a>
         <a class="feature-cat <?php getActiveCat('misc'); ?>" id="cat-misc" href="/vlc/features.php?cat=misc">Miscellaneous</a>
     </td>

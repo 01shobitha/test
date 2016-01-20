@@ -352,6 +352,22 @@ function getScreenshots($os) {
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
                 "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Windows Vista - Qt Interface",
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Qt4.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_1.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Windows Vista - Skins Interface",
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/VLC_Goldneye.jpg"
+            ),
+            array(
+                "name"  => "VLC media player - Windows 7 - Qt Interface",
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7.jpg"
             )
         ),
         "linux" => array(

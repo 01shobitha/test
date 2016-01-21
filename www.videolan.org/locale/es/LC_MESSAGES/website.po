@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-17 09:56-0500\n"
+"POT-Creation-Date: 2016-01-21 18:18-0500\n"
 "PO-Revision-Date: 2016-01-17 12:51+0000\n"
 "Last-Translator: picodotdev <pico.dev@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/yaron/vlc-trans/language/es/)\n"
@@ -51,15 +51,15 @@ msgstr "Centro de prensa"
 msgid "Contact us"
 msgstr "Contáctenos"
 
-#: include/menus.php:38 include/os-specific.php:211
+#: include/menus.php:38 include/os-specific.php:241
 msgid "Download"
 msgstr "Descargar"
 
-#: include/menus.php:39 include/footer.php:24 vlc/index.php:28
+#: include/menus.php:39 include/footer.php:24
 msgid "Features"
 msgstr "Características"
 
-#: include/menus.php:40
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
 msgid "Customize"
 msgstr "Personalizar"
 
@@ -103,7 +103,7 @@ msgstr "Pieles"
 msgid "Extensions"
 msgstr "Extensiones"
 
-#: include/footer.php:25 vlc/index.php:46
+#: include/footer.php:25 vlc/index.php:83
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
@@ -159,19 +159,19 @@ msgstr "Involúcrese"
 msgid "News"
 msgstr "Noticias"
 
-#: include/os-specific.php:85
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Descargar VLC"
 
-#: include/os-specific.php:91 include/os-specific.php:227 vlc/index.php:122
+#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Otros sistemas"
 
-#: include/os-specific.php:405
+#: include/os-specific.php:609
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC es un reproductor multimedia libre y de código abierto multiplataforma y un «framework» que reproduce la mayoría de archivos multimedia, así como DVD, Audio CD, VCD y diversos protocolos de transmisión."
 
-#: include/os-specific.php:409
+#: include/os-specific.php:613
 #, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC es un reproductor multimedia libre y de código abierto multiplataforma y un «framework» que reproduce la mayoría de archivos multimedia, así como DVD, Audio CD, VCD y diversos protocolos de transmisión."
@@ -280,53 +280,95 @@ msgstr "Página oficial del Reproductor multimedia VLC, el «framework» de cód
 msgid "Get VLC for"
 msgstr "Obtenga VLC para"
 
-#: vlc/index.php:29
-msgid "Simple, fast and powerful media player."
+#: vlc/index.php:29 vlc/index.php:32
+#, fuzzy
+msgid "Simple, fast and powerful"
 msgstr "Reproductor multimedia simple, rápido y potente."
 
-#: vlc/index.php:31
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+#, fuzzy
+msgid "Files, Discs, Webcams, Devices and Streams."
 msgstr "Reproduce todo: archivos, discos, cámaras de vídeo, dispositivos y flujos."
 
-#: vlc/index.php:33
-msgid "Plays most codecs with no codec packs needed:"
+#: vlc/index.php:38
+#, fuzzy
+msgid "Plays most codecs with no codec packs needed"
 msgstr "Reproduce la mayoría de códecs sin necesidad de paquetes de códecs:"
 
-#: vlc/index.php:36
-msgid "Runs on all platforms:"
+#: vlc/index.php:41
+#, fuzzy
+msgid "Runs on all platforms"
 msgstr "Se ejecuta en todas las plataformas:"
 
-#: vlc/index.php:38
-msgid "Completely Free, no spyware, no ads and no user tracking."
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+#, fuzzy
+msgid "no spyware, no ads and no user tracking."
 msgstr "Completamente libre, sin programas espía, sin anuncios y sin seguimiento del usuario."
 
-#: vlc/index.php:40
-msgid "Can do media conversion and streaming."
-msgstr "Puede convertir medios y emitirlos."
+#: vlc/index.php:47
+#, fuzzy
+msgid "learn more"
+msgstr "Aprender más"
 
-#: vlc/index.php:42
-msgid "Discover all features"
-msgstr "Descubra todas las características"
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
 
-#: vlc/index.php:84
+#: vlc/index.php:66
+#, fuzzy
+msgid "skins"
+msgstr "Pieles"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+#, fuzzy
+msgid "extensions"
+msgstr "Extensiones"
+
+#: vlc/index.php:126
 msgid "View all screenshots"
 msgstr "Ver todas las capturas de pantalla"
 
-#: vlc/index.php:90
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Descargas oficiales del Reproductor multimedia VLC"
 
-#: vlc/index.php:99
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Fuentes"
 
-#: vlc/index.php:100
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "También puede obtener directamente el"
 
-#: vlc/index.php:101
+#: vlc/index.php:148
 msgid "source code"
 msgstr "código fuente"
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Puede convertir medios y emitirlos."
+
+#~ msgid "Discover all features"
+#~ msgstr "Descubra todas las características"
 
 #~ msgid "A project and a"
 #~ msgstr "Un proyecto y una"

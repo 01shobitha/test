@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-09 16:54-0500\n"
-"PO-Revision-Date: 2016-01-10 11:55+0000\n"
+"POT-Creation-Date: 2016-01-21 18:18-0500\n"
+"PO-Revision-Date: 2016-01-11 16:12+0000\n"
 "Last-Translator: Thomas De Rocker\n"
 "Language-Team: Dutch (http://www.transifex.com/yaron/vlc-trans/language/nl/)\n"
 "Language: nl\n"
@@ -18,161 +18,161 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:286
+#: include/header.php:291
 msgid "a project and a"
 msgstr "een project en een"
 
-#: include/header.php:286
+#: include/header.php:291
 msgid "non-profit organization"
 msgstr "non-profit organisatie"
 
-#: include/header.php:321
+#: include/menus.php:27
 msgid "Team &amp; Organization"
 msgstr "Team &amp; organisatie"
 
-#: include/header.php:322
+#: include/menus.php:28
 msgid "Consulting Services &amp; Partners"
 msgstr "Consulting services &amp; partners"
 
-#: include/header.php:323 include/header.php:523
+#: include/menus.php:29 include/footer.php:69
 msgid "Events"
 msgstr "Gebeurtenissen"
 
-#: include/header.php:324 include/header.php:518 include/header.php:552
+#: include/menus.php:30 include/footer.php:64 include/footer.php:98
 msgid "Legal"
 msgstr "Rechten"
 
-#: include/header.php:325 include/header.php:522
+#: include/menus.php:31 include/footer.php:68
 msgid "Press center"
 msgstr "Perscentrum"
 
-#: include/header.php:326 include/header.php:519
+#: include/menus.php:32 include/footer.php:65
 msgid "Contact us"
 msgstr "Contacteer ons"
 
-#: include/header.php:332 include/os-specific.php:114
+#: include/menus.php:38 include/os-specific.php:241
 msgid "Download"
 msgstr "Downloaden"
 
-#: include/header.php:333 include/header.php:478 vlc/index.php:28
+#: include/menus.php:39 include/footer.php:24
 msgid "Features"
 msgstr "Functies"
 
-#: include/header.php:334
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
 msgid "Customize"
 msgstr "Aanpassen"
 
-#: include/header.php:336 include/header.php:510
+#: include/menus.php:42 include/footer.php:56
 msgid "Get Goodies"
 msgstr "Goodies verkrijgen"
 
-#: include/header.php:340
+#: include/menus.php:46
 msgid "Projects"
 msgstr "Projecten"
 
-#: include/header.php:358 include/header.php:484
+#: include/menus.php:64 include/footer.php:30
 msgid "All Projects"
 msgstr "Alle projecten"
 
-#: include/header.php:362 index.php:164
+#: include/menus.php:68 index.php:164
 msgid "Contribute"
 msgstr "Bijdragen"
 
-#: include/header.php:364
+#: include/menus.php:70
 msgid "Getting started"
 msgstr "Beginnen"
 
-#: include/header.php:365 include/header.php:407
+#: include/menus.php:71 include/menus.php:89
 msgid "Donate"
 msgstr "Doneren"
 
-#: include/header.php:366
+#: include/menus.php:72
 msgid "Report a bug"
 msgstr "Een bug rapporteren"
 
-#: include/header.php:370
+#: include/menus.php:76
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: include/header.php:387 include/header.php:402 include/header.php:422
-#: include/header.php:437 index.php:144
-msgid "donate"
-msgstr "doneren"
-
-#: include/header.php:476
+#: include/footer.php:22
 msgid "Skins"
 msgstr "Skins"
 
-#: include/header.php:477
+#: include/footer.php:23
 msgid "Extensions"
 msgstr "Extensies"
 
-#: include/header.php:479 vlc/index.php:46
+#: include/footer.php:25 vlc/index.php:83
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: include/header.php:502
+#: include/footer.php:48
 msgid "Community"
 msgstr "Gemeenschap"
 
-#: include/header.php:505
+#: include/footer.php:51
 msgid "Forums"
 msgstr "Forums"
 
-#: include/header.php:506
+#: include/footer.php:52
 msgid "Mailing-Lists"
 msgstr "Maillijsten"
 
-#: include/header.php:507
+#: include/footer.php:53
 msgid "FAQ"
 msgstr "FAQ"
 
-#: include/header.php:508
+#: include/footer.php:54
 msgid "Donate money"
 msgstr "Geld doneren"
 
-#: include/header.php:509
+#: include/footer.php:55
 msgid "Donate time"
 msgstr "Tijd doneren"
 
-#: include/header.php:516
+#: include/footer.php:62
 msgid "Project and Organization"
 msgstr "Project en organisatie"
 
-#: include/header.php:517
+#: include/footer.php:63
 msgid "Team"
 msgstr "Team"
 
-#: include/header.php:520
+#: include/footer.php:66
 msgid "Partners"
 msgstr "Partners"
 
-#: include/header.php:521
+#: include/footer.php:67
 msgid "Mirrors"
 msgstr "Mirrors"
 
-#: include/header.php:524
+#: include/footer.php:70
 msgid "Security center"
 msgstr "Veiligheidscentrum"
 
-#: include/header.php:525
+#: include/footer.php:71
 msgid "Get Involved"
 msgstr "Raak betrokken"
 
-#: include/header.php:526
+#: include/footer.php:72
 msgid "News"
 msgstr "Nieuws"
 
-#: include/os-specific.php:94
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "VLC downloaden"
 
-#: include/os-specific.php:100 include/os-specific.php:148 vlc/index.php:105
+#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Andere systemen"
 
-#: include/os-specific.php:195
+#: include/os-specific.php:609
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC is een gratis en open source cross-platform multimediaspeler en -framework dat de meeste multimediabestanden en ook dvd's, audio-cd's, vcd's en verschilllende streaming-protocols afspeelt."
+
+#: include/os-specific.php:613
+#, fuzzy
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC is een gratis en open source cross-platform multimediaspeler en -framework dat de meeste multimediabestanden en ook dvd's, audio-cd's, vcd's en verschilllende streaming-protocols afspeelt."
 
 #: index.php:4
@@ -222,6 +222,10 @@ msgstr "Alle projecten weergeven"
 #: index.php:140
 msgid "Help us out!"
 msgstr "Help ons!"
+
+#: index.php:144
+msgid "donate"
+msgstr "doneren"
 
 #: index.php:152
 msgid "VideoLAN is a non-profit organization."
@@ -275,53 +279,95 @@ msgstr "Officiële pagina voor VLC media player, het open source video-framework
 msgid "Get VLC for"
 msgstr "VLC voor"
 
-#: vlc/index.php:29
-msgid "Simple, fast and powerful media player."
+#: vlc/index.php:29 vlc/index.php:32
+#, fuzzy
+msgid "Simple, fast and powerful"
 msgstr "Simpele, snelle en krachtige mediaspeler"
 
-#: vlc/index.php:31
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+#, fuzzy
+msgid "Files, Discs, Webcams, Devices and Streams."
 msgstr "Speelt alles: bestanden, disks, webcams, apparaten en streams."
 
-#: vlc/index.php:33
-msgid "Plays most codecs with no codec packs needed:"
+#: vlc/index.php:38
+#, fuzzy
+msgid "Plays most codecs with no codec packs needed"
 msgstr "Speelt de meeste codecs zonder noodzaak voor codec packs:"
 
-#: vlc/index.php:36
-msgid "Runs on all platforms:"
+#: vlc/index.php:41
+#, fuzzy
+msgid "Runs on all platforms"
 msgstr "Draait op alle besturingssystemen:"
 
-#: vlc/index.php:38
-msgid "Completely Free, no spyware, no ads and no user tracking."
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+#, fuzzy
+msgid "no spyware, no ads and no user tracking."
 msgstr "Volledig gratis, geen spyware, geen reclame en geen user-tracking."
 
-#: vlc/index.php:40
-msgid "Can do media conversion and streaming."
-msgstr "Kan mediaconversie en streaming doen."
+#: vlc/index.php:47
+#, fuzzy
+msgid "learn more"
+msgstr "Meer informatie"
 
-#: vlc/index.php:42
-msgid "Discover all features"
-msgstr "Ontdek alle functies"
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+#, fuzzy
+msgid "skins"
+msgstr "Skins"
 
 #: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+#, fuzzy
+msgid "extensions"
+msgstr "Extensies"
+
+#: vlc/index.php:126
 msgid "View all screenshots"
 msgstr "Alle screenshots weergeven"
 
-#: vlc/index.php:75
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Officiële downloads van VLC media player"
 
-#: vlc/index.php:82
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Bronnen"
 
-#: vlc/index.php:83
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "U kunt ook rechtstreeks de"
 
-#: vlc/index.php:84
+#: vlc/index.php:148
 msgid "source code"
 msgstr "broncode verkrijgen"
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Kan mediaconversie en streaming doen."
+
+#~ msgid "Discover all features"
+#~ msgstr "Ontdek alle functies"
 
 #~ msgid "A project and a"
 #~ msgstr "Een project en een"

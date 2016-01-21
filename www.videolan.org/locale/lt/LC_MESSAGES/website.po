@@ -1,270 +1,276 @@
 # Lithuanian translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # Gediminas Golcevas <>, 2014
 # Karolis Runas <karolis.runas@yahoo.com>, 2014
 # Mantas Kriaučiūnas <mantas@akl.lt>, 2013
-# Mindaugas <embar@super.lt>, 2013
+# Mindaugas <embar@super.lt>, 2013,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-10-30 14:47+0000\n"
-"Last-Translator: Gediminas Golcevas <>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/projects/p/vlc-trans/language/lt/)\n"
+"POT-Creation-Date: 2016-01-21 18:18-0500\n"
+"PO-Revision-Date: 2016-01-19 18:22+0000\n"
+"Last-Translator: Mindaugas <embar@super.lt>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/yaron/vlc-trans/language/lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: include/header.php:221
-msgid "A project and a"
-msgstr "Projektas ir "
+#: include/header.php:291
+msgid "a project and a"
+msgstr "projektas ir"
 
-#: include/header.php:221
+#: include/header.php:291
 msgid "non-profit organization"
 msgstr "ne pelno organizacija"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "kuri vienija savanorius, programuotojus ir atviro kodo, įvairialypės terpės sprendimų puoselėtojus."
+#: include/menus.php:27
+msgid "Team &amp; Organization"
+msgstr "Komanda ir organizacija"
 
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "Paremkite"
+#: include/menus.php:28
+msgid "Consulting Services &amp; Partners"
+msgstr "Konsultavimo paslaugos ir partneriai"
 
-#: include/header.php:228
-msgid "why?"
-msgstr "Kodėl?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "Pradžia"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "Naujienos"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "Projektas ir organizacija"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "Komanda"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "Susisiekite"
-
-#: include/header.php:286 include/header.php:419
-msgid "Partners"
-msgstr "Partneriai"
-
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "Veidrodžiai"
-
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "Pranešimai spaudai"
-
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:29 include/footer.php:69
 msgid "Events"
 msgstr "Įvykiai"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "Saugumo pranešimai"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "Parsisiųsti"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "Savybės"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "Programos nuotraukos"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "Apipavidalinimai"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "Plėtiniai"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "Projektai"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "Visi projektai"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "Prisidėkite"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "Skirti laiko"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "Paaukoti pinigų"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "Įvairenybės"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "Palaikymas"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "Palaikymo centras"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "DUK"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:30 include/footer.php:64 include/footer.php:98
 msgid "Legal"
 msgstr "Teisiniai aspektai"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "Diskusijos"
+#: include/menus.php:31 include/footer.php:68
+msgid "Press center"
+msgstr "Pranešimai spaudai"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "El. pašto grupė"
+#: include/menus.php:32 include/footer.php:65
+msgid "Contact us"
+msgstr "Susisiekite"
 
-#: include/header.php:342
+#: include/menus.php:38 include/os-specific.php:241
+msgid "Download"
+msgstr "Parsisiųsti"
+
+#: include/menus.php:39 include/footer.php:24
+msgid "Features"
+msgstr "Savybės"
+
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "Derinti"
+
+#: include/menus.php:42 include/footer.php:56
+msgid "Get Goodies"
+msgstr "Įvairenybės"
+
+#: include/menus.php:46
+msgid "Projects"
+msgstr "Projektai"
+
+#: include/menus.php:64 include/footer.php:30
+msgid "All Projects"
+msgstr "Visi projektai"
+
+#: include/menus.php:68 index.php:164
+msgid "Contribute"
+msgstr "Prisidėkite"
+
+#: include/menus.php:70
+msgid "Getting started"
+msgstr "Darbo pradžia"
+
+#: include/menus.php:71 include/menus.php:89
+msgid "Donate"
+msgstr "Paremti"
+
+#: include/menus.php:72
 msgid "Report a bug"
 msgstr "Pranešti apie klaidą"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "Programuotojų kampas"
+#: include/menus.php:76
+msgid "Support"
+msgstr "Palaikymas"
 
-#: include/header.php:401
+#: include/footer.php:22
+msgid "Skins"
+msgstr "Apipavidalinimai"
+
+#: include/footer.php:23
+msgid "Extensions"
+msgstr "Plėtiniai"
+
+#: include/footer.php:25 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Programos nuotraukos"
+
+#: include/footer.php:48
 msgid "Community"
 msgstr "Bendruomenė"
 
-#: include/header.php:424
+#: include/footer.php:51
+msgid "Forums"
+msgstr "Diskusijos"
+
+#: include/footer.php:52
+msgid "Mailing-Lists"
+msgstr "El. pašto grupė"
+
+#: include/footer.php:53
+msgid "FAQ"
+msgstr "DUK"
+
+#: include/footer.php:54
+msgid "Donate money"
+msgstr "Paaukoti pinigų"
+
+#: include/footer.php:55
+msgid "Donate time"
+msgstr "Skirti laiko"
+
+#: include/footer.php:62
+msgid "Project and Organization"
+msgstr "Projektas ir organizacija"
+
+#: include/footer.php:63
+msgid "Team"
+msgstr "Komanda"
+
+#: include/footer.php:66
+msgid "Partners"
+msgstr "Partneriai"
+
+#: include/footer.php:67
+msgid "Mirrors"
+msgstr "Veidrodžiai"
+
+#: include/footer.php:70
+msgid "Security center"
+msgstr "Saugumo pranešimai"
+
+#: include/footer.php:71
 msgid "Get Involved"
 msgstr "Įsitraukite"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:72
+msgid "News"
+msgstr "Naujienos"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Parsisiųsti VLC"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Kitoms sistemoms"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: oficiali svetainė – nemokami įvairialypės terpės sprendimai visoms operacinėms sistemoms!"
-
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:609
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC yra nemokama atviro kodo kūrinių leistuvė, skirta įvairiausioms platformoms, galinti groti daugumą įvairialypės terpės rinkmenų, DVD, garso CD, VCD ir palaikanti įvairiausius srauto protokolus."
 
-#: index.php:36
+#: include/os-specific.php:613
+#, fuzzy
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr "VLC yra nemokama atviro kodo kūrinių leistuvė, skirta įvairiausioms platformoms, galinti groti daugumą įvairialypės terpės rinkmenų, DVD, garso CD, VCD ir palaikanti įvairiausius srauto protokolus."
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: oficiali svetainė – nemokami įvairialypės terpės sprendimai visoms operacinėms sistemoms!"
+
+#: index.php:25
 msgid "Other projects from VideoLAN"
 msgstr "Kiti VideoLAN projektai"
 
-#: index.php:38
+#: index.php:29
 msgid "For Everyone"
 msgstr "Kiekvienam"
 
-#: index.php:44
+#: index.php:39
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC yra galinga įvairialypės terpės kūrinių leistuvė, palaikanti daugumą kodekų ir vaizdo formatų."
 
-#: index.php:53
+#: index.php:52
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "„VideoLAN klipų rengyklė“ yra vaizdo klipų netiesinio redagavimo programa."
 
-#: index.php:60
+#: index.php:61
 msgid "For Professionals"
 msgstr "Profesionalams"
 
-#: index.php:66
+#: index.php:71
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast yra paprasta ir galinga MPEG-2/TS išpynimo ir transliavimo programa. "
 
-#: index.php:74
+#: index.php:81
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "„multicat“ yra rinkinys priemonių, skirtas paprastam ir efektyviam manipuliavimui daugiaabonentio transliavimo srautais ir TS."
 
-#: index.php:83
+#: index.php:94
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 yra nemokama programa, koduojanti vaizdo srautus H.264/MPEG-4 AVC formatu."
 
-#: index.php:91
+#: index.php:103
 msgid "For Developers"
 msgstr "Programuotojams"
 
-#: index.php:102
+#: index.php:136
 msgid "View All Projects"
 msgstr "Rodyti visus projektus"
 
-#: index.php:105
+#: index.php:140
 msgid "Help us out!"
 msgstr "Padėkite!"
 
-#: index.php:111
+#: index.php:144
+msgid "donate"
+msgstr "Paremkite"
+
+#: index.php:152
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN yra ne pelo organizacija."
 
-#: index.php:112
+#: index.php:153
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Visas mūsų išlaidas padengia mūsų naudotojų paaukoti pinigai. Jei jums patinka naudotis VideoLAN gaminiais, paremkite mus auka."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:156 index.php:176 index.php:194
 msgid "Learn More"
 msgstr "Skaityti toliau..."
 
-#: index.php:123
+#: index.php:172
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN yra atviro kodo programinė įranga."
 
-#: index.php:124
+#: index.php:173
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Tai reiškia, kad jei turite įgūdžių ir norite patobulinti kurį nors mūsų produktą, lauksime jūsų indėlio"
 
-#: index.php:131
+#: index.php:183
 msgid "Spread the Word"
 msgstr "Skelbkite visiems"
 
-#: index.php:135
+#: index.php:191
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Manome, kad VideoLAN yra geriausia vaizdo programinė įranga už geriausią kainą: už dyką. Jei pritariate, padėkite skleisti visiems žinią apie mūsų programinę įrangą."
 
-#: index.php:147
+#: index.php:211
 msgid "News &amp; Updates"
 msgstr "Naujienos ir atnaujinimai"
 
-#: index.php:151
+#: index.php:214
+msgid "More News"
+msgstr "Daugiau naujienų"
+
+#: index.php:218
 msgid "Development Blogs"
 msgstr "Programuotojų tinklaraščiai"
 
-#: index.php:176
+#: index.php:247
 msgid "Social media"
 msgstr "Sklaida socialiniuose tinkluose"
 
@@ -272,54 +278,114 @@ msgstr "Sklaida socialiniuose tinkluose"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "VLC kūrinių leistuvės - atviro kodo vaizdo platformos - oficialus puslapis!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "Paprasta, greita ir galinga kūrinių leistuvė."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Atkuria viską: failus, diskus, internetines kameras, įrenginius ir srautus."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Groja daugumos formatų kūrinius, bet nereikalauja papildomų kodavimo paketų:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "Veikia visose platformose:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Visiškai nemokama, jokio šnipinėjimo, jokios reklamos ir jokio vartotojo sekimo."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "Gali konvertuoti kūrinius ir juos transliuoti"
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "Susipažinkite su visomis savybėmis"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "Rodyti visas programos nuotraukas"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "Parsisiųsti VLC"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+#, fuzzy
+msgid "Simple, fast and powerful"
+msgstr "Paprasta, greita ir galinga kūrinių leistuvė."
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+#, fuzzy
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr "Atkuria viską: failus, diskus, internetines kameras, įrenginius ir srautus."
+
+#: vlc/index.php:38
+#, fuzzy
+msgid "Plays most codecs with no codec packs needed"
+msgstr "Groja daugumos formatų kūrinius, bet nereikalauja papildomų kodavimo paketų:"
+
+#: vlc/index.php:41
+#, fuzzy
+msgid "Runs on all platforms"
+msgstr "Veikia visose platformose:"
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+#, fuzzy
+msgid "no spyware, no ads and no user tracking."
+msgstr "Visiškai nemokama, jokio šnipinėjimo, jokios reklamos ir jokio vartotojo sekimo."
+
+#: vlc/index.php:47
+#, fuzzy
+msgid "learn more"
+msgstr "Skaityti toliau..."
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+#, fuzzy
+msgid "skins"
+msgstr "Apipavidalinimai"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+#, fuzzy
+msgid "extensions"
+msgstr "Plėtiniai"
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Rodyti visas programos nuotraukas"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Oficialus VLC leistuvės parsisiuntimas"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Programos kodas"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Be to, galite tiesiogiai parsisiųsti"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "pirminį programos tekstą"
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Gali konvertuoti kūrinius ir juos transliuoti"
+
+#~ msgid "Discover all features"
+#~ msgstr "Susipažinkite su visomis savybėmis"
+
+#~ msgid "A project and a"
+#~ msgstr "Projektas ir "
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "kuri vienija savanorius, programuotojus ir atviro kodo, įvairialypės terpės sprendimų puoselėtojus."
+
+#~ msgid "why?"
+#~ msgstr "Kodėl?"
+
+#~ msgid "Home"
+#~ msgstr "Pradžia"
+
+#~ msgid "Support center"
+#~ msgstr "Palaikymo centras"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "Programuotojų kampas"

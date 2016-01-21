@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-17 09:56-0500\n"
+"POT-Creation-Date: 2016-01-21 18:18-0500\n"
 "PO-Revision-Date: 2016-01-17 11:45+0000\n"
 "Last-Translator: Martins Mazjanis\n"
 "Language-Team: Latvian (http://www.transifex.com/yaron/vlc-trans/language/lv/)\n"
@@ -56,15 +56,15 @@ msgstr "Preses centrs"
 msgid "Contact us"
 msgstr "Sazināties ar mums"
 
-#: include/menus.php:38 include/os-specific.php:211
+#: include/menus.php:38 include/os-specific.php:241
 msgid "Download"
 msgstr "Lejupielāde"
 
-#: include/menus.php:39 include/footer.php:24 vlc/index.php:28
+#: include/menus.php:39 include/footer.php:24
 msgid "Features"
 msgstr "Iespējas"
 
-#: include/menus.php:40
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
 msgid "Customize"
 msgstr "Pielāgot"
 
@@ -108,7 +108,7 @@ msgstr "Apvalki"
 msgid "Extensions"
 msgstr "Paplašinājumi"
 
-#: include/footer.php:25 vlc/index.php:46
+#: include/footer.php:25 vlc/index.php:83
 msgid "Screenshots"
 msgstr "Ekrānuzņēmumi"
 
@@ -164,19 +164,19 @@ msgstr "Iesaistīties"
 msgid "News"
 msgstr "Jaunumi"
 
-#: include/os-specific.php:85
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Lejupielādēt VLC"
 
-#: include/os-specific.php:91 include/os-specific.php:227 vlc/index.php:122
+#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Citas sistēmas"
 
-#: include/os-specific.php:405
+#: include/os-specific.php:609
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīgs multivides atskaņotājs un platforma. Tas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
 
-#: include/os-specific.php:409
+#: include/os-specific.php:613
 #, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīgs multivides atskaņotājs un platforma. Tas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
@@ -285,53 +285,95 @@ msgstr "VLC multivides atskaņotāja oficiālā lapa, atvērtā pirmkoda video p
 msgid "Get VLC for"
 msgstr "Lejupielādēt VLC"
 
-#: vlc/index.php:29
-msgid "Simple, fast and powerful media player."
+#: vlc/index.php:29 vlc/index.php:32
+#, fuzzy
+msgid "Simple, fast and powerful"
 msgstr "Vienkāršs, ātrs un spēcīgs multivides atskaņotājs."
 
-#: vlc/index.php:31
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+#, fuzzy
+msgid "Files, Discs, Webcams, Devices and Streams."
 msgstr "Atskaņo visu: failus, diskus, tīmekļa kameras, ierīces un straumēšanu."
 
-#: vlc/index.php:33
-msgid "Plays most codecs with no codec packs needed:"
+#: vlc/index.php:38
+#, fuzzy
+msgid "Plays most codecs with no codec packs needed"
 msgstr "Atskaņo lielāko daļu kodeku, nav nepieciešamas kodeku pakas:"
 
-#: vlc/index.php:36
-msgid "Runs on all platforms:"
+#: vlc/index.php:41
+#, fuzzy
+msgid "Runs on all platforms"
 msgstr "Darbojas uz visām platformām:"
 
-#: vlc/index.php:38
-msgid "Completely Free, no spyware, no ads and no user tracking."
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+#, fuzzy
+msgid "no spyware, no ads and no user tracking."
 msgstr "Pilnīgi bezmaksas, nesatur spiegprogrammatūru, reklāmu un nenotiek lietotāju izsekošana."
 
-#: vlc/index.php:40
-msgid "Can do media conversion and streaming."
-msgstr "Spēj veikt multivides pārveidošanu un straumēšanu."
+#: vlc/index.php:47
+#, fuzzy
+msgid "learn more"
+msgstr "Uzzināt vairāk"
 
-#: vlc/index.php:42
-msgid "Discover all features"
-msgstr "Atklāt visas iespējas"
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
 
-#: vlc/index.php:84
+#: vlc/index.php:66
+#, fuzzy
+msgid "skins"
+msgstr "Apvalki"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+#, fuzzy
+msgid "extensions"
+msgstr "Paplašinājumi"
+
+#: vlc/index.php:126
 msgid "View all screenshots"
 msgstr "Skatīt visus ekrānuzņēmumus"
 
-#: vlc/index.php:90
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "VLC multivides atskaņotāja oficiālās lejupielādes"
 
-#: vlc/index.php:99
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Avoti"
 
-#: vlc/index.php:100
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Jūs varat arī tieši iegūt"
 
-#: vlc/index.php:101
+#: vlc/index.php:148
 msgid "source code"
 msgstr "pirmkodu"
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Spēj veikt multivides pārveidošanu un straumēšanu."
+
+#~ msgid "Discover all features"
+#~ msgstr "Atklāt visas iespējas"
 
 #~ msgid "A project and a"
 #~ msgstr "Projekts un "

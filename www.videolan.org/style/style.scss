@@ -944,6 +944,15 @@ img, .normalButton {
 }
 
 /* ============================ BOOTSTRAP ADJUSTMENTS =========================== */
+//Fix navbar hides initial content when jumping to anchor.
+//Note that according to HTML5 spec, authors should not specify the name attribute on a elements.
+:target:before, a[name]:before {
+    display: block;
+    content: "";
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+}
 
 .btn {
     border-radius: 4px;

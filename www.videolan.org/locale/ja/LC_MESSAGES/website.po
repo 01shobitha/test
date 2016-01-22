@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 11:24+0000\n"
+"PO-Revision-Date: 2016-01-22 13:19+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/yaron/vlc-trans/language/ja/)\n"
 "Language: ja\n"
@@ -171,9 +171,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、DVD、オーディオCD、VCDや様々なストリーミングプロトコルを再生可能なフレームワークです。"
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、DVD、オーディオCD、VCDや様々なストリーミングプロトコルを再生可能なフレームワークです。"
+msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、ほとんどのマルチメディアファイルと多くのストリーミングプロトコルを再生可能なフレームワークです。"
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -280,66 +279,58 @@ msgid "Get VLC for"
 msgstr "VLCのダウンロード: "
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "シンプル、高速、そしてパワフルなメディアプレイヤー。"
+msgstr "シンプル、高速、そしてパワフル"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "すべてを再生"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "あらゆるものを再生: ファイル、ディスク、ウェブカム、デバイス、ストリーム"
+msgstr "ファイル、ディスク、ウェブカム、デバイス、ストリーム"
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
 msgstr "ほとんどのコーデックの再生にはコーデックパックは不要です: "
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
 msgstr "すべてのプラットフォームで実行:"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "完全にフリー"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "完全にフリー: スパイウェア、広告、ユーザー監視はありません。"
+msgstr "スパイウェア、広告、ユーザー監視はありません。"
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
 msgstr "さらに詳しく"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "追加: "
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
 msgstr "スキン"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "スキンの作成: "
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "VLCスキンエディタ"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "インストール: "
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
 msgstr "エクステンション"
 

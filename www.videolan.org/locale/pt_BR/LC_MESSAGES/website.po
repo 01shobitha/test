@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 19:17+0000\n"
+"PO-Revision-Date: 2016-01-22 02:42+0000\n"
 "Last-Translator: ssdoria <ssdoria@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/yaron/vlc-trans/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -172,9 +172,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "O VLC é um reprodutor multimídia livre, de código aberto, multi-plataforma, e um arcabouço que reproduz a maioria dos arquivos de mídia, bem como DVD, CD de áudio, VCD e vários protocolos de fluxo de rede."
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "O VLC é um reprodutor multimídia livre, de código aberto, multi-plataforma, e um arcabouço que reproduz a maioria dos arquivos de mídia, bem como DVD, CD de áudio, VCD e vários protocolos de fluxo de rede."
+msgstr "O VLC é um reprodutor multimídia livre para múltiplas plataformas e um arcabouço que reproduz a maioria dos arquivos multimídia, e vários protocolos de fluxos de rede."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -281,68 +280,60 @@ msgid "Get VLC for"
 msgstr "Obtenha o VLC para"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Reprodutor de mídias simples, rápido e poderoso."
+msgstr "Simples, rápido e poderoso"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Reproduz tudo"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Reproduz tudo: Arquivos, Discos, Câmeras, Dispositivos e Fluxos."
+msgstr "Arquivos, Discos, Câmeras, Dispositivos e Fluxos de Rede."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Reproduz a maioria dos codificadores sem precisar de pacotes de codificadores:"
+msgstr "Reproduz a maioria dos codificadores, sem a necessidade de um pacote de codificadores."
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Executa em todas as plataformas:"
+msgstr "Executa em todas as plataformas"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Totalmente Gratuito"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Totalmente gratuito, livre de vírus, propagandas e sem rastreamento de dados do usuário."
+msgstr "livre de vírus, propagandas e sem rastreamento de dados do usuário."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Mais Informações"
+msgstr "saiba mais"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Capas"
+msgstr "capas"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Criar capas com o"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "Editor de capas do VLC"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Extensões"
+msgstr "extensões"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 16:06+0000\n"
+"PO-Revision-Date: 2016-01-22 06:48+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/yaron/vlc-trans/language/uk/)\n"
 "Language: uk\n"
@@ -171,9 +171,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "VLC є безкоштовним з відкритим  вихідним кодом  багатоплатформним мультимедійним програвачем та середовищем, яке відтворює більшість мультимедійних файлів, а також DVD, аудіо CD, VCD та різноманітні потокові протоколи."
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC є безкоштовним з відкритим  вихідним кодом  багатоплатформним мультимедійним програвачем та середовищем, яке відтворює більшість мультимедійних файлів, а також DVD, аудіо CD, VCD та різноманітні потокові протоколи."
+msgstr "VLC є безкоштовним з відкритим  вихідним кодом  багатоплатформним мультимедійним програвачем та середовищем, яке відтворює більшість мультимедійних файлів та різноманітні потокові протоколи."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -280,68 +279,60 @@ msgid "Get VLC for"
 msgstr "Отримати VLC для"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Простий, швидкий і потужний медіапрогравач."
+msgstr "Простий, швидкий і потужний"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Відтворює усе"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Відтворює усе: файли, диски, веб-камери, пристрої і мережні потоки."
+msgstr "Файли, диски, веб-камери, пристрої і мережні потоки."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Відтворює більшість кодеків без необхідності встановлення додаткових пакунків кодеків:"
+msgstr "Відтворює більшість кодеків без необхідності встановлення додаткових пакунків кодеків"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Працює на всіх платформах:"
+msgstr "Працює на всіх платформах"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Повністю вільний"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Повністю вільний, без шпигунства, без реклами і немає стеження за користувачами."
+msgstr "без шпигунства, без реклами і немає стеження за користувачами."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Дізнатися більше"
+msgstr "дізнатися більше"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Додати"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Обкладинки"
+msgstr "обкладинки"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Створити обкладинку з"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "Редактор обкладинок VLC"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Встановити"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Розширення"
+msgstr "розширення"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

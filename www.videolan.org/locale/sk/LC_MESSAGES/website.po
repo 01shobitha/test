@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 16:12+0000\n"
+"PO-Revision-Date: 2016-01-22 11:20+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/yaron/vlc-trans/language/sk/)\n"
 "Language: sk\n"
@@ -171,9 +171,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "VLC je voľne šíriteľným, multi-platformovým multimediálnym prehrávačom a rozhraním s otvoreným zdrojovým kódom, pomocou ktorého je možné prehrať väčšinu multimediálnych súborov, ako aj diskov DVD, Audio CD, VCD. Takisto je možné aj prehrávanie z rôznych streamovacích protokolov."
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC je voľne šíriteľným, multi-platformovým multimediálnym prehrávačom a rozhraním s otvoreným zdrojovým kódom, pomocou ktorého je možné prehrať väčšinu multimediálnych súborov, ako aj diskov DVD, Audio CD, VCD. Takisto je možné aj prehrávanie z rôznych streamovacích protokolov."
+msgstr "Program VLC je voľne šíriteľným, multi-platformovým multimediálnym prehrávačom s otvoreným zdrojovým kódom a súčasne ide o ucelené prostredie na prehrávanie väčšiny multimediálnych súborov a s podporou rôznych protokolov pre dátové toky a streamovanie."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -280,68 +279,60 @@ msgid "Get VLC for"
 msgstr "Získať VLC pre"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Jednoduchý, rýchly a výkonný prehrávač médií."
+msgstr "Jednoduchý, rýchly a výkonný"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Prehrá všetko"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Prehrá čokoľvek: súbory, disky, záznamy z webových kamier, zariadení a dokonca aj súvislé dátové toky s videom alebo zvukom."
+msgstr "Súbory, disky, webkamery, zariadenia a dátové toky."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Prehrá väčšinu kodekov bez akýchkoľvek balíkov s kodekmi:"
+msgstr "Zvládne väčšinu kodekov a nevyžaduje žiadne balíky kodekov"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Funguje na všetkých platformách:"
+msgstr "Funguje na všetkých platformách"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Úplne zadarmo"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Je úplne zadarmo, neobsahuje spyware, reklamy a nesleduje používateľov."
+msgstr "bez škodlivých súčastí, bez reklám či sledovania používateľov."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Viac informácií"
+msgstr "zistiť viac"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Pridať"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
 msgstr "Súbory pre zmenu vzhľadu"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Vytvoriť súbory pre zmenu vzhľadu s"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "VLC skin editor"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Nainštalovať"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Rozšírenia"
+msgstr "rozšírenia"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

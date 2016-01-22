@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 17:06+0000\n"
+"PO-Revision-Date: 2016-01-22 14:00+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/yaron/vlc-trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -179,9 +179,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。"
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。"
+msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及各種串流協定。"
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -288,68 +287,60 @@ msgid "Get VLC for"
 msgstr "執行 VLC 的系統為"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "簡單、快速和強大的媒體播放器。"
+msgstr "簡單、快速且強大"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "播放任何東西"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "可播放任何媒體：檔案、光碟、網路攝影機、裝置和串流。"
+msgstr "檔案、光碟、網路攝影機、裝置和串流。"
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "可播放大多數影音檔，無需安裝編解碼器套件："
+msgstr "可播放大多數影音檔，無需安裝編解碼器套件"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "可在所有平台運作："
+msgstr "可在所有平台運作"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "完全自由／免費"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "完全免費、沒有間諜軟體、無廣告、不會跟蹤使用者的行為。"
+msgstr "沒有間諜軟體、無廣告、不會跟蹤使用者的行為。"
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "學習更多"
+msgstr "取得更多資訊"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "加入"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
 msgstr "面板"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "建立面板使用"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "VLC 面板編輯器"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "安裝"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "擴充"
+msgstr "擴充套件"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

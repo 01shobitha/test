@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-11 16:12+0000\n"
+"PO-Revision-Date: 2016-01-22 11:25+0000\n"
 "Last-Translator: Thomas De Rocker\n"
 "Language-Team: Dutch (http://www.transifex.com/yaron/vlc-trans/language/nl/)\n"
 "Language: nl\n"
@@ -52,7 +52,7 @@ msgstr "Contacteer ons"
 
 #: include/menus.php:38 include/os-specific.php:241
 msgid "Download"
-msgstr "Downloaden"
+msgstr "Download"
 
 #: include/menus.php:39 include/footer.php:24
 msgid "Features"
@@ -171,9 +171,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "VLC is een gratis en open source cross-platform multimediaspeler en -framework dat de meeste multimediabestanden en ook dvd's, audio-cd's, vcd's en verschilllende streaming-protocols afspeelt."
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC is een gratis en open source cross-platform multimediaspeler en -framework dat de meeste multimediabestanden en ook dvd's, audio-cd's, vcd's en verschilllende streaming-protocols afspeelt."
+msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en verschillende streaming-protocollen af."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -280,68 +279,60 @@ msgid "Get VLC for"
 msgstr "VLC voor"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Simpele, snelle en krachtige mediaspeler"
+msgstr "Simpel, snel en krachtig"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Speelt alles"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Speelt alles: bestanden, disks, webcams, apparaten en streams."
+msgstr "Bestanden, schijven, webcams, apparaten en streams."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Speelt de meeste codecs zonder noodzaak voor codec packs:"
+msgstr "Speelt de meeste codecs zonder noodzaak voor codec packs"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Draait op alle besturingssystemen:"
+msgstr "Draait op alle platforms"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Volledig gratis"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Volledig gratis, geen spyware, geen reclame en geen user-tracking."
+msgstr "geen spyware, geen reclame en geen user-tracking"
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Meer informatie"
+msgstr "meer informatie"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Skins"
+msgstr "skins"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Skins maken met"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "VLC skin editor"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Installeren"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Extensies"
+msgstr "extensies"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

@@ -6,15 +6,16 @@
 # Bruno Queiros <bqueiros@gmail.com>, 2013-2015
 # Gonçalo Matos, 2015-2016
 # Gonçalo Silva, 2013-2014,2016
-# alfalb_mansil, 2012, 2014
+# alfalb_mansil, 2012,2014
 # Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
+# Sérgio Marques <smarquespt@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-21 16:50+0000\n"
-"Last-Translator: Gonçalo Matos\n"
+"PO-Revision-Date: 2016-01-22 09:28+0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/yaron/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -175,9 +176,8 @@ msgid "VLC is a free and open source cross-platform multimedia player and framew
 msgstr "O VLC é um reprodutor de ficheiros multimédia e uma framework, gratuito e open source, e é compatível a maioria dos formatos, além de DVDs, CDs, VCDs e vários protocolos de transmissão."
 
 #: include/os-specific.php:613
-#, fuzzy
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "O VLC é um reprodutor de ficheiros multimédia e uma framework, gratuito e open source, e é compatível a maioria dos formatos, além de DVDs, CDs, VCDs e vários protocolos de transmissão."
+msgstr "O VLC é um reprodutor multimédia livre e open source, disponível para diversas plataformas que reproduz a maioria dos ficheiros multimédia e diversos protocolos de emissões web."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -284,68 +284,60 @@ msgid "Get VLC for"
 msgstr "Obter o VLC para"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Um reprodutor de multimédia simples, rápido e poderoso."
+msgstr "Simples, rápido e poderoso"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Reproduz tudo"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Reproduz tudo: ficheiros, ciscos, webcams, dispositivos e transmissões."
+msgstr "Ficheiros, discos, câmaras, dispositivos e emissões web."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Reproduz a maioria dos codecs, sem a necessidade de pacotes de codecs:"
+msgstr "Reproduz a maioria dos formatos existentes sem necessidade de mais codificadores"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Funciona em todas as plataformas:"
+msgstr "Disponível para todas as plataformas"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Completamente gratuito"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Totalmente gratuito, sem spyware, sem publicidade e sem monitorização do utilizador."
+msgstr "sem spyware, anúncios e monitorizações."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Saiba mais"
+msgstr "saber mais"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Máscaras"
+msgstr "temas"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Crie temas com o"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "editor de temas do VLC"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Extensões"
+msgstr "extensões"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

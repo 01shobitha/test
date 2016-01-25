@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-22 00:53+0000\n"
+"PO-Revision-Date: 2016-01-25 13:59+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/yaron/vlc-trans/language/tr/)\n"
 "Language: tr\n"
@@ -315,11 +315,11 @@ msgstr "ayrıntılı bilgi"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr "Ekle"
+msgstr "Dış görünümleri"
 
 #: vlc/index.php:66
 msgid "skins"
-msgstr "dış görünümler"
+msgstr "edinin"
 
 #: vlc/index.php:69
 msgid "Create skins with"
@@ -331,11 +331,11 @@ msgstr "VLC dış görünüm düzenleyicisi ile oluşturun"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr "Kur"
+msgstr "Eklentileri"
 
 #: vlc/index.php:72
 msgid "extensions"
-msgstr "eklentiler"
+msgstr "kurun"
 
 #: vlc/index.php:126
 msgid "View all screenshots"
@@ -343,7 +343,7 @@ msgstr "Tüm ekran görüntülerine bakın"
 
 #: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
-msgstr "Resmî VLC ortam oynatıcı indirmeleri"
+msgstr "Resmî VLC ortam oynatıcısı indirmeleri"
 
 #: vlc/index.php:146
 msgid "Sources"

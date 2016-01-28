@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-25 18:17+0000\n"
+"PO-Revision-Date: 2016-01-28 14:55+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/yaron/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -35,7 +35,7 @@ msgstr "Team og organisation"
 
 #: include/menus.php:28
 msgid "Consulting Services &amp; Partners"
-msgstr ""
+msgstr "Konsulterer tjenester &amp; partnere"
 
 #: include/menus.php:29 include/footer.php:69
 msgid "Events"
@@ -175,7 +175,7 @@ msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere
 
 #: include/os-specific.php:613
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr ""
+msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som forskellige strømprotokoller."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -307,7 +307,7 @@ msgstr "Helt gratis"
 
 #: vlc/index.php:44
 msgid "no spyware, no ads and no user tracking."
-msgstr ""
+msgstr "ingen spyware, ingen reklamer og ingen sporing af brugere."
 
 #: vlc/index.php:47
 msgid "learn more"

@@ -289,6 +289,7 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
         <div id="nonprofitOrganizationDiv2" class="center-block">
                 <?php
                 echo 'VideoLAN, '. _('a project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'.</a> ';?>
+        <img src="/images/15years.png" alt="... and many more years to come" />
         </div>
         <div class="social-box">
             <div id='plusone' style="padding: 3px 10px;">

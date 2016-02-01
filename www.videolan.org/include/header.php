@@ -290,11 +290,9 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
                 <?php
                 echo 'VideoLAN, '. _('a project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'.</a> ';?>
         </div>
-        <div id="nonprofitOrganizationDiv2" class="hidden-xs v-align col-sm-5">
         <a href="https://www.jbkempf.com/blog/post/2016/15-years-of-VLC">
             <?php image('15years.png', '... and many more years to come', 'announce-img'); ?>
         </a>
-        </div>
         <div class="social-box">
             <div id='plusone' style="padding: 3px 10px;">
                 <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>

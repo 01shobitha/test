@@ -830,10 +830,12 @@ img, .normalButton {
 }
 
 .announce-img {
-    max-width: 100%;
+    max-width: 760px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 .new-design .downloadText {

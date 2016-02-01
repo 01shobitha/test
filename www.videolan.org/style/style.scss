@@ -831,8 +831,10 @@ img, .normalButton {
 
 .announce-img {
     max-width: 770px;
+    height: auto;
     display: block;
     margin: 0 auto;
+    padding-right: 10px;
 }
 
 .new-design .downloadText {

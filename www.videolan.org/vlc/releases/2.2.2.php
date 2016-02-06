@@ -13,7 +13,7 @@
    $win32version = "2.2.2";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.2</b> "Terry Pratchett"</h1>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.2</b> "WeatheWax"</h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.2.2 is the second bugfix release of the "Weatherwax" branch of our popular media player.</div>
             </center>
 

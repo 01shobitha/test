@@ -178,7 +178,8 @@
                 <div class='projectDescription' style="width: 600px;">
                     <div style="padding-bottom: 8px;">VLC 2.2.2 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is a fixed version of 2.2.1 </div>
                     <div>It fixes numerous security issues, notably in the MP4, RealRtsp and Sparkle modules, but also important crashes for the MXF, ADPCM, Telextext, Skins and Qt modules.</div>
-                    <div>It also improves our codecs suport by adding new format and giving faster decompression.</div>
+                    <div>It also improves our codec support by adding new formats and providing faster decompression.</div>
+                    <div>Full support of Mac OS X 10.11 El Capitan.</div>
 
              <h2 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h2>
                     <div>VLC 2.2.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>

@@ -13,7 +13,7 @@
    $win32version = "2.2.2";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.2</b> "WeatheWax"</h1>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.2</b> "Weatherwax"</h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.2.2 is the second bugfix release of the "Weatherwax" branch of our popular media player.</div>
             </center>
 
@@ -176,9 +176,10 @@
             <div style='float: left; width: 600px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("2.2.2 Highlights"); ?></h1>
                 <div class='projectDescription' style="width: 600px;">
-                    <div style="padding-bottom: 8px;">VLC 2.2.2 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is a fixed version of 2.2.1 </div>
+                    <div style="padding-bottom: 8px;">VLC 2.2.2 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is the second update to VLC's 2.2 release series. </div>
                     <div>It fixes numerous security issues, notably in the MP4, RealRtsp and Sparkle modules, but also important crashes for the MXF, ADPCM, Telextext, Skins and Qt modules.</div>
                     <div>It also improves our codec support by adding new formats and providing faster decompression.</div>
+                    <div>More than 100 fixes for issues reported for 2.2.1.</div>
                     <div>Full support of Mac OS X 10.11 El Capitan.</div>
 
              <h2 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h2>
@@ -406,8 +407,6 @@
                <a href="https://www.facebook.com/vlc.media.player/posts/10152878439401245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
                <a href="https://twitter.com/videolan/status/588711970179837952"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
                <a href="https://plus.google.com/+vlc/posts/bUh23Z873ri"><img src='//images.videolan.org/images/gplus.png'></a>
-               <a href="https://news.ycombinator.com/item?id=9388245">Hacker News</a>
-               <a href="https://www.reddit.com/r/technology/comments/32t62a/vlc_221_named_terry_pratchett_release/">Reddit</a>
         </div>
 
         <h1>Download VLC</h1>

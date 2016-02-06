@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|6 February 2016|VLC 2.2.2|VideoLAN and the VLC development team are happy to publish version 2.2.2 of VLC media player today<br />This second stable release of the "WeatherWax" version of VLC fixes more than 100 important bugs reported of VLC 2.2.1 and includes updated third party libraries providing further stability and security improvements. Notably, this update solves installation issues experienced by some users on Mac OS X 10.11 El Capitan.<br /> VLC 2.2.0, a major version of VLC, introduced accelerated auto-rotation of videos, 0-copy hardware acceleration, support for UHD codecs, playback resume, integrated extensions and more than 1000 bugs and improvements.<br />2.2.0 release was the first release to have versions for all operating systems, including mobiles (iOS, Android, WinRT).
+
 |12 January 2016|Announcing VLC for Apple TV|VideoLAN and the VLC team is excited to announce the first release of VLC for Apple TV. It allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV. You can find details in <a href="/press/vlc-apple-tv.html">our press release</a>.
 
 |24 December 2015|libdvdcss 1.4.0|VideoLAN is proud to announce the release of version <b>1.4.0</b> of <a href="https://www.videolan.org/developers/libdvdcss.html">libdvdcss</a>.<br />This release adds support for network callbacks, to play ISOs over the network, Android support, and cleans the codebase.

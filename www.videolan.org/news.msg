@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|6 February 2016|VLC 2.2.2|VideoLAN and the VLC development team are happy to publish version 2.2.2 of VLC media player today<br />This second stable release of the "WeatherWax" version of VLC fixes more than 100 important bugs and security issues reported on VLC 2.2.1. It also includes updated codecs libraries and fixes 3rd party libraries security issues. Finally, this update solves installation issues on Mac OS X 10.11 El Capitan.<br /><a href="/vlc/release/2.2.2.html">Read more</a> about it on our <a href="/vlc/release/2.2.2.html">release page</a>.
+|6 February 2016|VLC 2.2.2|VideoLAN and the VLC development team are happy to publish version 2.2.2 of VLC media player today<br />This second stable release of the "WeatherWax" version of VLC fixes more than 100 important bugs and security issues reported on VLC 2.2.1. It also includes updated codecs libraries and fixes 3rd party libraries security issues. Finally, this update solves installation issues on Mac OS X 10.11 El Capitan.<br /><a href="/vlc/release/2.2.2.html">Read more</a> about it on our <a href="/vlc/releases/2.2.2.html">release page</a>.
 
 |1 February 2016|15 years of GPL|VideoLAN is happy to celebrate with you the 15th anniversary of the birth of VideoLAN and VLC as open source projects!
 

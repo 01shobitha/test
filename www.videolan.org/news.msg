@@ -1,7 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|6 February 2016|VLC 2.2.2|VideoLAN and the VLC development team are happy to publish version 2.2.2 of VLC media player today<br />This second stable release of the "WeatherWax" version of VLC fixes more than 100 important bugs reported of VLC 2.2.1 and includes updated third party libraries providing further stability and security improvements. Notably, this update solves installation issues experienced by some users on Mac OS X 10.11 El Capitan.<br /> VLC 2.2.0, a major version of VLC, introduced accelerated auto-rotation of videos, 0-copy hardware acceleration, support for UHD codecs, playback resume, integrated extensions and more than 1000 bugs and improvements.<br />2.2.0 release was the first release to have versions for all operating systems, including mobiles (iOS, Android, WinRT).<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.2.2.html">release page</a>.
+|6 February 2016|VLC 2.2.2|VideoLAN and the VLC development team are happy to publish version 2.2.2 of VLC media player today<br />This second stable release of the "WeatherWax" version of VLC fixes more than 100 important bugs and security issues reported on VLC 2.2.1. It also includes updated codecs libraries and fixes 3rd party libraries security issues. Finally, this update solves installation issues on Mac OS X 10.11 El Capitan.<br /><a href="/vlc/release/2.2.2.html">Read more</a> about it on our <a href="/vlc/release/2.2.2.html">release page</a>.
+
+|1 February 2016|15 years of GPL|VideoLAN is happy to celebrate with you the 15th anniversary of the birth of VideoLAN and VLC as open source projects!
 
 |12 January 2016|Announcing VLC for Apple TV|VideoLAN and the VLC team is excited to announce the first release of VLC for Apple TV. It allows you to get access to all your files and video streams in their native formats without conversions, directly on the new Apple device and your TV. You can find details in <a href="/press/vlc-apple-tv.html">our press release</a>.
 

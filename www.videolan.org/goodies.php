@@ -414,7 +414,7 @@ Use the following code to include this banner in your site:</p>
         It plays, it streams, it kills WiMPs!!"&gt;
 &lt;img
  src="http://www.videolan.org/images/
-goodies/GetVLC_110.png" width="110"
+goodies/buttons_getVLC/GetVLC_110.png" width="110"
 height="45" alt="Get VLC media player" /&gt;&lt;/a&gt;
 </pre>
 <p>

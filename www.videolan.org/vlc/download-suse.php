@@ -82,7 +82,7 @@ Version. Supported at this time are :</p>
 <p class="projectDescription">Finally, confirm the addition.</p>
 
 <h3>Security</h3>
-<p class="projectDescription">The repository is signed with a GPG Key 
+<p class="projectDescription">The repository is signed with a GPG Key
 (gpg key C8DA93D2 fingerprint <code>BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2</code>).
 <br />Accept this key in YaST and it will warn you in case there is something
 suspect with the repository.<br />
@@ -96,7 +96,7 @@ Select it and click <b>Accept</b> to install it with all its dependencies.<br />
 This might require the SUSE CD or DVD.
 <br />
 <b>NB:</b>If you want VLC's Mozilla Plugin, you have to select the
-<code>vlc-npapi</code>. It does not get installed by default.
+<code>npapi-vlc</code>. It does not get installed by default.
 <br />
 You're done with the installation.
 Have a lot of Fun.

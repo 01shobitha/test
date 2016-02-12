@@ -22,7 +22,7 @@
     <table border="0">
     <tr>
     <th style="text-align: left; width: 60px;">Version</th>
-    <th class="os" style="text-align: right;"><img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" width="32" height="32" />
+    <th class="os" style="text-align: right;"><img src="//images.videolan.org/images/icons/winvista.png" alt="Windows" width="32" height="32" />
     </th>
     <th class="os" style="text-align: right;"><img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
     </th>

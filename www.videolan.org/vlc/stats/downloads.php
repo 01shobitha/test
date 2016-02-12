@@ -140,6 +140,72 @@
 
     // Values in this array will be fetched from mirrorbits and added to the value in the $table
     $table_mirrorbits = array(
+                    "1.1.0"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.1"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.2"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.3"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.4"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.5"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.6"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.7"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.8"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.9"   => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.10"  => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.11"  => array(
+                                        "Windows" => "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats",
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2?stats",
+                                 ),
+                    "1.1.12"  => array(
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel.dmg?stats"),
+                                        "Source" => array( "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats", "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.bz2"),
+                                 ),
+                    "1.1.13"  => array(
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
                     "2.0.0"   => array(
                                         "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
                                         "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),

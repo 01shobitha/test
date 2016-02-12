@@ -37,6 +37,20 @@
         echo "<td style='text-align: right;'>".number_format($n,0,"."," ")."</td>";
     }
 
+    function mirrorbits_fetch($json_url)
+    {
+       $json_file = file_get_contents($json_url);
+       $json = json_decode($json_file);
+       if (is_int($json->Total))
+       {
+               return $json->Total;
+       }
+       else
+       {
+               return 0;
+       }
+    }
+
     $wintotal = 0;
     $mactotal = 0;
     $srctotal = 0;
@@ -88,36 +102,189 @@
       https://sourceforge.net/projects/vlc/files/2.0.4/stats/json?start_date=2010-06-21&end_date=2013-03-30
       https://sourceforge.net/projects/vlc/files/2.0.4/macosx/stats/json?start_date=2010-06-21&end_date=2013-03-30
       https://sourceforge.net/projects/vlc/files/2.0.4/win32/stats/json?start_date=2010-06-21&end_date=2013-03-30 */
-    $table = array( "1.1.0"   => array( "Windows" => 15352734,  "Macintosh" => 2538263, "Total" => 17940200 ),
-                    "1.1.1"   => array( "Windows" => 5396669 ,  "Macintosh" => 536578 , "Total" => 5946075 ),
-                    "1.1.2"   => array( "Windows" => 11420722,  "Macintosh" => 1630259, "Total" => 13089561 ),
-                    "1.1.3"   => array( "Windows" => 6606436,   "Macintosh" => 5940497, "Total" => 12561243 ),
-                    "1.1.4"   => array( "Windows" => 48708500,  "Macintosh" => 212793,  "Total" => 48819569 + 220447 ),
-                    "1.1.5"   => array( "Windows" => 55022112,  "Macintosh" => 5276078, "Total" => 60408042 ),
-                    "1.1.6"   => array( "Windows" => 9346195,   "Macintosh" => 1488555, "Total" => 10846854 ),
-                    "1.1.7"   => array( "Windows" => 28829751,  "Macintosh" => 3956196, "Total" => 32855945 ),
-                    "1.1.8"   => array( "Windows" => 14805029,  "Macintosh" => 2064280, "Total" => 16883848 ),
-                    "1.1.9"   => array( "Windows" => 33103808,  "Macintosh" => 4045759, "Total" => 37350178 ),
-                    "1.1.10"  => array( "Windows" => 31185756,  "Macintosh" => 1627838 + 2679108, "Total" => 32872363 + 2679108 ),
-                    "1.1.11"  => array( "Windows" => 181422477, "Macintosh" => 7084265, "Total" => 188865441),
-                    "1.1.12"  => array( "Windows" => 0        , "Macintosh" => 8870000, "Total" => 8952539  ),
-                    "1.1.13"  => array( "Windows" => 0        , "Macintosh" => 0,       "Total" => 598  ),
-                    "2.0.0"   => array( "Windows" => 14411719 , "Macintosh" => 1935724, "Total" => 16364533 ),
-                    "2.0.1"   => array( "Windows" => 80222282,  "Macintosh" => 7768126, "Total" => 88042742 ),
-                    "2.0.2"   => array( "Windows" => 45125602,  "Macintosh" => 3051816, "Total" => 48239203 ),
-                    "2.0.3"   => array( "Windows" => 23382860,  "Macintosh" => 7090157, "Total" => 30539419 ),
-                    "2.0.4"   => array( "Windows" => 51860245,  "Macintosh" => 5806887, "Total" => 57798695 ),
-                    "2.0.5"   => array( "Windows" => 119330010, "Macintosh" => 8356477, "Total" => 128597750),
-                    "2.0.6"   => array( "Windows" => 2152979,   "Macintosh" => 43216  , "Total" => 2308198  ),
-                    "2.0.6"   => array( "Windows" => 2152979,   "Macintosh" => 43216  , "Total" => 2308198  ),
+    $table = array( "1.1.0"   => array( "Windows" => 15443389,          "Macintosh" => 2546516,             "Total" => 18039555 ),
+                    "1.1.1"   => array( "Windows" => 5407572,           "Macintosh" => 539841,              "Total" => 5960536 ),
+                    "1.1.2"   => array( "Windows" => 11436970,          "Macintosh" => 1631421,             "Total" => 13108335 ),
+                    "1.1.3"   => array( "Windows" => 6678481,           "Macintosh" => 5943649,             "Total" => 12637918 ),
+                    "1.1.4"   => array( "Windows" => 49292812,          "Macintosh" => 212793,              "Total" => 49407504 + 220447 ),
+                    "1.1.5"   => array( "Windows" => 55535460,          "Macintosh" => 5279877,             "Total" => 60926281 ),
+                    "1.1.6"   => array( "Windows" => 9356879,           "Macintosh" => 1489204,             "Total" => 10858731 ),
+                    "1.1.7"   => array( "Windows" => 28971011,          "Macintosh" => 3963685,             "Total" => 33005883 ),
+                    "1.1.8"   => array( "Windows" => 14915980,          "Macintosh" => 2065589,             "Total" => 16996235 ),
+                    "1.1.9"   => array( "Windows" => 33188967,          "Macintosh" => 4070600,             "Total" => 37461402 ),
+                    "1.1.10"  => array( "Windows" => 31298711,          "Macintosh" => 1628632 + 2679108,   "Total" => 32986398 + 2679108 ),
+                    "1.1.11"  => array( "Windows" => 183467386,         "Macintosh" => 7124700,             "Total" => 190951490),
+                    "1.1.12"  => array( "Windows" => 0,                 "Macintosh" => 8899060,             "Total" => 8984524 ),
+                    "1.1.13"  => array( "Windows" => 253,               "Macintosh" => 0,                   "Total" => 2696  ),
+                    "2.0.0"   => array( "Windows" => 14948886,          "Macintosh" => 2003047,             "Total" => 16969727 ),
+                    "2.0.1"   => array( "Windows" => 80685464+33372,    "Macintosh" => 7786101,             "Total" => 88526759 ),
+                    "2.0.2"   => array( "Windows" => 45327174+65922,    "Macintosh" => 3058871,             "Total" => 48472263 ),
+                    "2.0.3"   => array( "Windows" => 24135052,          "Macintosh" => 7107008,             "Total" => 31313377 ),
+                    "2.0.4"   => array( "Windows" => 52270803+160,      "Macintosh" => 5837181,             "Total" => 58222403 ),
+                    "2.0.5"   => array( "Windows" => 144276870+1455,    "Macintosh" => 8386017,             "Total" => 153576264),
+                    "2.0.6"   => array( "Windows" => 3578397+15773,     "Macintosh" => 112788 ,             "Total" => 3964392  ),
+                    "2.0.7"   => array( "Windows" => 1450+583,          "Macintosh" => 129 ,                "Total" => 2514  ),
+                    "2.0.8"   => array( "Windows" => 260+110,           "Macintosh" => 39,                  "Total" => 482 ),
+                    "2.0.9"   => array( "Windows" => 0,                 "Macintosh" => 88,                  "Total" => 483 ),
+                    "2.1.0"   => array( "Windows" => 318+112,           "Macintosh" => 19,                  "Total" => 509  ),
+                    "2.1.1"   => array( "Windows" => 126+74,            "Macintosh" => 12,                  "Total" => 236 ),
+                    "2.1.2"   => array( "Windows" => 288+129,           "Macintosh" => 23,                  "Total" => 475 ),
+                    "2.1.3"   => array( "Windows" => 3767+397,          "Macintosh" => 47,                  "Total" => 4289 ),
+                    "2.1.4"   => array( "Windows" => 0+273524,          "Macintosh" => 22347,               "Total" => 367658 ),
+                    "2.1.5"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 55457 ),
+                    "2.1.6"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "2.2.0"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 35957 ),
+                    "2.2.1"   => array( "Windows" => 156567+4910,       "Macintosh" => 8632,                "Total" => 236341 ),
+                    "2.2.2"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+    );
+
+    // Values in this array will be fetched from mirrorbits and added to the value in the $table
+    $table_mirrorbits = array(
+                    "2.0.0"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.1"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.2"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.3"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.4"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.5"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.6"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.7"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.8"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.0.9"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.0"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.1"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.2"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.3"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.4"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.5"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.1.6"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.2.0"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.2.1"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.2.2"   => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
     );
 
     foreach( $table as $key => $t )
     {
         echo "<tr><td class=\"category\" style=\"text-align: left;\"><strong>$key</strong></td>\n";
+
+       // <Mirrorbits>
+       if (array_key_exists($key, $table_mirrorbits))
+       {
+               $platforms = array("Windows", "Macintosh", "Source");
+               foreach($platforms as $platform)
+               {
+                       if (array_key_exists($platform, $table_mirrorbits[$key]))
+                       {
+                               $value = 0;
+                               if (is_array($table_mirrorbits[$key][$platform]))
+                               {
+                                       foreach($table_mirrorbits[$key][$platform] as $url)
+                                       {
+                                               $final = str_replace("#version#", $key, $url);
+                                               $value += mirrorbits_fetch($final);
+                                       }
+                               }
+                               else
+                               {
+                                       $final = str_replace("#version#", $key, $table_mirrorbits[$key][$platform]);
+                                       $value += mirrorbits_fetch($final);
+                               }
+
+                               if ($platform == "Windows" || $platform == "Macintosh")
+                               {
+                                       $t[$platform] += $value;
+                               }
+
+                               // Historically "source" is computed from the total - windows - mac
+                               $t["Total"] += $value;
+                       }
+               }
+       }
+       // </Mirrorbits>
+
         $wintotal += $t["Windows"];
         $mactotal += $t["Macintosh"];
         $srctotal += ( $t["Total"] - $t["Windows"] - $t["Macintosh"] );
+
         f($t["Windows"]);
         f($t["Macintosh"]);
         f($t["Total"] - $t["Windows"] - $t["Macintosh"]);

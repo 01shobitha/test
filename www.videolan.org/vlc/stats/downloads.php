@@ -5,6 +5,15 @@
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
+<script>
+    $(function() {
+        var ws = new WebSocket("wss://get.videolan.org/wscounter");
+        ws.onmessage = function(event) {
+            $('#wscounter').text(event.data);
+        };
+    });
+</script>
+
 <div id="fullwidth">
     <h1>VLC download statistics</h1>
 
@@ -15,6 +24,8 @@
 
     <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>
+
+    <p align="center" id="wscounter"></p>
 
 <?php    echo "<center><img src='//images.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' style='box-shadow: 0px 0px 10px 5px #FFF; margin-top: 20px;' /></center>"; ?>
 

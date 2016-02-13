@@ -322,6 +322,10 @@
                                         "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel64.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
                                         "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
                                  ),
+                    "2.0.10"  => array(
+                                        "Macintosh" => array( "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-powerpc.dmg?stats", "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#-intel32.dmg?stats"),
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
                     "2.1.0"   => array(
                                         "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats" ),
                                         "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",

@@ -190,6 +190,7 @@
                     "2.0.7"   => array( "Windows" => 1450+583,          "Macintosh" => 129 ,                "Total" => 2514  ),
                     "2.0.8"   => array( "Windows" => 260+110,           "Macintosh" => 39,                  "Total" => 482 ),
                     "2.0.9"   => array( "Windows" => 0,                 "Macintosh" => 88,                  "Total" => 483 ),
+                    "2.0.10"  => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.1.0"   => array( "Windows" => 318+112,           "Macintosh" => 19,                  "Total" => 509  ),
                     "2.1.1"   => array( "Windows" => 126+74,            "Macintosh" => 12,                  "Total" => 236 ),
                     "2.1.2"   => array( "Windows" => 288+129,           "Macintosh" => 23,                  "Total" => 475 ),

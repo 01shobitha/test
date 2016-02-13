@@ -67,6 +67,7 @@
     $srctotal = 0;
 
 
+    /* Disabled
     $filenamedb = '/home/videolan/etc/db.php';
     if( is_readable( $filenamedb ) ) {
         require '/home/videolan/etc/db.php';
@@ -108,12 +109,64 @@
             echo "</tr>\n";
         }
         pg_close($connect);
-    }
-    /* Sourceforge Downloads, from the json auth section
+    } */
+
+    /* Those numbers are a dump of the Database above. */
+    /* The old system is now retired */
+
+    $table_old = array(
+    "0.7.2" =>
+    array( "Windows" => 42905,      "Macintosh" => 5386,     "Source" => 15178,  "Total" => 63469),
+    "0.8.0" =>
+    array( "Windows" => 12739,       "Macintosh" => 1671,     "Source" => 2546,    "Total" => 16956),
+    "0.8.1" =>
+    array( "Windows" => 2178774,     "Macintosh" => 366097,   "Source" => 90280,   "Total" => 2635151),
+    "0.8.2" =>
+    array( "Windows" => 12405056,    "Macintosh" => 1935678,  "Source" => 198499,  "Total" => 14539233),
+    "0.8.4" =>
+    array( "Windows" => 14509992,    "Macintosh" => 2205730,  "Source" => 474451,  "Total" => 17190173),
+    "0.8.5" =>
+    array( "Windows" => 26809577,    "Macintosh" => 2723985,  "Source" => 191551,  "Total" => 29725113),
+    "0.8.6" =>
+    array( "Windows" => 108588196,   "Macintosh" => 8527105,  "Source" => 80906,   "Total" => 117196207),
+    "0.9.2" =>
+    array( "Windows" => 4645080,     "Macintosh" => 461831,   "Source" => 29145,   "Total" => 5136056),
+    "0.9.3" =>
+    array( "Windows" => 2044,        "Macintosh" => 369725,   "Source" => 52434,   "Total" => 424203),
+    "0.9.4" =>
+    array( "Windows" => 8063624,     "Macintosh" => 586607,   "Source" => 59302,   "Total" => 8709533),
+    "0.9.5" =>
+    array( "Windows" => 1311,        "Macintosh" => 653715,   "Source" => 86017,   "Total" => 741043),
+    "0.9.6" =>
+    array( "Windows" => 8622559,     "Macintosh" => 1229534,  "Source" => 84462,   "Total" => 9936555),
+    "0.9.8a" =>
+    array( "Windows" => 21710725,    "Macintosh" => 3984011,  "Source" => 225952,  "Total" => 25920688),
+    "0.9.9" =>
+    array( "Windows" => 25069860,    "Macintosh" => 3508059,  "Source" => 90042,   "Total" => 28667961),
+    "0.9.10" =>
+    array( "Windows" => 23,          "Macintosh" => 1081660,  "Source" => 30729,   "Total" => 1112412),
+    "1.0.0" =>
+    array( "Windows" => 12559146,    "Macintosh" => 1612944,  "Source" => 104360,  "Total" => 14276450),
+    "1.0.1" =>
+    array( "Windows" => 25432756,    "Macintosh" => 2859392,  "Source" => 130132,  "Total" => 28422280),
+    "1.0.2" =>
+    array( "Windows" => 20454583,    "Macintosh" => 2497472,  "Source" => 85887,   "Total" => 23037942),
+    "1.0.3" =>
+    array( "Windows" => 46850880,    "Macintosh" => 5339816,  "Source" => 115158,  "Total" => 52305854),
+    "1.0.4" =>
+    array( "Windows" => 1675,        "Macintosh" => 515,      "Source" => 202487,  "Total" => 204677),
+    "1.0.5" =>
+    array( "Windows" => 51335602,    "Macintosh" => 7918876,  "Source" => 12675,   "Total" => 59267153),
+    "1.0.6" =>
+    array( "Windows" => 2334,        "Macintosh" => 138,      "Source" => 2,       "Total" => 2474),
+    );
+
+
+/* Sourceforge Downloads, from the json auth section
       https://sourceforge.net/projects/vlc/files/2.0.4/stats/json?start_date=2010-06-21&end_date=2013-03-30
       https://sourceforge.net/projects/vlc/files/2.0.4/macosx/stats/json?start_date=2010-06-21&end_date=2013-03-30
       https://sourceforge.net/projects/vlc/files/2.0.4/win32/stats/json?start_date=2010-06-21&end_date=2013-03-30 */
-    $table = array( "1.1.0"   => array( "Windows" => 15443389,          "Macintosh" => 2546516,             "Total" => 18039555 ),
+    $table_sf = array( "1.1.0"   => array( "Windows" => 15443389,          "Macintosh" => 2546516,             "Total" => 18039555 ),
                     "1.1.1"   => array( "Windows" => 5407572,           "Macintosh" => 539841,              "Total" => 5960536 ),
                     "1.1.2"   => array( "Windows" => 11436970,          "Macintosh" => 1631421,             "Total" => 13108335 ),
                     "1.1.3"   => array( "Windows" => 6678481,           "Macintosh" => 5943649,             "Total" => 12637918 ),
@@ -148,6 +201,8 @@
                     "2.2.1"   => array( "Windows" => 156567+4910,       "Macintosh" => 8632,                "Total" => 236341 ),
                     "2.2.2"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
     );
+
+    $table = array_merge( $table_old, $table_sf );
 
     // Values in this array will be fetched from mirrorbits and added to the value in the $table
     $table_mirrorbits = array(

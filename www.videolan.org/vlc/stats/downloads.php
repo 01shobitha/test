@@ -6,11 +6,20 @@
 ?>
 
 <script>
+    var ws;
+
+    function openWSCounterSocket() {
+        if (ws === undefined || ws.readyState === undefined || ws.readyState > 1) {
+            ws = new WebSocket("wss://get.videolan.org/wscounter");
+            ws.onmessage = function(event) {
+                $('#wscounter').text(event.data);
+            };
+        }
+    }
+
     $(function() {
-        var ws = new WebSocket("wss://get.videolan.org/wscounter");
-        ws.onmessage = function(event) {
-            $('#wscounter').text(event.data);
-        };
+       openWSCounterSocket();
+        setInterval(openWSCounterSocket, 5000);
     });
 </script>
 

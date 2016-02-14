@@ -230,6 +230,24 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
     $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;
     $defaultDetail = getOS($defaultOS);
     ?>
+    <script>
+        var ws;
+
+        function openWSCounterSocket() {
+            if (ws === undefined || ws.readyState === undefined || ws.readyState > 1) {
+                ws = new WebSocket("wss://get.videolan.org/wscounter");
+                ws.onmessage = function(event) {
+                    $('#wscounter').text(event.data + " <?php echo _("downloads so far"); ?>");
+                };
+            }
+        }
+
+        $(function() {
+            openWSCounterSocket();
+            setInterval(openWSCounterSocket, 5000);
+        });
+    </script>
+
     <div class="inner center-xs">
         <div class="btn-group">
             <a id='downloadButton2' class="btn btn-default btn-lg btn-dl" href='<?php echo $defaultDetail["location"]; ?>'>
@@ -262,6 +280,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
         <div id="downloadDetails">
             Version <span id='downloadVersion'>
             <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
+            <br/><span id="wscounter"></span>
         </div>
         <?php if ($displayMainOSicons) { ?>
         <div class="platform-icons main-os-icons">

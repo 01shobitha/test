@@ -18,9 +18,9 @@
     <h1>VLC download statistics</h1>
 
     <p>These stats were started at the end of February 2005 and are likely
-       to be inaccurate.</p>
+       to be inaccurate before this date.</p>
 
-    <p>Stats are updated every few days.</p>
+    <p>Stats are updated every day from our download servers.</p>
 
     <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>

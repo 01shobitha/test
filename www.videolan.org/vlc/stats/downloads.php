@@ -18,7 +18,7 @@
     }
 
     $(function() {
-       openWSCounterSocket();
+        openWSCounterSocket();
         setInterval(openWSCounterSocket, 5000);
     });
 </script>

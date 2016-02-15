@@ -6,24 +6,6 @@
     require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-<script>
-    var ws;
-
-    function openWSCounterSocket() {
-        if (ws === undefined || ws.readyState === undefined || ws.readyState > 1) {
-            ws = new WebSocket("wss://get.videolan.org/wscounter");
-            ws.onmessage = function(event) {
-                $('#wscounter').text(event.data);
-            };
-        }
-    }
-
-    $(function() {
-        openWSCounterSocket();
-        setInterval(openWSCounterSocket, 5000);
-    });
-</script>
-
 <div id="fullwidth">
     <h1>VLC download statistics</h1>
 
@@ -34,8 +16,6 @@
 
     <p>We don't show statistics for GNU/Linux, iOS, Android, Chrome OS or Windows Phone as most downloads for those
        platforms are made through distributions or app stores.</p>
-
-    <p>Our latest release, version <?php echo $version ?>, was downloaded <b><span id="wscounter"></span></b> times so far!</p>
 
     <?php image('events/2billion.png', '2 billion downloads', 'announce-img'); ?>
 

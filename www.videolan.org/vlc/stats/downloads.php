@@ -31,12 +31,12 @@
 
     <p>Stats are updated every day from our download servers.</p>
 
-    <p>We don't show Linux download statistics as most downloads for this
-       OS are made through distributions.</p>
+    <p>We don't show statistics for GNU/Linux, iOS, Android, Chrome OS or Windows Phone as most downloads for those
+       platforms are made through distributions or app stores.</p>
 
     <p align="center" id="wscounter"></p>
 
-<?php    echo "<center><img src='//images.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' style='box-shadow: 0px 0px 10px 5px #FFF; margin-top: 20px;' /></center>"; ?>
+<?php    echo "<center><img src='//images.videolan.org/images/events/2billion.png' alt='2 billion downloads' class='' style='box-shadow: 0px 0px 10px 5px #FFF; margin-top: 20px;' /></center>"; ?>
 
     <h1>Downloads by version and by OS</h1>
     <table border="0">

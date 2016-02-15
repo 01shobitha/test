@@ -3,6 +3,7 @@
     $lang = "en";
     $menu = array( "vlc", "overview" );
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
 <script>
@@ -34,7 +35,7 @@
     <p>We don't show statistics for GNU/Linux, iOS, Android, Chrome OS or Windows Phone as most downloads for those
        platforms are made through distributions or app stores.</p>
 
-    <p align="center" id="wscounter"></p>
+    <p>Our latest release, version <?php echo $version ?>, was downloaded <b><span id"wscounter"></span></b> times so far!</p>
 
     <?php image('events/2billion.png', '2 billion downloads', 'announce-img'); ?>
 

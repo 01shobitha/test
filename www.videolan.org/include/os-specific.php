@@ -92,7 +92,6 @@ function downloadButton()
          <span id='downloadDetails' style='font-size: 12px; color: white;'>
          Version <span id='downloadVersion'><?php echo $win32version ?>
          </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
-         <br/><span id="wscounter"></span>
          </span>
     </a>
     <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;"><?php echo _("Other Systems");?></a>

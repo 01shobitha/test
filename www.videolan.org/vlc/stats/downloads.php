@@ -35,7 +35,7 @@
     <p>We don't show statistics for GNU/Linux, iOS, Android, Chrome OS or Windows Phone as most downloads for those
        platforms are made through distributions or app stores.</p>
 
-    <p>Our latest release, version <?php echo $version ?>, was downloaded <b><span id"wscounter"></span></b> times so far!</p>
+    <p>Our latest release, version <?php echo $version ?>, was downloaded <b><span id="wscounter"></span></b> times so far!</p>
 
     <?php image('events/2billion.png', '2 billion downloads', 'announce-img'); ?>
 

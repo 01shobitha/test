@@ -36,7 +36,7 @@
 
     <p align="center" id="wscounter"></p>
 
-<?php    echo "<center><img src='//images.videolan.org/images/events/2billion.png' alt='2 billion downloads' class='' style='box-shadow: 0px 0px 10px 5px #FFF; margin-top: 20px;' /></center>"; ?>
+    <?php image('events/2billion.png', '2 billion downloads', 'announce-img'); ?>
 
     <h1>Downloads by version and by OS</h1>
     <table border="0">

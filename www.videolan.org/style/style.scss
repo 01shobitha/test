@@ -340,7 +340,7 @@ html[dir="rtl"] #donate .button {
     text-decoration: none;
 }
 
-#downloadDetails
+#downloadDetails, #wscounter
 {
     padding-left: 3px;
     color: white;
@@ -1015,6 +1015,13 @@ img, .normalButton {
     color: #777777;
     font-size: 12px;
     padding-top: 10px;
+}
+
+.download-wrapper #wscounter {
+    clear: both;
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
 }
 
 .platform-icons.dropdown-menu {

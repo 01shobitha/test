@@ -282,8 +282,8 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
         <div id="downloadDetails">
             Version <span id='downloadVersion'>
             <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>&nbsp;&#8226;&nbsp;<span id='downloadSize'><?php echo $defaultDetail["size"] ?></span>
-            <br/><span id="wscounter"></span>
         </div>
+        <div id="wscounter"></div>
         <?php if ($displayMainOSicons) { ?>
         <div class="platform-icons main-os-icons">
             <a class="icon icon-windows" href="/vlc/download-windows.html"></a>

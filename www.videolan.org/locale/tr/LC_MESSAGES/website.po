@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-25 13:59+0000\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-16 09:33+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/yaron/vlc-trans/language/tr/)\n"
 "Language: tr\n"
@@ -53,7 +53,7 @@ msgstr "Basın merkezi"
 msgid "Contact us"
 msgstr "Bize ulaşın"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "İndirin"
 
@@ -165,15 +165,19 @@ msgstr "Haberler"
 msgid "Download VLC"
 msgstr "VLC'yi İndirin"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Diğer Sistemler"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "bugüne kadarki toplam indirme"
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC, özgür ve açık kaynak kodlu, platformlar arası, bir ortam oynatıcı ve çatıdır. Çeşitli DVD, Ses CD, VCD ortamları ile hemen hemen tüm ortam dosyaları ve akış protokollerini oynatabilir."
 
-#: include/os-specific.php:613
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC, özgür ve açık kaynaklı, platformlararası bir çoklu ortam oynatıcısı ve çatısıdır. Çoğu dosya biçimini ve çeşitli akış protokollerini oynatır."
 

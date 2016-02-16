@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-14 17:02+0000\n"
-"Last-Translator: Gonçalo Matos\n"
+"PO-Revision-Date: 2016-02-16 17:36+0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/yaron/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgstr "Outros sistemas"
 
 #: include/os-specific.php:241
 msgid "downloads so far"
-msgstr ""
+msgstr "descargas até agora"
 
 #: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."

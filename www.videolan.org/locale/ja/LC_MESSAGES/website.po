@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-22 13:19+0000\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-16 12:42+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/yaron/vlc-trans/language/ja/)\n"
 "Language: ja\n"
@@ -50,7 +50,7 @@ msgstr "プレスセンター"
 msgid "Contact us"
 msgstr "お問い合わせ"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "ダウンロード"
 
@@ -162,15 +162,19 @@ msgstr "ニュース"
 msgid "Download VLC"
 msgstr "VLCのダウンロード"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "その他のシステム"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "までダウンロード"
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、DVD、オーディオCD、VCDや様々なストリーミングプロトコルを再生可能なフレームワークです。"
 
-#: include/os-specific.php:613
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、ほとんどのマルチメディアファイルと多くのストリーミングプロトコルを再生可能なフレームワークです。"
 

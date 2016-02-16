@@ -4,13 +4,13 @@
 #
 # Translators:
 # Alex Kalfas <kalfas.alex@gmail.com>, 2016
-# Savvas Nesseris <nesseris@yahoo.com>, 2013-2014
+# Savvas Nesseris <nesseris@yahoo.com>, 2013-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-19 19:32+0000\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-11 20:25+0000\n"
 "Last-Translator: Savvas Nesseris <nesseris@yahoo.com>\n"
 "Language-Team: Greek (http://www.transifex.com/yaron/vlc-trans/language/el/)\n"
 "Language: el\n"
@@ -51,7 +51,7 @@ msgstr "Κέντρο δημοσιεύσεων"
 msgid "Contact us"
 msgstr "Επικοινωνία"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "Λήψη"
 
@@ -163,18 +163,21 @@ msgstr "Νέα"
 msgid "Download VLC"
 msgstr "Λήψη του VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Άλλα συστήματα"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr ""
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "Το VLC είναι ένας δωρεάν και ανοικτού κώδικα πολλαπλών πλατφορμών παίκτης πολυμέσων και ένα πλαίσιο που παίζει τα περισσότερα αρχεία πολυμέσων όπως επίσης και DVD, Audio CD, VCD, και διάφορα πρωτόκολλα ροής."
 
-#: include/os-specific.php:613
-#, fuzzy
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "Το VLC είναι ένας δωρεάν και ανοικτού κώδικα πολλαπλών πλατφορμών παίκτης πολυμέσων και ένα πλαίσιο που παίζει τα περισσότερα αρχεία πολυμέσων όπως επίσης και DVD, Audio CD, VCD, και διάφορα πρωτόκολλα ροής."
+msgstr "Το VLC είναι ένας δωρεάν και ανοικτού κώδικα πολλαπλών πλατφορμών παίκτης πολυμέσων και ένα πλαίσιο που παίζει τα περισσότερα αρχεία πολυμέσων, και διάφορα πρωτόκολλα streaming."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -281,68 +284,60 @@ msgid "Get VLC for"
 msgstr "Πάρτε το VLC  για"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Απλός, γρήγορος και πανίσχυρος παίκτης μέσων."
+msgstr "Απλός, γρήγορος και πανίσχυρος"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Παίζει τα πάντα"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Παίζει τα πάντα: Αρχεία, Δίσκους, Κάμερες, Συσκευές και Streams."
+msgstr "Αρχεία, Δίσκους, Κάμερες, Συσκευές και Streams."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Παίζει τα περισσότερα codecs χωρίς να χρειάζονται ειδικά πακέτα:"
+msgstr "Παίζει τα περισσότερα codecs χωρίς να χρειάζονται ειδικά πακέτα"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Δουλεύει σε όλες τις πλατφόρμες:"
+msgstr "Δουλεύει σε όλες τις πλατφόρμες"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Εντελώς Δωρεάν"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Τελείως Δωρεάν, χωρίς spyware, χωρίς διαφημίσεις και καμία παρακολούθηση των χρηστών."
+msgstr "χωρίς spyware, χωρίς διαφημίσεις και καμία παρακολούθηση των χρηστών."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Μάθετε περισσότερα"
+msgstr "μάθετε περισσότερα"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Δέρματα"
+msgstr "Προσόψεις"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Δημιουργείστε προσόψεις με"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "Δημιουργός προσόψεων του VLC"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Εγκατάσταση"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Επεκτάσεις"
+msgstr "επεκτάσεις"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

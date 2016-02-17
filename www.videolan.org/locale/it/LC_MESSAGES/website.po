@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-22 00:10+0000\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-17 00:41+0000\n"
 "Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/yaron/vlc-trans/language/it/)\n"
 "Language: it\n"
@@ -51,7 +51,7 @@ msgstr "Sala stampa"
 msgid "Contact us"
 msgstr "Contattaci"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "Scarica"
 
@@ -163,15 +163,19 @@ msgstr "Notizie"
 msgid "Download VLC"
 msgstr "Scarica VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Altri sistemi"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "scaricati finora"
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC è un riproduttore ed un framework multimediale multi-piattaforma gratuito e open-source che riproduce moltissimi file multimediali così come DVD, CD audio, VCD e diversi protocolli di trasmissione."
 
-#: include/os-specific.php:613
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC è un riproduttore e un framework multimediale multi-piattaforma gratuito e open source che riproduce moltissimi file multimediali e diversi protocolli di trasmissione."
 

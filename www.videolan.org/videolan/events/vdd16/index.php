@@ -13,6 +13,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
+<div class="container">
+
 <p><?php image( 'events/vdd14.jpg' , 'VDD14 Group picture', 'announce-img'); ?></p>
 
 <h1>VideoLAN Dev Days 2016</h1>
@@ -30,6 +32,7 @@
 
 </div>
 
+<div class="projectDescription">
 <p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the summer!</b></p>
 
@@ -65,5 +68,7 @@ invite you to the multimedia open-source event of the summer!</b></p>
 
 <h1><a name="contact">Contact</a> </h1>
 <p>The VideoLAN Dev Days are organized by the board members of the VideoLAN non-profit organization, Jean-Baptiste Kempf, Felix Paul K&uuml;hne and Hugo Beauz&eacute;e-Luyssen. You can reach us at <span style="color: #39b549">board@videolan.org</span>.</p>
+</div>
+</div>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

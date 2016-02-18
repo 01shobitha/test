@@ -17,24 +17,11 @@
 
 <p><?php image( 'events/vdd14.jpg' , 'VDD14 Group picture', 'announce-img'); ?></p>
 
+<div class="projectDescription">
+
 <h1>VideoLAN Dev Days 2016</h1>
 <h3 style="color: #4D4D4D">The Open Multimedia Conference that frees the cone in you!</h3>
 
-<!--
-<div id="sidebar">
-<?php panel_start( "green" ); ?>
-<h2>Sponsors</h2>
-<a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
-<br />
-<a href="http://videolabs.io"><?php image( "partners/videolabs-transparent.png" , "Videolabs SAS", "", 180); ?></a>
-<h2>Host</h2>
-<a href="http://bcc-berlin.de/"><?php image( "partners/bcc_logo.png" , "BCC", "", 180); ?></a>
-<?php panel_end(); ?>
-
-</div>
--->
-
-<div class="projectDescription">
 <p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the summer!</b></p>
 

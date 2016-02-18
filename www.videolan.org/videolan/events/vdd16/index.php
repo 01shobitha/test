@@ -20,6 +20,7 @@
 <h1>VideoLAN Dev Days 2016</h1>
 <h3 style="color: #4D4D4D">The Open Multimedia Conference that frees the cone in you!</h3>
 
+<!--
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
@@ -31,6 +32,7 @@
 <?php panel_end(); ?>
 
 </div>
+-->
 
 <div class="projectDescription">
 <p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to

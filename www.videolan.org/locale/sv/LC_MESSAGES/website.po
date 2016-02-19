@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-26 00:39+0000\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-18 20:52+0000\n"
 "Last-Translator: A. Regnander <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/yaron/vlc-trans/language/sv/)\n"
 "Language: sv\n"
@@ -50,7 +50,7 @@ msgstr "Presscenter"
 msgid "Contact us"
 msgstr "Kontakta oss"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "Ladda ned"
 
@@ -162,15 +162,19 @@ msgstr "Nyheter"
 msgid "Download VLC"
 msgstr "Ladda ned VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Andra system"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "nedladdningar hittills"
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC är en fri och öppen plattformsoberoende multimediaspelare och ramverk som spelar upp de flesta multimediafilerna såväl som DVD:er, ljud-CD:er, VCD:er och diverse strömprotokoll."
 
-#: include/os-specific.php:613
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC är en fri och öppen plattformsoberoende multimediaspelare och ramverk som spelar upp de flesta multimediafilerna och diverse strömningsprotokoll."
 

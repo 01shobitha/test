@@ -6,13 +6,14 @@
 # Aljoša Žagar <anthon.manix@gmail.com>, 2013
 # Martin Srebotnjak <miles@filmsi.net>, 2013-2014
 # Matej Urbančič <>, 2016
+# Peter Klofutar, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-19 21:08+0000\n"
-"Last-Translator: Matej Urbančič <>\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-19 15:00+0000\n"
+"Last-Translator: Peter Klofutar\n"
 "Language-Team: Slovenian (http://www.transifex.com/yaron/vlc-trans/language/sl/)\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +53,7 @@ msgstr "Novinarsko središče"
 msgid "Contact us"
 msgstr "Stik z nami"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "Prejem datotek"
 
@@ -164,18 +165,21 @@ msgstr "Novice"
 msgid "Download VLC"
 msgstr "Prejmi program VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Drugi sistemi"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "prenosov doslej"
+
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC je prosti odprtokodni predstavni predvajalnik za predvajanje večine razvitih predstavnih datotek in nosilcev ter razvojno okolje zanje. Podpira DVD, zvočni CD, VCD in različne protokole pretoka."
 
-#: include/os-specific.php:613
-#, fuzzy
+#: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC je prosti odprtokodni predstavni predvajalnik za predvajanje večine razvitih predstavnih datotek in nosilcev ter razvojno okolje zanje. Podpira DVD, zvočni CD, VCD in različne protokole pretoka."
+msgstr "VLC je brezplačen odprtokodni predvajalnik predstavnosti za predvajanje večine razvitih predstavnih datotek in raznih protokolov pretakanja v različnih okoljih."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -282,68 +286,60 @@ msgid "Get VLC for"
 msgstr "Pridobi VLC za"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Enostaven, hiter in uporaben predvajalnik datotek."
+msgstr "Enostaven, hiter in zmogljiv"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Predvaja vse"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Predvaja vse: datoteke, plošče, spletne kamere, naprave in prenose predstavnih vsebin."
+msgstr "Datoteke, plošče, spletne kamere, naprave in pretoke."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Predvaja večino kodekov brez potrebnih dodatnih paketov kodekov:"
+msgstr "Predvaja večino kodekov brez potrebnih dodatnih paketov kodekov"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Deluje v vseh okoljih:"
+msgstr "Deluje v vseh okoljih"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Popolnoma brezplačen"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Popolnoma brezplačno, brez vohunskih programov, brez oglasov in brez sledenja uporabnikom."
+msgstr "brez vohunskih programov, oglasov in sledenja uporabnikom."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Več podrobnosti"
+msgstr "več podrobnosti"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Preobleke"
+msgstr "preobleke"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Ustavri preobleko s/z"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "Urejevalnik preoblek VLC"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Namesti"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Pripone"
+msgstr "razširitve"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

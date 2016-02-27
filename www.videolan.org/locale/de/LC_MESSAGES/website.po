@@ -5,21 +5,21 @@
 # Translators:
 # Christoph Miebach <christoph.miebach@web.de>, 2012-2014,2016
 # Daniel Klischies <daniel.klischies@freenet.de>, 2011
-# Felix Paul Kühne <fkuehne@videolan.org>, 2012, 2016
-# Mario Siegmann <mario_siegmann@web.de>, 2013-2014
+# Felix Paul Kühne <fkuehne@gmail.com>, 2012,2016
+# Mario Siegmann <mario_siegmann@web.de>, 2013-2014,2016
 # Tobias Bannert <tobannert@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-26 07:36+0000\n"
-"Last-Translator: Felix Paul Kühne <fkuehne@gmail.com>\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-02-27 14:42+0000\n"
+"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/yaron/vlc-trans/language/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:291
@@ -54,7 +54,7 @@ msgstr "Pressebereich"
 msgid "Contact us"
 msgstr "Kontakt"
 
-#: include/menus.php:38 include/os-specific.php:241
+#: include/menus.php:38 include/os-specific.php:260
 msgid "Download"
 msgstr "Download"
 
@@ -166,21 +166,20 @@ msgstr "Neuigkeiten"
 msgid "Download VLC"
 msgstr "VLC herunterladen"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Andere Systeme"
 
-#: include/os-specific.php:609
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and "
-"various streaming protocols."
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "Downloads bisher"
+
+#: include/os-specific.php:629
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC ist ein freier und quelloffener Multimediaplayer sowie ein Framework für verschiedene Betriebssysteme, das die meisten Multimediadateien, sowie DVDs, Audio-CDs, VCDs und verschiedene Streamingprotokolle abspielt."
 
-#: include/os-specific.php:613
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files, and various streaming protocols."
+#: include/os-specific.php:633
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC ist ein freier und quelloffener Multimediaplayer sowie ein Framework für verschiedene Betriebssysteme, das die meisten Multimediadateien und verschiedene Streamingprotokolle abspielt."
 
 #: index.php:4
@@ -196,14 +195,11 @@ msgid "For Everyone"
 msgstr "Für Alle"
 
 #: index.php:39
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC ist ein mächtiger Mediaplayer, der die meisten Mediacodecs und Videoformate abspielen kann."
 
 #: index.php:52
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator ist eine nicht-lineare Editierungssoftware zur Videoerstellung."
 
 #: index.php:61
@@ -211,20 +207,15 @@ msgid "For Professionals"
 msgstr "Für professionelle Anwender"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast ist eine einfache und mächtige MPEG-2/TS Decodierungs- und Streaminganwendung."
 
 #: index.php:81
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat ist eine Werkzeugsammlung um einfach und effizient Multicast-Streams und Transport-Streams (TS) zu bearbeiten."
 
 #: index.php:94
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 ist eine freie Anwendung zum Enkodieren von Videostreams in das H.264/MPEG-4AVC Format."
 
 #: index.php:103
@@ -248,9 +239,7 @@ msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN ist eine gemeinnützige Organisation."
 
 #: index.php:153
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Alle unsere Kosten werden durch Spenden getragen, die wir von unseren Nutzern erhalten. Wenn Ihnen ein VideoLAN-Produkt gefällt, spenden Sie bitte, um uns zu unterstützen."
 
 #: index.php:156 index.php:176 index.php:194
@@ -262,9 +251,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN ist Open-Source-Software."
 
 #: index.php:173
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Das bedeutet, dass Ihre Beiträge willkommen sind, wenn Sie die Fähigkeiten und den Wunsch haben, eines unserer Produkte zu verbessern."
 
 #: index.php:183
@@ -272,9 +259,7 @@ msgid "Spread the Word"
 msgstr "Sagen Sie es weiter"
 
 #: index.php:191
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Wir sind der Meinung, dass VideoLAN die beste Videosoftware zum besten Preis anbietet: kostenlos. Wenn Sie dem zustimmen, helfen Sie uns dabei, unsere Software bekannt zu machen."
 
 #: index.php:211

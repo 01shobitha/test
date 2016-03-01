@@ -37,11 +37,9 @@
                     <?php echo
                     _("VideoLAN Movie Creator is a non-linear editing software for video creation based on libVLC and running on Windows, Linux and Mac OS X! It is a free software distributed under the terms of the GPLv2."); ?>
                 </div>
-
-                <div class="inner center-xs">
-                    <div id="projectDescription">
-                        Are you a <b>student</b> and look for a <b>summer internship</b>? VLMC is part of <b>Google Summer of Code</b>! <a href="https://summerofcode.withgoogle.com/organizations/4863706731118592/">Find out more</a>!
-                    </div>
+                <div class="projectDescription hidden-sm hidden-xs">
+                    <br />
+                    Are you a <b>student</b> and look for a <b>summer internship</b>? VLMC is part of <b>Google Summer of Code</b>! <a href="https://summerofcode.withgoogle.com/organizations/4863706731118592/">Find out more</a>!
                 </div>
             </div>
         </div>

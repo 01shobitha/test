@@ -73,7 +73,7 @@
                 </ul>
             </div>
             <div class="col-md-4 v-align-md v-align-lg">
-                <img src="//images.videolan.org/vlmc/screenshots/snapshot12.png" class="center-sm center-xs img-responsive">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot12.jpg" class="center-sm center-xs img-responsive">
             </div>
         </div>
     </div>
@@ -85,10 +85,10 @@
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
                 <div id="content-carousel">
                     <?php
-                    vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
-                    vlmcscreenshot('snapshot10.png', 'tm_snapshot10.png', "Screenshot" );
-                    vlmcscreenshot('snapshot12.png', 'tm_snapshot12.png', "Screenshot" );
-                    vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
+                    vlmcscreenshot('snapshot2.jpg', 'tm_snapshot2.jpg', "Screenshot" );
+                    vlmcscreenshot('snapshot10.jpg', 'tm_snapshot10.jpg', "Screenshot" );
+                    vlmcscreenshot('snapshot12.jpg', 'tm_snapshot12.jpg', "Screenshot" );
+                    vlmcscreenshot('snapshot2.jpg', 'tm_snapshot2.jp', "Screenshot" );
                     ?>
                 </div>
                 <div class="ltrClearLeft">
@@ -106,7 +106,7 @@
                 <p class="projectDescription">VLMC is developed by volunteers and anyone can contribute! You can browse the source code <a href="https://code.videolan.org/videolan/vlmc">online</a> and start right away!</p>
             </div>
             <div class="col-md-4 v-align-md v-align-lg">
-                <img src="//images.videolan.org/vlmc/screenshots/snapshot2.png" class="center-sm center-xs img-responsive">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot2.jpg" class="center-sm center-xs img-responsive">
             </div>
         </div>
     </div>

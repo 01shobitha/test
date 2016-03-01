@@ -97,6 +97,20 @@
         </div>
     </div>
 </section>
+<section class="features bg-gray">
+    <div class="container">
+        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Contribute"); ?></h2>
+        <div class="row reorder-sm reorder-xs">
+            <div class="items col-md-7 col-md-offset-1 col-md-pull-1 v-align-md v-align-lg">
+                <h2 class="hidden-xs hidden-sm"><?php echo _("Contribute"); ?></h2>
+                <p class="projectDescription">VLMC is developed by volunteers and anyone can contribute! You can browse the source code <a href="https://code.videolan.org/videolan/vlmc">online</a> and start right away!</p>
+            </div>
+            <div class="col-md-4 v-align-md v-align-lg">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot2.png" class="center-sm center-xs img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
   footer('$Id$');

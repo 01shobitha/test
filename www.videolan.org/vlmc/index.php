@@ -39,9 +39,8 @@
                 </div>
 
                 <div class="inner center-xs">
-                    <div id="downloadDetails">
-                        Downloads will be available later this year<br>
-                        Stay tuned!
+                    <div id="projectDescription">
+                        Are you a <b>student</b> and look for a <b>summer internship</b>? VLMC is part of <b>Google Summer of Code</b>! <a href="https://summerofcode.withgoogle.com/organizations/4863706731118592/">Find out more</a>!
                     </div>
                 </div>
             </div>
@@ -88,7 +87,7 @@
                     vlmcscreenshot('snapshot2.jpg', 'tm_snapshot2.jpg', "Screenshot" );
                     vlmcscreenshot('snapshot10.jpg', 'tm_snapshot10.jpg', "Screenshot" );
                     vlmcscreenshot('snapshot12.jpg', 'tm_snapshot12.jpg', "Screenshot" );
-                    vlmcscreenshot('snapshot2.jpg', 'tm_snapshot2.jp', "Screenshot" );
+                    vlmcscreenshot('snapshot14.jpg', 'tm_snapshot14.jpg', "Screenshot" );
                     ?>
                 </div>
                 <div class="ltrClearLeft">
@@ -107,6 +106,20 @@
             </div>
             <div class="col-md-4 v-align-md v-align-lg">
                 <img src="//images.videolan.org/vlmc/screenshots/snapshot2.jpg" class="center-sm center-xs img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="container">
+        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Get in touch"); ?></h2>
+        <div class="row reorder-sm reorder-xs">
+            <div class="items col-md-7 col-md-offset-1 col-md-pull-1 v-align-md v-align-lg">
+                <h2 class="hidden-xs hidden-sm"><?php echo _("Get in touch"); ?></h2>
+                <p class="projectDescription">You can contact the VLMC team via <i>IRC</i> on the <b>#vlmc</b> channel on the Freenode network. Additionally, join us by email on the <a href="https://mailman.videolan.org/listinfo/vlmc-devel">VLMC Development mailing-list</a>.</p>
+            </div>
+            <div class="col-md-4 v-align-md v-align-lg">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot14.jpg" class="center-sm center-xs img-responsive">
             </div>
         </div>
     </div>

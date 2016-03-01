@@ -79,6 +79,34 @@
 </section>
 <section class="features">
     <div class="container">
+        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Contribute"); ?></h2>
+        <div class="row">
+            <div class="col-md-4 v-align-md v-align-lg col-md-offset-1 col-md-pull-1">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot2.jpg" class="center-xs center-sm img-responsive">
+            </div>
+            <div class="items v-align-md v-align-lg col-md-7">
+                <h2 class="hidden-xs hidden-sm"><?php echo _("Contribute"); ?></h2>
+                <p class="projectDescription">VLMC is developed by volunteers and anyone can contribute! You can browse the source code <a href="https://code.videolan.org/videolan/vlmc">online</a> and start right away!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features bg-gray">
+    <div class="container">
+        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Get in touch"); ?></h2>
+        <div class="row reorder-sm reorder-xs">
+            <div class="items col-md-7 col-md-offset-1 col-md-pull-1 v-align-md v-align-lg">
+                <h2 class="hidden-xs hidden-sm"><?php echo _("Get in touch"); ?></h2>
+                <p class="projectDescription">You can contact the VLMC team via <i>IRC</i> on the <b>#vlmc</b> channel on the Freenode network. Additionally, join us by email on the <a href="https://mailman.videolan.org/listinfo/vlmc-devel">VLMC Development mailing-list</a>.</p>
+            </div>
+            <div class="col-md-4 v-align-md v-align-lg">
+                <img src="//images.videolan.org/vlmc/screenshots/snapshot14.jpg" class="center-sm center-xs img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 padding-bottom-24">
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
@@ -92,34 +120,6 @@
                 </div>
                 <div class="ltrClearLeft">
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="features bg-gray">
-    <div class="container">
-        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Contribute"); ?></h2>
-        <div class="row reorder-sm reorder-xs">
-            <div class="items col-md-7 col-md-offset-1 col-md-pull-1 v-align-md v-align-lg">
-                <h2 class="hidden-xs hidden-sm"><?php echo _("Contribute"); ?></h2>
-                <p class="projectDescription">VLMC is developed by volunteers and anyone can contribute! You can browse the source code <a href="https://code.videolan.org/videolan/vlmc">online</a> and start right away!</p>
-            </div>
-            <div class="col-md-4 v-align-md v-align-lg">
-                <img src="//images.videolan.org/vlmc/screenshots/snapshot2.jpg" class="center-sm center-xs img-responsive">
-            </div>
-        </div>
-    </div>
-</section>
-<section class="features">
-    <div class="container">
-        <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Get in touch"); ?></h2>
-        <div class="row reorder-sm reorder-xs">
-            <div class="items col-md-7 col-md-offset-1 col-md-pull-1 v-align-md v-align-lg">
-                <h2 class="hidden-xs hidden-sm"><?php echo _("Get in touch"); ?></h2>
-                <p class="projectDescription">You can contact the VLMC team via <i>IRC</i> on the <b>#vlmc</b> channel on the Freenode network. Additionally, join us by email on the <a href="https://mailman.videolan.org/listinfo/vlmc-devel">VLMC Development mailing-list</a>.</p>
-            </div>
-            <div class="col-md-4 v-align-md v-align-lg">
-                <img src="//images.videolan.org/vlmc/screenshots/snapshot14.jpg" class="center-sm center-xs img-responsive">
             </div>
         </div>
     </div>

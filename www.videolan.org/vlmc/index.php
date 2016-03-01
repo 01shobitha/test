@@ -19,6 +19,9 @@
 <div class="container">
     <section class="download-wrapper">
         <div class="row reorder-xs">
+            <div class="hidden-xs v-align col-sm-5">
+                <?php image('VLMC-Icon.png', 'Large Orange VLMC Logo', 'big-vlc-img img-responsive'); ?>
+            </div>
             <div class="v-align col-sm-5">
                 <div class="center-font-xs">
                     <?php image('VLMC-Icon.png', 'Large Orange VLMC Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
@@ -75,7 +78,7 @@
         </div>
     </div>
 </section>
-<section class="bg-gray">
+<section class="features">
     <div class="container">
         <div class="row">
             <div class="col-md-12 padding-bottom-24">

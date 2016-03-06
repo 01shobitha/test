@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-14 04:45+0000\n"
+"PO-Revision-Date: 2016-03-05 10:50+0000\n"
 "Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/yaron/vlc-trans/language/ru/)\n"
 "Language: ru\n"
@@ -168,7 +168,7 @@ msgstr "Другие системы"
 
 #: include/os-specific.php:241
 msgid "downloads so far"
-msgstr ""
+msgstr "— количество загрузок"
 
 #: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."

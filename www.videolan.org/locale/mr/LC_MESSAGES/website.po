@@ -1,269 +1,280 @@
 # Marathi translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Prasad Gavhane <prasadgavhane@users.sourceforge.net>, 2016
 # Rajnikant Kumbhar <rajnikant.kumbhar@gmail.com>, 2012-2013
 # Sujit Mahavarkar, 2014
 # Suraj Kawade, 2013-2014
+# Vikrant Korde <vikrant.korde@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-09-08 18:42+0000\n"
-"Last-Translator: Suraj Kawade\n"
-"Language-Team: Marathi (http://www.transifex.com/projects/p/vlc-trans/language/mr/)\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-03-08 08:26+0000\n"
+"Last-Translator: Prasad Gavhane <prasadgavhane@users.sourceforge.net>\n"
+"Language-Team: Marathi (http://www.transifex.com/yaron/vlc-trans/language/mr/)\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:221
-msgid "A project and a"
+#: include/header.php:291
+msgid "a project and a"
 msgstr "एक प्रकल्प आणि"
 
-#: include/header.php:221
+#: include/header.php:291
 msgid "non-profit organization"
 msgstr "ना-नफा संस्था"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "जी आहे स्वयंसेवकांनी बनलेली, मोफत, खुली-स्त्रोत मल्टीमीडिया सोलूशन विकसित आणि पुरस्कृत करणारी."
+#: include/menus.php:27
+msgid "Team &amp; Organization"
+msgstr "संघ आणि संस्था"
 
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "देणगी द्या"
+#: include/menus.php:28
+msgid "Consulting Services &amp; Partners"
+msgstr "सल्लागार सेवा आणि भागीदार"
 
-#: include/header.php:228
-msgid "why?"
-msgstr "का?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "मुखपृष्ठ"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "बातम्या"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "प्रकल्प आणि संस्था"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "संघ"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "आमच्याशी संपर्क साधा"
-
-#: include/header.php:286 include/header.php:419
-msgid "Partners"
-msgstr "भागीदार"
-
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "मिरर"
-
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "प्रसिद्धी केंद्र"
-
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:29 include/footer.php:69
 msgid "Events"
 msgstr "घडामोडी"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "सुरक्षा केंद्र"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "डाऊनलोड"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "वैशिष्ट्ये"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "स्क्रीनशॉट्स"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "स्कीन्स"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "एक्स्टेंशन्स"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "प्रकल्प"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "सर्व प्रकल्प"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "योगदान द्या"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "वेळेची देणगी द्या"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "पैशाची देणगी द्या"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "वस्तू विकत घ्या"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "पाठींबा"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "पाठींबा केंद्र"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "FAQ"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:30 include/footer.php:64 include/footer.php:98
 msgid "Legal"
 msgstr "कायदेशीर"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "फोरम"
+#: include/menus.php:31 include/footer.php:68
+msgid "Press center"
+msgstr "प्रसिद्धी केंद्र"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "मेलिंग-लिस्ट"
+#: include/menus.php:32 include/footer.php:65
+msgid "Contact us"
+msgstr "आमच्याशी संपर्क साधा"
 
-#: include/header.php:342
+#: include/menus.php:38 include/os-specific.php:260
+msgid "Download"
+msgstr "डाऊनलोड"
+
+#: include/menus.php:39 include/footer.php:24
+msgid "Features"
+msgstr "वैशिष्ट्ये"
+
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "सानुकूल"
+
+#: include/menus.php:42 include/footer.php:56
+msgid "Get Goodies"
+msgstr "वस्तू विकत घ्या"
+
+#: include/menus.php:46
+msgid "Projects"
+msgstr "प्रकल्प"
+
+#: include/menus.php:64 include/footer.php:30
+msgid "All Projects"
+msgstr "सर्व प्रकल्प"
+
+#: include/menus.php:68 index.php:164
+msgid "Contribute"
+msgstr "योगदान द्या"
+
+#: include/menus.php:70
+msgid "Getting started"
+msgstr "प्रारंभ करणे"
+
+#: include/menus.php:71 include/menus.php:89
+msgid "Donate"
+msgstr "देणगी"
+
+#: include/menus.php:72
 msgid "Report a bug"
 msgstr "बग कळवा"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "डेव' झोन"
+#: include/menus.php:76
+msgid "Support"
+msgstr "पाठींबा"
 
-#: include/header.php:401
+#: include/footer.php:22
+msgid "Skins"
+msgstr "स्कीन्स"
+
+#: include/footer.php:23
+msgid "Extensions"
+msgstr "एक्स्टेंशन्स"
+
+#: include/footer.php:25 vlc/index.php:83
+msgid "Screenshots"
+msgstr "स्क्रीनशॉट्स"
+
+#: include/footer.php:48
 msgid "Community"
 msgstr "समाज"
 
-#: include/header.php:424
+#: include/footer.php:51
+msgid "Forums"
+msgstr "फोरम"
+
+#: include/footer.php:52
+msgid "Mailing-Lists"
+msgstr "मेलिंग-लिस्ट"
+
+#: include/footer.php:53
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/footer.php:54
+msgid "Donate money"
+msgstr "पैशाची देणगी द्या"
+
+#: include/footer.php:55
+msgid "Donate time"
+msgstr "वेळेची देणगी द्या"
+
+#: include/footer.php:62
+msgid "Project and Organization"
+msgstr "प्रकल्प आणि संस्था"
+
+#: include/footer.php:63
+msgid "Team"
+msgstr "संघ"
+
+#: include/footer.php:66
+msgid "Partners"
+msgstr "भागीदार"
+
+#: include/footer.php:67
+msgid "Mirrors"
+msgstr "मिरर"
+
+#: include/footer.php:70
+msgid "Security center"
+msgstr "सुरक्षा केंद्र"
+
+#: include/footer.php:71
 msgid "Get Involved"
 msgstr "सहभागी व्हा"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:72
+msgid "News"
+msgstr "बातम्या"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "VLC डाउनलोड करा"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "इतर प्रणाली"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: अधिकृत संकेतस्थळ - सर्व OS साठी मोफत मल्टीमीडिया उपाय!"
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "आत्तापर्यंतचे डाउनलोड्स "
 
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC एक स्वतंत्र व खुला स्त्रोत क्रॉस प्लॅटफॉर्म मल्टिमिडीया प्लेअर आहे तसेच सर्वात जास्त मल्टिमीडिया फायली तसेच डीव्हीडी, ऑडिओ सीडी, व्हीसीडी, आणि विविध  स्ट्रीमिंग प्रोटोकॉल प्ले करणारे फ्रेमवर्क आहे."
 
-#: index.php:36
+#: include/os-specific.php:633
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr "VLC हा मोफत आणि उघड स्त्रोत मल्टीमीडिया प्लेयर आणि फ्रेमवर्क आहे जे जवळपास सर्व मल्टीमीडिया फाईल्स आणि विविध स्ट्रीमिंग प्रोटोकॉल प्ले करते."
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: अधिकृत संकेतस्थळ - सर्व OS साठी मोफत मल्टीमीडिया उपाय!"
+
+#: index.php:25
 msgid "Other projects from VideoLAN"
 msgstr "VideoLAN चे इतर प्रकल्प"
 
-#: index.php:38
+#: index.php:29
 msgid "For Everyone"
 msgstr "प्रत्येकासाठी"
 
-#: index.php:44
+#: index.php:39
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC हा शक्तिशाली मीडिया प्लेयर असून तो जवळपास सर्व मीडिया कोडेक तसेच चित्रफीत प्रकार प्ले करतो."
 
-#: index.php:53
+#: index.php:52
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator हे एक चित्रफीत निर्मितीसाठी नॉन-लिनियर संपादन सॉफ्टवेअर आहे."
 
-#: index.php:60
+#: index.php:61
 msgid "For Professionals"
 msgstr "व्यावसायिकांसाठी"
 
-#: index.php:66
+#: index.php:71
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast हा साधा आणि शक्तिशाली MPEG-2/TS डीमक्स आणि स्ट्रीमिंग अनुप्रयोग आहे."
 
-#: index.php:74
+#: index.php:81
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat हा साधनांचा संच आहे जो सहजपणे आणि उपयुक्तपणे मल्टीकास्ट स्ट्रीम आणि TS हाताळण्यासाठी बनवण्यात आला आहे."
 
-#: index.php:83
+#: index.php:94
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 हा एक मोफत अनुप्रयोग आहे जो चित्रफीत स्ट्रीमचे H.264/MPEG-4 AVC प्रकारात एनकोडिंग करण्यासाठी वापरतात."
 
-#: index.php:91
+#: index.php:103
 msgid "For Developers"
 msgstr "डेव्हलपरसाठी"
 
-#: index.php:102
+#: index.php:136
 msgid "View All Projects"
 msgstr "सर्व प्रकल्प पहा"
 
-#: index.php:105
+#: index.php:140
 msgid "Help us out!"
 msgstr "आम्हाला मदत करा!"
 
-#: index.php:111
+#: index.php:144
+msgid "donate"
+msgstr "देणगी द्या"
+
+#: index.php:152
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN ही एक ना-नफा संस्था आहे."
 
-#: index.php:112
+#: index.php:153
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "आमच्या सर्व गरजा आमच्या वापरकर्त्यांनी दिलेल्या देणगीतून भागवल्या जातात. जर तुम्हाला VideoLAN उत्पादन उपयुक्त वाटत असेल तर कृपया देणगीतून आम्हाला सहकार्य करा."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:156 index.php:176 index.php:194
 msgid "Learn More"
 msgstr "अधिक शिका"
 
-#: index.php:123
+#: index.php:172
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN हे उघड-स्त्रोत सॉफ्टवेअर आहे."
 
-#: index.php:124
+#: index.php:173
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "म्हणजे जर आपल्याकडे कौशल्य आहे आणि आमचे एखादे उत्पादन सुधारण्याची इच्छा आहे तर आपल्या योगदानाचे स्वागत आहे"
 
-#: index.php:131
+#: index.php:183
 msgid "Spread the Word"
 msgstr "प्रचार करा"
 
-#: index.php:135
+#: index.php:191
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "आम्हाला असे वाटते की VideoLAN कडे योग्य किमतीत उपलब्ध असणारे सर्वोत्तम चित्रफीत सॉफ्टवेअर आहे: अगदी मोफत. जर तुम्ही सहमत असाल तर आमच्या सॉफ्टवेअरचा प्रचार करण्यास मदत करा."
 
-#: index.php:147
+#: index.php:211
 msgid "News &amp; Updates"
 msgstr "बातम्या आणि चालू घडामोडी"
 
-#: index.php:151
+#: index.php:214
+msgid "More News"
+msgstr "अधिक बातम्या"
+
+#: index.php:218
 msgid "Development Blogs"
 msgstr "विकास ब्लॉग्ज"
 
-#: index.php:176
+#: index.php:247
 msgid "Social media"
 msgstr "सामाजिक माध्यमे"
 
@@ -271,66 +282,130 @@ msgstr "सामाजिक माध्यमे"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "VLC मीडिया प्लेयर चे अधिकृत पृष्ठ, उघड स्त्रोत चित्रफीत फ्रेमवर्क!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "साधा, जलद आणि शक्तिशाली मीडिया प्लेयर."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "सर्व काही प्ले करते: फाईल्स, डिस्क, वेबकॅम, उपकरणे आणि स्ट्रीम्स."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "जवळपास सर्व कोडेक्स प्ले करते कोडेक पॅक शिवाय:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "सर्व प्लॅटफोर्म वर चालते:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "पूर्णपणे मोफत, स्पायवेअर नाही, जाहिराती नाहीत आणि वापरकर्ता ट्रॅकिंग नाही."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "मीडिया रुपांतर आणि स्ट्रीमिंग करू शकते."
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "सर्व वैशिष्ट्ये समजून घ्या"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "सर्व स्क्रीनशॉट्स पहा"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "यासाठी VLC घ्या"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr "सोपे, जलद आणि शक्तिशाली"
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr "सर्व काही प्ले करते"
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr "फायली, डिस्क्स, वेबकॅम, साधने आणि स्ट्रीम्स."
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr "जवळपास सर्व कोडेक्स प्ले करते कोडेक पॅक शिवाय:"
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr "सर्व प्लॅटफॉर्मवर चालते"
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr "पूर्णतः मोफत"
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr "स्पायवेअर नाही, जाहिराती नाहीत आणि वापरकर्ता ट्रॅकिंग नाही."
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr "अधिक शिका"
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr "वाढवा..."
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr "स्कीन्स"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr "या पासून स्किन बनवा"
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr "VLC स्किन एडिटर"
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr "प्रतिष्ठापन करा"
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr "विस्तार"
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "सर्व स्क्रीनशॉट्स पहा"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "VLC मीडिया प्लेयर चे अधिकृत डाऊनलोड"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "स्त्रोत"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "तुम्ही थेट पण घेऊ शकता"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "स्त्रोत कोड"
+
+#~ msgid "A project and a"
+#~ msgstr "एक प्रकल्प आणि"
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "जी आहे स्वयंसेवकांनी बनलेली, मोफत, खुली-स्त्रोत मल्टीमीडिया सोलूशन विकसित आणि पुरस्कृत करणारी."
+
+#~ msgid "why?"
+#~ msgstr "का?"
+
+#~ msgid "Home"
+#~ msgstr "मुखपृष्ठ"
+
+#~ msgid "Support center"
+#~ msgstr "पाठींबा केंद्र"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "डेव' झोन"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "साधा, जलद आणि शक्तिशाली मीडिया प्लेयर."
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "सर्व काही प्ले करते: फाईल्स, डिस्क, वेबकॅम, उपकरणे आणि स्ट्रीम्स."
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "जवळपास सर्व कोडेक्स प्ले करते कोडेक पॅक शिवाय:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "सर्व प्लॅटफोर्म वर चालते:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "पूर्णपणे मोफत, स्पायवेअर नाही, जाहिराती नाहीत आणि वापरकर्ता ट्रॅकिंग नाही."
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "मीडिया रुपांतर आणि स्ट्रीमिंग करू शकते."
+
+#~ msgid "Discover all features"
+#~ msgstr "सर्व वैशिष्ट्ये समजून घ्या"
 
 #~ msgid "DONATE"
 #~ msgstr "देणगी"
 
 #~ msgid "Other Systems and Versions"
 #~ msgstr "इतर प्रणाली व आवृत्ती"
-
-#~ msgid "Donate"
-#~ msgstr "देणगी"
 
 #~ msgid "Other OS"
 #~ msgstr "इतर OS"

@@ -42,6 +42,7 @@
                     Are you a <b>student</b> and looking for a <b>summer internship</b>? VLMC is part of <b>Google Summer of Code</b>! <a href="https://summerofcode.withgoogle.com/organizations/4863706731118592/">Find out more</a>!
                 </div>
                 <div class="projectDescription hidden-sm hidden-xs">
+                    <br />
                     <?php echo
                     _("Note that VLMC is still under development and therefore not ready for beta testing or production yet."); ?>
                 </div>

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-14 00:49+0000\n"
+"PO-Revision-Date: 2016-03-12 15:00+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/yaron/vlc-trans/language/en_GB/)\n"
 "Language: en_GB\n"
@@ -169,7 +169,7 @@ msgstr "Other Systems"
 
 #: include/os-specific.php:241
 msgid "downloads so far"
-msgstr ""
+msgstr "downloads so far"
 
 #: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."

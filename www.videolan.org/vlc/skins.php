@@ -69,7 +69,7 @@ $sp_size = FormatSize( $r['size'] );
     <i>Skins do not work on Mac OS X!</i><br />
       Put the downloaded VLT files in the following folder:<br/>
       <ul class="panel-orange-bullet">
-        <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
+        <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VideoLAN\VLC\skins</i>)</li>
         <li>On Linux/Unix: <i>~/.local/share/vlc/skins2</i></li>
       </ul>
       <br />

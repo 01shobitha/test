@@ -6,14 +6,14 @@
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013-2014
 # Kasper Tvede <kasper@webmasteren.eu>, 2013
 # scootergrisen, 2015-2016
-# Ulrik Johansen, 2013
+# Ulrik Johansen, 2013,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-16 18:02+0000\n"
-"Last-Translator: scootergrisen\n"
+"PO-Revision-Date: 2016-03-23 15:00+0000\n"
+"Last-Translator: Ulrik Johansen\n"
 "Language-Team: Danish (http://www.transifex.com/yaron/vlc-trans/language/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: include/header.php:291
 msgid "a project and a"
-msgstr "et projekt og et/en"
+msgstr "et projekt og en"
 
 #: include/header.php:291
 msgid "non-profit organization"
@@ -175,11 +175,11 @@ msgstr "downloads indtil nu"
 
 #: include/os-specific.php:629
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som DVD'er, lyd-CD'er, VCD'er og forskellige strømprotokoller."
+msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som DVD'er, lyd-CD'er, VCD'er og forskellige streamingsprotokoller."
 
 #: include/os-specific.php:633
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som forskellige strømprotokoller."
+msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som forskellige streamingsprotokoller."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -299,11 +299,11 @@ msgstr "Filer, diske, webcams, enheder og streams."
 
 #: vlc/index.php:38
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Afspille de fleste codecs uden behov for codec-pakker"
+msgstr "Afspiller de fleste codecs uden behov for codec-pakker"
 
 #: vlc/index.php:41
 msgid "Runs on all platforms"
-msgstr "Køre på alle platforme"
+msgstr "Kører på alle platforme"
 
 #: vlc/index.php:44
 msgid "Completely Free"

@@ -1,20 +1,20 @@
 # Norwegian Bokmål translation
-# Copyright (C) 2015 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2014
+# Allan Nordhøy <epost@anotheragency.no>, 2014,2016
 # Gaute Huus <gaute@gautehuus.com>, 2013
-# Harald <haarektrans@gmail.com>, 2015
+# Harald H. <haarektrans@gmail.com>, 2015
 # Stian Jørgensrud <stianahj@gmail.com>, 2012-2013
-# tyler moss <tls@tutanota.com>, 2015
+# tyler moss <rsa@tutanota.de>, 2015,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-10-24 15:02+0000\n"
-"Last-Translator: Harald <haarektrans@gmail.com>\n"
+"POT-Creation-Date: 2016-02-16 04:20-0500\n"
+"PO-Revision-Date: 2016-03-26 17:41+0000\n"
+"Last-Translator: tyler moss <rsa@tutanota.de>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/yaron/vlc-trans/language/nb_NO/)\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
@@ -22,250 +22,259 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:221
-msgid "A project and a"
+#: include/header.php:291
+msgid "a project and a"
 msgstr "Et prosjekt og en"
 
-#: include/header.php:221
+#: include/header.php:291
 msgid "non-profit organization"
-msgstr "ideell (nonprofitt) organisasjon"
+msgstr "ideell organisasjon"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "bestående av frivillige, utviklings- og reklamefri, åpen-kildekode multimedialøsninger."
+#: include/menus.php:27
+msgid "Team &amp; Organization"
+msgstr "Lag &amp; Organisasjon"
 
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "donere"
+#: include/menus.php:28
+msgid "Consulting Services &amp; Partners"
+msgstr "Konsulenttjenester &amp; Partnere"
 
-#: include/header.php:228
-msgid "why?"
-msgstr "Hvorfor?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "Hjem"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "Nyheter"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "Prosjekt og Organisasjon"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "Team"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "Kontakt oss"
-
-#: include/header.php:286 include/header.php:419
-msgid "Partners"
-msgstr "Partnere"
-
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "Alternative tjenere"
-
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "Pressesenter"
-
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:29 include/footer.php:69
 msgid "Events"
 msgstr "Begivenheter"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "Sikkerhetssenter"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "Last ned"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "Funksjoner"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "Skjermbilder"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "Skall"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "Utvidelser"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "Prosjekter"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "Alle prosjekter"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "Bidra"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "Donér tid"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "Donér penger"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "Få godbiter"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "Støtte"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "Støttesenter"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "Ofte stilte spørsmål"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:30 include/footer.php:64 include/footer.php:98
 msgid "Legal"
 msgstr "Juridisk"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "Forum"
+#: include/menus.php:31 include/footer.php:68
+msgid "Press center"
+msgstr "Pressesenter"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "E-post-lister"
+#: include/menus.php:32 include/footer.php:65
+msgid "Contact us"
+msgstr "Kontakt oss"
 
-#: include/header.php:342
+#: include/menus.php:38 include/os-specific.php:260
+msgid "Download"
+msgstr "Last ned"
+
+#: include/menus.php:39 include/footer.php:24
+msgid "Features"
+msgstr "Funksjoner"
+
+#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "Tilpass"
+
+#: include/menus.php:42 include/footer.php:56
+msgid "Get Goodies"
+msgstr "Få godbiter"
+
+#: include/menus.php:46
+msgid "Projects"
+msgstr "Prosjekter"
+
+#: include/menus.php:64 include/footer.php:30
+msgid "All Projects"
+msgstr "Alle prosjekter"
+
+#: include/menus.php:68 index.php:164
+msgid "Contribute"
+msgstr "Bidra"
+
+#: include/menus.php:70
+msgid "Getting started"
+msgstr "Kom i gang"
+
+#: include/menus.php:71 include/menus.php:89
+msgid "Donate"
+msgstr "Donér"
+
+#: include/menus.php:72
 msgid "Report a bug"
 msgstr "Rapporter en feil"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "Utvikl. Sone"
+#: include/menus.php:76
+msgid "Support"
+msgstr "Støtte"
 
-#: include/header.php:401
+#: include/footer.php:22
+msgid "Skins"
+msgstr "Skall"
+
+#: include/footer.php:23
+msgid "Extensions"
+msgstr "Utvidelser"
+
+#: include/footer.php:25 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Skjermbilder"
+
+#: include/footer.php:48
 msgid "Community"
 msgstr "Samfunn"
 
-#: include/header.php:424
+#: include/footer.php:51
+msgid "Forums"
+msgstr "Forum"
+
+#: include/footer.php:52
+msgid "Mailing-Lists"
+msgstr "E-post-lister"
+
+#: include/footer.php:53
+msgid "FAQ"
+msgstr "Ofte stilte spørsmål"
+
+#: include/footer.php:54
+msgid "Donate money"
+msgstr "Donér penger"
+
+#: include/footer.php:55
+msgid "Donate time"
+msgstr "Donér tid"
+
+#: include/footer.php:62
+msgid "Project and Organization"
+msgstr "Prosjekt og Organisasjon"
+
+#: include/footer.php:63
+msgid "Team"
+msgstr "Team"
+
+#: include/footer.php:66
+msgid "Partners"
+msgstr "Partnere"
+
+#: include/footer.php:67
+msgid "Mirrors"
+msgstr "Alternative tjenere"
+
+#: include/footer.php:70
+msgid "Security center"
+msgstr "Sikkerhetssenter"
+
+#: include/footer.php:71
 msgid "Get Involved"
 msgstr "Bli involvert"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:72
+msgid "News"
+msgstr "Nyheter"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Last ned VLC"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Andre OS"
 
-#: index.php:3
+#: include/os-specific.php:241
+msgid "downloads so far"
+msgstr "Nedlastinger så langt"
+
+#: include/os-specific.php:629
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC er en kryssplattform friprog-multimediaspiller og et rammeverk som spiller de fleste multimediafiler sågar også DVD-er, lyd-CDer, VCD-er og forskjellige strømnings-protokoller."
+
+#: include/os-specific.php:633
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr "VLC er en fri og åpen kildekode cross-platform multimedia spiller og rammeverk som spiller mest multimediefiler , og ulike streaming protokoller."
+
+#: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Offisiell side - Gratis multimedialøsninger for alle OS!"
 
-#: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC er en kryssplattform gratis og åpen-kildekode multimediaspiller og et rammeverk som er kompatibel med de fleste multimediafiler så vel som DVDer, lyd-CDer, VCDer og forskjellige strømnings-protokoller."
-
-#: index.php:36
+#: index.php:25
 msgid "Other projects from VideoLAN"
 msgstr "Andre prosjekter fra VideoLAN"
 
-#: index.php:38
+#: index.php:29
 msgid "For Everyone"
 msgstr "For alle"
 
-#: index.php:44
+#: index.php:39
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC er en kraftig mediespiller som spiller av det meste av media- og videoformater der ute."
 
-#: index.php:53
+#: index.php:52
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLan Movie Creator er et ikke-lineært redigeringsprogram for video."
 
-#: index.php:60
+#: index.php:61
 msgid "For Professionals"
 msgstr "For profesjonelle"
 
-#: index.php:66
+#: index.php:71
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast er en enkel og kraftig MPEG-2/TS DEMUX og strømnings-applikasjon."
 
-#: index.php:74
+#: index.php:81
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat er et sett av verktøy laget for enkelt og effektivt å manipulere multicast-strømmer og TS"
 
-#: index.php:83
+#: index.php:94
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 er en gratis applikasjon for koding av videostrømmer til H.264/MPEG-4 AVC formatet."
 
-#: index.php:91
+#: index.php:103
 msgid "For Developers"
 msgstr "For utviklere"
 
-#: index.php:102
+#: index.php:136
 msgid "View All Projects"
 msgstr "Vis alle prosjekter"
 
-#: index.php:105
+#: index.php:140
 msgid "Help us out!"
 msgstr "Hjelp oss!"
 
-#: index.php:111
+#: index.php:144
+msgid "donate"
+msgstr "donér"
+
+#: index.php:152
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLan er en ideell (nonprofitt) organisasjon."
+msgstr "VideoLan er en ideell organisasjon."
 
-#: index.php:112
+#: index.php:153
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Alle våre kostnader dekkes av donasjoner vi får fra våre brukere. Hvis du liker å bruke VideoLAN produkter, vennligst vurder å donere for å støtte oss"
+msgstr "Alle våre kostnader dekkes av donasjoner vi får fra våre brukere. Hvis du liker å bruke VideoLAN-produkter, vurder å donere for å støtte oss."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:156 index.php:176 index.php:194
 msgid "Learn More"
 msgstr "Lær mer"
 
-#: index.php:123
+#: index.php:172
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN er åpen-kildekode programvare."
+msgstr "VideoLAN er fri programvare"
 
-#: index.php:124
+#: index.php:173
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Dette betyr at hvis du har ferdighetene og et ønske om å forbedre et av våre produkter, er ditt bidrag velkommen"
 
-#: index.php:131
+#: index.php:183
 msgid "Spread the Word"
 msgstr "Spre budskapet"
 
-#: index.php:135
+#: index.php:191
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Vi føler at VideoLAN har den beste programvaren inne film tilgjengelig til den beste prisen: gratis. Hvis du er enig, så spre budskapet om vår programvare."
+msgstr "Vi føler at VideoLAN har den beste programvaren innen film tilgjengelig, til den beste prisen: gratis. Hvis du er enig, spre budskapet om vår programvare."
 
-#: index.php:147
+#: index.php:211
 msgid "News &amp; Updates"
 msgstr "Nyheter &amp; Oppdateringer"
 
-#: index.php:151
+#: index.php:214
+msgid "More News"
+msgstr "Flere nyheter"
+
+#: index.php:218
 msgid "Development Blogs"
 msgstr "Utviklernes blogger"
 
-#: index.php:176
+#: index.php:247
 msgid "Social media"
 msgstr "Sosiale medier"
 
@@ -273,66 +282,130 @@ msgstr "Sosiale medier"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Offisiell side for VLC media player, den åpne kildekode videorammerverket!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "Enkel, rask og kraftig mediespiller."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Spiller av alt: Filer, Disker, Webkameraer, Enheter og Direkteavspilling."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Spiller av de fleste formater uten at noen codec-pakker trengs:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "Kjører på alle plattformer:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Fullstendig gratis, ingen spionvarer, ingen reklamer og ingen brukersporing."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "Kan konvertere mediefiler og strømming."
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "Oppdag alle funksjonene"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "Vis alle skjermbilder"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "Skaff VLC for"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr "Enkel, rask og kraftig"
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr "Spiller alt"
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr "Filer, plater, Webkameraer, enheter og Strømming."
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr "Spiller de fleste kodeker uten kodekpakker som trengs"
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr "Kjører på alle plattformer"
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr "Helt gratis"
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr "ingen Spionvare, ingen annonser og ingen bruker sporing."
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr "lære mer"
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr "Legg til"
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr "Temaer"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr "Lag Temaer med"
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr "VLC tema redigering"
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr "Installer"
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr "utvidelser"
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Vis alle skjermbilder"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Offisielle nedlastinger av VLC media player"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Kilder"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Du kan også direkte få"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "kildekoden"
+
+#~ msgid "A project and a"
+#~ msgstr "Et prosjekt og en"
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "bestående av frivillige, utviklings- og reklamefri, åpen-kildekode multimedialøsninger."
+
+#~ msgid "why?"
+#~ msgstr "Hvorfor?"
+
+#~ msgid "Home"
+#~ msgstr "Hjem"
+
+#~ msgid "Support center"
+#~ msgstr "Støttesenter"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "Utvikl. Sone"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "Enkel, rask og kraftig mediespiller."
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "Spiller av alt: Filer, Disker, Webkameraer, Enheter og Direkteavspilling."
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "Spiller av de fleste formater uten at noen codec-pakker trengs:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "Kjører på alle plattformer:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "Fullstendig gratis, ingen spionvarer, ingen reklamer og ingen brukersporing."
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Kan konvertere mediefiler og strømming."
+
+#~ msgid "Discover all features"
+#~ msgstr "Oppdag alle funksjonene"
 
 #~ msgid "DONATE"
 #~ msgstr "DONÉR"
 
 #~ msgid "Other Systems and Versions"
 #~ msgstr "Andre systemer og versjoner"
-
-#~ msgid "Donate"
-#~ msgstr "Donér"
 
 #~ msgid "Other OS"
 #~ msgstr "Andre OS"

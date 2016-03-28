@@ -79,12 +79,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 <ul class="bullets">
                     <li>Buy hardware for developing and testing purposes (DVDs, satellite cards and antenna, MPEG encoding cards,...)</li>
                     <li>Maintain the servers and hardware to run VideoLAN services.</li>
-                    <li>Promote the project by organising or participating in events (FOSDEM, Linux Expo Paris, ...)</li>
+                    <li>Promote the project by organizing or participating in events (FOSDEM, Linux Expo Paris, ...)</li>
                 </ul>
 
                 <h3>What is the legal structure of VideoLAN?</h3>
 
-                <p> VideoLAN is a non-profit organisation, under French law.
+                <p> VideoLAN is a non-profit organization, under French law.
                     VideoLAN has its own bank account and is responsible for running and maintaining the VideoLAN servers. </p>
 
                 <h3>Donate to VideoLAN via PayPal</h3>

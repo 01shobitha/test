@@ -317,11 +317,11 @@ function getScreenshots($os) {
         "All"  => array(
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",
-                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/vlc_101_w7_2.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/1.0.0/fitted_vlc_101_w7_2.jpg"
             ),
             array(
                 "name"  => "VLC on OS X",
-                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-playback.jpg"
+                "src"   => "//images.videolan.org/vlc/screenshots/2.2.0/fitted_vlc-2.2-macosx-playback.jpg"
             ),
             array(
                 "name"  => "VLC media player - Windows 7 - Qt Interface",

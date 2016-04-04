@@ -86,7 +86,7 @@
                     vlcscreenshot( "1.0.0/VLC_Gnome.png",
                                 "1.0.0/tm_VLC_Gnome.jpg",
                                 "Linux - Gnome");
-                    vlcscreenshot( "1.0.0/fitted_vlc_101_w7_2.jpg",
+                    vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
                                 "1.0.0/tm_vlc_101_w7_2.jpg",
                                 "Windows 7 - Qt Interface" );
                     vlcscreenshot( "1.0.0/vlc_101_w7_1.jpg",
@@ -110,7 +110,7 @@
                     vlcscreenshot( "2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg",
                                 "2.2.0/tm_vlc-2.2-macosx-audio-playback-dark.jpg",
                                 "VLC on OS X" );
-                    vlcscreenshot( "2.2.0/fitted_vlc-2.2-macosx-playback.jpg",
+                    vlcscreenshot( "2.2.0/vlc-2.2-macosx-playback.jpg",
                                 "2.2.0/tm_vlc-2.2-macosx-playback.jpg",
                                 "VLC on OS X" );
                     vlcscreenshot( "2.2.0/vlc-ios-2.4-ipad-library-large.jpg",

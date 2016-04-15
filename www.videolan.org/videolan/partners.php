@@ -249,6 +249,23 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
     </td>
   </tr>
 
+  <tr><td colspan="2"><h2> Western Digital </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.wdc.com"><img
+        src="http://images.videolan.org/images/partners/wdlogo.jpg" width="190" alt="WD" /></a></p>
+    </td>
+    <td>
+        <p>
+            <a href="http://www.wdc.com">WD</a>, one of the largest hard-drive manufacturer donated some
+            of their new wireless storage drives to improve UPnP and network discovery in VLC. They were
+            also kind enough to send us one of their discontinued product to help fixing a incompatibility
+            with VLC for iOS.
+        </p>
+    </td>
+  </tr>
+
+
 
 <!--
   <tr>

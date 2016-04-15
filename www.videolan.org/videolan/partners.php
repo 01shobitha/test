@@ -253,7 +253,7 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
   <tr>
     <td>
         <p class="center"><a href="http://www.wdc.com"><img
-        src="http://images.videolan.org/images/partners/wdlogo.jpg" width="190" alt="WD" /></a></p>
+        src="http://images.videolan.org/images/partners/wdlogo.jpg" width="150" alt="WD" /></a></p>
     </td>
     <td>
         <p>

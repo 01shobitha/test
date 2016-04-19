@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-03-26 17:41+0000\n"
-"Last-Translator: tyler moss <rsa@tutanota.de>\n"
+"PO-Revision-Date: 2016-04-18 16:47+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/yaron/vlc-trans/language/nb_NO/)\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
@@ -212,7 +212,7 @@ msgstr "DVBlast er en enkel og kraftig MPEG-2/TS DEMUX og strømnings-applikasjo
 
 #: index.php:81
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicat er et sett av verktøy laget for enkelt og effektivt å manipulere multicast-strømmer og TS"
+msgstr "multicat er et sett verktøy laget for enkel og effektiv manipulasjon av  multicast-strømmer og TS."
 
 #: index.php:94
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."

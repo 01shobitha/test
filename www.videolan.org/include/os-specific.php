@@ -3,8 +3,8 @@ $win32version = '2.2.2';
 $macosxversion = '2.2.2';
 $oldmacosxversion = '2.0.10';
 $version = '2.2.2';
-$iosversion = '2.7.4';
-$tvosversion = '1.0.3';
+$iosversion = '2.7.5';
+$tvosversion = '1.0.4';
 $androidversion = '1.7.5';
 $winrtversion = '1.8.5';
 

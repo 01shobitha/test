@@ -904,9 +904,49 @@ img, .normalButton {
 /* ============================ SOCIAL BOX =========================== */
 
 .social-box {
-    position: absolute;
-    top: -12px;
-    right: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .social-box {
+        width: 183px;
+    }
+}
+
+a.social {
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    i {
+        background-color: #777777;
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        background-size: 20px;
+        border-radius: 50%;
+    }
+    .icon-facebook {
+        background-image: url('//images.videolan.org/images/icons/social/facebook.svg');
+        &:hover {
+            background-color: #3B5998;
+        }
+    }
+    .icon-google-plus {
+        background-image: url('//images.videolan.org/images/icons/social/google-plus.svg');
+        &:hover {
+            background-color: #DD4B39;
+        }
+    }
+    .icon-twitter {
+        background-image: url('//images.videolan.org/images/icons/social/twitter.svg');
+        &:hover {
+            background-color: #00ACED;
+        }
+    }
 }
 
 /* ================================= DONATE BOX ================================== */

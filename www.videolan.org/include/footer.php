@@ -8,8 +8,22 @@ function footer($tag = "", $alternate_lang=array()) {
     <div id='footer'>
         <div class="container">
             <div class="row">
-                <a class="col-sm-12 col-md-3" href="<?php getLink('/'); ?>">
-                <?php image( 'logoGrey.png', 'Association VideoLAN', 'center-xs center-sm' ); ?></a>
+                <div class="col-sm-12 col-md-3">
+                    <a href="<?php getLink('/'); ?>">
+                        <?php image( 'logoGrey.png', 'Association VideoLAN', 'center-xs center-sm' ); ?>
+                    </a>
+                    <div class="social-box">
+                        <a class="social" href="https://plus.google.com/+vlc">
+                            <i class="icon-google-plus"></i>
+                        </a>
+                        <a class="social" href="http://www.facebook.com/vlc.media.player">
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a class="social" href="http://www.twitter.com/videolan">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'>VLC media player</div>
                     <ul>

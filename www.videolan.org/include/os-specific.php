@@ -1,6 +1,6 @@
 <?php
 $win32version = '2.2.3';
-$macosxversion = '2.2.2';
+$macosxversion = '2.2.3';
 $oldmacosxversion = '2.0.10';
 $version = '2.2.3';
 $iosversion = '2.7.6';

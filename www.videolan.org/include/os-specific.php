@@ -117,6 +117,11 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "latestVersion" => $win32version,
             "location"      => $windowsLocation
         ),
+        "windowsphone"      => array(
+            "name"          => "Windows Phone",
+            "latestVersion" => $winrtversion,
+            "location"      => "/vlc/download-windowsphone.html"
+        ),
         "osx"       => array(
             "name"          => "Mac OS X",
             "size"          => "33&nbsp;MB",
@@ -195,11 +200,6 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "latestVersion" => $winrtversion,
             "location"      => "/vlc/download-winrt.html"
         ),
-        "windowsphone"      => array(
-            "name"          => "Windows Phone",
-            "latestVersion" => $winrtversion,
-            "location"      => "/vlc/download-windowsphone.html"
-        ),
         "chromeos"  => array(
             "name"          => "Chrome OS",
             "location"      => "/vlc/download-chromeos.html"
@@ -226,7 +226,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
     global $win32version;
     global $windowsLocation;
     global $osxLocation;
-    $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 5) : $dropdownItems;
+    $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 6) : $dropdownItems;
     $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;
     $defaultDetail = getOS($defaultOS);
     ?>

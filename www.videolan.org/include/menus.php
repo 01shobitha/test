@@ -6,6 +6,10 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/include/donate.php");
 function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
 {
     global $sponsor;
+    if (function_exists('geoip_db_avail') && (geoip_db_avail(GEOIP_COUNTRY_EDITION) &&
+        geoip_country_code_by_name($_SERVER['REMOTE_ADDR']) == 'SG' )) {
+        $b_show_donate = false;
+    }
 ?>
 <nav id="nav" class="navbar navbar-default navbar-fixed-top">
  <div class="container">

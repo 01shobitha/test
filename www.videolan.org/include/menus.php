@@ -5,6 +5,7 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/include/donate.php");
 /* Menus */
 function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
 {
+    global $sponsor;
 ?>
 <nav id="nav" class="navbar navbar-default navbar-fixed-top">
  <div class="container">
@@ -98,6 +99,13 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
                 </ul>
             </li>
         </ul>
+        <?php } ?>
+        <?php if (isset($sponsor) && !$b_show_donate) { ?>
+            <div class="navbar-header pull-right">
+                <div id="sponsor">
+                    <?php echo $sponsor ?>
+                </div>
+            </div>
         <?php } ?>
     </div>
  </div>

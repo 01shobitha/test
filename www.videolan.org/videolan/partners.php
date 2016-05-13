@@ -265,7 +265,24 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
     </td>
   </tr>
 
-
+  <tr><td colspan="2"><h2> MetaBrainz Foundation </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="https://metabrainz.org"><img
+        src="http://images.videolan.org/images/partners/metabrainz.svg" width="200" alt="MetaBrainz Foundation" /></a></p>
+    </td>
+    <td>
+        <p>
+            The <a href="https://metabrainz.org">MetaBrainz Foundation</a> runs a number of open source
+            projects revolving around open data, most of those focusing on music metadata.
+        </p>
+        <p>
+            VLC media player is using data from their <a href="https://musicbrainz.org">MusicBrainz</a>
+            and <a href="https://coverartarchive.org">Cover Art Archive</a> projects to enrich the
+            experience of our users.
+        </p>
+    </td>
+  </tr>
 
 <!--
   <tr>

@@ -1,11 +1,11 @@
 <?php
 require_once($_SERVER["DOCUMENT_ROOT"]."/include/layout_helper.php");
 /* Footer */
-function footer($tag = "", $alternate_lang=array()) {
+function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
 ?>
     </div> <!-- BodyInner -->
     <div class="clearfix"></div>
-    <div id='footer'>
+    <div id='footer' class="<?= $additional_class ?>">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-3">

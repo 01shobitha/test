@@ -1,0 +1,60 @@
+$baseImgSrc: '/images/icons/';
+@mixin setBackroundImg($img, $type) {
+    background-image: url("#{$baseImgSrc}#{$img}.#{$type}");
+}
+
+.icon-video {
+    @include setBackroundImg(film, svg);
+}
+
+.icon-audio {
+    @include setBackroundImg(file-music, svg);
+}
+
+.icon-subtitles {
+    @include setBackroundImg(subtitles, svg);
+}
+
+.icon-play {
+    @include setBackroundImg(play, svg);
+}
+
+.icon-money-off {
+    @include setBackroundImg(money-off, svg);
+}
+
+.icon-windows8-svg {
+    @include setBackroundImg(windows8, svg);
+}
+
+.icon-mac-svg {
+    @include setBackroundImg(mac, svg);
+}
+
+.icon-linux-svg {
+    @include setBackroundImg(linux, svg);
+}
+
+.icon-android-svg {
+    @include setBackroundImg(android, svg);
+}
+
+.icon-ios-svg {
+    @include setBackroundImg(apple-store, svg);
+}
+
+.icon-rocket {
+    @include setBackroundImg(rocket, svg);
+}
+
+.icon-cross-platform {
+    @include setBackroundImg(cross-platform, svg);
+}
+
+.icon-input {
+    @include setBackroundImg(input, svg);
+}
+
+.icon-misc {
+    @include setBackroundImg(misc, svg);
+}

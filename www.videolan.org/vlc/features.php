@@ -136,7 +136,7 @@
 <?php startFeatureSection('right') ?>
     <hr class="section-header-spacer"><div class="clearfix"></div>
     <h2 class="section-heading"><?= _("Fast - Hardware Decoding") ?></h2>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam risus eros, lobortis eu luctus non, consectetur ut augue. Vivamus enim nisl, maximus id porta sed, consectetur vitae ipsum.</p>
+    <p class="lead"><b>VLC</b> has hardware decoding on most platforms. It supports 0-copy on the GPU and can fallback on software when required.</p>
 <?php endFeatureSection('right', '//images.videolan.org/vlc/screenshots/2.2.0/vlc-ios-2.4-iphone-playback.jpg') ?>
 
 <section id="features-all-formats" class="features-item-list features bg-gray">
@@ -171,7 +171,7 @@
 <?php startFeatureSection('right') ?>
     <hr class="section-header-spacer"><div class="clearfix"></div>
     <h2 class="section-heading"><?= _("Advanced control") ?></h2>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam risus eros, lobortis eu luctus non, consectetur ut augue. Vivamus enim nisl, maximus id porta sed, consectetur vitae ipsum.</p>
+    <p class="lead"><b>VLC</b> has the most complete feature-set over the video, subtitle synchronisation, video and audio filters.</p>
 <?php endFeatureSection('right', '//images.videolan.org/vlc/screenshots/2.2.0/vlc-2.2-macosx-audio-playback-dark.jpg') ?>
 
 <section id="features-advanced-formats" class="features-item-list features bg-gray">

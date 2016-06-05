@@ -179,7 +179,7 @@
                     <div style="padding-bottom: 8px;">VLC 2.2.4 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is the fourth update to VLC's 2.2 release series. </div>
                     <div>Fix crash in G.711 wav files</div>
                     <div>Fix mp3 crash in libmad</div>
-                    <div>Fix out-of-bound write in adpcm QT IMA codec (CVE-2016-5108)</div>
+                    <div>Fix out-of-bound write in adpcm QT IMA codec (<a href="/security/sa1601.html">VideoLAN-SA-1601</a>, CVE-2016-5108)</div>
                     <div>Fix overlay creation on Windows XP for DirectDraw video output</div>
                     <div>Improve compilation support for GNU/HURD</div>
                     <div>Minor UI improvements for the Qt interface on Windows, Linux, BSD, ...</div>

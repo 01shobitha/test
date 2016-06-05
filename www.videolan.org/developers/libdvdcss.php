@@ -38,9 +38,9 @@ by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
 <h3>Git checkout</h3>
-<p><code>$ git clone http://git.videolan.org/git/libdvdcss.git</code></p>
+<p><code>$ git clone http://code.videolan.org/videolan/libdvdcss.git</code></p>
 
-<p>You can also access the code <a href="http://git.videolan.org/?p=libdvdcss.git">online</a>.</p>
+<p>You can also access the code <a href="http://code.videolan.org/videolan/libdvdcss">online</a>.</p>
 
 <h2>Changelog and Documentation</h2>
 <p> You can see the <a href="libdvdcss/NEWS">release notes</a> and the

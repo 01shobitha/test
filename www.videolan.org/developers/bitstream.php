@@ -61,10 +61,10 @@ and specifications.</p>
 
 <p>The latest <code>biTStream</code> release is <a href="https://get.videolan.org/bitstream/1.1/"><b>version 1.1</b></a>.</p>
 <p> <code>biTStream</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
-<code>git clone http://git.videolan.org/git/bitstream.git</code></p>
+<code>git clone https://code.videolan.org/videolan/bitstream.git</code></p>
 
 <p>All releases can be found by browsing the <a href="https://get.videolan.org/bitstream/"><b>releases</b></a>.</p>
-<p>The source code can browsed at  <a href="http://git.videolan.org/?p=bitstream.git">git.videolan.org</a>.</p>
+<p>The source code can browsed at <a href="https://code.videolan.org/videolan/bitstream">code.videolan.org</a>.</p>
 
 <h2>Extending biTStream</h2>
 

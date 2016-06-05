@@ -16,6 +16,14 @@ for underlying third party libraries.
 Please refer to the concerned third parties as appropriate.
 </p>
 
+<h2>2016</h2>
+<dl>
+
+<dt>VideoLAN-SA-1601</dt>
+<dd>Multiple heap and buffer overflows
+ <a href="sa1601.html">Details</a>
+</dd>
+
 <h2>2015</h2>
 <dl>
 

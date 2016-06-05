@@ -20,7 +20,7 @@ Please refer to the concerned third parties as appropriate.
 <dl>
 
 <dt>VideoLAN-SA-1601</dt>
-<dd>Multiple heap and buffer overflows
+<dd>Buffer Overflow in Processing QuickTime IMA Files
  <a href="sa1601.html">Details</a>
 </dd>
 

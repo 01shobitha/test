@@ -6,6 +6,7 @@ $body_color = "blue";
 $new_design = true;
 $additional_js = array("/js/slick-init.js", "/js/slick.min.js");
 $additional_css = array("/style/slick.min.css");
+$show_sponsors_carousel = true;
 
 require($_SERVER["DOCUMENT_ROOT"] . "/include/language.php");
 require($_SERVER["DOCUMENT_ROOT"] . "/include/header.php");

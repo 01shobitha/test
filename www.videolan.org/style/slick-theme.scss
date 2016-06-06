@@ -107,3 +107,38 @@ $bg-color-hover: rgba(0, 0, 0, 0.4);
 #header-carousel .screenshot2.slick-slide {
     display: block;
 }
+
+#sponsors-carousel {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    right: 15px;
+    top: 0;
+    max-width: 150px;
+}
+
+#sponsors-carousel a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sponsors-carousel .slick-slide img {
+    display: inline-block;
+    width: auto;
+    max-height: 36px;
+}
+
+@media only screen and (max-width : 480px) {
+    #sponsors-carousel {
+        display: none;
+    }
+}
+
+#sponsors-carousel a {
+    display: none;
+    background: #fff;
+}
+
+#sponsors-carousel a.slick-slide {
+    display: block;
+}

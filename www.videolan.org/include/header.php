@@ -1,5 +1,6 @@
 <?php
 require_once($_SERVER["DOCUMENT_ROOT"]."/include/include.php");
+require_once($_SERVER["DOCUMENT_ROOT"]."/include/sponsors.php");
 
 function getLocaleFromLanguage( $language )
 {
@@ -271,7 +272,7 @@ function start_head( $title,
 }
 
 /* Actual start of the body */
-function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $alternate_lang, $new_design_class )
+function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel )
 {
     echo "<body class='$new_design_class'>";
     echo "<div id='bodyInner' class='$body_color'>";
@@ -290,6 +291,21 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
                 <?php
                 echo 'VideoLAN, '. _('a project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'.</a> ';?>
         </div>
+        <?php if ($show_sponsors_carousel) {
+            $sponsorsDir = isDeveloper() ? '' : '//images.videolan.org/';
+            $sponsorsDir .= 'images/partners/';
+            $sponsors = getSponsors();
+            shuffle($sponsors);
+            ?>
+            <div id="sponsors-carousel">
+                <?php foreach($sponsors as $sponsor) {
+                    echo '<a target="_blank" href="' . $sponsor["link"] .'">' .
+                    '<img src="' . $sponsorsDir . $sponsor["imgSrc"] . '">' .
+                    '</a>';
+                }
+                ?>
+            </div>
+        <?php } ?>
     </div>
 <?php
 }
@@ -300,20 +316,21 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
 
 /* Default configuration options taken from the file */
 if(!isset($language) || $language == "" ) { $language = "en"; }
-if(!isset($additional_css)) $additional_css = array();
-if(!isset($additional_js))  $additional_js  = array();
-if(!isset($additional_meta)) $additional_meta = array();
-if(!isset($alternate_lang)) $alternate_lang = array();
-if(!isset($body_onload))    $body_onload    = "";
-if(!isset($body_onunload))  $body_onunload  = "";
-if(!isset($body_color))     $body_color     = "orange";
-if(!isset($nobanner))       $nobanner       = false;
-if(!isset($show_donate))    $show_donate    = true;
-if(!isset($new_design))     $new_design     = false;
+if(!isset($additional_css))         $additional_css = array();
+if(!isset($additional_js))          $additional_js  = array();
+if(!isset($additional_meta))        $additional_meta = array();
+if(!isset($alternate_lang))         $alternate_lang = array();
+if(!isset($body_onload))            $body_onload    = "";
+if(!isset($body_onunload))          $body_onunload  = "";
+if(!isset($body_color))             $body_color     = "orange";
+if(!isset($nobanner))               $nobanner       = false;
+if(!isset($show_donate))            $show_donate    = true;
+if(!isset($new_design))             $new_design     = false;
+if(!isset($show_sponsors_carousel)) $show_sponsors_carousel = false;
 
 $new_design_class = $new_design ? 'new-design' : '';
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload, $new_design );
-start_body( $body_color, $language, $show_donate, $nobanner, $alternate_lang, $new_design_class );
+start_body( $body_color, $language, $show_donate, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel );
 ?>

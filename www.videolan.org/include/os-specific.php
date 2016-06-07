@@ -130,6 +130,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
         ),
         "linux"     => array(
             "name"          => "Linux",
+            "latestVersion" => $version,
             "location"      => "/vlc/#download"
         ),
         "android"   => array(

@@ -189,7 +189,7 @@
                     "2.1.5"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 55457 ),
                     "2.1.6"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.0"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 35957 ),
-                    "2.2.1"   => array( "Windows" => 156567+4910,       "Macintosh" => 8632,                "Total" => 236341 ),
+                    "2.2.1"   => array( "Windows" => 258381+4910,       "Macintosh" => 13468,               "Total" => 300094 ),
                     "2.2.2"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.3"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.4"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),

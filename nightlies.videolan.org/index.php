@@ -3,8 +3,6 @@
    $new_design = true;
    $lang = "en";
 
-   $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
-   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

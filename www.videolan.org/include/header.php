@@ -297,13 +297,16 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
             $sponsors = getSponsors();
             shuffle($sponsors);
             ?>
-            <div id="sponsors-carousel">
-                <?php foreach($sponsors as $sponsor) {
-                    echo '<a target="_blank" href="' . $sponsor["link"] .'">' .
-                    '<img src="' . $sponsorsDir . $sponsor["imgSrc"] . '">' .
-                    '</a>';
-                }
-                ?>
+            <div class="sponsors-carousel-wrapper">
+                <h6><?= _("Partners"); ?></h6>
+                <div id="sponsors-carousel">
+                    <?php foreach($sponsors as $sponsor) {
+                        echo '<a target="_blank" href="' . $sponsor["link"] .'">' .
+                        '<img src="' . $sponsorsDir . $sponsor["imgSrc"] . '">' .
+                        '</a>';
+                    }
+                    ?>
+                </div>
             </div>
         <?php } ?>
     </div>

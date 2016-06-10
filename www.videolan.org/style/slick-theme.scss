@@ -108,13 +108,17 @@ $bg-color-hover: rgba(0, 0, 0, 0.4);
     display: block;
 }
 
-#sponsors-carousel {
+.sponsors-carousel-wrapper {
     position: absolute;
     display: inline-block;
     text-align: center;
     right: 15px;
-    top: 0;
+    top: -22px;
     max-width: 150px;
+    h6 {
+        color: #97a5ac;
+        margin: 5px;
+    }
 }
 
 #sponsors-carousel a {
@@ -129,7 +133,7 @@ $bg-color-hover: rgba(0, 0, 0, 0.4);
 }
 
 @media only screen and (max-width : 480px) {
-    #sponsors-carousel {
+    .sponsors-carousel-wrapper {
         display: none;
     }
 }

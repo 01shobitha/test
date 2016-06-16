@@ -615,7 +615,7 @@ function drawVLCdownloadSection($os = null, $dropdownItems = null, $displayMainO
             ?>
             <div class="v-align <?php echo is_null($screenshots) ? 'col-sm-7' : 'col-sm-5'?>">
                 <div class="center-font-xs">
-                    <?php image('largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
+                    <?php image('icons-VLC/vlc.svg', 'Large Orange VLC media player Traffic Cone Logo', 'big-vlc-img img-responsive visible-xs-inline-block v-align'); ?>
                     <h1 class="v-align bigtitle">
                         <?php
                         if (!is_null($alternativeTitle))

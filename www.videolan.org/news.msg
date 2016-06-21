@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|21 June 2016|VLC for Android 2.0.0|VideoLAN and the VLC development team are happy to publish version 2.0 of VLC fro Android today<br />It supports network shares browsing and playback, video playlists, subtitles downloader, pop-up video view and multiwindows, the new releases of Android, and a merge between the Android TV and Android packages.<br />Get it <a href="/vlc/download-android.html">now!</a> and give us your feedback.
+|21 June 2016|VLC for Android 2.0.0|VideoLAN and the VLC development team are happy to publish version 2.0 of VLC for Android today<br />It supports network shares browsing and playback, video playlists, subtitles downloader, pop-up video view and multiwindows, the new releases of Android, and a merge between the Android TV and Android packages.<br />Get it <a href="/vlc/download-android.html">now!</a> and give us your feedback.
 
 |5 June 2016|VLC 2.2.4|VideoLAN and the VLC development team are happy to publish version 2.2.4 of VLC media player today<br />This fourth stable release of the "WeatherWax" version of VLC fixes a few bugs reported on VLC 2.2.3 for Windows XP and certain audio files. It also includes updated codecs libraries and fixes <a href="/security/sa1601.html">a security issue</a> when playing specifically crafted QuickTime files as well as a 3rd party security issue in libmad.<br /><a href="/vlc/releases/2.2.4.html">Read more</a> about it on our <a href="/vlc/releases/2.2.4.html">release page</a>.
 

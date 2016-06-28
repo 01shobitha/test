@@ -20,10 +20,10 @@
         <p>Here you can download experimental versions of VLC that are daily generated from the VLC code that is currently in development.<br/>Several issues that existed in previous versions of VLC might be fixed here, but since this version of VLC is not yet finished, you should expect other problems and issues.<br /></p>
     </div>
 
-    <span style="color: #ff0000; font-size: 16px;">WARNING: The nightly builds are UNSTABLE and may not work at all.
-    There is absolutely NO SUPPORT for it from the VideoLAN Team.
-    </span>
-
+    <div class="alert alert-warning" role="alert">
+        <strong>Warning!</strong> The nightly builds are <em>UNSTABLE</em> and may not work at all.
+        There is absolutely <em>NO SUPPORT</em> for it from the VideoLAN Team.
+    </div>
 
     <h2>Download nightly builds</h2>
     <p>You'll find the last development version in trunk-xxx directories, while branch-xxx directories contains bugfixes for the last released version.</p>

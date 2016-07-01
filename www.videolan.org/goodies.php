@@ -185,7 +185,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-26xPG.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_26xPG.png" alt="VLC Cone made by Nirzar">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_26xPG.png" alt="VLC Cone with snow and branches as arms">
                 </a>
                 <div class="caption">
                     <p>Cone made by <a href="http://twitter.com/nirzardp">Nirzar</a></p>
@@ -207,7 +207,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-i2Es.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_i2Es.png" alt="made by Mr. Lee">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_i2Es.png" alt="Cone with garland around the base">
                 </a>
                 <div class="caption">
                     <p>Cone made by <a href="http://www.design-fu.co.uk/">Mr. Lee</a></p>
@@ -218,7 +218,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-buB2.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_buB2.png" alt="made by Joel Shaw">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_buB2.png" alt="Cone with floral christmas arrangement">
                 </a>
                 <div class="caption">
                     <p>Cone made by Joel Shaw</p>
@@ -233,7 +233,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-eT5x.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_eT5x.png" alt="made by Gautham aka Gapo">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_eT5x.png" alt="Cone with Santa Clause hat and snow on it">
                 </a>
                 <div class="caption">
                     <p>Cone made by Gautham aka Gapo</p>
@@ -244,7 +244,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-raGi.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_raGi.png" alt="made by Nick Pierno">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_raGi.png" alt="Cone with Santa Clause hat">
                 </a>
                 <div class="caption">
                     <p>Cone made by <a href="http://www.topdraw.com/">Nick Pierno</a></p>
@@ -255,7 +255,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-RNF1.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_RNF1.png" alt="made by Nick Pierno">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_RNF1.png" alt="Cone with ribbon">
                 </a>
                 <div class="caption">
                     <p>Cone made by <a href="http://www.topdraw.com/">Nick Pierno</a></p>
@@ -266,7 +266,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-gA4v.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_gA4v.png" alt="made by SavTheCoder">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_gA4v.png" alt="Red colored cone decorated like a Christmas tree">
                 </a>
                 <div class="caption">
                     <p>Cone made by SavTheCoder</p>
@@ -281,7 +281,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-FQCw.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_FQCw.png" alt="made by digoncreative">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_FQCw.png" alt="Cone with Snow and Christmas light around it">
                 </a>
                 <div class="caption">
                     <p>Cone made by digoncreative</p>
@@ -292,7 +292,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-8oPi.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_8oPi.png" alt="made by TheBDutchman">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_8oPi.png" alt="Dark orange cone with ribbon">
                 </a>
                 <div class="caption">
                     <p>Cone made by TheBDutchman</p>
@@ -303,7 +303,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-f9my.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_f9my.png" alt="made by mishnak">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_f9my.png" alt="Upside-down cone fille with rainbow cotton candy">
                 </a>
                 <div class="caption">
                     <p>Joke Cone made by <a href="http://www.reddit.com/user/mishnak">mishnak</a></p>
@@ -314,7 +314,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-soppera10-large.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_soppera_10.png" alt="Stephane Soppera's cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_soppera_10.png" alt="Orange cone with shadow below it">
                 </a>
                 <div class="caption">
                     <p>Cone made by Stephane Soppera (with Blender)</p>
@@ -341,7 +341,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-osx.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_osx.png" alt="VideoLAN">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_osx.png" alt="Another version of the first VideoLAN cone">
                 </a>
                 <div class="caption">
                     <p>Another version, by Benjamin Mironer (used for OS X)</p>
@@ -352,7 +352,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/CNoyel128.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_noyel.png" alt="Nowwwel">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_noyel.png" alt="Dark orange cone with christmas hat and shadow below it">
                 </a>
                 <div class="caption">
                     <p>A christmas cone made by Geoffrey Roussel</p>
@@ -364,7 +364,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_altglass_1.png" alt="Cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_altglass_1.png" alt="Cone with angular base with pointed nooks">
                 </a>
                 <div class="caption">
                     <p>A 3D cone made by Daniel Dreibrodt</p>
@@ -383,7 +383,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_altglass_2.png" alt="Cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_altglass_2.png" alt="Cone with base that has rounded corners">
                 </a>
                 <div class="caption">
                     <p>Another 3D cone made by Daniel Dreibrodt</p>
@@ -398,7 +398,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/nightly_notext.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_nightly.png" alt="Nightly cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_nightly.png" alt="Blue cone">
                 </a>
                 <div class="caption">
                     <p>Nightly builds cone, by Daniel Dreibrodt</p>
@@ -410,7 +410,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone_blue_strip_orangeround.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_blue_strip_orange.png" alt="Nightly cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_blue_strip_orange.png" alt="Orange cone with blue strip around it on a orange round background">
                 </a>
                 <div class="caption">
                     <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a></p>
@@ -421,7 +421,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone_blue_strip.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_blue_strip.png" alt="Nightly cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_blue_strip.png" alt="Orange cone with blue strip around it">
                 </a>
                 <div class="caption">
                     <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a></p>
@@ -436,7 +436,7 @@ endorsement by the project.</pre>
         <div class="col-xs-6 col-md-3">
             <div class="thumbnail" style="height: 300px;">
                 <a href="//images.videolan.org/images/goodies/cone-icon-transparent.png">
-                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_icon_transparent.png" alt="Nightly cone">
+                    <img src="//images.videolan.org/images/goodies/thumbnails/cone_icon_transparent.png" alt="Orange cone with film around it">
                 </a>
                 <div class="caption">
                     <p>Transparent cone by Yvo Schaap</p>
@@ -771,13 +771,9 @@ endorsement by the project.</pre>
     <img src="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" alt="Get VLC media player" height="45" width="110"></a></p>
     <p>
     Use the following code to include this banner in your site:</p>
-    <pre>&lt;a href="http://www.videolan.org/vlc"
-     title="Get VLC media player -
-            It plays, it streams, it kills WiMPs!!"&gt;
-    &lt;img
-     src="http://www.videolan.org/images/
-    goodies/buttons_getVLC/GetVLC_110.png" width="110"
-    height="45" alt="Get VLC media player" /&gt;&lt;/a&gt;
+    <pre>&lt;a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
+    &lt;img src="http://www.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /&gt;
+&lt;/a&gt;
     </pre>
     <p>
     The following sizes are available:</p>

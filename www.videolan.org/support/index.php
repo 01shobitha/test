@@ -2,6 +2,7 @@
    $title = "User support and help";
    $lang = "en";
    $body_color = "red";
+   $new_design = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -14,18 +15,25 @@
     Therefore, <strong>please remember</strong> that every user support
     is provided by <strong>volunteers</strong> doing it in their free time.<br />
     Noone owes you an answer to your question.</p>
-    <div class="clearme" style="margin-bottom: 30px;"></div>
 
-    <h2>You are here for:</h2>
-    <a class="normalButton" href="#documentation">Documentation</a>
-    <a class="normalButton" href="#help">Help and support</a>
-    <a class="normalButton" href="#bugs">Reporting a bug</a>
-    <a class="normalButton" href="/contact.html">Contacting VideoLAN</a>
-    </p>
-    <div class="clearme" style="margin-bottom: 30px;"></div>
+    <h2 style="margin-top: 30px;">You are here for:</h2>
+    <ul class="list-inline">
+        <li style="margin-top: 1em;">
+            <a class="btn btn-default btn-lg" href="#documentation">Documentation</a>
+        </li>
+        <li style="margin-top: 1em;">
+            <a class="btn btn-default btn-lg" href="#help">Help and support</a>
+        </li>
+        <li style="margin-top: 1em;">
+            <a class="btn btn-default btn-lg" href="#bugs">Reporting a bug</a>
+        </li>
+        <li style="margin-top: 1em;">
+            <a class="btn btn-default btn-lg" href="/contact.html">Contacting VideoLAN</a>
+        </li>
+    </ul>
 
-    <a id="documentation"></a>
-    <h1>Documentation</h1>
+    <hr />
+    <h1 id="documentation">Documentation</h1>
 
     <h3>FAQ</h3>
     <p>If you have any questions about VideoLAN or about VLC media player, you should
@@ -37,55 +45,63 @@
     especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback documentation</a> and
     <a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming documentation</a>.</p>
 
-    <div style="margin: 40px;"></div>
+    <hr />
+    <h1 id="help">Help and Support</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>You have a Usage Problem</h3>
+            <p>If you have problems using our software, you should:</p>
+            <ul class="bullets">
+                <li>Use the <a href="http://wiki.videolan.org/Common_Problems">troubleshooting guide</a></li>
+                <li>
+                    <a href="http://forum.videolan.org/search.php">Search</a> the official
+                    <a href="http://forum.videolan.org/">forum</a> for an answer
+                </li>
+                <li>Read the <a href="http://wiki.videolan.org">Wiki</a></li>
+            </ul>
+        </div>
 
-    <a id="help"></a>
-    <h1>Help and Support</h1>
-    <div class="onecolumn" style="margin-bottom: 30px;">
-        <h3>You have a Usage Problem</h3>
-        <p>If you have problems using our software, you should:</p>
-        <ul class="bullets">
-            <li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshooting guide</a>,</li>
-            <li> <a href="http://forum.videolan.org/search.php">search</a> the official
-            <a href="http://forum.videolan.org/">forum</a> for an answer,</li>
-            <li>read the <a href="http://wiki.videolan.org">wiki</a>.</li>
-        </ul>
+        <div class="col-md-6">
+            <h3>You want to ask a question</h3>
+            <p>
+                To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong> using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.
+            </p>
+            <p>Then ask your question, on:</p>
+            <ul class="bullets">
+                <li>Our <a href="http://forum.videolan.org">Forum</a>, in the correct section</li>
+                <li>
+                    Our live-chat IRC channel on the <a href="http://www.freenode.net">Freenode</a> Network:<br />
+                    Server: <code>irc.freenode.org</code></br>
+                    Cannel: <code>#videolan</code></br>
+                    Use the <a href="https://webchat.freenode.net/?channels=videolan">Freenode Web</a> interface, if you don't have an IRC client at hand.
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <div>
-        <h3>You want to ask a question</h3>
-        <p>To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong>
-         using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.</p>
-        <p>Then ask your question, on:</p>
-        <ul class="bullets">
-            <li>our <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
-            <li>our live-chat IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.freenode.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if you don't have an IRC client at hand.</li>
-        </ul>
-    </div>
-
-    <div class="tricolumn" style="padding-top: 10px;">
-        <div class="onecolumn">
-            <a id="bugs"></a>
-            <h1>Reporting bugs</h1>
-            <h2>and feature requests</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h1 id="bugs">Reporting bugs <br/><small>and feature requests</small></h1>
             <p>Please read our <a href="http://wiki.videolan.org/Report_bugs">reporting bugs policy</a>.</p>
+
             <h3>VLC bug tracker</h3>
             <p>Go to the <a href="https://trac.videolan.org/vlc/"><b>VLC</b> bug reporting site</a>.</p>
+
             <h3>VLMC bug tracker</h3>
             <p>Go to the <a href="https://trac.videolan.org/vlmc/"><b>VLMC</b> bug reporting site</a>.</p>
         </div>
 
-        <div class="onecolumn">
+        <div class="col-md-4">
             <h1>Consulting services</h1>
-
-            <p>If you are a professionnal, and need services around our products,
-            some companies provide professionnal support. They are
-            listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
+            <p>
+                If you are a professionnal, and need services around our products, some companies provide professionnal support. They are listed on the <a href="/vlc/partners.html">consultants</a> page.
+            </p>
         </div>
 
-        <div class="lastcolumn">
+        <div class="col-md-4">
             <h1>Contacting the team</h1>
-            For other matters, see the <a href="/contact.html">contact page</a>.
+            <p>For other matters, see the <a href="/contact.html">contact page</a>.</p>
         </div>
     </div>
 

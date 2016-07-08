@@ -41,16 +41,13 @@
 
 <div id="left">
 
-<h2> Debian stable (wheezy) </h2>
+<h2> Debian stable (jessie) </h2>
 
-<p> It is highly recommended that you get a recent version of <a href="/vlc/">VLC</a> on wheezy by installing the version from <b>wheezy-backports</b>.<br />
-Add the <a href="http://backports-master.debian.org/Instructions/#index2h2">wheezy-backports repository</a> and install VLC: <code>sudo apt-get -t wheezy-backports install vlc</code>
-</p>
-
-<p> Without backports, you will end up with the very old version of VLC in vanilla wheezy (install vlc and browser-plugin-vlc as usual).</p>
+<p> Debian jessie follows the 2.2.x release branch of <a href="/vlc/">VLC</a>.<br />
+Install <code>vlc</code>, <code>browser-plugin-vlc</code> the usual way you do it.</p>
 
 
-<h2> Debian testing (jessie) </h2>
+<h2> Debian testing (stretch) </h2>
 
 <p> VLC is in testing.<br />
 But due to the way testing works, we can't guarantee if the latest version is available.<br /> Install

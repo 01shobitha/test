@@ -35,7 +35,7 @@ invite you to the multimedia open-source event of the summer!</b></p>
 
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
-<p>The current plan is to have a Call for Papers in March with the Program announced in early June.</p>
+<p>VDD is part of QtCon. Please see the <a href="https://conf.qtcon.org/en/qtcon/public/schedule">official program</a>.</p>
 </div>
 
 <h1>Who can come? </h1>
@@ -47,10 +47,10 @@ invite you to the multimedia open-source event of the summer!</b></p>
 <p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Registration</h1>
-<p>Not yet open :-)</b>.
+<p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>.
 
 <h1>Accommodation</h1>
-<p>For active members of the open-source multimedia communities who register until July 10, we will provide accommodation.</p>
+<p>For active members of the open-source multimedia communities who register until August 5, we will provide accommodation.</p>
 
 <h1><a name="coc">Code of Conduct</a> </h1>
 <p>This community activity is running under the <a href="https://wiki.videolan.org/CoC/">VideoLAN Code of Conduct</a>. We expect all attendees to respect our <a href="https://wiki.videolan.org/VideoLAN_Values/">Shared Values</a>.</p>

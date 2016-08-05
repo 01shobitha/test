@@ -40,6 +40,7 @@
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv6-fpu/'>Android (ARMv6 with FPU)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv6-nofpu/'>Android (ARMv6 without FPU)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv7/'>Android (ARMv7-A)</a></li>
+            <li class='android'  style="font-weight:bold"><a href='/build/android-armv8a/'>Android (ARMv8-A)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-x86/'>Android (x86)</a></li>
         </ul>
     </div>

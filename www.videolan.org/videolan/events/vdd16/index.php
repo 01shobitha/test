@@ -42,18 +42,24 @@ invite you to the multimedia open-source event of the summer!</b></p>
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
 <p>VDD is part of QtCon. Please see the <a href="https://conf.qtcon.org/en/qtcon/public/schedule">official program</a>.</p>
-<h2>Friday 2nd September, Community Bonding Day</h2>
+
+<h2>Friday</h2>
+
+<h3>General conference</h3>
+<p>On Friday, KDE, Qt and FSFE start QtCon with their talks and conferences. You are welcome to attend their sessions through-out the day and the keynote on Friday morning.</p>
+
+<h3>Community Bonding Day</h3>
 <p>This year we'll do an <b>Escape room competition</b>!<br/>
 The VideoLAN organization will pay for the entrance tickets.<br/>
-<b>To participate you'll need to be in Berlin, on Friday at 13h00!</b><br/>Please note, that VideoLAN will not pay for the Thursday night, except special cases.</p>
+<b>To participate you'll need to be in downtown Berlin, on Friday at 13h00!</b><br/>Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
 
-<h2>Friday 2nd September, Night Event</h2>
-<p>On <strong>Friday 2n September at 19h00</strong>, people are welcome to come and
-share a few good drinks, with the whole <b>QtCon</b> attendees. The location will be announced shortly.</p>
+<h3>Evening reception</h3>
+<p>On <strong>Friday 2nd September at 19h00</strong>, people are welcome to come and
+share a few good drinks, with all <b>QtCon</b> attendees. Location is the BCC. Registration for QtCon required.</p>
 
 <h2>Saturday</h2>
 
-<p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website!</p>
+<p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website! VDD talks will be in room B09 followed by break-out sessions in A06, A05 and B04.</p>
 <!-- 
 <p>
 <table style="width:100%">
@@ -132,7 +138,7 @@ share a few good drinks, with the whole <b>QtCon</b> attendees. The location wil
     <td>&#8193; </td>
   </tr>
   <tr>
-    <td style="width:20%; color: #4D4D4D"><b>10:00 - 18:00</b></td>
+    <td style="width:20%; color: #4D4D4D"><b>10:00 - 17:00</b></td>
     <td style="color: #4D4D4D">Unconference</td>
   </tr>
 </table>
@@ -146,15 +152,15 @@ share a few good drinks, with the whole <b>QtCon</b> attendees. The location wil
 <p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
 
 <h1>Registration</h1>
-<p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>.
-<p><b>NB:</b> please register with a donation of <b>0€</b> and remember to register for the Friday, if you join us for Friday dinner! </p>
+<p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>
+<p><b>NB:</b> please register with a donation of <b>0€</b> (VideoLAN donates for you) and remember to register for the Friday, if you join us for Friday dinner! </p>
 
 <h1>Cost and sponsorship </h1>
 <p>The cost for attendance is <b>free</b>.</p>
 <p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Accommodation</h1>
-<p>For active members of the open-source multimedia communities who register until August 5, we will provide accommodation.</p>
+<p>For active members of the open-source multimedia communities who registered until August 5, we will provide accommodation.</p>
 
 <h1><a name="coc">Code of Conduct</a> </h1>
 <p>This community activity is running under the <a href="https://wiki.videolan.org/CoC/">VideoLAN Code of Conduct</a>. We expect all attendees to respect our <a href="https://wiki.videolan.org/VideoLAN_Values/">Shared Values</a>.</p>

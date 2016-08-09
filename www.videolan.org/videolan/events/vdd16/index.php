@@ -36,7 +36,7 @@ invite you to the multimedia open-source event of the summer!</b></p>
 <p><?php image( 'events/vdd16/QtConInfo_v4_wee.jpg' , 'QtCon Info v4', 'announce-img'); ?></p>
 
 <h1>Where? </h1>
-<p>The venue is in the center of Berlin!<br />
+<p>The venue is in the center of Berlin, near AlexanderPlatz!<br />
 <a href="http://bcc-berlin.de">Berlin Congress Center</a>, Alexanderstra&szlig;e 11, 10178 Berlin, Germany.</p>
 
 <h1>Schedule</h1>

@@ -42,6 +42,103 @@ invite you to the multimedia open-source event of the summer!</b></p>
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
 <p>VDD is part of QtCon. Please see the <a href="https://conf.qtcon.org/en/qtcon/public/schedule">official program</a>.</p>
+<h2>Friday 2nd September, Community Bonding Day</h2>
+<p>This year we'll do an <b>Escape room competition</b>!<br/>
+The VideoLAN organization will pay for the entrance tickets.<br/>
+<b>To participate you'll need to be in Berlin, on Friday at 13h00!</b><br/>Please note, that VideoLAN will not pay for the Thursday night, except special cases.</p>
+
+<h2>Friday 2nd September, Night Event</h2>
+<p>On <strong>Friday 2n September at 19h00</strong>, people are welcome to come and
+share a few good drinks, with the whole <b>QtCon</b> attendees. The location will be announced shortly.</p>
+
+<h2>Saturday</h2>
+
+<p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website!</p>
+<!-- 
+<p>
+<table style="width:100%">
+  <tr>
+    <td style="width:20%; color: #4D4D4D"><b>09:00 - 10:00</b></td>
+    <td style="color: #4D4D4D">Registration and Breakfast</td>
+  </tr>
+  <tr>
+    <td style="width:20%">&#8193;</td>
+    <td>&#8193; </td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>10:00 - 11:15</b></td>
+    <td style="color: #4D4D4D"><b>VideoLAN asso meeting</b> <i>(VideoLAN members only)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>09:45 - 10:20</b></td>
+    <td style="color: #4D4D4D"><b>Daala</b> by Timothy Terriberry <i>(Mozilla)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>10:20 - 10:55</b></td>
+    <td style="color: #4D4D4D"><b>A new AAC free and open-source encoder</b> by Rostislav Pehlivanov <i>(FFmpeg)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%">&#8193;</td>
+    <td>&#8193;</td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>11:05 - 11:40</b></td>
+    <td style="color: #4D4D4D"><b>New video compression techniques under consideration for VP10</b> by Alex Converse <i>(Google)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>11:40 - 12:10</b></td>
+    <td style="color: #4D4D4D"><b>An update to x265</b> by Deepthi Nandakumar <i>(MCW)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>12:10 - 12:40</b></td>
+    <td style="color: #4D4D4D"><b>VLC 3.0</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>12:40 - 12:45</b></td>
+    <td style="color: #4D4D4D"><b>Spice</b> by Lord Julien Navas <i>(Vodkaster)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%">&#8193;</td>
+    <td>&#8193; </td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>14:00 - 14:40</b></td>
+    <td style="color: #4D4D4D"><b>The Thor Codec</b> by Thomas Davies <i>(Cisco)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>14:40 - 15:00</b></td>
+    <td style="color: #4D4D4D"><b>How to optimize press coverage for FLOSS projects</b> by Sebastian Grüner <i>(golem.de)</i></td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>15:00 - 15:20</b></td>
+    <td style="color: #4D4D4D"><b>A faster VP9 decoder</b> by Ronald Bultje</td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D; height:30px"><b>15:30 - 18:00</b></td>
+    <td style="color: #4D4D4D"><b>Unconference</b></td>
+  </tr>
+</table>
+</p> -->
+
+<h2>Sunday</h2>
+<p>
+<table style="width:100%">
+  <tr>
+    <td style="width:20%; color: #4D4D4D"><b>09:00 - 10:00</b></td>
+    <td style="color: #4D4D4D">Breakfast</td>
+  </tr>
+  <tr>
+    <td style="width:20%">&#8193;</td>
+    <td>&#8193; </td>
+  </tr>
+  <tr>
+    <td style="width:20%; color: #4D4D4D"><b>10:00 - 18:00</b></td>
+    <td style="color: #4D4D4D"><b>Unconference</b></td>
+  </tr>
+</table>
+</p>
+<p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD16">designated page on the wiki</a>.</p> </div>
+
 </div>
 
 <h1>Who can come? </h1>

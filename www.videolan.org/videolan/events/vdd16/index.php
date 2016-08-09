@@ -145,13 +145,13 @@ share a few good drinks, with the whole <b>QtCon</b> attendees. The location wil
 <p><strong>Anyone</strong> who cares about open source multimedia technologies and development. Remember that it targets a technical crowd!</p>
 <p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
 
-<h1>Cost and sponsorship </h1>
-<p>The cost for attendance is <b>free</b>.</p>
-<p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
-
 <h1>Registration</h1>
 <p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>.
 <p><b>NB:</b> please register with a donation of <b>0€</b> and remember to register for the Friday, if you join us for Friday dinner! </p>
+
+<h1>Cost and sponsorship </h1>
+<p>The cost for attendance is <b>free</b>.</p>
+<p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Accommodation</h1>
 <p>For active members of the open-source multimedia communities who register until August 5, we will provide accommodation.</p>

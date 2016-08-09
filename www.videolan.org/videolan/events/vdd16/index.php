@@ -25,7 +25,13 @@
 <p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the summer!</b></p>
 
-<p>2016 is a special year for many FLOSS projects: <a href="/videolan">VideoLAN</a> as open-source project and <a href="https://fsfe.org">Free Software Foundation Europe</a> both have their 15th birthday while <a href="https://www.kde.org">KDE</a> has its 20th birthday. All these call for celebrations! This year VideoLAN has come together with <a href="http://www.qt.io">Qt</a>, <a href="https://fsfe.org">FSFE</a>, <a href="https://www.kde.org">KDE</a> and <a href="https://www.kdab.com">KDAB</a> to bring you <b><a href="https://qtcon.org">QtCon</a></b>, where attendees can meet, collaborate and get the latest news of all these projects.<br />For its eigths edition, <b>VideoLAN Dev Days 2016</b> will be organised as part of <b>QtCon</b> in Berlin. The event will start on Friday the 2nd of September with 3 shared days of talks, workshops, meetups and coding sessions.</p>
+<p>For its <b>eighth edition</b>, people from the VideoLAN and open source multimedia communities will meet on the</p>
+<p style="text-align: center"><strong>3rd and 4th of September 2016</strong>,</p>
+<p>to gather, work, discuss and meet, in:</p>
+<p style="text-align: center"><strong>Berlin, Germany</strong>!</p>
+<p>This event is focused on technical discussions and decisions about <b>multimedia</b>.</p>
+
+<p>This year <b>VideoLAN Dev Days</b> will be colocated within a larger conference called <b><a href="https://qtcon.org">QtCon</a></b>!<br />The conference will see <a href="http://www.qt.io">Qt</a>, <a href="https://fsfe.org">FSFE</a>, <a href="https://www.kde.org">KDE</a> and <a href="https://www.kdab.com">KDAB</a> having talks in the same place.
 
 <p><?php image( 'events/vdd16/QtConInfo_v4_wee.jpg' , 'QtCon Info v4', 'announce-img'); ?></p>
 

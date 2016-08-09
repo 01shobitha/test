@@ -133,7 +133,7 @@ share a few good drinks, with the whole <b>QtCon</b> attendees. The location wil
   </tr>
   <tr>
     <td style="width:20%; color: #4D4D4D"><b>10:00 - 18:00</b></td>
-    <td style="color: #4D4D4D"><b>Unconference</b></td>
+    <td style="color: #4D4D4D">Unconference</td>
   </tr>
 </table>
 </p>

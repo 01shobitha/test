@@ -151,6 +151,7 @@ share a few good drinks, with the whole <b>QtCon</b> attendees. The location wil
 
 <h1>Registration</h1>
 <p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>.
+<p><b>NB:</b> please register with a donation of <b>0€</b> and remember to register for the Friday, if you join us for Friday dinner! </p>
 
 <h1>Accommodation</h1>
 <p>For active members of the open-source multimedia communities who register until August 5, we will provide accommodation.</p>

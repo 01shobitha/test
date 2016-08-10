@@ -31,10 +31,10 @@
     <div class="col-lg-10 col-lg-offset-1 text-center">
       <h2 class="uppercase">About VideoLAN Dev Days 2016</h2>
       <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
-      invite you to the multimedia open-source event of the summer!</b>
-      For its <b>eighth edition</b>, people from the VideoLAN and open source multimedia communities will meet on the
-      <strong>3rd and 4th of September 2016</strong>, to gather, work, discuss and meet, in: <strong>Berlin, Germany</strong>!
-      This event is focused on technical discussions and decisions about <strong>multimedia</strong>.</p>
+      invite you to the multimedia open-source event of the summer!</b></p>
+      <p>For its <b>eighth edition</b>, people from the VideoLAN and open source multimedia communities will meet on the
+      <strong>3rd and 4th of September 2016</strong>, to gather, work, discuss and meet, in: <strong>Berlin, Germany</strong>!</p>
+      <p>This event is focused on technical discussions and decisions about <strong>multimedia</strong>.</p>
 
       <p>This year <b>VideoLAN Dev Days</b> will be colocated within a larger conference called <b><a href="https://qtcon.org">QtCon</a></b>!<br />The conference will see <a href="http://www.qt.io">Qt</a>, <a href="https://fsfe.org">FSFE</a>, <a href="https://www.kde.org">KDE</a> and <a href="https://www.kdab.com">KDAB</a> having talks in the same place.
 

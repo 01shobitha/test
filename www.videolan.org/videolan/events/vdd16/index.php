@@ -76,7 +76,7 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  9:00 - 19:00
+                  10:00 - 18:00
                 </div>
                 <div class="event-description">
                   <h3>General conference</h3>

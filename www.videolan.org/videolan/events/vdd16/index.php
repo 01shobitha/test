@@ -65,9 +65,9 @@
       <div class="col-lg-10 col-lg-offset-1">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday</a></li>
-        <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday</a></li>
-        <li role="presentation"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
+        <li role="presentation" class="active"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday 2</a></li>
+        <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday 3</a></li>
+        <li role="presentation"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday 4</a></li>
       </ul>
 
       <!-- Tab panes -->
@@ -104,7 +104,7 @@
                 </div>
                 <div class="event-description">
                   <h3>Evening reception</h3>
-                  <p>On <strong>Friday 2nd September at 19h00</strong>, people are welcome to come and
+                  <p>On <strong>Friday at 19h00</strong>, people are welcome to come and
                   share a few good drinks, with all <b>QtCon</b> attendees. Location is the BCC. Registration for QtCon required.</p>
                 </div>
               </div>

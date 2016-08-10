@@ -80,14 +80,14 @@
                 </div>
                 <div class="event-description">
                   <h3>General conference</h3>
-                  <p>On Friday, KDE, Qt and FSFE start QtCon with their talks and conferences. You are welcome to attend their sessions through-out the day and the keynote on Friday morning.</p>
+                  <p>On Friday, KDE, Qt and FSFE start QtCon with their talks and conferences. You are welcome to attend their <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-02">sessions through-out the day</a> and the <a href="https://conf.qtcon.org/en/qtcon/public/events/518">keynote</a> on Friday morning.</p>
                 </div>
               </div>
             </div>
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  13:00
+                  13:00 - 18:30
                 </div>
                 <div class="event-description">
                   <h3>Community Bonding Day</h3>

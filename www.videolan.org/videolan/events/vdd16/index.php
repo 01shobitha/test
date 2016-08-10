@@ -62,32 +62,62 @@
         <h2 class="uppercase">Schedule</h2>
         <p>VDD is part of QtCon. Please see the <a href="https://conf.qtcon.org/en/qtcon/public/schedule">official program</a>.</p>
       </div>
-
+      <div class="col-lg-10">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday</a></li>
         <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday</a></li>
         <li role="presentation"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
       </ul>
-      <div class="col-lg-10">
+
       <!-- Tab panes -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="friday">
-            <h3>General conference</h3>
-            <p>On Friday, KDE, Qt and FSFE start QtCon with their talks and conferences. You are welcome to attend their sessions through-out the day and the keynote on Friday morning.</p>
-
-            <h3>Community Bonding Day</h3>
-            <p>This year we'll do an <b>Escape room competition</b>!<br/>
-            The VideoLAN organization will pay for the entrance tickets.<br/>
-            <b>To participate you'll need to be in downtown Berlin, on Friday at 13h00!</b><br/>Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
-
-            <h3>Evening reception</h3>
-            <p>On <strong>Friday 2nd September at 19h00</strong>, people are welcome to come and
-            share a few good drinks, with all <b>QtCon</b> attendees. Location is the BCC. Registration for QtCon required.</p>
+        <div role="tabpanel" class="tab-pane active fade in" id="friday">
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  9:00 - 19:00
+                </div>
+                <div class="event-description">
+                  <h3>General conference</h3>
+                  <p>On Friday, KDE, Qt and FSFE start QtCon with their talks and conferences. You are welcome to attend their sessions through-out the day and the keynote on Friday morning.</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  13:00
+                </div>
+                <div class="event-description">
+                  <h3>Community Bonding Day</h3>
+                  <p>This year we'll do an <b>Escape room competition</b>!<br/>
+                  The VideoLAN organization will pay for the entrance tickets.<br/>
+                  <b>To participate you'll need to be in downtown Berlin, on Friday at 13h00!</b><br/>Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  19:00
+                </div>
+                <div class="event-description">
+                  <h3>Evening reception</h3>
+                  <p>On <strong>Friday 2nd September at 19h00</strong>, people are welcome to come and
+                  share a few good drinks, with all <b>QtCon</b> attendees. Location is the BCC. Registration for QtCon required.</p>
+                </div>
+              </div>
+            </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="saturday">
-
-            <p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website! VDD talks will be in room B09 followed by break-out sessions in A06, A05 and B04.</p>
+        <div role="tabpanel" class="tab-pane fade" id="saturday">
+          <div class="event">
+            <div class="event-inner">
+              <div class="event-description">
+                <p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website! VDD talks will be in room B09 followed by break-out sessions in A06, A05 and B04.</p>
+              </div>
+            </div>
+          </div>
             <!--
             <p>
             <table style="width:100%">
@@ -154,24 +184,34 @@
             </table>
             </p> -->
         </div>
-        <div role="tabpanel" class="tab-pane" id="sunday">
-            <p>
-            <table style="width:100%">
-              <tr>
-                <td style="width:20%; color: #4D4D4D"><b>09:00 - 10:00</b></td>
-                <td style="color: #4D4D4D">Breakfast</td>
-              </tr>
-              <tr>
-                <td style="width:20%">&#8193;</td>
-                <td>&#8193; </td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D"><b>10:00 - 17:00</b></td>
-                <td style="color: #4D4D4D">Unconference</td>
-              </tr>
-            </table>
-            </p>
-            <p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD16">designated page on the wiki</a>.</p> </div>
+        <div role="tabpanel" class="tab-pane fade" id="sunday">
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  09:00 - 10:00
+                </div>
+                <div class="event-description">
+                  <h3>Breakfast</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  10:00 - 17:00
+                </div>
+                <div class="event-description">
+                  <h3>Unconference</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-description">
+                    <p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD16">designated page on the wiki</a>.</p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
       </div>

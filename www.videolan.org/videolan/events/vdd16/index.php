@@ -62,7 +62,7 @@
         <h2 class="uppercase">Schedule</h2>
         <p>VDD is part of QtCon. Please see the <a href="https://conf.qtcon.org/en/qtcon/public/schedule">official program</a>.</p>
       </div>
-      <div class="col-lg-10">
+      <div class="col-lg-10 col-lg-offset-1">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday</a></li>

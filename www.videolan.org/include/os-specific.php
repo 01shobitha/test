@@ -6,7 +6,7 @@ $version = '2.2.4';
 $iosversion = '2.7.8';
 $tvosversion = '1.0.7';
 $androidversion = '2.0.6';
-$winrtversion = '1.8.5';
+$winrtversion = '2.0.0';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";

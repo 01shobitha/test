@@ -24,10 +24,10 @@ You may contact them for professional services to order.</p>
 </td>
 <td>
 <p><a href="http://videolabs.io/">Videolabs</a> is a company founded by VideoLAN members and is the current
-editor of the VLC mobile applications and is one of the largest contributor to VLC.</p>
-<p><b>VideoLabs</b> is focusing on all Open-Source multimedia technologies on most platforms, desktop or mobile.<br />
-VideoLabs can provide consulting, VLC support, custom development and custom applications for most multimedia needs.</p>
-<p>VideoLabs also edits webservices around multimedia content, including recommendation engines and image recognition.</p>
+editor of the VLC mobile applications and one of the largest contributor to VLC.</p>
+<p><b>VideoLabs</b> is focusing on all Open-Source multimedia technologies on most platforms, desktop, server or mobile.</p>
+<p><b>VideoLabs</b> can provide multimedia consulting, VLC support, custom development and applications for most multimedia needs.<br />
+VideoLabs also edits webservices around multimedia, including recommendation engines and image recognition software.</p>
 </td>
 </tr>
 

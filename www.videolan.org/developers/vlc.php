@@ -314,7 +314,7 @@ video framebuffer<br />
 <a href="libdvdcss.html">libdvdcss</a> - a library
 for accessing encrypted DVDs<br />
 
-<a href="http://dvd.sf.net">libdvdnav</a> - a library
+<a href="https://code.videolan.org/videolan/libdvdnav">libdvdnav</a> - a library
 for DVD navigation<br />
 
 <a href="http://www.dtek.chalmers.se/groups/dvd/development.shtml">libdvdread

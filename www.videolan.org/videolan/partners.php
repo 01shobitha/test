@@ -2,10 +2,13 @@
    $title = "Our partners";
    $lang = "en";
    $body_color = "pink";
+   $new_design = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div class="longtext">
+<div class="container">
+    <div class="row" style='clear: both; margin-top: 40px;'>
+        <div class="col-md-12">
 
 <h1> Consulting services </h1>
 <a id="consultants"></a>
@@ -353,6 +356,7 @@ Hard Drive.</p>
 <p><a href="http://uniways.fr/">Uniways</a> was a videosurveillance systems company.
 They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.</p>
 
+</div>
 </div>
 
 <?php footer('$Id$'); ?>

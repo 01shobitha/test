@@ -317,7 +317,7 @@ for accessing encrypted DVDs<br />
 <a href="https://code.videolan.org/videolan/libdvdnav">libdvdnav</a> - a library
 for DVD navigation<br />
 
-<a href="http://www.dtek.chalmers.se/groups/dvd/development.shtml">libdvdread
+<a href="https://code.videolan.org/videolan/libdvdread">libdvdread
 </a> - a library for reading DVD-Video images<br />
 
 <a href="libdvbpsi.html">libdvbpsi</a> - a library

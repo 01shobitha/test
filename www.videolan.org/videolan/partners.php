@@ -15,6 +15,22 @@ You may contact them for professional services to order.</p>
 
 <table border="0" cellspacing="0" style="margin-left: 25px;">
 
+<tr><td colspan="2"><h2>Videolabs</h2></td></tr>
+<tr>
+<td><p class="center">
+  <a href="http://videolabs.io/">
+  <img src="http://images.videolan.org/images/partners/videolabs.png" alt="Videolabs" width="200">
+  </a></p>
+</td>
+<td>
+<p><a href="http://videolabs.io/">Videolabs</a> is a company founded by VideoLAN members and is the current
+editor of the VLC mobile applications and is one of the largest contributor to VLC.</p>
+<p><b>VideoLabs</b> is focusing on all Open-Source multimedia technologies on most platforms, desktop or mobile.<br />
+VideoLabs can provide consulting, VLC support, custom development and custom applications for most multimedia needs.</p>
+<p>VideoLabs also edits webservices around multimedia content, including recommendation engines and image recognition.</p>
+</td>
+</tr>
+
 <tr><td colspan="2"><h2>OpenHeadEnd</h2></td></tr>
 <tr>
 <td><p class="center">
@@ -30,57 +46,24 @@ open source flexible video framework <a href="http://upipe.org/">Upipe</a>.</p>
 </td>
 </tr>
 
-<tr><td colspan="2"><h2>Videolabs</h2></td></tr>
-<tr>
-<td><p class="center">
-  <a href="http://videolabs.io/">
-  <img src="http://images.videolan.org/images/partners/videolabs.png" alt="Videolabs" width="200">
-  </a></p>
-</td>
-<td>
-<p><a href="http://videolabs.io/">Videolabs</a> is a french company founded by two VideoLAN members and focused
-on Open-Source multimedia development for various platforms including Windows, Linux, iOS and Android. We can
-help you to define, design and implement the best solution for your current and future projects.</p>
-</td>
-</tr>
-
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
 <td><p class="center">
   <a href="http://www.m2x.eu/">
-  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="200" style="padding-right: 20px;" />
+  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="200" />
   </a></p>
 </td>
 <td>
 <p><a href="http://www.m2x.eu/">M2X</a> is an ICT company that is specialized in using Open Source software
-for providing solutions to IT problem areas of Networking (wired or
- wireless), Embedded and Multimedia. The founder of the company is a
-VideoLAN developer <a href="http://jpsaman.org">Jean-Paul Saman</a> (see the <a href="/team/">VideoLAN team page</a>
-for more information on his contributions).</p>
+for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia.</p>
+<p> The founder of the company is a VideoLAN developer <a href="http://jpsaman.org">Jean-Paul Saman</a>.</p>
 
-<p>In typical modern ICT solutions the three expertise areas Networking,
-   Embedded and Multimedia are present. Either being targeted at consumer
-   electronics (eg: settop boxes) for IPTV solutions or big servers
-   machines.<br />
-   M2X provides innovative solutions for these use cases through
+<p>M2X provides innovative solutions for these use cases through
    its experience in developing and integrating Open Source software like
    <a href="/vlc/">VLC</a> and embedded linux in customer products.</p>
    </td>
 </tr>
 
-<tr><td colspan="2"><h2>Anevia</h2></td></tr>
-<tr>
-<td><p class="center">
-  <a href="http://www.anevia.com/">
-  <img src="http://images.videolan.org/images/partners/anevia.jpg" alt="Anevia" width="200" />
-  </a></p>
-</td>
-<td><p>French company founded by four members of the VideoLAN team (Brieuc
-Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
-know more about them, see the <a href="/team/">VideoLAN team page</a>).
-Anevia sells professional video servers and provides development and
-integration of high quality video streaming solutions.</p></td>
-</tr>
 </table>
 
 
@@ -125,6 +108,19 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
 
   </tr>
+<tr><td colspan="2"><h2>Anevia</h2></td></tr>
+<tr>
+<td><p class="center">
+  <a href="http://www.anevia.com/">
+  <img src="http://images.videolan.org/images/partners/anevia.jpg" alt="Anevia" width="200" />
+  </a></p>
+</td>
+<td><p>French company founded by four members of the VideoLAN team (Brieuc
+Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
+know more about them, see the <a href="/team/">VideoLAN team page</a>).
+Anevia sells professional video servers and provides development and
+integration of high quality video streaming solutions.</p></td>
+</tr>
 
  <tr>
     <td colspan="2">

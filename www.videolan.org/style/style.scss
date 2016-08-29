@@ -684,7 +684,7 @@ html[dir="rtl"] #bodyInner
 }
 
 html[dir="rtl"] #footer
-{ 
+{
     text-align: right;
 }
 
@@ -1208,6 +1208,9 @@ a.icon {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .display-block-sm {
+        display: block !important;
+    }
     .center-sm {
         display: block;
         margin-left: auto;
@@ -1245,6 +1248,9 @@ a.icon {
     .donate2 button {
         height: 30px;
         padding: 5px;
+    }
+    .display-block-xs {
+        display: block !important;
     }
     .center-xs {
         display: block;
@@ -1390,4 +1396,12 @@ a.icon {
 
 .margin-bottom-32 {
     margin-bottom: 32px;
+}
+
+.card:not(:empty) {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
 }

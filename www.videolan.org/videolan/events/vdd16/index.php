@@ -278,7 +278,7 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  09:00 - 10:00
+                  09:00 - 09:30
                 </div>
                 <div class="event-description">
                   <h3>Breakfast</h3>
@@ -288,7 +288,7 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  10:00 - 17:00
+                  09:30 - 17:00
                 </div>
                 <div class="event-description">
                   <h3>Unconference</h3>

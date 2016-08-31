@@ -119,7 +119,7 @@
                 <div class="event-description">
                   <h3>Asso meeting</h3>
                   <h5>Room B09</h5>
-                  <p>Quarterly VideoLAN non-profit meeting.<br/><b>This is reserved to the non-profit members.<b></p>
+                  <p>Quarterly VideoLAN non-profit meeting.<br/><b>This is reserved to the non-profit members.</b></p>
                 </div>
               </div>
             </div>

@@ -236,7 +236,7 @@
                     <p>
                         <a href="http://www.wdc.com">WD</a>, one of the largest hard-drive manufacturer donated some
                         of their new wireless storage drives to improve UPnP and network discovery in VLC. They were
-                        also kind enough to send us one of their discontinued product to help fixing a incompatibility
+                        also kind enough to send us one of their discontinued product to help fixing an incompatibility
                         with VLC for iOS.
                     </p>
                 </div>

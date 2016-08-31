@@ -233,6 +233,18 @@
                   15:25 - 15:50
                 </div>
                 <div class="event-description">
+                  <h3>Update on x265</h3>
+                  <h5>Room B09</h5>
+                  <p>Pradeep Ramachandran</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  15:50 - 16:00
+                </div>
+                <div class="event-description">
                   <h3>VLMC</h3>
                   <h5>Room B09</h5>
                   <p>Hugo Beauzée-Luyssen</p>

@@ -111,78 +111,168 @@
             </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="saturday">
-          <div class="event">
-            <div class="event-inner">
-              <div class="event-description">
-                <p>See the program on the <a href="https://conf.qtcon.org/en/qtcon/public/schedule/2016-09-03">QtCon</a> website! VDD talks will be in room B09 followed by break-out sessions in A06, A05 and B04.</p>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  10:00 - 11:00
+                </div>
+                <div class="event-description">
+                  <h3>Asso meeting</h3>
+                  <h5>Room B09</h5>
+                  <p>Quarterly VideoLAN non-profit meeting.<br/><b>This is reserved to the non-profit members.<b></p>
+                </div>
               </div>
             </div>
-          </div>
-            <!--
-            <p>
-            <table style="width:100%">
-              <tr>
-                <td style="width:20%; color: #4D4D4D"><b>09:00 - 10:00</b></td>
-                <td style="color: #4D4D4D">Registration and Breakfast</td>
-              </tr>
-              <tr>
-                <td style="width:20%">&#8193;</td>
-                <td>&#8193; </td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>10:00 - 11:15</b></td>
-                <td style="color: #4D4D4D"><b>VideoLAN asso meeting</b> <i>(VideoLAN members only)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>09:45 - 10:20</b></td>
-                <td style="color: #4D4D4D"><b>Daala</b> by Timothy Terriberry <i>(Mozilla)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>10:20 - 10:55</b></td>
-                <td style="color: #4D4D4D"><b>A new AAC free and open-source encoder</b> by Rostislav Pehlivanov <i>(FFmpeg)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%">&#8193;</td>
-                <td>&#8193;</td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>11:05 - 11:40</b></td>
-                <td style="color: #4D4D4D"><b>New video compression techniques under consideration for VP10</b> by Alex Converse <i>(Google)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>11:40 - 12:10</b></td>
-                <td style="color: #4D4D4D"><b>An update to x265</b> by Deepthi Nandakumar <i>(MCW)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>12:10 - 12:40</b></td>
-                <td style="color: #4D4D4D"><b>VLC 3.0</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>12:40 - 12:45</b></td>
-                <td style="color: #4D4D4D"><b>Spice</b> by Lord Julien Navas <i>(Vodkaster)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%">&#8193;</td>
-                <td>&#8193; </td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>14:00 - 14:40</b></td>
-                <td style="color: #4D4D4D"><b>The Thor Codec</b> by Thomas Davies <i>(Cisco)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>14:40 - 15:00</b></td>
-                <td style="color: #4D4D4D"><b>How to optimize press coverage for FLOSS projects</b> by Sebastian Grüner <i>(golem.de)</i></td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>15:00 - 15:20</b></td>
-                <td style="color: #4D4D4D"><b>A faster VP9 decoder</b> by Ronald Bultje</td>
-              </tr>
-              <tr>
-                <td style="width:20%; color: #4D4D4D; height:30px"><b>15:30 - 18:00</b></td>
-                <td style="color: #4D4D4D"><b>Unconference</b></td>
-              </tr>
-            </table>
-            </p> -->
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  11:00 - 11:15
+                </div>
+                <div class="event-description">
+                  <h3>Welcome to the VideoLAN track!</h3>
+                  <h5>Room B09</h5>
+                  <p>Jean-Baptiste Kempf</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  11:15 - 11:50
+                </div>
+                <div class="event-description">
+                  <h3>Update on VPX</h3>
+                  <h5>Room B09</h5>
+                  <p>Alex Converse</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  11:50 - 12:15
+                </div>
+                <div class="event-description">
+                  <h3>A VC-2 encoder</h3>
+                  <h5>Room B09</h5>
+                  <p>Rostislav Pehlivanov</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  12:15 - 12:30
+                </div>
+                <div class="event-description">
+                  <h3>Group photo</h3>
+                  <h5>Room B02</h5>
+                  <p>Everyone!</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  12:30 - 13:30
+                </div>
+                <div class="event-description">
+                  <h3>Lunch</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  13:30 - 14:00
+                </div>
+                <div class="event-description">
+                  <h3>A VP9 encoder</h3>
+                  <h5>Room B09</h5>
+                  <p>Ronald Bultje</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  14:00 - 14:45
+                </div>
+                <div class="event-description">
+                  <h3>VLC: State of the union</h3>
+                  <h5>Room B09</h5>
+                  <ul><li>Felix Paul Kühne</li><li>Jean-Baptiste Kempf</li><li>Hugo Beauzée-Luyssen</li><li>Thomas Guillem</li></ul>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  15:00 - 15:25
+                </div>
+                <div class="event-description">
+                  <h3>Daala</h3>
+                  <h5>Room B09</h5>
+                  <p>Timothy Terriberry</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  15:25 - 15:50
+                </div>
+                <div class="event-description">
+                  <h3>VLMC</h3>
+                  <h5>Room B09</h5>
+                  <p>Hugo Beauzée-Luyssen</p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:30 - 17:30
+                </div>
+                <div class="event-description">
+                  <h3>VLC technical discussion</h3>
+                  <h5>Room A05</h5>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:30 - 17:30
+                </div>
+                <div class="event-description">
+                  <h3>FFmpeg technical discussion</h3>
+                  <h5>Room A06</h5>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:30 - 17:30
+                </div>
+                <div class="event-description">
+                  <h3>LibAV technical discussion</h3>
+                  <h5>Room B04</h5>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:30 - 17:30
+                </div>
+                <div class="event-description">
+                  <h3>VideoLAN unconference</h3>
+                  <h5>Room B95</h5>
+                </div>
+              </div>
+            </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="sunday">
             <div class="event">

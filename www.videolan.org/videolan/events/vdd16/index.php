@@ -126,9 +126,9 @@
                   10:00 - 11:00
                 </div>
                 <div class="event-description">
-                  <h3>Asso meeting</h3>
-                  <h5>Room B09</h5>
-                  <p>Quarterly VideoLAN non-profit meeting.<br/><b>This is reserved to the non-profit members.</b></p>
+                  <h3>VideoLAN general assembly and VideoLAN quarterly meeting</h3>
+                  <h5>Room A06</h5>
+                  <p><b>This is for non-profit members only.</b></p>
                 </div>
               </div>
             </div>

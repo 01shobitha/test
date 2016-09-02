@@ -313,13 +313,14 @@
                 </div>
                 <div class="event-description">
                   <h3>Unconference</h3>
+                  <h5>Rooms A05 and A06 as well as B04 and B95 (1 to 2PM only)</h5>
                 </div>
               </div>
             </div>
             <div class="event">
               <div class="event-inner">
                 <div class="event-description">
-                    <p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD16">designated page on the wiki</a>.</p>
+                    <p>The actual content of the unconference track is being decided on Saturday evening. For the live schedule, check the <a href="https://wiki.videolan.org/VDD16#Unconference_schedule">designated page on the wiki</a>.</p>
                 </div>
               </div>
             </div>

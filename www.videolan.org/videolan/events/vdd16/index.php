@@ -20,7 +20,6 @@
         <h3>The Open Multimedia Conference that frees the cone in you!</h3>
         <h4>3rd and 4th of September 2016</h4>
         <h4>Berlin, Germany</h4>
-        <a class="btn btn-border" href="https://conf.qtcon.org">Register Now</a>
       </div>
     </div>
   </div>
@@ -341,8 +340,7 @@
       </div>
         <div class="col-md-6 ">
         <h2 class="uppercase">Registration</h2>
-        <p>As VDD is part of QtCon this year, you need to register for QtCon. <a href="https://conf.qtcon.org">Click here!</a></b>
-        <p><b>NB:</b> please register with a donation of <b>0€</b> (VideoLAN donates for you) and remember to register for the Friday, if you join us for Friday dinner! </p>
+        <p>As VDD is part of QtCon this year, you need to register for QtCon.</b>
       </div>
     </div>
   </div>

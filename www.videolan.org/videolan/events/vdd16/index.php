@@ -289,7 +289,7 @@
                   16:30 - 17:30
                 </div>
                 <div class="event-description">
-                  <h3>VideoLAN unconference</h3>
+                  <h3>upipe technical discussion</h3>
                   <h5>Room B95</h5>
                 </div>
               </div>

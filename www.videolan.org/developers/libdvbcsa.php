@@ -21,8 +21,8 @@
   <li> <b>Freedom</b>. <code>libdvbcsa</code> is released under the General Public
   License, ensuring it will stay free, and used only for free software
   products. </li>
-  <li> <b>Simplicity</b>. The <b>API</b> comes with only 5 functions fot the single packet
-     implementation, and 6 functions for the parallel bitslice implementation.</li>
+  <li> <b>Simplicity</b>. The <b>API</b> comes with only 5 functions for the single packet
+     implementation, and 6 functions for the parallel bit-slice implementation.</li>
 </ul>
 
 <h2>Get libdvbcsa</h2>

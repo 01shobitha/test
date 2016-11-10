@@ -22,7 +22,7 @@
     <ul class="bullets">
         <li><a href="http://mailman.videolan.org/listinfo/videolan-announce">Mailing list for announces of new software releases</a></li>
         <li><a href="http://mailman.videolan.org/listinfo/vlc">Mailing list for VLC users</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/vlc-devel">Mailing list for VLC development</a></li>
+        <li><a href="http://mailman.videolan.org/listinfo/vlc-devel">Mailing list for VLC development</a> (for mobile ports: <a href="https://mailman.videolan.org/listinfo/android">Android</a>, <a href="https://mailman.videolan.org/listinfo/ios">iOS</a>)</li>
         <li><a href="http://mailman.videolan.org/listinfo/x264-devel">Mailing list for x264 development</a></li>
         <li><a href="http://mailman.videolan.org/listinfo/vlmc-devel">Mailing list for VLMC development</a></li>
         <li><a href="http://mailman.videolan.org/listinfo/dvblast-devel">Mailing list for DVBlast development</a></li>

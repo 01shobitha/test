@@ -1,296 +1,388 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR jb
+# Georgian translation
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: VideoLAN's websites\n"
+"Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-23 17:12+0100\n"
-"PO-Revision-Date: 2011-12-03 21:51+0530\n"
-"Last-Translator: \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Georgian (http://www.transifex.com/yaron/vlc-trans/language/ka/)\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:94
-msgid "A project and a"
-msgstr "პროექტი და"
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
 
-#: include/header.php:94
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "არაკომერციული ორგანიზაცია"
 
-#: include/header.php:95
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "შედგება მოხალისეები, განვითარების ხელშეწყობა და უფასო, ღია მულტიმედიაგადაწყვეტილებები."
-
-#: include/header.php:99
-msgid "DONATE"
-msgstr "დახმარება"
-
-#: include/header.php:99
-msgid "why?"
-msgstr "რატომ?"
-
-#: include/header.php:113
-#: include/header.php:127
-msgid "donate"
-msgstr "დავეხმაროთ"
-
-#: include/header.php:142
-msgid "Home"
-msgstr "მთავარი"
-
-#: include/header.php:145
-msgid "News"
-msgstr "ახალი ამბები"
-
-#: include/header.php:150
-msgid "Project and Organization"
-msgstr "პროექტი და ორგანიზაცია"
-
-#: include/header.php:151
-msgid "Team"
-msgstr "გუნდი"
-
-#: include/header.php:152
-msgid "Contact us"
-msgstr "კონტაქტი"
-
-#: include/header.php:153
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "პარტნიორები"
 
-#: include/header.php:154
-msgid "Press center"
-msgstr "პრეს ცენტრი"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
 
-#: include/header.php:155
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
+
+#: include/menus.php:34 include/footer.php:83
 msgid "Events"
 msgstr "თარიღები"
 
-#: include/header.php:156
-msgid "Security center"
-msgstr "უსაფრთხოების ცენტრი"
-
-#: include/header.php:162
-msgid "Download"
-msgstr "ჩამოტვირთეთ"
-
-#: include/header.php:163
-#: include/header.php:241
-#: index.php:18
-#: vlc/index.php:14
-#: vlc/index.php:31
-msgid "Features"
-msgstr "თვისებები"
-
-#: include/header.php:164
-#: include/header.php:242
-#: index.php:19
-#: vlc/index.php:15
-#: vlc/index.php:57
-msgid "Screenshots"
-msgstr "კადრები"
-
-#: include/header.php:165
-#: include/header.php:239
-#: index.php:20
-#: vlc/index.php:16
-msgid "Skins"
-msgstr "ტყავები"
-
-#: include/header.php:166
-#: include/header.php:240
-msgid "Extensions"
-msgstr "გაგრძელება"
-
-#: include/header.php:170
-msgid "Projects"
-msgstr "პროექტები"
-
-#: include/header.php:186
-msgid "All Projects"
-msgstr "ყველა პროექტი"
-
-#: include/header.php:190
-#: index.php:104
-msgid "Contribute"
-msgstr "ხელშეწყობა"
-
-#: include/header.php:192
-#: include/header.php:269
-msgid "Donate time"
-msgstr "დახმარება დრო"
-
-#: include/header.php:193
-#: include/header.php:268
-msgid "Donate money"
-msgstr "თანხის შეგროვებაც"
-
-#: include/header.php:194
-#: include/header.php:270
-msgid "Get Goodies"
-msgstr "მიიღეთ Goodies"
-
-#: include/header.php:198
-msgid "Support"
-msgstr "მხარდაჭერა"
-
-#: include/header.php:200
-msgid "Support center"
-msgstr "დახმარების ცენტრი"
-
-#: include/header.php:202
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
 msgid "Legal"
 msgstr "იურიდიული"
 
-#: include/header.php:210
-msgid "Dev' Zone"
-msgstr "განვითარება \"ზონა"
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "პრეს ცენტრი"
 
-#: include/header.php:262
-msgid "Community"
-msgstr "ფორუმი"
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "კონტაქტი"
 
-#: include/header.php:266
-msgid "Mailing-Lists"
-msgstr "საფოსტო-სიები"
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "ჩამოტვირთეთ"
 
-#: index.php:2
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: ოფიციალური საიტი - უფასო მულტიმედია გადაწყვეტილებების ყველა OS!"
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "თვისებები"
 
-#: index.php:16
-#: vlc/index.php:12
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC არის თავისუფალი და ღია წყაროებიდან cross-პლატფორმა მულტიმედიურიplayer და ფარგლებში რომ უკრავს ყველაზე მულტიმედია ფაილები ასევე DVD,აუდიო CD, VCD, და სხვადასხვა Streaming ოქმები."
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
 
-#: index.php:23
-#: vlc/index.php:19
-msgid "Download VLC"
-msgstr "ჩამოტვირთვა VLC"
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "მიიღეთ Goodies"
 
-#: index.php:30
-#: vlc/index.php:26
-msgid "Other Systems and Versions"
-msgstr "სხვა სისტემები და ვერსიები"
+#: include/menus.php:51
+msgid "Projects"
+msgstr "პროექტები"
 
-#: index.php:34
-msgid "Other projects from VideoLAN"
-msgstr "სხვა პროექტების VideoLAN"
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "ყველა პროექტი"
 
-#: index.php:36
-msgid "For Everyone"
-msgstr "ყველასათვის"
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "ხელშეწყობა"
 
-#: index.php:42
-msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC არის ძლიერი მედიის მოთამაშე თამაში ყველაზე მედიის კოდეკების და ვიდეო ფორმატების არსებობს."
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
 
-#: index.php:51
-msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN კინო შემოქმედი არის არაწრფივი რედაქტირების პროგრამული უზრუნველყოფა ვიდეო შექმნას."
-
-#: index.php:57
-msgid "For Professionals"
-msgstr "სპეციალისტებისთვის"
-
-#: index.php:63
-msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast მარტივი და ძლიერი MPEG-2/TS demux და ნაკადი განაცხადის."
-
-#: index.php:72
-msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "x264 თავისუფალი განაცხადი კოდირების ვიდეო ნაკადების შევიდა H.264/MPEG-4AVC ფორმატში."
-
-#: index.php:78
-msgid "For Developers"
-msgstr "იყიდება დეველოპერები"
-
-#: index.php:87
-msgid "View All Projects"
-msgstr "ყველა პროექტები"
-
-#: index.php:90
-msgid "Help us out!"
-msgstr "დაგვეხმარეთ გარეთ!"
-
-#: index.php:92
+#: include/menus.php:76 include/menus.php:94
 msgid "Donate"
 msgstr "დახმარება"
 
-#: index.php:96
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr ""
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "მხარდაჭერა"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "ტყავები"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "გაგრძელება"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "კადრები"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "ფორუმი"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr ""
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "საფოსტო-სიები"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr ""
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "თანხის შეგროვებაც"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "დახმარება დრო"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "პროექტი და ორგანიზაცია"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "გუნდი"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr ""
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "უსაფრთხოების ცენტრი"
+
+#: include/footer.php:85
+msgid "Get Involved"
+msgstr ""
+
+#: include/footer.php:86
+msgid "News"
+msgstr "ახალი ამბები"
+
+#: include/os-specific.php:91
+msgid "Download VLC"
+msgstr "ჩამოტვირთვა VLC"
+
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
+msgid "Other Systems"
+msgstr ""
+
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
+
+#: include/os-specific.php:630
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC არის თავისუფალი და ღია წყაროებიდან cross-პლატფორმა მულტიმედიურიplayer და ფარგლებში რომ უკრავს ყველაზე მულტიმედია ფაილები ასევე DVD,აუდიო CD, VCD, და სხვადასხვა Streaming ოქმები."
+
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: ოფიციალური საიტი - უფასო მულტიმედია გადაწყვეტილებების ყველა OS!"
+
+#: index.php:26
+msgid "Other projects from VideoLAN"
+msgstr "სხვა პროექტების VideoLAN"
+
+#: index.php:30
+msgid "For Everyone"
+msgstr "ყველასათვის"
+
+#: index.php:40
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC არის ძლიერი მედიის მოთამაშე თამაში ყველაზე მედიის კოდეკების და ვიდეო ფორმატების არსებობს."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN კინო შემოქმედი არის არაწრფივი რედაქტირების პროგრამული უზრუნველყოფა ვიდეო შექმნას."
+
+#: index.php:62
+msgid "For Professionals"
+msgstr "სპეციალისტებისთვის"
+
+#: index.php:72
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast მარტივი და ძლიერი MPEG-2/TS demux და ნაკადი განაცხადის."
+
+#: index.php:82
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr ""
+
+#: index.php:95
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 თავისუფალი განაცხადი კოდირების ვიდეო ნაკადების შევიდა H.264/MPEG-4AVC ფორმატში."
+
+#: index.php:104
+msgid "For Developers"
+msgstr "იყიდება დეველოპერები"
+
+#: index.php:137
+msgid "View All Projects"
+msgstr "ყველა პროექტები"
+
+#: index.php:141
+msgid "Help us out!"
+msgstr "დაგვეხმარეთ გარეთ!"
+
+#: index.php:145
+msgid "donate"
+msgstr "დავეხმაროთ"
+
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN არის არაკომერციული ორგანიზაცია."
 
-#: index.php:97
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "  ყველა ჩვენი ხარჯები შეხვდა შემოწირულობების მივიღებთ ჩვენი მომხმარებლებს.თუ სარგებლობენ გამოყენებით VideoLAN პროდუქტის, გთხოვთ დავეხმაროთმხარდაჭერა ჩვენს."
 
-#: index.php:99
-#: index.php:111
-#: index.php:122
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "დაწვრილებით"
 
-#: index.php:108
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN არის ღია პროგრამული უზრუნველყოფა."
 
-#: index.php:109
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "ეს ნიშნავს, რომ თუ თქვენ გაქვთ უნარი და სურვილი გააუმჯობესოს ერთი ჩვენი პროდუქტების, თქვენი წვლილი ელით"
 
-#: index.php:116
+#: index.php:184
 msgid "Spread the Word"
 msgstr "გაავრცელეთ სიტყვა"
 
-#: index.php:120
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "ჩვენ ვგრძნობთ, რომ VideoLAN აქვს საუკეთესო ვიდეო პროგრამული უზრუნველყოფა ხელმისაწვდომია საუკეთესო ფასი: უფასო. თუ თანახმა ხართგთხოვთ გავრცელებული სიტყვა ჩვენი პროგრამული უზრუნველყოფა."
 
-#: index.php:131
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "ახალი ამბები და განახლება"
 
-#: index.php:135
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
 msgid "Development Blogs"
 msgstr "განვითარების დღიურები"
 
-#: index.php:158
+#: index.php:248
 msgid "Social media"
 msgstr "სოციალური მედია"
 
-#: vlc/index.php:45
-msgid "Discover all features"
-msgstr "აღმოაჩინეთ ყველა მახასიათებლები"
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr ""
 
-#: vlc/index.php:79
+#: vlc/index.php:21
+msgid "Get VLC for"
+msgstr ""
+
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
 msgid "View all screenshots"
 msgstr "ყველა ეკრანის"
 
-#: vlc/index.php:90
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "ოფიციალური გადმოწერა და VLC Media Player"
 
-#: vlc/index.php:97
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "წყაროები"
 
-#: vlc/index.php:98
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "ასევე შეგიძლიათ პირდაპირ მისაღებად"
 
-#: vlc/index.php:99
+#: vlc/index.php:148
 msgid "source code"
 msgstr "კოდი"
 
-#: vlc/index.php:119
-msgid "Other OS"
-msgstr "სხვა OS"
+#~ msgid "A project and a"
+#~ msgstr "პროექტი და"
 
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "შედგება მოხალისეები, განვითარების ხელშეწყობა და უფასო, ღია მულტიმედიაგადაწყვეტილებები."
+
+#~ msgid "DONATE"
+#~ msgstr "დახმარება"
+
+#~ msgid "why?"
+#~ msgstr "რატომ?"
+
+#~ msgid "Home"
+#~ msgstr "მთავარი"
+
+#~ msgid "Support center"
+#~ msgstr "დახმარების ცენტრი"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "განვითარება \"ზონა"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "სხვა სისტემები და ვერსიები"
+
+#~ msgid "Discover all features"
+#~ msgstr "აღმოაჩინეთ ყველა მახასიათებლები"
+
+#~ msgid "Other OS"
+#~ msgstr "სხვა OS"

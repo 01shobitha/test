@@ -13,7 +13,7 @@
     <article>
         <header>
             <h2><a href="/press/vlc-apple-tv.html">Announcing VLC for Apple TV</a></h2>
-            <p><time datetime="2009-10-09">2009-10-09</time></p>
+            <p><time datetime="2016-01-12">2016-01-12</time></p>
         </header>
         <section>
             <p>

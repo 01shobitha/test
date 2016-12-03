@@ -1,198 +1,199 @@
 # Romanian translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# alexsusanu <alexsusanu@icloud.com>, 2013
-# roentgen <arthur.titeica@gmail.com>, 2013-2014
-# bogdog <emil_preda2007@yahoo.com>, 2013
+# alex susanu <alexsusanu@icloud.com>, 2013
+# Arthur Țițeică <arthur.titeica@gmail.com>, 2013-2014
+# Emil Preda <emil_preda2007@yahoo.com>, 2013
 # toshiba <andreitudoricacj@yahoo.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-20 18:24+0000\n"
-"Last-Translator: roentgen <arthur.titeica@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/vlc-trans/language/ro/)\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Romanian (http://www.transifex.com/yaron/vlc-trans/language/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: include/header.php:221
-msgid "A project and a"
-msgstr "Un proiect și o"
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
 
-#: include/header.php:221
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "organizație non-profit"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "formată din voluntari, dezvoltând și promovând soluții multimedia gratuite, cu cod sursă deschis."
-
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "donează"
-
-#: include/header.php:228
-msgid "why?"
-msgstr "de ce?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "Acasă"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "Noutăți"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "Proiect și organizare"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "Echipa"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "Contactează-ne"
-
-#: include/header.php:286 include/header.php:419
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "Parteneri"
 
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "Oglinzi"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
 
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "Centrul de presă"
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
 
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:34 include/footer.php:83
 msgid "Events"
 msgstr "Evenimente"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "Centrul de securitate"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "Descarcă"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "Facilități"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "Capturi de ecran"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "Tematici"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "Extensii"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "Proiecte"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "Toate proiectele"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "Contribuie"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "Donează timp"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "Donează bani"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "Obține bunătăți"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "Asistență"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "Centrul de asistență"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "Întrebări frecvente"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
 msgid "Legal"
 msgstr "Legal"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "Forumuri"
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Centrul de presă"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "Liste de discuții"
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Contactează-ne"
 
-#: include/header.php:342
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Descarcă"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Facilități"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Obține bunătăți"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Proiecte"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Toate proiectele"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Contribuie"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr "Donează"
+
+#: include/menus.php:77
 msgid "Report a bug"
 msgstr "Raportează o eroare"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "Zona pentru dezvoltatori"
+#: include/menus.php:81
+msgid "Support"
+msgstr "Asistență"
 
-#: include/header.php:401
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Tematici"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Extensii"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Capturi de ecran"
+
+#: include/footer.php:62
 msgid "Community"
 msgstr "Comunitate"
 
-#: include/header.php:424
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Forumuri"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Liste de discuții"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "Întrebări frecvente"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Donează bani"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Donează timp"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Proiect și organizare"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "Echipa"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "Oglinzi"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "Centrul de securitate"
+
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "Implică-te"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:86
+msgid "News"
+msgstr "Noutăți"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Descarcă VLC"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Alte sisteme"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Situl oficial - Soluții multimedia gratuite pentru toate sistemele de operare!"
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
 
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC este un lector multimedia gratuit, cu sursă deschisă și disponibil pe mai multe platforme care care poate reda majoritatea fișierelor multimedia precum și DVD-uri, CD-uri audio, VCD-uri și diferite protocoale de rețea."
 
-#: index.php:36
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Situl oficial - Soluții multimedia gratuite pentru toate sistemele de operare!"
+
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "Alte proiecte ale VideoLAN"
 
-#: index.php:38
+#: index.php:30
 msgid "For Everyone"
 msgstr "Pentru toți"
 
-#: index.php:44
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC este un program de redare media puternic ce rulează majoritatea codorilor și formatelor video existente."
 
@@ -200,71 +201,79 @@ msgstr "VLC este un program de redare media puternic ce rulează majoritatea cod
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator este un program de editare non-liniar folosit la crearea de filme."
 
-#: index.php:60
+#: index.php:62
 msgid "For Professionals"
 msgstr "Pentru profesioniști"
 
-#: index.php:66
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast este o aplicație pentru demultiplexare și fluxuri MPEG-2/TS simplă și puternică."
 
-#: index.php:74
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat este un set de unelte dedicat pentru a manevra fluxurile multicast și TS într-un mod ușor și eficient."
 
-#: index.php:83
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 este o aplicație gratuită pentru codarea fluxurilor în formatul H.264/MPEG-4 AVC."
 
-#: index.php:91
+#: index.php:104
 msgid "For Developers"
 msgstr "Pentru dezvoltatori"
 
-#: index.php:102
+#: index.php:137
 msgid "View All Projects"
 msgstr "Vezi toate proiectele"
 
-#: index.php:105
+#: index.php:141
 msgid "Help us out!"
 msgstr "Ajută-ne!"
 
-#: index.php:111
+#: index.php:145
+msgid "donate"
+msgstr "donează"
+
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN este o organizație non-profit."
 
-#: index.php:112
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Toate costurile noastre sunt plătite din donațiile primite de la utilizatori. Dacă îți place să utilizezi un produs VideoLAN te rog să donezi pentru a ne susține."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "Află mai multe"
 
-#: index.php:123
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN este un program cu codul sursă liber."
 
-#: index.php:124
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Asta însemnă că dacă ai aptitudinile și dorința de a îmbunătăți unul din produsele noastre, contribuțiile tale sunt bine venite."
 
-#: index.php:131
+#: index.php:184
 msgid "Spread the Word"
 msgstr "Răspândește vestea"
 
-#: index.php:135
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Considerăm că VideoLAN are cel mai bun program video valabil la cel mai bun preț: gratuit. Dacă ești de acord te rog să ajuți răspândind vorba despre programele noastre."
 
-#: index.php:147
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "Noutăți și actualizări"
 
-#: index.php:151
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
 msgid "Development Blogs"
 msgstr "Bloguri despre dezvoltare"
 
-#: index.php:176
+#: index.php:248
 msgid "Social media"
 msgstr "Media în cadrul social"
 
@@ -272,66 +281,130 @@ msgstr "Media în cadrul social"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Pagina oficială pentru VLC media player, platforma video cu cod sursă deschis!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "Program de redare media simplu, rapid și puternic."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Rulează orice: fișiere, discuri, camere web, dispozitive și fluxuri."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Rulează majoritatea codorilor fără a necesita pachete codor:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "Rulează pe toate platformele:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Complet gratuit, fără spyware, fără publicitate și fără a urmări utilizatorul."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "Se poate folosi pentru conversia fișierelor media și fluxuri."
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "Descoperă toate facilitățile"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "Vizualizează toate capturile de ecran"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "Obține VLC pentru"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Vizualizează toate capturile de ecran"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Legăturile oficiale pentru descărcarea VLC media player"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Surse"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Puteți, de asemenea, descărca direct"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "codul sursă"
+
+#~ msgid "A project and a"
+#~ msgstr "Un proiect și o"
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "formată din voluntari, dezvoltând și promovând soluții multimedia gratuite, cu cod sursă deschis."
+
+#~ msgid "why?"
+#~ msgstr "de ce?"
+
+#~ msgid "Home"
+#~ msgstr "Acasă"
+
+#~ msgid "Support center"
+#~ msgstr "Centrul de asistență"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "Zona pentru dezvoltatori"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "Program de redare media simplu, rapid și puternic."
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "Rulează orice: fișiere, discuri, camere web, dispozitive și fluxuri."
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "Rulează majoritatea codorilor fără a necesita pachete codor:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "Rulează pe toate platformele:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "Complet gratuit, fără spyware, fără publicitate și fără a urmări utilizatorul."
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Se poate folosi pentru conversia fișierelor media și fluxuri."
+
+#~ msgid "Discover all features"
+#~ msgstr "Descoperă toate facilitățile"
 
 #~ msgid "DONATE"
 #~ msgstr "DONEAZĂ"
 
 #~ msgid "Other Systems and Versions"
 #~ msgstr "Alte sisteme și versiuni"
-
-#~ msgid "Donate"
-#~ msgstr "Donează"
 
 #~ msgid "Other OS"
 #~ msgstr "Alt sistem de operare"

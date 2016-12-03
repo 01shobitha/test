@@ -1,5 +1,5 @@
 # Indonesian translation
-# Copyright (C) 2015 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
@@ -9,193 +9,194 @@
 # duniadanu <duniadanu@gmail.com>, 2014
 # Luqman Hakim <ovdl@rocketmail.com>, 2015
 # Tony Bennjamin <anthonioustony@hotmail.com>, 2014
-# Zamani Karmana <zamani.karmana@gmail.com>, 2015
+# zk <zamani.karmana@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-05-15 23:13+0000\n"
-"Last-Translator: Zamani Karmana <zamani.karmana@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/projects/p/vlc-trans/language/id/)\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Indonesian (http://www.transifex.com/yaron/vlc-trans/language/id/)\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:221
-msgid "A project and a"
-msgstr "Sebuah proyek dan "
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
 
-#: include/header.php:221
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "organisasi nirlaba"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "terdiri dari para relawan, yang mengembangkan dan mempromosikan solusi multimedia sumber terbuka gratis."
-
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "donasi"
-
-#: include/header.php:228
-msgid "why?"
-msgstr "mengapa?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "Beranda"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "Berita"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "Proyek dan Organisasi"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "Tim"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "Hubungi kami"
-
-#: include/header.php:286 include/header.php:419
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "Rekanan"
 
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "Tautan Lain"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
 
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "Pusat pers"
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
 
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:34 include/footer.php:83
 msgid "Events"
 msgstr "Acara-acara"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "Pusat keamanan"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "Unduh"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "Fitur"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "Cuplikan Layar"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "Pemalut"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "Ekstensi"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "Proyek"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "Semua Proyek"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "Kontribusi"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "Sumbangan waktu"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "Sumbangan uang"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "Dapatkan Cendera Mata"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "Dukungan"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "Pusat dukungan"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "FAQ"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
 msgid "Legal"
 msgstr "Legal"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "Forum"
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Pusat pers"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "Milis"
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Hubungi kami"
 
-#: include/header.php:342
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Unduh"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Fitur"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Dapatkan Cendera Mata"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Proyek"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Semua Proyek"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Kontribusi"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr ""
+
+#: include/menus.php:77
 msgid "Report a bug"
 msgstr "Laporkan kutu"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "Zona Pengembang"
+#: include/menus.php:81
+msgid "Support"
+msgstr "Dukungan"
 
-#: include/header.php:401
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Pemalut"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Ekstensi"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Cuplikan Layar"
+
+#: include/footer.php:62
 msgid "Community"
 msgstr "Komunitas"
 
-#: include/header.php:424
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Forum"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Milis"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Sumbangan uang"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Sumbangan waktu"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Proyek dan Organisasi"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "Tim"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "Tautan Lain"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "Pusat keamanan"
+
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "Ikut Terlibat"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:86
+msgid "News"
+msgstr "Berita"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "Unduh VLC"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Sistem Lainnya"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Situs resmi - solusi multimedia gratis untuk semua OS!"
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
 
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC adalah kerangka kerja dan pemutar multimedia lintas-platform gratis dan bersumber terbuka yang dapat memutar sebagian besar berkas multimedia serta DVD, CD Audio, VCD, dan berbagai protokol pengaliran."
 
-#: index.php:36
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Situs resmi - solusi multimedia gratis untuk semua OS!"
+
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "Proyek lain dari VideoLAN"
 
-#: index.php:38
+#: index.php:30
 msgid "For Everyone"
 msgstr "Untuk Semua Orang"
 
-#: index.php:44
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC adalah pemutar media luar biasa yang dapat memutar hampir semua format video dan codec."
 
@@ -203,71 +204,79 @@ msgstr "VLC adalah pemutar media luar biasa yang dapat memutar hampir semua form
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator adalah perangkat lunak penyunting non-linear untuk pembuatan video."
 
-#: index.php:60
+#: index.php:62
 msgid "For Professionals"
 msgstr "Untuk Profesional"
 
-#: index.php:66
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast adalah demultiplekser dan aplikasi pengalir MPEG-2/TS yang sederhana dan luar biasa."
 
-#: index.php:74
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat adalah kumpulan perkakas yang dirancang untuk dengan mudah dan efisien memanipulasi aliran multicast dan TS."
 
-#: index.php:83
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 adalah aplikasi gratis untuk mengubah aliran video menjadi format H.264/MPEG-4 AVC."
 
-#: index.php:91
+#: index.php:104
 msgid "For Developers"
 msgstr "Untuk Pengembang"
 
-#: index.php:102
+#: index.php:137
 msgid "View All Projects"
 msgstr "Lihat Semua Proyek"
 
-#: index.php:105
+#: index.php:141
 msgid "Help us out!"
 msgstr "Bantu kami!"
 
-#: index.php:111
+#: index.php:145
+msgid "donate"
+msgstr "donasi"
+
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN adalah organisasi nirlaba."
 
-#: index.php:112
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Semua pendapatan kami didapat dari donasi yang kami terima dari pengguna. Jika Anda suka menggunakan produk VideoLAN, sebaiknya donasikan sejumlah uang untuk mendukung kami."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "Pelajari Lebih Lanjut"
 
-#: index.php:123
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN adalah perangkat lunak sumber terbuka."
 
-#: index.php:124
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Artinya adalah jika Anda memiliki keahlian dan keinginan untuk meningkatkan kualitas salah satu produk kami, kontribusi Anda sangat diterima"
 
-#: index.php:131
+#: index.php:184
 msgid "Spread the Word"
 msgstr "Sebarkan Berita"
 
-#: index.php:135
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Kami rasa VideoLAN memiliki perangkat lunak video yang tersedia dengan harga terbaik: gratis. Jika Anda setuju tolong sebarkan berita tentang perangkat lunak kami."
 
-#: index.php:147
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "Berita &amp; Pemutakhiran"
 
-#: index.php:151
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
 msgid "Development Blogs"
 msgstr "Blog Pengembangan"
 
-#: index.php:176
+#: index.php:248
 msgid "Social media"
 msgstr "Media Sosial"
 
@@ -275,54 +284,121 @@ msgstr "Media Sosial"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Halaman Resmi untuk VLC media player, rangka kerja video Sumber Terbuka!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "Pemutar media yang sederhana, cepat dan luar biasa."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Memutar semuanya: Berkas, Diska, Webkam, Perangkat dan Stream."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Memainkan hampir semua kodek tanpa perlu memasang kodek lagi:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "Berjalan pada semua platform:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Gratis Sepenuhnya, tanpa perangkat mata-mata, tanpa iklan dan tanpa pelacakan aktivitas pengguna."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "Dapat melakukan konversi dan pengaliran media."
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "Temukan semua fitur"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "Lihat semua cuplikan layar"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "Dapatkan VLC untuk"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Lihat semua cuplikan layar"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Unduhan Resmi untuk VLC media player"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Sumber"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Anda juga dapat secara langsung mendapatkan"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "kode sumber"
+
+#~ msgid "A project and a"
+#~ msgstr "Sebuah proyek dan "
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "terdiri dari para relawan, yang mengembangkan dan mempromosikan solusi multimedia sumber terbuka gratis."
+
+#~ msgid "why?"
+#~ msgstr "mengapa?"
+
+#~ msgid "Home"
+#~ msgstr "Beranda"
+
+#~ msgid "Support center"
+#~ msgstr "Pusat dukungan"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "Zona Pengembang"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "Pemutar media yang sederhana, cepat dan luar biasa."
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "Memutar semuanya: Berkas, Diska, Webkam, Perangkat dan Stream."
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "Memainkan hampir semua kodek tanpa perlu memasang kodek lagi:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "Berjalan pada semua platform:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "Gratis Sepenuhnya, tanpa perangkat mata-mata, tanpa iklan dan tanpa pelacakan aktivitas pengguna."
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Dapat melakukan konversi dan pengaliran media."
+
+#~ msgid "Discover all features"
+#~ msgstr "Temukan semua fitur"

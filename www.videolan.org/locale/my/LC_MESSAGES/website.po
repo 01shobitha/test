@@ -1,5 +1,5 @@
 # Burmese translation
-# Copyright (C) 2013 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
@@ -8,188 +8,189 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-04-28 12:46+0000\n"
-"Last-Translator: Yhal Htet Aung <jumoun@gmail.com>\n"
-"Language-Team: Burmese (Myanmar) (http://www.transifex.com/projects/p/vlc-trans/language/my_MM/)\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Burmese (Myanmar) (http://www.transifex.com/yaron/vlc-trans/language/my_MM/)\n"
 "Language: my_MM\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:197
-msgid "A project and a"
-msgstr "ပရောဂျက်နှင့်"
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
 
-#: include/header.php:197
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "အကျိုးအမြတ်မယူသောအဖွဲ့အစည်း"
 
-#: include/header.php:198
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "တွင်စေတနာ့ဝန်ထမ်းများ၊ ထုတ်လုပ်ပြီးနှင့်အခမဲ့၊ ရင်းမြစ်ပွင့်၊ မာလ်တီမီဒီယာအဖြေများအထောက်အကူပြုခြင်း။"
-
-#: include/header.php:204 include/header.php:218 include/header.php:232
-#: index.php:107
-msgid "donate"
-msgstr "လှူဒါန်း"
-
-#: include/header.php:204
-msgid "why?"
-msgstr "ဘာကြောင့်?"
-
-#: include/header.php:251
-msgid "Home"
-msgstr "ပင်မ"
-
-#: include/header.php:254 include/header.php:399
-msgid "News"
-msgstr "သတင်း"
-
-#: include/header.php:259 include/header.php:389
-msgid "Project and Organization"
-msgstr "ပရောဂျက်နှင့်အဖွဲ့အစည်း"
-
-#: include/header.php:260 include/header.php:390
-msgid "Team"
-msgstr "အဖွဲ့"
-
-#: include/header.php:261 include/header.php:392
-msgid "Contact us"
-msgstr "ဆက်သွယ်ရန်"
-
-#: include/header.php:262 include/header.php:393
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "လုပ်ဖော်ကိုင်ဖက်များ"
 
-#: include/header.php:263 include/header.php:394
-msgid "Mirrors"
-msgstr "အရန်ကူးကြောင်းများ"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
 
-#: include/header.php:264 include/header.php:395
-msgid "Press center"
-msgstr "သတင်းထုတ်ဝေရေးစင်တာ"
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
 
-#: include/header.php:265 include/header.php:396
+#: include/menus.php:34 include/footer.php:83
 msgid "Events"
 msgstr "အဖြစ်အပျက်များ"
 
-#: include/header.php:266 include/header.php:397
-msgid "Security center"
-msgstr "လံုခြုံရေးစင်တာ"
-
-#: include/header.php:272
-msgid "Download"
-msgstr "ကူးဆွဲ"
-
-#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "အင်္ဂါရပ်များ"
-
-#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "ဖန်သားပြင်ပုံရိပ်များ"
-
-#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "အခွံများ"
-
-#: include/header.php:276 include/header.php:352
-msgid "Extensions"
-msgstr "နောက်တွဲပရိုဂရမ်များ"
-
-#: include/header.php:280
-msgid "Projects"
-msgstr "ပရောဂျက်များ"
-
-#: include/header.php:297 include/header.php:358
-msgid "All Projects"
-msgstr "ပရောဂျက်များအားလံုး"
-
-#: include/header.php:301 index.php:119
-msgid "Contribute"
-msgstr "ပါဝင်ကူညီ"
-
-#: include/header.php:303 include/header.php:382
-msgid "Donate time"
-msgstr "အချိန်လှူဒါန်း"
-
-#: include/header.php:304 include/header.php:381
-msgid "Donate money"
-msgstr "ငွေလှူဒါန်း"
-
-#: include/header.php:305 include/header.php:383
-msgid "Get Goodies"
-msgstr "လိုချင်စဖွယ်များရယူ"
-
-#: include/header.php:309
-msgid "Support"
-msgstr "ထောက်ပံ့"
-
-#: include/header.php:311
-msgid "Support center"
-msgstr "ထောက်ပံ့စင်တာ"
-
-#: include/header.php:312
-msgid "FAQ"
-msgstr "မကြာခဏမေးမေးခွန်းများ"
-
-#: include/header.php:313 include/header.php:391 include/header.php:420
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
 msgid "Legal"
 msgstr "ဥပဒေရေးရာ"
 
-#: include/header.php:315
-msgid "Forums"
-msgstr "စကားဝိုင်းများ"
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "သတင်းထုတ်ဝေရေးစင်တာ"
 
-#: include/header.php:316 include/header.php:379
-msgid "Mailing-Lists"
-msgstr "မေးလ်ပို့ရန်စာရင်းများ"
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "ဆက်သွယ်ရန်"
 
-#: include/header.php:317
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "ကူးဆွဲ"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "အင်္ဂါရပ်များ"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "လိုချင်စဖွယ်များရယူ"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "ပရောဂျက်များ"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "ပရောဂျက်များအားလံုး"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "ပါဝင်ကူညီ"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr ""
+
+#: include/menus.php:77
 msgid "Report a bug"
 msgstr "ချွတ်ယွင်းချက်အကြောင်းကြား"
 
-#: include/header.php:321
-msgid "Dev' Zone"
-msgstr "ပရိုဂရမ်ရေးသားသူဇုန်"
+#: include/menus.php:81
+msgid "Support"
+msgstr "ထောက်ပံ့"
 
-#: include/header.php:375
+#: include/footer.php:36
+msgid "Skins"
+msgstr "အခွံများ"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "နောက်တွဲပရိုဂရမ်များ"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "ဖန်သားပြင်ပုံရိပ်များ"
+
+#: include/footer.php:62
 msgid "Community"
 msgstr "လူအဖွဲ့အစည်း"
 
-#: include/header.php:398
+#: include/footer.php:65
+msgid "Forums"
+msgstr "စကားဝိုင်းများ"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "မေးလ်ပို့ရန်စာရင်းများ"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "မကြာခဏမေးမေးခွန်းများ"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "ငွေလှူဒါန်း"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "အချိန်လှူဒါန်း"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "ပရောဂျက်နှင့်အဖွဲ့အစည်း"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "အဖွဲ့"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "အရန်ကူးကြောင်းများ"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "လံုခြုံရေးစင်တာ"
+
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "ပါဝင်"
 
-#: include/os-specific.php:88 vlc/index.php:27
+#: include/footer.php:86
+msgid "News"
+msgstr "သတင်း"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "ဗီအလ်စီကူးဆွဲ"
 
-#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "အခြားစက်စနစ်များ"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "ဗီအလ်စီ: တရားဝင်ဆိုက် - စက်လည်ပတ်စနစ်အားလံုးအတွက်အခမဲ့မာတီမီဒီယာအဖြေများ!"
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
 
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "ဗီအလ်စီမှာအခမဲ့နှင့်ရင်းမြစ်ဖွင့်စက်စနစ်များစွာတွင်အလုပ်လုပ်သောမာတီမီဒီယာဖွင့်စက်ဖြစ်ပြီးမီဒီယာဖိုင်များအများစုဖြစ်သည့်ဒီဗီဒီ၊ အသံစီဒီ၊ ဗီစီဒီနှင့်များပြားသောအသံလမ်းကြောင်းစံစည်းမျဉ်းများကိုဖွင့်နိုင်သောအောက်ခံဘောင်ဖြစ်။"
 
-#: index.php:36
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "ဗီအလ်စီ: တရားဝင်ဆိုက် - စက်လည်ပတ်စနစ်အားလံုးအတွက်အခမဲ့မာတီမီဒီယာအဖြေများ!"
+
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "ဗီဒီယိုလမ်းမှတစ်ခြားပရောဂျက်များ"
 
-#: index.php:38
+#: index.php:30
 msgid "For Everyone"
 msgstr "အားလံုးအတွက်"
 
-#: index.php:44
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "ဗီအလ်စီသည်မီဒီယာအသံချုံချဲနှင့်ဗီဒီယိုပုံစံများအများစုကိုဖွင့်နိုင်သောအစွမ်းထက်သောမီဒီယာဖွင့်စက်ဖြစ်။"
 
@@ -197,71 +198,79 @@ msgstr "ဗီအလ်စီသည်မီဒီယာအသံချုံခ
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "ဗီဒီယိုလမ်းရုပ်ရှင်ဖန်တီးသူမှာဗီဒီယိုဖန်တီးမှုအတွက်အလျားလိုက်မဟုတ်သောတည်းဖြတ်ဆောဖ့်ဝဲဖြစ်။"
 
-#: index.php:60
+#: index.php:62
 msgid "For Professionals"
 msgstr "ပညာရှင်များအတွက်"
 
-#: index.php:66
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "ဒီဗီဘလက်စ်မှာရိုးရှင်းပြီးအားကောင်းသောအမ်ပီအီးဂျီ-၂/တီအက်စ်ရေဒီယိုပြောင်းနှင့်သီချင်းစီးကြောင်းနိုင်သောလုပ်ဆောင်ချက်ပရိုဂရမ်ဖြစ်။"
 
-#: index.php:74
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "မာတီကတ်မှာလွယ်ကူစွာလုပ်ဆောင်နိုင်ကိရိယာများပါဝင်ပြီးမာတီကတ်သီချင်းစီးကြောင်းများနှင့်တီအက်စ်ကိုကျွမ်းကျင်စွာကိုင်တွယ်နိုင်။"
 
-#: index.php:83
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "H.264/MPEG-4 AVC ပံုစံထဲသို့ x264 သည်ဗီဒီယိုစီးကြောင်းများကိုကုဒ်ပြောင်းပေးသောအခမဲ့လုပ်ငန်းသံုးပရိုဂရမ်ဖြစ်။"
 
-#: index.php:91
+#: index.php:104
 msgid "For Developers"
 msgstr "ပရိုဂရမ်ရေးသားသူများအတွက်"
 
-#: index.php:102
+#: index.php:137
 msgid "View All Projects"
 msgstr "ပရောဂျက်များအားလံုးကြည့်ရှု"
 
-#: index.php:105
+#: index.php:141
 msgid "Help us out!"
 msgstr "ဝိုင်းဝန်းကူညီ!"
 
-#: index.php:111
+#: index.php:145
+msgid "donate"
+msgstr "လှူဒါန်း"
+
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "ဗီဒီယိုလမ်းမှာအကျိုးအမြတ်မယူသောအဖွဲ့အစည်းဖြစ်။"
 
-#: index.php:112
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "အသံုးပြုသူများထံမှရရှိသောလှုဒါန်းမှုများဖြင့်ကုန်ကျစရိတ်များကိုသံုးစွဲထား။ ဗီဒီယိုလမ်းထုတ်ကုန်ကိုအသံုးပြုခြင်းကိုကြိုက်ပါကကျေးဇူးပြု၍လှုဒါန်းပါ။"
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "နောက်ထပ်လေ့လာ"
 
-#: index.php:123
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "ဗီဒီယိုလမ်းမှာရင်းမြစ်ပွင့်ဆောဖ့်ဝဲဖြစ်။"
 
-#: index.php:124
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "ထုတ်ကုန်များကိုပိုမိုကောင်းမွန်အောင်လုပ်ဆောင်နိုင်သောကျွမ်းကျင်မှုနှင့်ဆန္ဒရှိကြောင်းဖြစ်ပါကပါဝင်ကူညီမှုကိုကြိုဆို။"
 
-#: index.php:131
+#: index.php:184
 msgid "Spread the Word"
 msgstr "စကားများကိုဖြန့်ဝေ"
 
-#: index.php:135
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "အကောင်းဆံုးဈေးနှုန်းဖြစ်သည့်အခမဲ့ဖြန့်ချိခြင်းနှင့်အကောင်းဆံုးဗီဒီယိုဆောဖ့်ဝဲကိုဗီဒီယိုလမ်းတွင်ရှိနေ။ သဘောတူပါကဆောဖ့်ဝဲအကြောင်းကိုစကားဖြန့်ပေးပါ။"
 
-#: index.php:147
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "သတင်း &amp; မွမ်းမံများ"
 
-#: index.php:151
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
 msgid "Development Blogs"
 msgstr "ထုတ်လုပ်မှုဘလော့များ"
 
-#: index.php:176
+#: index.php:248
 msgid "Social media"
 msgstr "လူမှုရေးမီဒီယာ"
 
@@ -269,54 +278,121 @@ msgstr "လူမှုရေးမီဒီယာ"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "ဗီအလ်စီမီဒီယာဖွင့်စက်အတွက်တရားဝင်စာမျက်နှာ, ရင်းမြစ်ဖွင့်ဗီဒီယိုအောက်ခံဘောင်!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "ရိုးရှင်း၊ မြန်ဆန်ပြီးအားကောင်းသောမီဒီယာဖွင့်စက်။"
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "အားလံုးကိုဖွင့်နို်င်: ဖိုင်များ၊ အချပ်များ၊ ဝဘ်ကမ်များ၊ ပစ္စည်းများနှင့်သီချင်းစီးကြောင်းများ။"
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "အသံချုံချဲထုပ်များမလိုဘဲအသံချုံချဲအများစုကိုဖွင့်နို်င်:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "စက်လည်ပတ်စနစ်များအားလံုးတွင်လုပ်ဆောင်နိုင်:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "လံုးဝအခမဲ့၊ ၀ သူလျှိဝဲ၊ ၀ ကြော်ငြာဝဲများနှင့်အသံုးပြုသူခြေရာကောက်ခြင်းများမရှိ။"
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "ဗီဒီယာပြောင်းလဲခြင်းနှင့်သီချင်းစီးကြောင်းများထုတ်လွှင့်ခြင်းကိုလုပ်ဆောင်နို်င်။"
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "အင်္ဂါရပ်များအားလံုးရှာဖွေ"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "ဖန်သားပြင်ပုံရိပ်များအားလံုးကြည့်ရှု"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "အတွက်ဗီအလ်စီရယူ"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "ဖန်သားပြင်ပုံရိပ်များအားလံုးကြည့်ရှု"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "ဗီအလ်စီသီချင်းဖွင့်စက်တရားဝင်ကူးဆွဲများ"
 
-#: vlc/index.php:105
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "ရင်းမြစ်များ"
 
-#: vlc/index.php:106
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "တိုက်ရိုက်ရရှိနိုင်"
 
-#: vlc/index.php:107
+#: vlc/index.php:148
 msgid "source code"
 msgstr "ရင်းမြစ်ကုဒ်"
+
+#~ msgid "A project and a"
+#~ msgstr "ပရောဂျက်နှင့်"
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "တွင်စေတနာ့ဝန်ထမ်းများ၊ ထုတ်လုပ်ပြီးနှင့်အခမဲ့၊ ရင်းမြစ်ပွင့်၊ မာလ်တီမီဒီယာအဖြေများအထောက်အကူပြုခြင်း။"
+
+#~ msgid "why?"
+#~ msgstr "ဘာကြောင့်?"
+
+#~ msgid "Home"
+#~ msgstr "ပင်မ"
+
+#~ msgid "Support center"
+#~ msgstr "ထောက်ပံ့စင်တာ"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "ပရိုဂရမ်ရေးသားသူဇုန်"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "ရိုးရှင်း၊ မြန်ဆန်ပြီးအားကောင်းသောမီဒီယာဖွင့်စက်။"
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "အားလံုးကိုဖွင့်နို်င်: ဖိုင်များ၊ အချပ်များ၊ ဝဘ်ကမ်များ၊ ပစ္စည်းများနှင့်သီချင်းစီးကြောင်းများ။"
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "အသံချုံချဲထုပ်များမလိုဘဲအသံချုံချဲအများစုကိုဖွင့်နို်င်:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "စက်လည်ပတ်စနစ်များအားလံုးတွင်လုပ်ဆောင်နိုင်:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "လံုးဝအခမဲ့၊ ၀ သူလျှိဝဲ၊ ၀ ကြော်ငြာဝဲများနှင့်အသံုးပြုသူခြေရာကောက်ခြင်းများမရှိ။"
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "ဗီဒီယာပြောင်းလဲခြင်းနှင့်သီချင်းစီးကြောင်းများထုတ်လွှင့်ခြင်းကိုလုပ်ဆောင်နို်င်။"
+
+#~ msgid "Discover all features"
+#~ msgstr "အင်္ဂါရပ်များအားလံုးရှာဖွေ"

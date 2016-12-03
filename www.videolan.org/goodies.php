@@ -131,7 +131,7 @@
                 <div class="media-body">
                     <a href="#stationery" class='noUnderline'>
                         <h3 class='productName'>Stationery</h3>
-                        <p class='productDescription'>VLC Lights and stickers</p>
+                        <p class='productDescription'>VLC stickers</p>
                     </a>
                 </div>
             </li>

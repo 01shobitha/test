@@ -41,7 +41,7 @@
 
    <p><strong>Note:</strong> You do not need to ask VideoLAN the permission to distribute VideoLAN software!</p>
 
-   <h3>How do I redistribute a piece of VideoLAN ?</h3>
+   <h3>How do I redistribute a piece of VideoLAN software?</h3>
    <p>
       You should refer to <a href="http://www.gnu.org/licenses/gpl-2.0.html#SEC3">the GPL license</a> to do so,
       and notably its <b>3rd paragraph</b>.

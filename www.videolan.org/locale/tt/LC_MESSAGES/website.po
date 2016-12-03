@@ -1,197 +1,198 @@
 # Tatar translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2016 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # кери <khazirek@mail.ru>, 2014
-# law <exclusion@gmail.com>, 2013
-# rmuratov <yamuratov@gmail.com>, 2013
+# Alexander Lakhin <exclusion@gmail.com>, 2013
+# Ramil Muratov <yamuratov@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-25 05:50+0000\n"
-"Last-Translator: кери <khazirek@mail.ru>\n"
-"Language-Team: Tatar (http://www.transifex.com/projects/p/vlc-trans/language/tt/)\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Tatar (http://www.transifex.com/yaron/vlc-trans/language/tt/)\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:221
-msgid "A project and a"
-msgstr "Ният һәм"
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
 
-#: include/header.php:221
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "коммерциясез эшли торган оешма"
 
-#: include/header.php:222
-msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "ачык башлангыч кодлы түләүсез мультимедиа нәтиҗәләрен үз теләкләре белән ясаган һәм тараткан һәм ярдәм иткән кешеләрдән тора."
-
-#: include/header.php:228 include/header.php:242 include/header.php:256
-#: index.php:107
-msgid "donate"
-msgstr "иганә бирү"
-
-#: include/header.php:228
-msgid "why?"
-msgstr "ни өчен?"
-
-#: include/header.php:275
-msgid "Home"
-msgstr "Баш"
-
-#: include/header.php:278 include/header.php:425
-msgid "News"
-msgstr "Яңалыклар"
-
-#: include/header.php:283 include/header.php:415
-msgid "Project and Organization"
-msgstr "Ният һәм оешма"
-
-#: include/header.php:284 include/header.php:416
-msgid "Team"
-msgstr "Боерык"
-
-#: include/header.php:285 include/header.php:418
-msgid "Contact us"
-msgstr "Безнең белән элемтәгә керегез"
-
-#: include/header.php:286 include/header.php:419
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "Иптәшләр"
 
-#: include/header.php:287 include/header.php:420
-msgid "Mirrors"
-msgstr "Сылтамалар"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
 
-#: include/header.php:288 include/header.php:421
-msgid "Press center"
-msgstr "Пресс-үзәк"
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
 
-#: include/header.php:289 include/header.php:422
+#: include/menus.php:34 include/footer.php:83
 msgid "Events"
 msgstr "Вакыйгалар"
 
-#: include/header.php:290 include/header.php:423
-msgid "Security center"
-msgstr "Иминлек үзәге"
-
-#: include/header.php:296
-msgid "Download"
-msgstr "Йөкләргә"
-
-#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
-msgid "Features"
-msgstr "Мөмкинлекләр"
-
-#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
-msgid "Screenshots"
-msgstr "Скриншотлар"
-
-#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
-msgid "Skins"
-msgstr "Тышлыклар"
-
-#: include/header.php:300 include/header.php:377
-msgid "Extensions"
-msgstr "Киңәйтүләр"
-
-#: include/header.php:304
-msgid "Projects"
-msgstr "Ниятләр"
-
-#: include/header.php:322 include/header.php:383
-msgid "All Projects"
-msgstr "Барлык ниятләр"
-
-#: include/header.php:326 index.php:119
-msgid "Contribute"
-msgstr "Өлеш кертергә"
-
-#: include/header.php:328 include/header.php:408
-msgid "Donate time"
-msgstr "Вакытны иганә итү"
-
-#: include/header.php:329 include/header.php:407
-msgid "Donate money"
-msgstr "Акча иганә итү"
-
-#: include/header.php:330 include/header.php:409
-msgid "Get Goodies"
-msgstr "Тәм-том алырга"
-
-#: include/header.php:334
-msgid "Support"
-msgstr "Таяныч"
-
-#: include/header.php:336
-msgid "Support center"
-msgstr "Таяныч үзәге"
-
-#: include/header.php:337 include/header.php:406
-msgid "FAQ"
-msgstr "НәРсӘ"
-
-#: include/header.php:338 include/header.php:417 include/header.php:446
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
 msgid "Legal"
 msgstr "Хокук мәгълүматы"
 
-#: include/header.php:340 include/header.php:404
-msgid "Forums"
-msgstr "Форумнар"
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Пресс-үзәк"
 
-#: include/header.php:341 include/header.php:405
-msgid "Mailing-Lists"
-msgstr "Тарату исемлеге"
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Безнең белән элемтәгә керегез"
 
-#: include/header.php:342
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Йөкләргә"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Мөмкинлекләр"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Тәм-том алырга"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Ниятләр"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Барлык ниятләр"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Өлеш кертергә"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr ""
+
+#: include/menus.php:77
 msgid "Report a bug"
 msgstr "Хата турында хәбәр итәргә"
 
-#: include/header.php:346
-msgid "Dev' Zone"
-msgstr "Әзерләүчеләргә"
+#: include/menus.php:81
+msgid "Support"
+msgstr "Таяныч"
 
-#: include/header.php:401
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Тышлыклар"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Киңәйтүләр"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Скриншотлар"
+
+#: include/footer.php:62
 msgid "Community"
 msgstr "Берләшмә"
 
-#: include/header.php:424
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Форумнар"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Тарату исемлеге"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "НәРсӘ"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Акча иганә итү"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Вакытны иганә итү"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Ният һәм оешма"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "Боерык"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "Сылтамалар"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "Иминлек үзәге"
+
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "Әзерләүчеләргә ярдәм"
 
-#: include/os-specific.php:93 vlc/index.php:27
+#: include/footer.php:86
+msgid "News"
+msgstr "Яңалыклар"
+
+#: include/os-specific.php:91
 msgid "Download VLC"
 msgstr "VLC йөкләргә"
 
-#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Башка системалар"
 
-#: index.php:3
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Рәсми сәхифә - Түләүсез мультимедиа нәтиҗәләре барлык ОС өчен!"
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
 
-#: index.php:26 vlc/index.php:20
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC - түләүсез, ачык, кросс-платформалы мультимедиа уйнаткычы һәм фреймворк, ул күпчелек мультимедиа файлларын, һәм шулай ук DVD, Audio CD, VCD һәм төрле ташкынлы тапшыру беркетмәләрен уйната ала."
 
-#: index.php:36
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Рәсми сәхифә - Түләүсез мультимедиа нәтиҗәләре барлык ОС өчен!"
+
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "Башка VideoLAN ниятләре"
 
-#: index.php:38
+#: index.php:30
 msgid "For Everyone"
 msgstr "Барысы өчен"
 
-#: index.php:44
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC - көчле мультимедиа уйнаткычы, ул күпчелек булган медиа-кодеклар һәм видео форматларын уйната ала ."
 
@@ -199,71 +200,79 @@ msgstr "VLC - көчле мультимедиа уйнаткычы, ул күп�
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator - бу сызыклы булмаган видео ясау өчен мөхәррир."
 
-#: index.php:60
+#: index.php:62
 msgid "For Professionals"
 msgstr "Осталар өчен"
 
-#: index.php:66
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast - бу гади һәм көчле MPEG-2/TS демультиплексор һәм ташкынлы кушымта."
 
-#: index.php:74
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat бу күп адреслы һәм транспортлы ташкыннар белән җиңел һәм нәтиҗәле идарә өчен кирәк булган кушымталар җыелмасы."
 
-#: index.php:83
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 - бу H.264/MPEG-4 AVC. форматында видео ташкыннарын кодлау өчен түләүсез кушымта."
 
-#: index.php:91
+#: index.php:104
 msgid "For Developers"
 msgstr "Әзерләүчеләр өчен"
 
-#: index.php:102
+#: index.php:137
 msgid "View All Projects"
 msgstr "Барлык ниятләрне карарга"
 
-#: index.php:105
+#: index.php:141
 msgid "Help us out!"
 msgstr "Безне коткарыгыз!"
 
-#: index.php:111
+#: index.php:145
+msgid "donate"
+msgstr "иганә бирү"
+
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN - коммерциясез эшли торган оешма."
 
-#: index.php:112
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Барлык безнең чыгымнар безнең кулланучылар иганәсе ярдәмендә каплана. Әгәр сезгә VideoLAN җитештермәсе белән куллану ошаса, зинһар, безгә ярдәм итү өчен иганә калдырыгыз."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "Күбрәк белергә"
 
-#: index.php:123
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN - ачык программа тәэминаты."
 
-#: index.php:124
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Бу, әгәр безнең берәр нинди җитештермәне яхшырту яки аңа яңа мөмкинлекләр өстәргә теләкләр һәм күнекмәләр булса, сез аны эшли аласыз турында аңлата."
 
-#: index.php:131
+#: index.php:184
 msgid "Spread the Word"
 msgstr "Башкаларга сөйләргә"
 
-#: index.php:135
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Без VideoLAN да видео белән эш итү өчен иң яхшы түләүсез бәя белән иң яхшы программа тәэминаты бар дип уйлыйбыз. Әгәр сез безнең белән риза булсагыз, зинһар, безнең ПТ турында башка кешеләргә дә сөйләгез."
 
-#: index.php:147
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "Яңалыклар һәм яңартулар"
 
-#: index.php:151
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
 msgid "Development Blogs"
 msgstr "Әзерләүчеләр чыгыры"
 
-#: index.php:176
+#: index.php:248
 msgid "Social media"
 msgstr "Иҗтимагый челтәрләр"
 
@@ -271,54 +280,121 @@ msgstr "Иҗтимагый челтәрләр"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Рәсми VLC медиа уйнаткыч бите, ачык башлангыч код белән фреймворк видеосы!"
 
-#: vlc/index.php:40
-msgid "Simple, fast and powerful media player."
-msgstr "Гади, тиз һәм көчле мультимедиа уйнаткычы."
-
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Барысын да уйный: файллар, тәлинкәләр, веб-камералар, җиһазлар һәм челтәр ташкыннары."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Күпчелек кодекларны уйный, кодек-төргәкләрен урнаштырырга кирәк түгел:"
-
-#: vlc/index.php:47
-msgid "Runs on all platforms:"
-msgstr "Һәр платформада эшли:"
-
-#: vlc/index.php:49
-msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Тулысынча түләүсез, шпион программаларсыз, рекламасыз һәм кулланучы артыннан күзәтүсез."
-
-#: vlc/index.php:51
-msgid "Can do media conversion and streaming."
-msgstr "Конверсияли һәм медиа мәгълүматны тапшыра ала"
-
-#: vlc/index.php:53
-msgid "Discover all features"
-msgstr "Барлык мөмкинлекләр турында белергә"
-
-#: vlc/index.php:87
-msgid "View all screenshots"
-msgstr "Барлык скриншотларны карарга"
-
-#: vlc/index.php:94
+#: vlc/index.php:21
 msgid "Get VLC for"
 msgstr "VLC йөкләргә"
 
-#: vlc/index.php:98
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Барлык скриншотларны карарга"
+
+#: vlc/index.php:135
 msgid "Official Downloads of VLC media player"
 msgstr "Рәсми VLC медиа-уйнаткычы йөкләүләре"
 
-#: vlc/index.php:104
+#: vlc/index.php:146
 msgid "Sources"
 msgstr "Башлангыч код"
 
-#: vlc/index.php:105
+#: vlc/index.php:147
 msgid "You can also directly get the"
 msgstr "Сез шулай ук йөкли аласыз"
 
-#: vlc/index.php:106
+#: vlc/index.php:148
 msgid "source code"
 msgstr "Башлангыч код"
+
+#~ msgid "A project and a"
+#~ msgstr "Ният һәм"
+
+#~ msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+#~ msgstr "ачык башлангыч кодлы түләүсез мультимедиа нәтиҗәләрен үз теләкләре белән ясаган һәм тараткан һәм ярдәм иткән кешеләрдән тора."
+
+#~ msgid "why?"
+#~ msgstr "ни өчен?"
+
+#~ msgid "Home"
+#~ msgstr "Баш"
+
+#~ msgid "Support center"
+#~ msgstr "Таяныч үзәге"
+
+#~ msgid "Dev' Zone"
+#~ msgstr "Әзерләүчеләргә"
+
+#~ msgid "Simple, fast and powerful media player."
+#~ msgstr "Гади, тиз һәм көчле мультимедиа уйнаткычы."
+
+#~ msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+#~ msgstr "Барысын да уйный: файллар, тәлинкәләр, веб-камералар, җиһазлар һәм челтәр ташкыннары."
+
+#~ msgid "Plays most codecs with no codec packs needed:"
+#~ msgstr "Күпчелек кодекларны уйный, кодек-төргәкләрен урнаштырырга кирәк түгел:"
+
+#~ msgid "Runs on all platforms:"
+#~ msgstr "Һәр платформада эшли:"
+
+#~ msgid "Completely Free, no spyware, no ads and no user tracking."
+#~ msgstr "Тулысынча түләүсез, шпион программаларсыз, рекламасыз һәм кулланучы артыннан күзәтүсез."
+
+#~ msgid "Can do media conversion and streaming."
+#~ msgstr "Конверсияли һәм медиа мәгълүматны тапшыра ала"
+
+#~ msgid "Discover all features"
+#~ msgstr "Барлык мөмкинлекләр турында белергә"

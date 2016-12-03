@@ -25,8 +25,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 <div>
                     <p>If you have time, we welcome your help in various areas:</p>
                     <ul class="bullets">
-                        <li ><strong>Programmers</strong>,
-                            see the <a href="/developers/">developer documentation</a>,
+                        <li ><strong>Programmers</strong>, to help us devlopping VLC.<br />
+                            You should see the <a href="/developers/">developer documentation</a>,
                             subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
                             a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
                             join the <a href="/support/">IRC channel</a> to get help on how to start coding.</li>

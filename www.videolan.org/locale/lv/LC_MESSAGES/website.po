@@ -9,14 +9,14 @@
 # Jānis-Marks Gailis <jm-gailis@fai-vianet.fr>, 2013-2014
 # Kristaps Ancāns <kristaps.ancans@gmail.com>, 2013
 # Martins Mazjanis, 2016
-# Ojārs Spriņķis <ojars.sprinkis@inbox.lv>, 2014
+# Ojārs Spriņķis <ojars.sprinkis@inbox.lv>, 2014,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-21 18:18-0500\n"
-"PO-Revision-Date: 2016-01-17 11:45+0000\n"
-"Last-Translator: Martins Mazjanis\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-08-06 14:21+0000\n"
+"Last-Translator: Ingmārs Dīriņš <melhiors14@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/yaron/vlc-trans/language/lv/)\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -24,143 +24,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "a project and a"
 msgstr "projekti un"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "bezpeļņas organizācija"
 
-#: include/menus.php:27
-msgid "Team &amp; Organization"
-msgstr "Komanda un Organizācija"
-
-#: include/menus.php:28
-msgid "Consulting Services &amp; Partners"
-msgstr "Konsultāciju pakalpojumi un Partneri"
-
-#: include/menus.php:29 include/footer.php:69
-msgid "Events"
-msgstr "Notikumi"
-
-#: include/menus.php:30 include/footer.php:64 include/footer.php:98
-msgid "Legal"
-msgstr "Tiesiskā informācija"
-
-#: include/menus.php:31 include/footer.php:68
-msgid "Press center"
-msgstr "Preses centrs"
-
-#: include/menus.php:32 include/footer.php:65
-msgid "Contact us"
-msgstr "Sazināties ar mums"
-
-#: include/menus.php:38 include/os-specific.php:241
-msgid "Download"
-msgstr "Lejupielāde"
-
-#: include/menus.php:39 include/footer.php:24
-msgid "Features"
-msgstr "Iespējas"
-
-#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
-msgid "Customize"
-msgstr "Pielāgot"
-
-#: include/menus.php:42 include/footer.php:56
-msgid "Get Goodies"
-msgstr "Iegūt labumus"
-
-#: include/menus.php:46
-msgid "Projects"
-msgstr "Projekti"
-
-#: include/menus.php:64 include/footer.php:30
-msgid "All Projects"
-msgstr "Visi projekti"
-
-#: include/menus.php:68 index.php:164
-msgid "Contribute"
-msgstr "Piedalīties "
-
-#: include/menus.php:70
-msgid "Getting started"
-msgstr "Uzsākt"
-
-#: include/menus.php:71 include/menus.php:89
-msgid "Donate"
-msgstr "Ziedot"
-
-#: include/menus.php:72
-msgid "Report a bug"
-msgstr "Ziņot par kļūdu"
-
-#: include/menus.php:76
-msgid "Support"
-msgstr "Atbalsts"
-
-#: include/footer.php:22
-msgid "Skins"
-msgstr "Apvalki"
-
-#: include/footer.php:23
-msgid "Extensions"
-msgstr "Paplašinājumi"
-
-#: include/footer.php:25 vlc/index.php:83
-msgid "Screenshots"
-msgstr "Ekrānuzņēmumi"
-
-#: include/footer.php:48
-msgid "Community"
-msgstr "Kopiena"
-
-#: include/footer.php:51
-msgid "Forums"
-msgstr "Forumi"
-
-#: include/footer.php:52
-msgid "Mailing-Lists"
-msgstr "Vēstuļu saraksti"
-
-#: include/footer.php:53
-msgid "FAQ"
-msgstr "Bieži uzdotie jautājumi"
-
-#: include/footer.php:54
-msgid "Donate money"
-msgstr "Ziedot naudu"
-
-#: include/footer.php:55
-msgid "Donate time"
-msgstr "Ziedot laiku"
-
-#: include/footer.php:62
-msgid "Project and Organization"
-msgstr "Projekts un organizācija"
-
-#: include/footer.php:63
-msgid "Team"
-msgstr "Komanda"
-
-#: include/footer.php:66
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "Partneri"
 
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr "Komanda un Organizācija"
+
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr "Konsultāciju pakalpojumi un Partneri"
+
+#: include/menus.php:34 include/footer.php:83
+msgid "Events"
+msgstr "Notikumi"
+
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+msgid "Legal"
+msgstr "Tiesiskā informācija"
+
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Preses centrs"
+
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Sazināties ar mums"
+
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Lejupielāde"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Iespējas"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "Pielāgot"
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Iegūt labumus"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Projekti"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Visi projekti"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Piedalīties "
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr "Uzsākt"
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr "Ziedot"
+
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr "Ziņot par kļūdu"
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "Atbalsts"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Apvalki"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Paplašinājumi"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Ekrānuzņēmumi"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "Kopiena"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Forumi"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Vēstuļu saraksti"
+
 #: include/footer.php:67
+msgid "FAQ"
+msgstr "Bieži uzdotie jautājumi"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Ziedot naudu"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Ziedot laiku"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Projekts un organizācija"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "Komanda"
+
+#: include/footer.php:81
 msgid "Mirrors"
 msgstr "Spoguļserveri"
 
-#: include/footer.php:70
+#: include/footer.php:84
 msgid "Security center"
 msgstr "Drošības centrs"
 
-#: include/footer.php:71
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "Iesaistīties"
 
-#: include/footer.php:72
+#: include/footer.php:86
 msgid "News"
 msgstr "Jaunumi"
 
@@ -168,112 +168,115 @@ msgstr "Jaunumi"
 msgid "Download VLC"
 msgstr "Lejupielādēt VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:257 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Citas sistēmas"
 
-#: include/os-specific.php:609
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr "lejupielādes līdz šim"
+
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīgs multivides atskaņotājs un platforma. Tas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
 
-#: include/os-specific.php:613
-#, fuzzy
+#: include/os-specific.php:634
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
-msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīgs multivides atskaņotājs un platforma. Tas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
+msgstr "VLC ir brīvā un atvērtā koda starpplatformu multimediju atskaņotājs un ietvars, kurš atskaņo vairumu multimediju datņu un dažādus straumēšanas protokolus."
 
 #: index.php:4
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Oficiālā vietne - bezmaksas multivides risinājumi visām operētājsistēmām!"
 
-#: index.php:25
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "Citi VideoLAN projekti"
 
-#: index.php:29
+#: index.php:30
 msgid "For Everyone"
 msgstr "Visiem"
 
-#: index.php:39
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC ir jaudīgs multivides atskaņotājs, kas atskaņo lielāko daļu pieejamo kodeku un video formātu."
 
-#: index.php:52
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator ir nelineārās rediģēšanas programmatūra video veidošanai."
 
-#: index.php:61
+#: index.php:62
 msgid "For Professionals"
 msgstr "Profesionāļiem"
 
-#: index.php:71
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast ir vienkāršs un spēcīgs MPEG-2/TS demultipleksors un straumēšanas lietojumprogramma."
 
-#: index.php:81
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "Multicat ir rīku komplekts, kas paredzēts vieglai un efektīvai rīcībai ar multiraides un transportēšanas straumēm."
 
-#: index.php:94
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 ir bezmaksas lietojumprogramma video straumju kodēšanai uz H.264/MPEG-4 AVC formātu."
 
-#: index.php:103
+#: index.php:104
 msgid "For Developers"
 msgstr "Izstrādātājiem"
 
-#: index.php:136
+#: index.php:137
 msgid "View All Projects"
 msgstr "Skatīt visus projektus"
 
-#: index.php:140
+#: index.php:141
 msgid "Help us out!"
 msgstr "Izpalīdziet mums!"
 
-#: index.php:144
+#: index.php:145
 msgid "donate"
 msgstr "ziedot"
 
-#: index.php:152
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN ir bezpeļņas organizācija."
 
-#: index.php:153
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Visas mūsu izmaksas tiek segtas no ziedojumiem, kurus mēs saņemam no saviem lietotājiem. Ja jūs baudāt VideoLAN izstrādājuma lietošanu, lūdzu ziedojiet, lai mūs atbalstītu."
 
-#: index.php:156 index.php:176 index.php:194
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "Uzzināt vairāk"
 
-#: index.php:172
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN ir atvērtā pirmkoda programmatūra."
 
-#: index.php:173
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Tas nozīmē, ka, ja jums ir prasme un vēlme uzlabot kādu no mūsu izstrādājumiem, tad jūsu ieguldījumi ir apsveicami"
 
-#: index.php:183
+#: index.php:184
 msgid "Spread the Word"
 msgstr "Pastāstiet citiem"
 
-#: index.php:191
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Mēs uzskatām, ka VideoLAN ir vislabākā video programmatūra kas ir pieejama par labāko cenu: bezmaksas. Ja jūs piekrītat, tad lūdzu, pastāstiet arī citiem par mūsu programmatūru."
 
-#: index.php:211
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "Jaunumi un atjauninājumi"
 
-#: index.php:214
+#: index.php:215
 msgid "More News"
 msgstr "Vairāk jaunumu"
 
-#: index.php:218
+#: index.php:219
 msgid "Development Blogs"
 msgstr "Izstrādes emuāri"
 
-#: index.php:247
+#: index.php:248
 msgid "Social media"
 msgstr "Sociālie tīkli"
 
@@ -286,68 +289,60 @@ msgid "Get VLC for"
 msgstr "Lejupielādēt VLC"
 
 #: vlc/index.php:29 vlc/index.php:32
-#, fuzzy
 msgid "Simple, fast and powerful"
-msgstr "Vienkāršs, ātrs un spēcīgs multivides atskaņotājs."
+msgstr "Vienkāršs, ātrs un jaudīgs"
 
 #: vlc/index.php:35
 msgid "Plays everything"
-msgstr ""
+msgstr "Atskaņo visu"
 
 #: vlc/index.php:35
-#, fuzzy
 msgid "Files, Discs, Webcams, Devices and Streams."
-msgstr "Atskaņo visu: failus, diskus, tīmekļa kameras, ierīces un straumēšanu."
+msgstr "Datnes, diski, tīmekļa kameras, ierīces un straumes."
 
 #: vlc/index.php:38
-#, fuzzy
 msgid "Plays most codecs with no codec packs needed"
-msgstr "Atskaņo lielāko daļu kodeku, nav nepieciešamas kodeku pakas:"
+msgstr "Atskaņo vairumu kodeku bez vajadzības pēc kodeku pakām"
 
 #: vlc/index.php:41
-#, fuzzy
 msgid "Runs on all platforms"
-msgstr "Darbojas uz visām platformām:"
+msgstr "Darbojas uz visām platformām"
 
 #: vlc/index.php:44
 msgid "Completely Free"
-msgstr ""
+msgstr "Pilnīgi par brīvu"
 
 #: vlc/index.php:44
-#, fuzzy
 msgid "no spyware, no ads and no user tracking."
-msgstr "Pilnīgi bezmaksas, nesatur spiegprogrammatūru, reklāmu un nenotiek lietotāju izsekošana."
+msgstr "nav spiegprogrammatūras, reklāmu un lietotāja izsekošanas."
 
 #: vlc/index.php:47
-#, fuzzy
 msgid "learn more"
-msgstr "Uzzināt vairāk"
+msgstr "uzzināt vairāk"
 
 #: vlc/index.php:66
 msgid "Add"
-msgstr ""
+msgstr "Pievienot"
 
 #: vlc/index.php:66
-#, fuzzy
 msgid "skins"
-msgstr "Apvalki"
+msgstr "apvalki"
 
 #: vlc/index.php:69
 msgid "Create skins with"
-msgstr ""
+msgstr "Izveidot ādiņas ar"
 
 #: vlc/index.php:69
 msgid "VLC skin editor"
-msgstr ""
+msgstr "VLC apvalka redaktors"
 
 #: vlc/index.php:72
 msgid "Install"
-msgstr ""
+msgstr "Instalēt"
 
 #: vlc/index.php:72
-#, fuzzy
 msgid "extensions"
-msgstr "Paplašinājumi"
+msgstr "paplašinājumi"
 
 #: vlc/index.php:126
 msgid "View all screenshots"

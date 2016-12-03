@@ -8,7 +8,7 @@
 # Hank Lu <hankbox@gmail.com>, 2013
 # Frank Chao <frank0624@gmail.com>, 2013
 # Jeff Huang <s8321414@gmail.com>, 2016
-# Ruei-Yuan Lu <rueiyuan.lu@gmail.com>, 2015
+# 盧瑞元（ryuanlu） <rueiyuan.lu@gmail.com>, 2015-2016
 # taijuin lee <taijuin@gmail.com>, 2013
 # x4r <xatierlike@gmail.com>, 2014
 # Jeff Huang <s8321414@gmail.com>, 2014
@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-16 12:33+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-07-06 02:25+0000\n"
+"Last-Translator: 盧瑞元（ryuanlu） <rueiyuan.lu@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/yaron/vlc-trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -26,143 +26,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "a project and a"
 msgstr "既是一個專案，也是一個"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "非營利組織"
 
-#: include/menus.php:27
-msgid "Team &amp; Organization"
-msgstr "團隊 &amp; 組織"
-
-#: include/menus.php:28
-msgid "Consulting Services &amp; Partners"
-msgstr "諮詢服務 &amp; 合作夥伴"
-
-#: include/menus.php:29 include/footer.php:69
-msgid "Events"
-msgstr "事件"
-
-#: include/menus.php:30 include/footer.php:64 include/footer.php:98
-msgid "Legal"
-msgstr "法律"
-
-#: include/menus.php:31 include/footer.php:68
-msgid "Press center"
-msgstr "新聞中心"
-
-#: include/menus.php:32 include/footer.php:65
-msgid "Contact us"
-msgstr "聯絡我們"
-
-#: include/menus.php:38 include/os-specific.php:260
-msgid "Download"
-msgstr "下載"
-
-#: include/menus.php:39 include/footer.php:24
-msgid "Features"
-msgstr "功能"
-
-#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
-msgid "Customize"
-msgstr "自訂性"
-
-#: include/menus.php:42 include/footer.php:56
-msgid "Get Goodies"
-msgstr "獲取超值服務"
-
-#: include/menus.php:46
-msgid "Projects"
-msgstr "專案"
-
-#: include/menus.php:64 include/footer.php:30
-msgid "All Projects"
-msgstr "所有專案"
-
-#: include/menus.php:68 index.php:164
-msgid "Contribute"
-msgstr "貢獻"
-
-#: include/menus.php:70
-msgid "Getting started"
-msgstr "開始"
-
-#: include/menus.php:71 include/menus.php:89
-msgid "Donate"
-msgstr "捐獻"
-
-#: include/menus.php:72
-msgid "Report a bug"
-msgstr "回報臭蟲"
-
-#: include/menus.php:76
-msgid "Support"
-msgstr "支援"
-
-#: include/footer.php:22
-msgid "Skins"
-msgstr "面板"
-
-#: include/footer.php:23
-msgid "Extensions"
-msgstr "擴充"
-
-#: include/footer.php:25 vlc/index.php:83
-msgid "Screenshots"
-msgstr "螢幕截圖"
-
-#: include/footer.php:48
-msgid "Community"
-msgstr "社群"
-
-#: include/footer.php:51
-msgid "Forums"
-msgstr "討論區"
-
-#: include/footer.php:52
-msgid "Mailing-Lists"
-msgstr "Mailing-Lists"
-
-#: include/footer.php:53
-msgid "FAQ"
-msgstr "FAQ"
-
-#: include/footer.php:54
-msgid "Donate money"
-msgstr "捐獻金錢"
-
-#: include/footer.php:55
-msgid "Donate time"
-msgstr "捐獻時間"
-
-#: include/footer.php:62
-msgid "Project and Organization"
-msgstr "專案和組織"
-
-#: include/footer.php:63
-msgid "Team"
-msgstr "團隊"
-
-#: include/footer.php:66
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "合作伙伴"
 
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr "團隊 &amp; 組織"
+
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr "諮詢服務 &amp; 合作夥伴"
+
+#: include/menus.php:34 include/footer.php:83
+msgid "Events"
+msgstr "事件"
+
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+msgid "Legal"
+msgstr "法律"
+
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "新聞中心"
+
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "聯絡我們"
+
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "下載"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "功能"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "自訂性"
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "獲取超值服務"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "專案"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "所有專案"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "貢獻"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr "開始"
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr "捐獻"
+
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr "回報臭蟲"
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "支援"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "面板"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "擴充"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "螢幕截圖"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "社群"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr "討論區"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Mailing-Lists"
+
 #: include/footer.php:67
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "捐獻金錢"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "捐獻時間"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "專案和組織"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "團隊"
+
+#: include/footer.php:81
 msgid "Mirrors"
 msgstr "鏡射站台"
 
-#: include/footer.php:70
+#: include/footer.php:84
 msgid "Security center"
 msgstr "安全中心"
 
-#: include/footer.php:71
+#: include/footer.php:85
 msgid "Get Involved"
 msgstr "參與我們"
 
-#: include/footer.php:72
+#: include/footer.php:86
 msgid "News"
 msgstr "新聞"
 
@@ -170,19 +170,19 @@ msgstr "新聞"
 msgid "Download VLC"
 msgstr "下載VLC"
 
-#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "其他系統"
 
-#: include/os-specific.php:241
+#: include/os-specific.php:242
 msgid "downloads so far"
-msgstr "目前為止下䵧了"
+msgstr "次下載"
 
-#: include/os-specific.php:629
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。"
 
-#: include/os-specific.php:633
+#: include/os-specific.php:634
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及各種串流協定。"
 
@@ -190,95 +190,95 @@ msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，�
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC：官方網站 - 用於所有作業系統的自由軟體之多媒體解決方案！"
 
-#: index.php:25
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "VideoLAN 的其他專案"
 
-#: index.php:29
+#: index.php:30
 msgid "For Everyone"
 msgstr "給所有人"
 
-#: index.php:39
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC 是一款能播放目前大多數媒體及影片格式的強大媒體播放器。"
 
-#: index.php:52
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator 是一款用於影片創作的非線性剪輯軟體。"
 
-#: index.php:61
+#: index.php:62
 msgid "For Professionals"
 msgstr "給專家們"
 
-#: index.php:71
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast 是一款簡單但強大的 MPEG-2/TS 切割及串流軟體。"
 
-#: index.php:81
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat 是一組工具，設計為輕鬆，高效地操縱群播串流和 MPEG-2 傳輸串流。"
 
-#: index.php:94
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 是一個自由軟體，可將視訊串流進行編碼為 H.264/MPEG-4 AVC 格式。"
 
-#: index.php:103
+#: index.php:104
 msgid "For Developers"
 msgstr "給開發者們"
 
-#: index.php:136
+#: index.php:137
 msgid "View All Projects"
 msgstr "檢視所有專案"
 
-#: index.php:140
+#: index.php:141
 msgid "Help us out!"
 msgstr "幫助我們！"
 
-#: index.php:144
+#: index.php:145
 msgid "donate"
 msgstr "捐獻"
 
-#: index.php:152
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN 是一個非營利組織。"
 
-#: index.php:153
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "我們所有的費用是從我們的使用者那裡收到的捐款。如果您喜歡使用 VideoLAN 產品，請捐款支持我們。"
 
-#: index.php:156 index.php:176 index.php:194
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "學習更多"
 
-#: index.php:172
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN 是開放原始碼軟體。"
 
-#: index.php:173
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "這意味著，如果您有能力，並希望改進我們的某款產品，我們歡迎您的貢獻"
 
-#: index.php:183
+#: index.php:184
 msgid "Spread the Word"
 msgstr "幫助宣傳"
 
-#: index.php:191
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "我們認為 VideoLAN 有最好的影片相關軟體，提供了最好的價格：免費。如果您同意，請幫助我們宣傳我們的軟體。"
 
-#: index.php:211
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "新聞 &amp; 更新"
 
-#: index.php:214
+#: index.php:215
 msgid "More News"
 msgstr "更多新聞"
 
-#: index.php:218
+#: index.php:219
 msgid "Development Blogs"
 msgstr "VideoLAN 星球"
 
-#: index.php:247
+#: index.php:248
 msgid "Social media"
 msgstr "社交媒體"
 

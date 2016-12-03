@@ -9,6 +9,16 @@
     <h1 class="bigtitle">Events</h1>
 
     <article>
+        <h2>3, 4 September 2016 - Eighth VideoLAN Dev Days</h2>
+        <p>
+            <a href="/videolan/events/vdd16/">For the eighth time</a>, people from the VideoLAN community will meet to
+            gather, work, discuss and build a stronger community in Berlin.
+        </p>
+    </article>
+    <hr />
+
+
+    <article>
         <h2>19, 20 September 2015 - Seventh Dev Days</h2>
         <p>
             <a href="/videolan/events/vdd15/">For the seventh time</a>, people from the VideoLAN community will meet to

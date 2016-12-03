@@ -7,14 +7,14 @@
 # Daniel Klischies <daniel.klischies@freenet.de>, 2011
 # Felix Paul Kühne <fkuehne@gmail.com>, 2012,2016
 # Mario Siegmann <mario_siegmann@web.de>, 2013-2014,2016
-# Tobias Bannert <tobannert@gmail.com>, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-16 04:20-0500\n"
-"PO-Revision-Date: 2016-02-27 14:42+0000\n"
-"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-11-07 16:40+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/yaron/vlc-trans/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,143 +22,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "a project and a"
 msgstr "ein Projekt und eine"
 
-#: include/header.php:291
+#: include/header.php:292
 msgid "non-profit organization"
 msgstr "gemeinnützige Organisation"
 
-#: include/menus.php:27
-msgid "Team &amp; Organization"
-msgstr "Team &amp; Organisation"
-
-#: include/menus.php:28
-msgid "Consulting Services &amp; Partners"
-msgstr "Consultingdienste &amp; Partner"
-
-#: include/menus.php:29 include/footer.php:69
-msgid "Events"
-msgstr "Veranstaltungen"
-
-#: include/menus.php:30 include/footer.php:64 include/footer.php:98
-msgid "Legal"
-msgstr "Rechtliches"
-
-#: include/menus.php:31 include/footer.php:68
-msgid "Press center"
-msgstr "Pressebereich"
-
-#: include/menus.php:32 include/footer.php:65
-msgid "Contact us"
-msgstr "Kontakt"
-
-#: include/menus.php:38 include/os-specific.php:260
-msgid "Download"
-msgstr "Download"
-
-#: include/menus.php:39 include/footer.php:24
-msgid "Features"
-msgstr "Funktionen"
-
-#: include/menus.php:40 vlc/index.php:57 vlc/index.php:63
-msgid "Customize"
-msgstr "Anpassen"
-
-#: include/menus.php:42 include/footer.php:56
-msgid "Get Goodies"
-msgstr "Goodies laden"
-
-#: include/menus.php:46
-msgid "Projects"
-msgstr "Projekte"
-
-#: include/menus.php:64 include/footer.php:30
-msgid "All Projects"
-msgstr "Alle Projekte"
-
-#: include/menus.php:68 index.php:164
-msgid "Contribute"
-msgstr "Beitragen"
-
-#: include/menus.php:70
-msgid "Getting started"
-msgstr "Erste Schritte"
-
-#: include/menus.php:71 include/menus.php:89
-msgid "Donate"
-msgstr "Spenden"
-
-#: include/menus.php:72
-msgid "Report a bug"
-msgstr "Einen Fehler melden"
-
-#: include/menus.php:76
-msgid "Support"
-msgstr "Hilfe"
-
-#: include/footer.php:22
-msgid "Skins"
-msgstr "Skins"
-
-#: include/footer.php:23
-msgid "Extensions"
-msgstr "Erweiterungen"
-
-#: include/footer.php:25 vlc/index.php:83
-msgid "Screenshots"
-msgstr "Bildschirmfotos"
-
-#: include/footer.php:48
-msgid "Community"
-msgstr "Gemeinschaft"
-
-#: include/footer.php:51
-msgid "Forums"
-msgstr "Foren"
-
-#: include/footer.php:52
-msgid "Mailing-Lists"
-msgstr "Mailinglisten"
-
-#: include/footer.php:53
-msgid "FAQ"
-msgstr "F&amp;A"
-
-#: include/footer.php:54
-msgid "Donate money"
-msgstr "Spenden Sie Geld"
-
-#: include/footer.php:55
-msgid "Donate time"
-msgstr "Spenden Sie Zeit"
-
-#: include/footer.php:62
-msgid "Project and Organization"
-msgstr "Projekt und Organisation"
-
-#: include/footer.php:63
-msgid "Team"
-msgstr "Team"
-
-#: include/footer.php:66
+#: include/header.php:301 include/footer.php:80
 msgid "Partners"
 msgstr "Partner"
 
-#: include/footer.php:67
-msgid "Mirrors"
-msgstr "Spiegel-Server"
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr "Team &amp; Organisation"
 
-#: include/footer.php:70
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr "Beratungsdienste &amp; Partner"
+
+#: include/menus.php:34 include/footer.php:83
+msgid "Events"
+msgstr "Veranstaltungen"
+
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+msgid "Legal"
+msgstr "Rechtliches"
+
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Pressebereich"
+
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Kontakt"
+
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Download"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Funktionen"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "Anpassen"
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Goodies laden"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Projekte"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Alle Projekte"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Beitragen"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr "Spenden"
+
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr "Einen Fehler melden"
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "Hilfe"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Skins"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Bildschirmfotos"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "Gemeinschaft"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Foren"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Mailinglisten"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "F&amp;A"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Geld spenden"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Zeit spenden"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Projekt und Organisation"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "Team"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "Spiegelserver"
+
+#: include/footer.php:84
 msgid "Security center"
 msgstr "Sicherheitszentrum"
 
-#: include/footer.php:71
+#: include/footer.php:85
 msgid "Get Involved"
-msgstr "Helfen Sie mit"
+msgstr "Mitmachen"
 
-#: include/footer.php:72
+#: include/footer.php:86
 msgid "News"
 msgstr "Neuigkeiten"
 
@@ -166,19 +166,19 @@ msgstr "Neuigkeiten"
 msgid "Download VLC"
 msgstr "VLC herunterladen"
 
-#: include/os-specific.php:97 include/os-specific.php:276 vlc/index.php:168
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
 msgid "Other Systems"
 msgstr "Andere Systeme"
 
-#: include/os-specific.php:241
+#: include/os-specific.php:242
 msgid "downloads so far"
-msgstr "Downloads bisher"
+msgstr "bisher heruntergeladen"
 
-#: include/os-specific.php:629
+#: include/os-specific.php:630
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC ist ein freier und quelloffener Multimediaplayer sowie ein Framework für verschiedene Betriebssysteme, das die meisten Multimediadateien, sowie DVDs, Audio-CDs, VCDs und verschiedene Streamingprotokolle abspielt."
 
-#: include/os-specific.php:633
+#: include/os-specific.php:634
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
 msgstr "VLC ist ein freier und quelloffener Multimediaplayer sowie ein Framework für verschiedene Betriebssysteme, das die meisten Multimediadateien und verschiedene Streamingprotokolle abspielt."
 
@@ -186,95 +186,95 @@ msgstr "VLC ist ein freier und quelloffener Multimediaplayer sowie ein Framework
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Offizielle Webseite - Freie Multimedialösungen für alle Betriebssysteme!"
 
-#: index.php:25
+#: index.php:26
 msgid "Other projects from VideoLAN"
 msgstr "Andere Projekte von VideoLAN"
 
-#: index.php:29
+#: index.php:30
 msgid "For Everyone"
 msgstr "Für Alle"
 
-#: index.php:39
+#: index.php:40
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC ist ein mächtiger Mediaplayer, der die meisten Mediacodecs und Videoformate abspielen kann."
 
-#: index.php:52
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator ist eine nicht-lineare Editierungssoftware zur Videoerstellung."
 
-#: index.php:61
+#: index.php:62
 msgid "For Professionals"
 msgstr "Für professionelle Anwender"
 
-#: index.php:71
+#: index.php:72
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast ist eine einfache und mächtige MPEG-2/TS Decodierungs- und Streaminganwendung."
 
-#: index.php:81
+#: index.php:82
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat ist eine Werkzeugsammlung um einfach und effizient Multicast-Streams und Transport-Streams (TS) zu bearbeiten."
 
-#: index.php:94
+#: index.php:95
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 ist eine freie Anwendung zum Enkodieren von Videostreams in das H.264/MPEG-4AVC Format."
 
-#: index.php:103
+#: index.php:104
 msgid "For Developers"
 msgstr "Für Entwickler"
 
-#: index.php:136
+#: index.php:137
 msgid "View All Projects"
 msgstr "Alle Projekte ansehen"
 
-#: index.php:140
+#: index.php:141
 msgid "Help us out!"
 msgstr "Helfen Sie uns!"
 
-#: index.php:144
+#: index.php:145
 msgid "donate"
 msgstr "spenden"
 
-#: index.php:152
+#: index.php:153
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN ist eine gemeinnützige Organisation."
 
-#: index.php:153
+#: index.php:154
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Alle unsere Kosten werden durch Spenden getragen, die wir von unseren Nutzern erhalten. Wenn Ihnen ein VideoLAN-Produkt gefällt, spenden Sie bitte, um uns zu unterstützen."
 
-#: index.php:156 index.php:176 index.php:194
+#: index.php:157 index.php:177 index.php:195
 msgid "Learn More"
 msgstr "Erfahren Sie mehr"
 
-#: index.php:172
+#: index.php:173
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN ist Open-Source-Software."
 
-#: index.php:173
+#: index.php:174
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Das bedeutet, dass Ihre Beiträge willkommen sind, wenn Sie die Fähigkeiten und den Wunsch haben, eines unserer Produkte zu verbessern."
 
-#: index.php:183
+#: index.php:184
 msgid "Spread the Word"
 msgstr "Sagen Sie es weiter"
 
-#: index.php:191
+#: index.php:192
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Wir sind der Meinung, dass VideoLAN die beste Videosoftware zum besten Preis anbietet: kostenlos. Wenn Sie dem zustimmen, helfen Sie uns dabei, unsere Software bekannt zu machen."
 
-#: index.php:211
+#: index.php:212
 msgid "News &amp; Updates"
 msgstr "Neuigkeiten &amp; Aktualisierungen"
 
-#: index.php:214
+#: index.php:215
 msgid "More News"
 msgstr "Weitere Neuigkeiten"
 
-#: index.php:218
+#: index.php:219
 msgid "Development Blogs"
 msgstr "Entwickler-Blogs"
 
-#: index.php:247
+#: index.php:248
 msgid "Social media"
 msgstr "Soziale Netzwerke"
 

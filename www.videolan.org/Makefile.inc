@@ -72,6 +72,7 @@ locales: index.af.php \
          index.fi.php \
          index.fo.php \
          index.fr.php \
+         index.fy.php \
          index.gd.php \
          index.gl.php \
          index.gu.php \

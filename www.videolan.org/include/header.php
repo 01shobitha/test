@@ -30,6 +30,7 @@ function getLocaleFromLanguage( $language )
     case 'fi': $locale = "fi_FI.UTF-8"; break;
     case 'fo': $locale = "fo_FO.utf8"; break;
     case 'fr': $locale = "fr_FR.UTF-8"; break;
+    case 'fy': $locale = "fy_NL"; break;
     case 'gd': $locale = "gd_GB.UTF-8"; break;
     case 'gl': $locale = "gl_ES.UTF-8"; break;
     case 'gu': $locale = "gu_IN"; break;

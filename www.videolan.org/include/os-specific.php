@@ -236,7 +236,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
 
         function openWSCounterSocket() {
             if (ws === undefined || ws.readyState === undefined || ws.readyState > 1) {
-                ws = new WebSocket("wss://get.videolan.org/wscounter");
+                ws = new WebSocket("wss://get.videolan.org/wscounter/<?php echo $defaultDetail["latestVersion"] ?>");
                 ws.onmessage = function(event) {
                     var value = event.data.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
                     $('#wscounter').text(value + " <?php echo _("downloads so far"); ?>");

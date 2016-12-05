@@ -1,0 +1,359 @@
+# Irish translation
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Seanán Ó Coistín, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-11-08 12:57+0000\n"
+"Last-Translator: Seanán Ó Coistín\n"
+"Language-Team: Irish (http://www.transifex.com/yaron/vlc-trans/language/ga/)\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+
+#: include/header.php:292
+msgid "a project and a"
+msgstr "tionscadal agus"
+
+#: include/header.php:292
+msgid "non-profit organization"
+msgstr "eagraíocht neamhbhrabúsach"
+
+#: include/header.php:301 include/footer.php:80
+msgid "Partners"
+msgstr "Comhpháirtithe"
+
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr "An Fhoireann &amp; an Eagraíocht"
+
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
+
+#: include/menus.php:34 include/footer.php:83
+msgid "Events"
+msgstr "Imeachtaí"
+
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+msgid "Legal"
+msgstr "Nithe dlíthiúla"
+
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "Ionad na Meán"
+
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "Déan teagmháil linn"
+
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "Íosluchtaigh"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "Gnéithe"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr "Saincheap"
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "Faigh Rudaí Deasa"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "Tionscadail"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "Gach Tionscandal"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "Tabhair"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr "Tosaigh"
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr "Bronn airgead"
+
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr "Tuairiscigh fabht"
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "Tacaíocht"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "Craicinn"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "Breiseáin"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "Gabhálacha scáileáin"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "An Pobal"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr "Clár Plé"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "Liostaí Poist"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "Ceisteanna Coitianta"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "Tabhair airgead"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "Tabhair am"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "Tionscadal agus Eagraíocht"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "An Fhoireann"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "Scatháin"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "An lárionad slándála"
+
+#: include/footer.php:85
+msgid "Get Involved"
+msgstr "Glac páirt"
+
+#: include/footer.php:86
+msgid "News"
+msgstr "Nuacht"
+
+#: include/os-specific.php:91
+msgid "Download VLC"
+msgstr "Íosluchtaigh VLC"
+
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
+msgid "Other Systems"
+msgstr "Córais Eile"
+
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr "íosluchtaithe go nuige seo"
+
+#: include/os-specific.php:630
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr ""
+
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr ""
+
+#: index.php:26
+msgid "Other projects from VideoLAN"
+msgstr "Tionscadail eile ó VideoLAN"
+
+#: index.php:30
+msgid "For Everyone"
+msgstr "Do Chách"
+
+#: index.php:40
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr ""
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr ""
+
+#: index.php:62
+msgid "For Professionals"
+msgstr "Do Dhaoine Gairmiúla"
+
+#: index.php:72
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr ""
+
+#: index.php:82
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr ""
+
+#: index.php:95
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr ""
+
+#: index.php:104
+msgid "For Developers"
+msgstr "D'Fhorbróirí"
+
+#: index.php:137
+msgid "View All Projects"
+msgstr "Féach Gach Tionscadal"
+
+#: index.php:141
+msgid "Help us out!"
+msgstr "Cuidigh linn!"
+
+#: index.php:145
+msgid "donate"
+msgstr "bronn"
+
+#: index.php:153
+msgid "VideoLAN is a non-profit organization."
+msgstr "Is eagraíocht neamhbhrabúsach í VideoLAN."
+
+#: index.php:154
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr ""
+
+#: index.php:157 index.php:177 index.php:195
+msgid "Learn More"
+msgstr "Foghlaim Tuilleadh"
+
+#: index.php:173
+msgid "VideoLAN is open-source software."
+msgstr "Is oideasra le foinse oscailte é VideoLAN."
+
+#: index.php:174
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr ""
+
+#: index.php:184
+msgid "Spread the Word"
+msgstr "Scaip an scéal"
+
+#: index.php:192
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr ""
+
+#: index.php:212
+msgid "News &amp; Updates"
+msgstr "Nuacht &amp; Nuashonruithe"
+
+#: index.php:215
+msgid "More News"
+msgstr "Tuilleadh Nuachta"
+
+#: index.php:219
+msgid "Development Blogs"
+msgstr "Blaganna i dtaca le Forbairt"
+
+#: index.php:248
+msgid "Social media"
+msgstr "Na meáin sóisialta"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr ""
+
+#: vlc/index.php:21
+msgid "Get VLC for"
+msgstr "Faigh VLC i gcomhair"
+
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr "Diúid, tapa agus cumhachtach"
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr "Seineann sé gach rud"
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr "Ritheann sé ar gach ardán"
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr "Go hIomlán Saor In Aisce"
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr "foghlaim tuilleadh"
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr "Cuir leis"
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr "craicinn"
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr "Cruthaigh craicinn le"
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr "heagarthóir craicinn VLC"
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr "Suiteáil"
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr "breiseáin"
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "Féach gach gabháil scáileáin"
+
+#: vlc/index.php:135
+msgid "Official Downloads of VLC media player"
+msgstr "Íosluchtuithe Oifigiúil de sheinnteoir meán VLC"
+
+#: vlc/index.php:146
+msgid "Sources"
+msgstr "Foinsí"
+
+#: vlc/index.php:147
+msgid "You can also directly get the"
+msgstr "Is féidir seo a leanas a fháil go díreach"
+
+#: vlc/index.php:148
+msgid "source code"
+msgstr "an cód foinseach"

@@ -1,0 +1,359 @@
+# Uighur translation
+# Copyright (C) 2016 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# eltikinuyghur <eltikinuyghur@hotmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"PO-Revision-Date: 2016-02-16 09:23+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Uighur (http://www.transifex.com/yaron/vlc-trans/language/ug/)\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: include/header.php:292
+msgid "a project and a"
+msgstr ""
+
+#: include/header.php:292
+msgid "non-profit organization"
+msgstr "پايدا كۆزلىمەيدىغان گۇرۇپپا"
+
+#: include/header.php:301 include/footer.php:80
+msgid "Partners"
+msgstr "ھەمكارلاشقۇچىلار"
+
+#: include/menus.php:32
+msgid "Team &amp; Organization"
+msgstr ""
+
+#: include/menus.php:33
+msgid "Consulting Services &amp; Partners"
+msgstr ""
+
+#: include/menus.php:34 include/footer.php:83
+msgid "Events"
+msgstr "پائالىيەت"
+
+#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+msgid "Legal"
+msgstr "قانۇن"
+
+#: include/menus.php:36 include/footer.php:82
+msgid "Press center"
+msgstr "خەۋەر مەركىزى"
+
+#: include/menus.php:37 include/footer.php:79
+msgid "Contact us"
+msgstr "ئالاقىلىشىڭ"
+
+#: include/menus.php:43 include/os-specific.php:261
+msgid "Download"
+msgstr "چۈشۈرۈلمىلەر"
+
+#: include/menus.php:44 include/footer.php:38
+msgid "Features"
+msgstr "ئىقتىدار"
+
+#: include/menus.php:45 vlc/index.php:57 vlc/index.php:63
+msgid "Customize"
+msgstr ""
+
+#: include/menus.php:47 include/footer.php:70
+msgid "Get Goodies"
+msgstr "خام ماتېرىيالغا ئېرىشىش"
+
+#: include/menus.php:51
+msgid "Projects"
+msgstr "تۈر"
+
+#: include/menus.php:69 include/footer.php:44
+msgid "All Projects"
+msgstr "بارلىق تۈرلەر"
+
+#: include/menus.php:73 index.php:165
+msgid "Contribute"
+msgstr "تۆھپىكار"
+
+#: include/menus.php:75
+msgid "Getting started"
+msgstr ""
+
+#: include/menus.php:76 include/menus.php:94
+msgid "Donate"
+msgstr ""
+
+#: include/menus.php:77
+msgid "Report a bug"
+msgstr "bug مەلۇم قىلىش"
+
+#: include/menus.php:81
+msgid "Support"
+msgstr "قوللاشلار"
+
+#: include/footer.php:36
+msgid "Skins"
+msgstr "تېرە"
+
+#: include/footer.php:37
+msgid "Extensions"
+msgstr "كېڭەيتمىلەر"
+
+#: include/footer.php:39 vlc/index.php:83
+msgid "Screenshots"
+msgstr "ئېكران كەسمىسى"
+
+#: include/footer.php:62
+msgid "Community"
+msgstr "جەمئىيەت"
+
+#: include/footer.php:65
+msgid "Forums"
+msgstr "مۇنبەر"
+
+#: include/footer.php:66
+msgid "Mailing-Lists"
+msgstr "تورخەت تىزىم"
+
+#: include/footer.php:67
+msgid "FAQ"
+msgstr "كۆپ كۆرۈلىدىغان مەسىلە"
+
+#: include/footer.php:68
+msgid "Donate money"
+msgstr "ئىئانە پۇلى"
+
+#: include/footer.php:69
+msgid "Donate time"
+msgstr "ئىئانە ۋاقىت"
+
+#: include/footer.php:76
+msgid "Project and Organization"
+msgstr "تۈر ۋە گۇرۇپپا"
+
+#: include/footer.php:77
+msgid "Team"
+msgstr "ئەترەت"
+
+#: include/footer.php:81
+msgid "Mirrors"
+msgstr "تەسۋىر تىزىملىك"
+
+#: include/footer.php:84
+msgid "Security center"
+msgstr "بىخەتەر مەركىزى"
+
+#: include/footer.php:85
+msgid "Get Involved"
+msgstr "قوشۇلىمەن"
+
+#: include/footer.php:86
+msgid "News"
+msgstr "خەۋەر"
+
+#: include/os-specific.php:91
+msgid "Download VLC"
+msgstr "VLC چۈشۈرىمەن"
+
+#: include/os-specific.php:97 include/os-specific.php:277 vlc/index.php:168
+msgid "Other Systems"
+msgstr "باشقا سىستېمىلار"
+
+#: include/os-specific.php:242
+msgid "downloads so far"
+msgstr ""
+
+#: include/os-specific.php:630
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC  بولسا بىر ئەركىن ،ئېچىۋېتىلگەن سۇپىدىكى ھەقسىز دېتال بولۇپ كۆپ قىسىم قويغۇلار قۇيىدىغان ھۆججەت تىپى قۇيالايدۇ.مەسىلەن :DVD،CD،VCD قاتارلىقلار..."
+
+#: include/os-specific.php:634
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols."
+msgstr ""
+
+#: index.php:4
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC :ئىگە تەرەپ تور بېكىتى -پۈتكۈل سۇپىدىكى قويغۇلارنىڭ مەسىلىسىنى ھەل قىلىدۇ !"
+
+#: index.php:26
+msgid "Other projects from VideoLAN"
+msgstr "VideoLAN نىڭ باشقا تۈرلىرى"
+
+#: index.php:30
+msgid "For Everyone"
+msgstr "بارلىق ئىشلەتكۈچىلەرگە ماسلاشقان"
+
+#: index.php:40
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC بولسا ناھايىتى قۇدرەتلىك بولغان  قويغۇ،ئىقتىدار جەھەتتىن ئالغاندا ھازىرقى بار بولغان  بارلىق ھۆججەت تىپلىرىنى قويۇش ئىقتىدارىغا ئىگە."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator بولسا بىر ئىقتىدار ياخشى بولغان سىن تەھرىر قورالى"
+
+#: index.php:62
+msgid "For Professionals"
+msgstr "كەسپى خادىملارنى ئىشلىتىشىگە ماس كېلىدۇ"
+
+#: index.php:72
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast بولسا بىر ئاددىي بولغان ناھايىتى ئىقتىدارلىقMPEG-2/TS تەكرار ياكى قايتىلىما پروگراممىسى "
+
+#: index.php:82
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat  بولسا بىر ئاددىي يۇقىرى ئۈنۈملۈك TS لايىھەلەش دېتالى"
+
+#: index.php:95
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 بولسا سىن  H.264/MPEG-4 AVC كودلاشتۇرۇش ئەركىن پروگراممىسى"
+
+#: index.php:104
+msgid "For Developers"
+msgstr "ئىجادكارلارغا ماس كېلىدۇ"
+
+#: index.php:137
+msgid "View All Projects"
+msgstr "بارلىق تۈرلەرنى كۆرۈش"
+
+#: index.php:141
+msgid "Help us out!"
+msgstr "ياردەم قىلىش"
+
+#: index.php:145
+msgid "donate"
+msgstr "ئىئانە"
+
+#: index.php:153
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN بولسا بىر پايدىنى كۆزلىمەيدىغان گۇرۇپپا"
+
+#: index.php:154
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "بىزنىڭ بارلىق ئىشلىرىمىز باشقىلارنىڭ ئىئانىسىنىڭ ياردىمى ئارقىلىق بولىدۇ.ئەگەر سىزVideoLAN نىڭ ئەپلىرىنى ياقتۇرغان بولسىڭىز بىز ئۈچۈن ئىئانە قىلىڭ.بۇ بىزنى قوللىغىنىڭىز بولۇپ قالغۇسى. "
+
+#: index.php:157 index.php:177 index.php:195
+msgid "Learn More"
+msgstr "تېخىمۇ كۆپ ئۇچۇرلار"
+
+#: index.php:173
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN بولسا بىر ئېچىۋېتىلگەن ئوچۇق كودلۇق دېتال"
+
+#: index.php:174
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "ئەگەر سىزنىڭ ئىقتىدارىڭىز بولسا پروگراممىمىزغا قارىتا ئىلغارلاشتۇرۇش ئىلىپ بېرىپ تۆھپە قوشۇشىڭىزنى قىزغىن قارشى ئالىمىز"
+
+#: index.php:184
+msgid "Spread the Word"
+msgstr "تەشۋىقاتقا ياردەم"
+
+#: index.php:192
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "بىزVideoLANنى سىن دېتاللىرى ئىچىدە ئەڭ قالتىس دەپ قارايمىز.شۇنداقلا ھەقسىز دېتال.ئەگەر سىزمۇ بۇ نۇقتىغا قوشۇلسىڭىز دېتالىمىزنى تەشۋىق قىلىشقا ياردەمدە بۇلۇڭ."
+
+#: index.php:212
+msgid "News &amp; Updates"
+msgstr "خەۋەر ۋە&amp;  يېڭىلىقلار"
+
+#: index.php:215
+msgid "More News"
+msgstr ""
+
+#: index.php:219
+msgid "Development Blogs"
+msgstr "ئىجادكار بىلوگ"
+
+#: index.php:248
+msgid "Social media"
+msgstr "ئىجتىمائىي ئالاقە ۋاسىتە"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "VLC media player رامكا ئىگە تەرەپ !"
+
+#: vlc/index.php:21
+msgid "Get VLC for"
+msgstr "VLC forغا ئېرىشىش"
+
+#: vlc/index.php:29 vlc/index.php:32
+msgid "Simple, fast and powerful"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Plays everything"
+msgstr ""
+
+#: vlc/index.php:35
+msgid "Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Plays most codecs with no codec packs needed"
+msgstr ""
+
+#: vlc/index.php:41
+msgid "Runs on all platforms"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Completely Free"
+msgstr ""
+
+#: vlc/index.php:44
+msgid "no spyware, no ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:47
+msgid "learn more"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "Add"
+msgstr ""
+
+#: vlc/index.php:66
+msgid "skins"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "Create skins with"
+msgstr ""
+
+#: vlc/index.php:69
+msgid "VLC skin editor"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "Install"
+msgstr ""
+
+#: vlc/index.php:72
+msgid "extensions"
+msgstr ""
+
+#: vlc/index.php:126
+msgid "View all screenshots"
+msgstr "بارلىق ئېكران كەسمىسىنى كۆرۈش"
+
+#: vlc/index.php:135
+msgid "Official Downloads of VLC media player"
+msgstr "VLC media player  ئىگە تەرەپ توربېكىتىدىن چۈشۈرۈش"
+
+#: vlc/index.php:146
+msgid "Sources"
+msgstr "ئەسلى كود"
+
+#: vlc/index.php:147
+msgid "You can also directly get the"
+msgstr "سىزمۇ بىۋاسىتە ئېرىشەلەيسىز"
+
+#: vlc/index.php:148
+msgid "source code"
+msgstr "ئەسلى كود"

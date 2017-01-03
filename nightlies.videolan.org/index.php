@@ -31,11 +31,11 @@
 
     <div class="os1">
         <ul class="os" style="padding-bottom:10px">
-            <li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows (32 bits)</a></li>
-            <li class='windows'  style="font-weight:bold"><a href='/build/win64/?C=M;O=D'>Windows (64 bits)</a></li>
-            <li class='macosx'   style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>macOS</a></li>
-            <li class='iOS'      style="font-weight:bold"><a href='/build/iOS/?C=M;O=D'>iOS</a></li>
-            <li class='tvOS'      style="font-weight:bold"><a href='/build/tvOS/?C=M;O=D'>tvOS</a></li>
+            <li class='windows'  style="font-weight:bold"><a href='/build/win32/'>Windows (32 bits)</a></li>
+            <li class='windows'  style="font-weight:bold"><a href='/build/win64/'>Windows (64 bits)</a></li>
+            <li class='macosx'   style="font-weight:bold"><a href='/build/macosx-intel/'>macOS</a></li>
+            <li class='iOS'      style="font-weight:bold"><a href='/build/iOS/'>iOS</a></li>
+            <li class='tvOS'      style="font-weight:bold"><a href='/build/tvOS/'>tvOS</a></li>
             <li class='debian'  ><a href='#ubuntu'>Ubuntu</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv7/'>Android (ARMv7-A)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv8a/'>Android (ARMv8-A)</a></li>
@@ -52,7 +52,7 @@
 
     <div class="clearme">
         <h2>Source-code snapshots</h2>
-        <p><a href="/build/source/?C=M;O=D">Download here</a> the tarballs (bz2) or use <a href="http://wiki.videolan.org/Git">Git</a> to get the latest source code.</p>
+        <p><a href="/build/source/">Download here</a> the tarballs (bz2) or use <a href="http://wiki.videolan.org/Git">Git</a> to get the latest source code.</p>
 
         <h2><a id="ubuntu">Ubuntu PPA</a></h2>
         <p>The nightly builds for Ubuntu are available

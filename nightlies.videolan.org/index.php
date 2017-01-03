@@ -41,6 +41,9 @@
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv7/'>Android (ARMv7-A)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-armv8a/'>Android (ARMv8-A)</a></li>
             <li class='android'  style="font-weight:bold"><a href='/build/android-x86/'>Android (x86)</a></li>
+            <li class='android'  style="font-weight:bold"><a href='/build/android-x86_64/'>Android (x86_64)</a></li>
+            <li class='android'  style="font-weight:bold"><a href='/build/android-mips/'>Android (mips)</a></li>
+            <li class='android'  style="font-weight:bold"><a href='/build/android-mips64/'>Android (mips64)</a></li>
         </ul>
     </div>
     <div class="os2">

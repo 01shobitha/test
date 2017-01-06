@@ -40,7 +40,7 @@
 
 			    <div class="inner center-xs">
 			        <div class="btn-group">
-<a href="https://itunes.apple.com/app/apple-store/id650377962?pt=454758&ct=vodownloadpage&mt=8"><img src="//images.videolan.org/images/appstoredownload-en.png" border="0" /></a>
+<a href="https://itunes.apple.com/app/apple-store/id650377962?pt=454758&amp;ct=vodownloadpage&amp;mt=8"><img src="//images.videolan.org/images/appstoredownload-en.png" border="0" /></a>
 			        </div>
 			        <div id="downloadDetails">
 			            Version <span id='downloadVersion'>

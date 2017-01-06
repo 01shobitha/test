@@ -19,7 +19,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                 <a href="http://videolabs.io/">
-                <img src="http://images.videolan.org/images/partners/videolabs.png" class="img-responsive center-block" alt="Videolabs" width="200">
+                <img src="http://images.videolan.org/images/partners/videolabs.png" class="img-responsive center-block" alt="Videolabs" width="200" />
             </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -34,7 +34,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://openheadend.tv/">
-                        <img src="http://images.videolan.org/images/partners/openheadend.png" class="img-responsive center-block" alt="OpenHeadEnd" width="200">
+                        <img src="http://images.videolan.org/images/partners/openheadend.png" class="img-responsive center-block" alt="OpenHeadEnd" width="200" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -49,7 +49,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.m2x.eu/">
-                        <img src="http://images.videolan.org/images/partners/m2x.png" class="img-responsive center-block" alt="M2X" width="200">
+                        <img src="http://images.videolan.org/images/partners/m2x.png" class="img-responsive center-block" alt="M2X" width="200" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -78,7 +78,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://free.fr/">
-                        <img src="http://images.videolan.org/images/partners/free.gif" class="img-responsive center-block" width="150" alt="Free" height="75">
+                        <img src="http://images.videolan.org/images/partners/free.gif" class="img-responsive center-block" width="150" alt="Free" height="75" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -94,7 +94,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.gandi.net/">
-                        <img src="http://images.videolan.org/images/partners/gandi.png" class="img-responsive center-block" width="200" alt="Gandi">
+                        <img src="http://images.videolan.org/images/partners/gandi.png" class="img-responsive center-block" width="200" alt="Gandi" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -113,7 +113,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.anevia.com/">
-                        <img src="http://images.videolan.org/images/partners/anevia.jpg" class="img-responsive center-block" width="200" alt="Anevia">
+                        <img src="http://images.videolan.org/images/partners/anevia.jpg" class="img-responsive center-block" width="200" alt="Anevia" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -129,7 +129,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.andrewbeveridge.co.uk">
-                        <img src="http://images.videolan.org/images/partners/ab.png" class="img-responsive center-block" width="100" height="80" alt="AB">
+                        <img src="http://images.videolan.org/images/partners/ab.png" class="img-responsive center-block" width="100" height="80" alt="AB" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -141,7 +141,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.ecp.fr/">
-                        <img src="http://images.videolan.org/images/partners/logoECP.png" class="img-responsive center-block" width="100" alt="ECP" height="80">
+                        <img src="http://images.videolan.org/images/partners/logoECP.png" class="img-responsive center-block" width="100" alt="ECP" height="80" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -158,7 +158,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.zf.com">
-                        <img src="../images/partners/zf.jpg" alt="ZF" class="img-responsive center-block">
+                        <img src="../images/partners/zf.jpg" alt="ZF" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -170,7 +170,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.panasonic.de">
-                        <img src="../images/partners/panasonic.gif" alt="Panasonic" class="img-responsive center-block">
+                        <img src="../images/partners/panasonic.gif" alt="Panasonic" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -183,7 +183,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.pugetsystems.com/">
-                        <img src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" class="img-responsive center-block">
+                        <img src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -211,7 +211,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://epitech.eu/">
-                        <img src="http://images.videolan.org/images/partners/epitech.jpg" width="190" alt="Epitech" class="img-responsive center-block">
+                        <img src="http://images.videolan.org/images/partners/epitech.jpg" width="190" alt="Epitech" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -228,7 +228,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.wdc.com">
-                        <img src="http://images.videolan.org/images/partners/wdlogo.jpg" width="150" alt="WD" class="img-responsive center-block">
+                        <img src="http://images.videolan.org/images/partners/wdlogo.jpg" width="150" alt="WD" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -245,7 +245,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="https://metabrainz.org">
-                        <img src="http://images.videolan.org/images/partners/metabrainz.svg" width="200" alt="MetaBrainz Foundation" class="img-responsive center-block">
+                        <img src="http://images.videolan.org/images/partners/metabrainz.svg" width="200" alt="MetaBrainz Foundation" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">

@@ -142,7 +142,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "name"          => "iOS",
             "size"          => "56.5&nbsp;MB",
             "latestVersion" => $iosversion,
-            "location"      => "//itunes.apple.com/app/apple-store/id650377962?pt=454758&ct=vodownloadpage&mt=8"
+            "location"      => "//itunes.apple.com/app/apple-store/id650377962?pt=454758&amp;ct=vodownloadpage&amp;mt=8"
         ),
         "tvos"       => array(
             "name"          => "Apple TV - tvOS",

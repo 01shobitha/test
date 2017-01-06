@@ -579,7 +579,7 @@ function drawScreenshots($screenshots) {
         $src = $first ? $screenshot['src'] : '';
         $srcLazy = $first ? '' : $screenshot['src'];
         $dom  = '<div class="screenshot2 '.getImageOrientation($screenshot['src']).'">';
-        $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'">';
+        $dom .= '<img src="'.$src.'" alt="'.$screenshot['name'].'" data-lazy="'.$srcLazy.'" />';
         $dom .= '</div>';
         echo $dom;
         $first = false;

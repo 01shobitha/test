@@ -47,7 +47,7 @@
                 <a class="feat-margin-left extra-info-link2 padding-top" href='/vlc/features.html'><?php echo _("learn more"); ?></a>
             </div>
             <div class="col-md-4 v-align-md v-align-lg">
-                <img src="//images.videolan.org/vlc/screenshots/android/playback-medium.jpg" class="center-sm center-xs img-responsive">
+                <img src="//images.videolan.org/vlc/screenshots/android/playback-medium.jpg" class="center-sm center-xs img-responsive" />
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
         <h2 class="visible-xs visible-sm center-font-xs center-font-sm"><?php echo _("Customize"); ?></h2>
         <div class="row">
             <div class="col-md-4 v-align-md v-align-lg col-md-offset-1 col-md-pull-1">
-                <img src="//images.videolan.org/images/screenshots/skins.png" class="center-xs center-sm img-responsive">
+                <img src="//images.videolan.org/images/screenshots/skins.png" class="center-xs center-sm img-responsive" />
             </div>
             <div class="items v-align-md v-align-lg col-md-7">
                 <h2 class="hidden-xs hidden-sm"><?php echo _("Customize"); ?></h2>

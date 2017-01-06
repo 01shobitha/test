@@ -108,7 +108,7 @@
     .subtext { position: relative; top: -20px; left:250px; width: 400px; text-align: center; }
 
 </style>
-            <script>
+            <script type="text/javascript">
               $(function(){
                 $("#slides").slidesjs({
                   width: 940,
@@ -161,7 +161,7 @@
                     Version <span id='downloadVersion'>2.2.4</span>
                     </span>
                 </a>
-                <script>
+                <script type="text/javascript">
                 $(document).ready(function() {
                     $("#downloadButton").removeAttr('href');
                 });

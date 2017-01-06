@@ -231,7 +231,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
     $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;
     $defaultDetail = getOS($defaultOS);
     ?>
-    <script>
+    <script type="text/javascript">
         var ws;
 
         function openWSCounterSocket() {

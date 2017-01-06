@@ -228,10 +228,10 @@ function start_head( $title,
         <?php /* jQuery */ ?>
         <?php /* Get the one in the Google CDN to get cached */ ?>
         <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>
-        <script async src="<?= isDeveloper() ? '/js/bootstrap.min.js': '//images.videolan.org/js/bootstrap.min.js' ?>" type='text/javascript'></script>
+        <script async='async' src="<?= isDeveloper() ? '/js/bootstrap.min.js': '//images.videolan.org/js/bootstrap.min.js' ?>" type='text/javascript'></script>
         <?php if( isset($additional_js) ) {
             foreach($additional_js as $js) {
-                echo '<script async src="'.$js.'" type="text/javascript"></script>';
+                echo '<script async="async" src="'.$js.'" type="text/javascript"></script>';
             }
         } ?>
 

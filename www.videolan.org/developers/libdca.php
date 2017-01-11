@@ -25,9 +25,9 @@
 
 <p>Current release is <a href="http://download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2">libdca-0.0.5.tar.bz2</a></p>
 
-<p>The latest libdca source code can always be found by anonymous <a href="http://wiki.videolan.org/Subversion">SVN</a> repository:</p>
+<p>The latest libdca source code can always be found in the <a href="https://code.videolan.org/videolan/libdca">GIT</a> repository:</p>
 
-<p><code># svn co svn://svn.videolan.org/libdca/trunk libdca</code></p>
+<p><code>$ git clone https://code.videolan.org/videolan/libdca</code></p>
 
 <p><b>Provisional Warning</b>: DTS Inc. claims that use of libdca
 software, to decode DTS compressed sound data on a DVD could violate

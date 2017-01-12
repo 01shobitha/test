@@ -132,12 +132,12 @@ when it reaches 100%, so you probably want to finish the first one before starti
   </tr>
   <tr>
     <td><a href="http://people.videolan.org/~etix/transifex/vlc-android/strings.xml">strings.xml</a></td>
-    <td><a href="http://svn.videolan.org/dl.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2Fwebsite.pot">website.pot</a></td>
+    <td><a href="https://code.videolan.org/VideoLAN.org/websites/raw/master/www.videolan.org/locale/website.pot">website.pot</a></td>
     <td><a href="http://git.videolan.org/?p=vlmc.git;a=blob_plain;f=ts/template.ts;hb=HEAD">template.ts</a></td>
   </tr>
   <tr>
     <td><a href="http://git.videolan.org/?p=vlc-ports/android.git;a=tree;f=vlc-android/res;hb=HEAD">browse git repo</a></td>
-    <td><a href="http://svn.videolan.org/listing.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2F&rev=head">browse svn</a></td>
+    <td><a href="https://code.videolan.org/VideoLAN.org/websites/tree/master/www.videolan.org/locale">browse git repo</a></td>
     <td><a href="http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
   </tr>
 </table>

@@ -28,15 +28,15 @@
 <h2>Get libdvbcsa</h2>
 <p>The latest <code>libdvbcsa</code> release is 1.1.0.</p>
 
-<p> <code>libdvbcsa</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
+<p> <code>libdvbcsa</code> is available through <a href="https://code.videolan.org/videolan/libdvbcsa/">Git</a> or
 by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">releases</a>.
 </p>
 
-<h3>Subversion checkout</h3>
-<p><code># svn co svn://svn.videolan.org/libdvbcsa/trunk libdvbcsa</code></p>
+<h3>Git checkout</h3>
+<p><code># git clone https://code.videolan.org/videolan/libdvbcsa.git</code></p>
 
 <h3>Web source browsing</h3>
-<p>You can also <a href="http://svn.videolan.org/listing.php?repname=libdvbcsa">browse the code repository</a>.</p>
+<p>You can also <a href="https://code.videolan.org/videolan/libdvbcsa">browse the code repository</a>.</p>
 
 <h2>Legal</h2>
 <p>As <code>libdvbcsa</code> implements a standard, it is completly legal to use it.</p>

@@ -2,7 +2,6 @@
     $title ="VideoLAN Manager";
     $lang = "en";
     $new_design = true;
-    $menu = array( "vlma", "overview" );
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

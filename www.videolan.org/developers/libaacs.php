@@ -51,7 +51,7 @@
     <h3>Legal Contact</h3>
     <p>Si vous avez le moindre problème légal (If you have ANY issue with the legal part): <a href="/contact.html">Contact</a></p>
 
-    <h2>Documentation</h2>
+    <!--<h2>Documentation</h2>-->
 </div>
 
 <?php footer(); ?>

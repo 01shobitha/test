@@ -9,6 +9,10 @@
 <div class="container">
     <h1 class="bigtitle">VLMa <small>Overview</small></h1>
 
+    <div class="alert alert-danger" role="alert">
+        <strong>Note!</strong> This project is not actively maintained anymore.
+    </div>
+
     <div class="row">
       <div class="column col-xs-12 col-md-6">
         <h2>About VLMa</h2>

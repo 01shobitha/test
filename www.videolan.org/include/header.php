@@ -131,13 +131,11 @@ function start_head( $title,
     <!DOCTYPE html>
     <html lang="<?php echo $language?>" <?php if ( isRTL( $language ) ) { echo ' dir="rtl"'; } ?>>
     <head>
-        <?php
-            if ($new_design) {
-                echo '<meta http-equiv="X-UA-Compatible" content="IE=edge" />';
-                echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
-            }
-        ?>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <?php if ($new_design): ?>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <?php endif; ?>
 
         <meta name="Author" content="VideoLAN" />
         <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download,

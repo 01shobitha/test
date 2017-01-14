@@ -38,7 +38,7 @@
 	<p>For tutorials and help on the usage of the Skin Editor turn to the <a href="skinedhlp">online help</a>.</p>
 
 	<h2>Download</h2>
-	<p>You can download the latest build at <strong><a href="http://d-gfx.kognetwork.ch/VLC/skineditor/">the development page</a></strong>.</p>
+	<p>You can download the latest build at <strong><a href="http://get.videolan.org/skin-editor/0.8.5/">the download page</a></strong>.</p>
 
 	<div class="alert alert-warning" role="alert">
 		<strong>Note!</strong> This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at the Java <a href="https://java.com/de/download/" target="_blank">download page</a>.
@@ -62,7 +62,7 @@
 
 	<h2>How to support the project</h2>
 	<p>The project needs developers and also testers who check the program for usability and identify bugs.</p>
-	<p>If you have knowledge of Java feel free to join the developer team. Check the <a href="http://d-gfx.kognetwork.ch/VLC/skineditor" target="_blank">development page</a> for more information.</p>
+	<p>If you have knowledge of Java feel free to join the developer team. Check the <a href="https://code.videolan.org/videolan/skin-designer" target="_blank">source code</a> for more information.</p>
 </div>
 
 <?php footer(''); ?>

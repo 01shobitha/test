@@ -12,19 +12,19 @@ function getLocaleFromLanguage( $language )
     case 'be': $locale = "be_BY.utf8"; break;
     case 'bg': $locale = "bg_BG.UTF-8"; break;
     case 'bn': $locale = "bn_BD"; break;
-    case 'bn_IN': $locale = "bn_IN"; break;
+    case 'bn-IN': $locale = "bn_IN"; break;
     case 'bs': $locale = "bs_BA.UTF-8"; break;
     case 'ca': $locale = "ca_ES.utf8"; break;
     case 'cs': $locale = "cs_CZ.UTF-8"; break;
     case 'cy': $locale = "cy_GB.utf8"; break;
     case 'da': $locale = "da_DK.utf8"; break;
     case 'de': $locale = "de_DE.UTF-8"; break;
-    case 'de_LU': $locale = "de_LU.utf8"; break;
+    case 'de-LU': $locale = "de_LU.utf8"; break;
     case 'dv': $locale = "dv_MV"; break;
     case 'el': $locale = "el_GR.UTF-8"; break;
-    case 'en_GB': $locale = "en_GB.utf8"; break;
+    case 'en-GB': $locale = "en_GB.utf8"; break;
     case 'es': $locale = "es_ES.UTF-8"; break;
-    case 'es_MX': $locale = "es_MX.utf8"; break;
+    case 'es-MX': $locale = "es_MX.utf8"; break;
     case 'et': $locale = "et_EE.utf8"; break;
     case 'fa': $locale = "fa_IR"; break;
     case 'fi': $locale = "fi_FI.UTF-8"; break;
@@ -53,7 +53,7 @@ function getLocaleFromLanguage( $language )
     case 'lv': $locale = "lv_LV.utf8"; break;
     case 'mk': $locale = "mk_MK.UTF-8"; break;
     case 'ml': $locale = "ml_IN"; break;
-    case 'mn_MN': $locale = "mn_MN"; break;
+    case 'mn-MN': $locale = "mn_MN"; break;
     case 'mr': $locale = "mr_IN.UTF-8"; break;
     case 'ms': $locale = "ms_MY.utf8"; break;
     case 'my': $locale = "my_MM"; break;
@@ -61,7 +61,7 @@ function getLocaleFromLanguage( $language )
     case 'nl': $locale = "nl_NL.UTF-8"; break;
     case 'or': $locale = "or_IN"; break;
     case 'pl': $locale = "pl_PL.UTF-8"; break;
-    case 'pt_BR': $locale = "pt_BR.utf8"; break;
+    case 'pt-BR': $locale = "pt_BR.utf8"; break;
     case 'pt': $locale = "pt_PT.UTF-8"; break;
     case 'ro': $locale = "ro_RO.UTF-8"; break;
     case 'ru': $locale = "ru_RU.UTF-8"; break;
@@ -82,7 +82,7 @@ function getLocaleFromLanguage( $language )
     case 'vi': $locale = "vi_VN"; break;
     case 'wa': $locale = "wa_BE.UTF-8"; break;
     case 'zh': $locale = "zh_CN.UTF-8"; break;
-    case 'zh_TW': $locale = "zh_TW.utf8"; break;
+    case 'zh-TW': $locale = "zh_TW.utf8"; break;
     }
 
     return $locale;

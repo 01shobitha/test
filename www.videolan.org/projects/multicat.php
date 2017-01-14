@@ -59,10 +59,9 @@
 
 	<p><a href="/developers/bitstream.html">biTStream</a> needs to be installed at build-time.</p>
 
-	<p> Hackers can participate to the development using <a
-	href="http://wiki.videolan.org/Subversion">Subversion</a>.
-	The code can be found at <code>svn://svn.videolan.org/multicat</code> and you can
-	<a href="http://svn.videolan.org/listing.php?repname=Multicat&amp;path=%2F&amp;sc=0">browse the source online</a>.</p>
+	<p>The code can be checked out using Git with <code>git clone
+	https://code.videolan.org/videolan/multicat.git</code> and you can <a
+	href="https://code.videolan.org/videolan/multicat">browse the source online</a>.</p>
 
 	<p>User support and development is handled in the <a
 	href="/developers/lists.html">multicat-devel mailing-list</a>.</p>

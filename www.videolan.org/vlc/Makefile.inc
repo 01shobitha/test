@@ -11,7 +11,7 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.be     download-windows.be     download-macosx.be    \
              index.bg     download-windows.bg     download-macosx.bg    \
              index.bn     download-windows.bn     download-macosx.bn    \
-             index.bn_IN  download-windows.bn_IN  download-macosx.bn_IN \
+             index.bn-IN  download-windows.bn-IN  download-macosx.bn-IN \
              index.bs     download-windows.bs     download-macosx.bs    \
              index.ca     download-windows.ca     download-macosx.ca    \
              index.co     download-windows.co     download-macosx.co    \
@@ -19,12 +19,12 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.cy     download-windows.cy     download-macosx.cy    \
              index.da     download-windows.da     download-macosx.da    \
              index.de     download-windows.de     download-macosx.de    \
-             index.de_LU  download-windows.de_LU  download-macosx.de_LU \
+             index.de-LU  download-windows.de-LU  download-macosx.de-LU \
              index.dv     download-windows.dv     download-macosx.dv    \
              index.el     download-windows.el     download-macosx.el    \
-             index.en_GB  download-windows.en_GB  download-macosx.en_GB \
+             index.en-GB  download-windows.en-GB  download-macosx.en-GB \
              index.es     download-windows.es     download-macosx.es    \
-             index.es_MX  download-windows.es_MX  download-macosx.es_MX \
+             index.es-MX  download-windows.es-MX  download-macosx.es-MX \
              index.et     download-windows.et     download-macosx.et    \
              index.fa     download-windows.fa     download-macosx.fa    \
              index.fi     download-windows.fi     download-macosx.fi    \
@@ -52,7 +52,7 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.lv     download-windows.lv     download-macosx.lv    \
              index.mk     download-windows.mk     download-macosx.mk    \
              index.ml     download-windows.ml     download-macosx.ml    \
-             index.mn_MN  download-windows.mn_MN  download-macosx.mn_MN \
+             index.mn-MN  download-windows.mn-MN  download-macosx.mn-MN \
              index.mr     download-windows.mr     download-macosx.mr    \
              index.ms     download-windows.ms     download-macosx.ms    \
              index.my     download-windows.my     download-macosx.my    \
@@ -60,7 +60,7 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.nl     download-windows.nl     download-macosx.nl    \
              index.or     download-windows.or     download-macosx.or    \
              index.pl     download-windows.pl     download-macosx.pl    \
-             index.pt_BR  download-windows.pt_BR  download-macosx.pt_BR \
+             index.pt-BR  download-windows.pt-BR  download-macosx.pt-BR \
              index.pt     download-windows.pt     download-macosx.pt    \
              index.ro     download-windows.ro     download-macosx.ro    \
              index.ru     download-windows.ru     download-macosx.ru    \
@@ -81,7 +81,7 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.vi     download-windows.vi     download-macosx.vi    \
              index.wa     download-windows.wa     download-macosx.wa    \
              index.zh     download-windows.zh     download-macosx.zh    \
-             index.zh_TW  download-windows.zh_TW  download-macosx.zh_TW \
+             index.zh-TW  download-windows.zh-TW  download-macosx.zh-TW \
                           download-windows        download-macosx
 
 download-windows.%.php: download-windows.php $(ROOT)/locale/%/LC_MESSAGES/website.po

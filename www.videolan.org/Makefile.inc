@@ -53,7 +53,7 @@ locales: index.af.php \
          index.be.php \
          index.bg.php \
          index.bn.php \
-         index.bn_IN.php \
+         index.bn-IN.php \
          index.bs.php \
          index.ca.php \
          index.co.php \
@@ -61,12 +61,12 @@ locales: index.af.php \
          index.cy.php \
          index.da.php \
          index.de.php \
-         index.de_LU.php \
+         index.de-LU.php \
          index.dv.php \
          index.el.php \
-         index.en_GB.php \
+         index.en-GB.php \
          index.es.php \
-         index.es_MX.php \
+         index.es-MX.php \
          index.et.php \
          index.fa.php \
          index.fi.php \
@@ -94,7 +94,7 @@ locales: index.af.php \
          index.lv.php \
          index.mk.php \
          index.ml.php \
-         index.mn_MN.php \
+         index.mn-MN.php \
          index.mr.php \
          index.ms.php \
          index.my.php \
@@ -103,7 +103,7 @@ locales: index.af.php \
          index.or.php \
          index.pl.php \
          index.pt.php \
-         index.pt_BR.php \
+         index.pt-BR.php \
          index.ro.php \
          index.ru.php \
          index.si.php \
@@ -123,5 +123,5 @@ locales: index.af.php \
          index.vi.php \
          index.wa.php \
          index.zh.php \
-         index.zh_TW.php \
+         index.zh-TW.php \
          include/header.php

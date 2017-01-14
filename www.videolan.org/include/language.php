@@ -3,18 +3,18 @@ $alternate_lang = array(
     "ar",
     "be",
     "bg",
-    "bn_IN",
+    "bn-IN",
     "bs",
     "ca",
     "cs",
     "cy",
     "da",
     "de",
-    "de_LU",
+    "de-LU",
     "dv",
     "el",
     "en",
-    "en_GB",
+    "en-GB",
     "es",
     "et",
     "fa",
@@ -45,7 +45,7 @@ $alternate_lang = array(
     "or",
     "pl",
     "pt",
-    "pt_BR",
+    "pt-BR",
     "ro",
     "ru",
     "si",
@@ -63,7 +63,7 @@ $alternate_lang = array(
     "ur",
     "vi",
     "zh",
-    "zh_TW"
+    "zh-TW"
 );
 
 ?>

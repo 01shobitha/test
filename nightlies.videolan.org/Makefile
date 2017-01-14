@@ -41,11 +41,11 @@ clean: clean-recursive
 			HERE=$(HERE)$$d/ || exit $$? ; \
 	done
 
-%.html: %.php $(ROOT)Makefile $(ROOT)/include/*.php
+%.html: %.php $(ROOT)Makefile
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
 	@cd $(ROOT) || exit 1 ; \
-	if ! DOCUMENT_ROOT=$(ROOT) $(HERE)$(PHPCGI) $(HERE)$< > $(HERE)$@.tmp; then \
+	if ! DOCUMENT_ROOT=$(DOCUMENT_ROOT) $(HERE)$(PHPCGI) $(HERE)$< > $(HERE)$@.tmp; then \
 		cat $(HERE)$@.tmp | tail -1 ; \
 		rm -f $(HERE)$@.tmp ; \
 		exit 1 ; \

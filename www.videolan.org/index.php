@@ -259,7 +259,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                         </a>
                     </span>
                 </h1>
-                <span lang=""><!-- tweets are often english, but some are french and we even retweeted arabic or similar, so the empty lang is intentional -->
+                <div lang=""><!-- tweets are often english, but some are french and we even retweeted arabic or similar, so the empty lang is intentional -->
                 <?php
                 $rss = fetch_rss("http://www.videolan.org/_twitter/userrss.php?xrt=0&xrp=1&c=40");
                 $i = 0;
@@ -275,7 +275,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                     if ($i % $entries_per_column == 0) echo "</td><td>";
                 }
                 ?>
-                </span>
+                </div>
             </div>
         </div>
     </div>

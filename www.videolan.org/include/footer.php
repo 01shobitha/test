@@ -94,7 +94,7 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
                         echo "<div class='footerHeading'>Translations: ";
                         echo '<select ONCHANGE="location = this.options[this.selectedIndex].value;">';
                         $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
-                        echo  '<option value="/'.$root_filename[0].'.html"></option>'."\n";
+                        echo  '<option value="/'.$root_filename[0].'.html">&nbsp;</option>'."\n";
                         foreach($alternate_lang as $lang) {
                             if( $lang == "en" )
                                 echo  '<option value="/'.$root_filename[0].'.html">'.$lang.'</option>'."\n";

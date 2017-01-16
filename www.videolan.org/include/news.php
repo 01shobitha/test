@@ -86,10 +86,10 @@
         }
     }
     fclose($file);
-    echo "</div><!-- english only -->";
 }
 
 function shownews_mockup($style,$max) {
     shownews($style,$max,true);
+    echo "</div><!-- news are en only -->";
 }
 ?>

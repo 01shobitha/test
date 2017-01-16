@@ -34,7 +34,7 @@
 
     if(!$file)
     {
-        echo "</div><!-- news are en only -->";
+        echo ('</div><!-- news are en only -->');
         return(0);
     }
 
@@ -89,7 +89,7 @@
         }
     }
     fclose($file);
-    echo "</div><!-- news are en only -->";
+    echo ('</div><!-- news are en only -->');
 }
 
 function shownews_mockup($style,$max) {

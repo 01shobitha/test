@@ -19,12 +19,13 @@
             }
             else
             {
-                document.getElementById(text).style.display = 'none';    
+                document.getElementById(text).style.display = 'none';
                 document.getElementById(read).innerHTML = "(Read more...)";
             }
         }
     }
     </script>
+    <span dir="ltr" lang="en">
     <?php
 
     $file=fopen("news.msg","r");
@@ -91,3 +92,4 @@ function shownews_mockup($style,$max) {
     shownews($style,$max,true);
 }
 ?>
+</span>

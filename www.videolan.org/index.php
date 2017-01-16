@@ -218,7 +218,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
         <div class="col-md-6">
             <h1 style='margin-bottom: 13px;'><a href="http://planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
 
-            <div>
+            <div lang="en">
                 <?php
                 define('MAGPIE_INPUT_ENCODING', 'UTF-8');
                 define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
@@ -229,9 +229,9 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                 $columns = 1;
                 foreach ($rss->items as $item) {
                     if (isset($item['link'])) {
-                        echo "<p style='direction:ltr; text-align:left;'>";
+                        echo "<p dir='ltr' style='text-align:left;'>";
                         echo "<b><a href=\"" . $item['link'] . '" style="color: black;">' . htmlentities($item['title'], ENT_COMPAT, "UTF-8") . "</a></b></p>";
-                        echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr; text-align:left;">';
+                        echo '<p dir='ltr' style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px; text-align:left;">';
                         echo substr(strip_tags(html_entity_decode($item['content']['encoded'], ENT_COMPAT, "UTF-8")), 0, $chars_per_entry);
                         echo "<a href=\"" . $item['link'] . "\">[...]</a><br/>";
                         echo "</p>";

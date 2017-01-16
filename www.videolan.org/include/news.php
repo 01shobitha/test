@@ -33,7 +33,10 @@
     $msg = "";
 
     if(!$file)
-      return(0);
+    {
+        echo "</div><!-- news are en only -->";
+        return(0);
+    }
 
     while( !feof($file) )
     {
@@ -86,10 +89,10 @@
         }
     }
     fclose($file);
+    echo "</div><!-- news are en only -->";
 }
 
 function shownews_mockup($style,$max) {
     shownews($style,$max,true);
-    echo "</div><!-- news are en only -->";
 }
 ?>

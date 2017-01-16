@@ -82,7 +82,10 @@
                 if($max != 0 ) echo '<div class="horizontalRule"></div>';
                 if( $mockup ) echo "</td>";
 
-                if($max == 0) return;
+                if($max == 0) {
+                    echo ('</div><!-- news are en only -->');
+                    return;
+                }
                 $msg="";
              }
             $msg.=" ".$line;

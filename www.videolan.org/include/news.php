@@ -6,6 +6,8 @@
  */
     function shownews($style,$max,$mockup=false) {
     ?>
+    <div dir="ltr" lang="en">
+
     <script type="text/javascript">
     function toggle(count) {
         var text = "news-span-"+count;
@@ -32,8 +34,6 @@
 
     if(!$file)
       return(0);
-
-    echo ("<div dir='ltr' lang='en'>");
 
     while( !feof($file) )
     {
@@ -86,7 +86,7 @@
         }
     }
     fclose($file);
-    echo ("</div><!-- english only news -->");
+    echo "</div><!-- english only -->";
 }
 
 function shownews_mockup($style,$max) {

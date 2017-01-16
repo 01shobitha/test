@@ -1,4 +1,4 @@
-SUBDIR = Lightning\ talk\
+SUBDIR = Lightning_talk\
 	others\
-	Saturday\ Evening\
-	VideoLAN\ Booth
+	Saturday_Evening\
+	VideoLAN_Booth

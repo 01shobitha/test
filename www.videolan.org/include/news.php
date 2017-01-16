@@ -26,14 +26,14 @@
     }
     </script>
     <?php
-    echo ("<span dir='ltr' lang='en'>");
-
     $file=fopen("news.msg","r");
     $count = 0;
     $msg = "";
 
     if(!$file)
       return(0);
+
+    echo ("<span dir='ltr' lang='en'>");
 
     while( !feof($file) )
     {
@@ -92,5 +92,4 @@
 function shownews_mockup($style,$max) {
     shownews($style,$max,true);
 }
-</span>
 ?>

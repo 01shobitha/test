@@ -227,11 +227,11 @@
         (taken by jlj's father)</p>
 
         <p>
-        <a href="20030204/videolan29.jpg">
-            <img src="/videolan/events/20030204/videolan29-front.jpg" class="img-responsive img-thumbnail" alt="VideoLAN booth at Linux Expo Paris 2003" width="400" height="300" />
+        <a href="20030204/videolan29.png">
+            <img src="/videolan/events/20030204/thumbs/videolan29_thumb.jpg" class="img-responsive img-thumbnail" alt="VideoLAN booth at Linux Expo Paris 2003" />
         </a>
-        <a href="20030204/team.jpg">
-            <img src="/videolan/events/20030204/mi_team.jpg" class="img-responsive img-thumbnail" alt="Part of the VideoLAN team" width="400" height="300" />
+        <a href="20030204/team.png">
+            <img src="/videolan/events/20030204/thumbs/team_thumb.jpg" class="img-responsive img-thumbnail" alt="Part of the VideoLAN team" />
         </a>
         </p>
 

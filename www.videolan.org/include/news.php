@@ -91,5 +91,5 @@
 function shownews_mockup($style,$max) {
     shownews($style,$max,true);
 }
-?>
 </span>
+?>

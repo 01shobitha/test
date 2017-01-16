@@ -185,7 +185,7 @@
             <a href="/vlc/stats/downloads.php">VLC download statistics</a>
         </div>
 -->
-</div>
+
 <?php
 footer( '$Id', $alternate_lang);
 sf_money();

@@ -33,7 +33,7 @@
     if(!$file)
       return(0);
 
-    echo ("<span dir='ltr' lang='en'>");
+    echo ("<div dir='ltr' lang='en'>");
 
     while( !feof($file) )
     {
@@ -86,7 +86,7 @@
         }
     }
     fclose($file);
-    echo ("</span>");
+    echo ("</div>");
 }
 
 function shownews_mockup($style,$max) {

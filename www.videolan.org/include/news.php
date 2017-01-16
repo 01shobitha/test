@@ -25,8 +25,8 @@
         }
     }
     </script>
-    <span dir="ltr" lang="en">
     <?php
+    echo ("<span dir='ltr' lang='en'>");
 
     $file=fopen("news.msg","r");
     $count = 0;
@@ -86,6 +86,7 @@
         }
     }
     fclose($file);
+    echo ("</span>");
 }
 
 function shownews_mockup($style,$max) {

@@ -267,7 +267,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                 $entries_per_column = 5;
                 $columns = 1;
                 foreach ($rss->items as $item) {
-                    echo '<p dir='ltr' style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px; text-align: left;">';
+                    echo '<p dir="ltr" style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px; text-align: left;">';
                     echo preg_replace(array('^(http://\S+)^is', '^(https://\S+)^is'), '<a href="$1">$1</a>', str_replace("videolan:", "<b>" . date("Y-m-d h:i", strtotime($item['pubdate'])) . "</b>", $item['title']));
                     echo "</p>";
                     $i++;

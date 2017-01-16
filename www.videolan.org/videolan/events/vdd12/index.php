@@ -86,7 +86,7 @@
                         <br />
                         <a href="/videolan/">VideoLAN non-profit</a>
                     </p>
-                    <p><a href=/contact.html>Your Name Here :)</p>
+                    <p><a href=/contact.html>Your Name Here :)</a></p>
 
                     <h3>Host</h3>
                     <p>

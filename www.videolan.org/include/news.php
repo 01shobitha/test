@@ -86,7 +86,7 @@
         }
     }
     fclose($file);
-    echo ("</div>");
+    echo ("</div><!-- english only news -->");
 }
 
 function shownews_mockup($style,$max) {

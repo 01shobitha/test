@@ -109,8 +109,10 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
             <div class="row">
                 <div class="col-md-12" style='text-align: center; line-height: 14px; font-size: 9px; color: #999;'>
                     <p>
-                        <a href='/legal.html'><?php echo _("Legal"); ?></a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
+                        <a href='/legal.html'><?php echo _("Legal"); ?></a>
                         <span dir="ltr" lang="en">
+                            | <a href='/contact.html'>Report Trademark Abuse</a><br />
+
                             VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="/videolan">VideoLAN non-profit organization.</a><br />
                             VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.
                         </span>

@@ -259,6 +259,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                         </a>
                     </span>
                 </h1>
+                <span lang=""><!-- tweets are often english, but some are french and we even retweeted arabic or similar, so the empty lang is intentional -->
                 <?php
                 $rss = fetch_rss("http://www.videolan.org/_twitter/userrss.php?xrt=0&xrp=1&c=40");
                 $i = 0;
@@ -266,7 +267,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                 $entries_per_column = 5;
                 $columns = 1;
                 foreach ($rss->items as $item) {
-                    echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr; text-align: left;">';
+                    echo '<p dir='ltr' style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px; text-align: left;">';
                     echo preg_replace(array('^(http://\S+)^is', '^(https://\S+)^is'), '<a href="$1">$1</a>', str_replace("videolan:", "<b>" . date("Y-m-d h:i", strtotime($item['pubdate'])) . "</b>", $item['title']));
                     echo "</p>";
                     $i++;
@@ -274,6 +275,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                     if ($i % $entries_per_column == 0) echo "</td><td>";
                 }
                 ?>
+                </span>
             </div>
         </div>
     </div>

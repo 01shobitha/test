@@ -42,11 +42,11 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 			    <div class="inner center-xs">
 			        <div class="btn-group;width:360px">
                         <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
-                        <a href="http://www.amazon.com/VLC-Mobile-Team-for-Fire/dp/B00U65KQMQ"><img src="/images/badges/Amazon-apps-black.png" height="60px" /></a>
+                        <a href="http://www.amazon.com/VLC-Mobile-Team-for-Fire/dp/B00U65KQMQ"><img src="/images/badges/Amazon-apps-black.png" height="60" /></a>
 			        </div>
 			        <div id="downloadDetails">
 			            Version <span id='downloadVersion'>
-			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span></span>
+			            <?php echo $defaultDetail["latestVersion"] ?></span>&nbsp;&#8226;&nbsp;<span id='downloadOS'><?php echo $defaultDetail["name"]; ?></span>
                         <br>
                         or download the <a href="//get.videolan.org/vlc-android/<?php echo $androidversion; ?>/">APK package</a> from our mirrors.
 			        </div>

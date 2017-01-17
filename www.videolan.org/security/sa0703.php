@@ -57,7 +57,7 @@ the Exploit Writers team of Core Security Technologies.
 <a href="http://www.coresecurity.com/index.php5?module=ContentMod&action=item&id=2035">Advisory CORE-2007-1004</a>
 </dd>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 </dl>
 <h2>History</h2>

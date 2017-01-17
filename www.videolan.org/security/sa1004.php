@@ -55,7 +55,7 @@ from the corresponding official VLC source code repositories.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>FortiGuard Labs</dt>
 <dd><a href="http://www.fortinet.com/">http://www.fortinet.com/</a>

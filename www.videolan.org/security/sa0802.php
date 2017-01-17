@@ -56,7 +56,7 @@ are credited with the discovery of this security issue.
 <dd><a href="http://www.coresecurity.com/">http://www.coresecurity.com/</a>
 </dd>
 <dt>The VideoLAN Project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 </dl>
 <h2>History</h2>

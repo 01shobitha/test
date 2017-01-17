@@ -40,7 +40,7 @@ until the patch is applied.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc/vlc-2.1.git">http://git.videolan.org/?p=vlc.git</a>

@@ -107,7 +107,7 @@ href="/developers/">developer's website</a>. </p>
 <?php panel_start( "blue" ); ?>
 <h1>How to compile?</h1>
 
-<p> Please have a look at VLC's sub-page on the <a href="/developers/vlc.html">developers website</a>. There are detailed descriptions for most systems, supported by VLC. If something is not mentioned there, searching the <a href="http://forum.videolan.org/">forum</a> is worth a try. </p>
+<p> Please have a look at VLC's sub-page on the <a href="/developers/vlc.html">developers website</a>. There are detailed descriptions for most systems, supported by VLC. If something is not mentioned there, searching the <a href="https://forum.videolan.org/">forum</a> is worth a try. </p>
 
 <?php panel_end(); ?>
 

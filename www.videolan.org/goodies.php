@@ -318,7 +318,7 @@ endorsement by the project.</pre>
                 </a>
                 <div class="caption">
                     <p>Cone made by Stephane Soppera (with Blender)</p>
-                    <p>Download: <a href="http://images.videolan.org/images/goodies/cone10-soppera.blend">Blender</a></p>
+                    <p>Download: <a href="//images.videolan.org/images/goodies/cone10-soppera.blend">Blender</a></p>
                 </div>
             </div>
         </div>
@@ -356,7 +356,7 @@ endorsement by the project.</pre>
                 </a>
                 <div class="caption">
                     <p>A christmas cone made by Geoffrey Roussel</p>
-                    <p>Download: <a href="http://images.videolan.org/images/goodies/vlcNoyel.blend">Blender</a></p>
+                    <p>Download: <a href="//images.videolan.org/images/goodies/vlcNoyel.blend">Blender</a></p>
                 </div>
             </div>
         </div>
@@ -729,9 +729,9 @@ endorsement by the project.</pre>
     has been built by <a href="http://www.jpsaman.org/">Jean-Paul Saman</a> on RH 9.0, but should also be
     useable on SuSE, Mandrake and other RPM-aware distributions.</p>
     <p>To install the package:</p>
-    <p>Download the rpm here: <code><a href="http://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a></code>.</p>
+    <p>Download the rpm here: <code><a href="//images.videolan.org/images/backup/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a></code>.</p>
     <p>Use <code>rpm ivh -prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm</code> to relocated the installed images to a new location on e.g: SuSE systems.</p>
-    <p>The source package can be found <a href="http://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
+    <p>The source package can be found <a href="//images.videolan.org/images/backup/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 
 </section>
 
@@ -767,24 +767,24 @@ endorsement by the project.</pre>
 
     <h2 id="banners">Banners</h2>
 
-    <p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
+    <p class="center"><a href="//www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
     <img src="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" alt="Get VLC media player" height="45" width="110"></a></p>
     <p>
     Use the following code to include this banner in your site:</p>
-    <pre>&lt;a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
-    &lt;img src="http://www.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /&gt;
+    <pre>&lt;a href="//www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
+    &lt;img src="//www.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /&gt;
 &lt;/a&gt;
     </pre>
     <p>
     The following sizes are available:</p>
     <ul class="bullets">
     <li>
-    <a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png">Small banner</a></li>
+    <a href="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png">Small banner</a></li>
     <li>
-    <a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_120.png">Medium banner</a></li>
-    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_150.png">Large banner</a></li>
-    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.png">Supersized banner</a></li>
-    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.psd">Original Photoshop document</a></li>
+    <a href="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_120.png">Medium banner</a></li>
+    <li><a href="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_150.png">Large banner</a></li>
+    <li><a href="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC.png">Supersized banner</a></li>
+    <li><a href="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC.psd">Original Photoshop document</a></li>
     </ul>
 
     <p>This banner was created by
@@ -793,15 +793,15 @@ endorsement by the project.</pre>
     </p>
 
     <p>Another banner made by Gen:</p>
-    <p><a href="http://www.videolan.org/vlc/index.html"><img src="//images.videolan.org/images/goodies/getvlc.png" class="nofix" style="vertical-align: middle; border-width: 0px;" alt="get VLC !" height="15" width="80"></a>
+    <p><a href="//www.videolan.org/vlc/index.html"><img src="//images.videolan.org/images/goodies/getvlc.png" class="nofix" style="vertical-align: middle; border-width: 0px;" alt="get VLC !" height="15" width="80"></a>
     </p>
 
     <p>And another one by snis:</p>
     <p><img src="//images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"><br><img src="//images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"></p>
-    <p>Get <a href="http://images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
+    <p>Get <a href="//images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
 
     <p>An older banner:</p>
-    <p><a href="http://www.videolan.org/vlc/index.html"><img src="//images.videolan.org/images/goodies/getvlcnow.png" style="vertical-align: middle; border-width: 0px;" alt="get VLC NOW!" height="32" width="100"></a>
+    <p><a href="//www.videolan.org/vlc/index.html"><img src="//images.videolan.org/images/goodies/getvlcnow.png" style="vertical-align: middle; border-width: 0px;" alt="get VLC NOW!" height="32" width="100"></a>
     </p>
 
 </section>

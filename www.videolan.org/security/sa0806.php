@@ -48,7 +48,7 @@ and adds further sanity checks to the RIFF WAVE demuxers.
 <dd><a href="http://secunia.com/">http://secunia.com/</a>
 </dd>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 </dl>
 <h2>History</h2>

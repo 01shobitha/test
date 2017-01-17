@@ -46,7 +46,7 @@ code repositories.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>Patch for VLC 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0</dt>
 <dd><a href="http://git.videolan.org/?p=vlc/vlc-1.1.git;a=commit;h=b531955c2206c88250cacc511793facc32cbced6">commit b531955c2206c88250cacc511793facc32cbced6</a>

@@ -41,9 +41,9 @@
 
     <h3>Documentation</h3>
     <p>You can access our
-     <a href="http://wiki.videolan.org/Documentation">Documentation</a>,
-    especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback documentation</a> and
-    <a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming documentation</a>.</p>
+     <a href="https://wiki.videolan.org/Documentation">Documentation</a>,
+    especially <a href="https://wiki.videolan.org/Documentation:Play_HowTo">VLC playback documentation</a> and
+    <a href="https://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming documentation</a>.</p>
 
     <hr />
     <h1 id="help">Help and Support</h1>
@@ -52,23 +52,23 @@
             <h3>You have a Usage Problem</h3>
             <p>If you have problems using our software, you should:</p>
             <ul class="bullets">
-                <li>Use the <a href="http://wiki.videolan.org/Common_Problems">troubleshooting guide</a></li>
+                <li>Use the <a href="https://wiki.videolan.org/Common_Problems">troubleshooting guide</a></li>
                 <li>
-                    <a href="http://forum.videolan.org/search.php">Search</a> the official
-                    <a href="http://forum.videolan.org/">forum</a> for an answer
+                    <a href="https://forum.videolan.org/search.php">Search</a> the official
+                    <a href="https://forum.videolan.org/">forum</a> for an answer
                 </li>
-                <li>Read the <a href="http://wiki.videolan.org">Wiki</a></li>
+                <li>Read the <a href="https://wiki.videolan.org">Wiki</a></li>
             </ul>
         </div>
 
         <div class="col-md-6">
             <h3>You want to ask a question</h3>
             <p>
-                To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong> using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.
+                To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong> using the <a href="https://wiki.videolan.org/VLC_report">VLC report page</a>.
             </p>
             <p>Then ask your question, on:</p>
             <ul class="bullets">
-                <li>Our <a href="http://forum.videolan.org">Forum</a>, in the correct section</li>
+                <li>Our <a href="https://forum.videolan.org">Forum</a>, in the correct section</li>
                 <li>
                     Our live-chat IRC channel on the <a href="http://www.freenode.net">Freenode</a> Network:<br />
                     Server: <code>irc.freenode.org</code></br>
@@ -83,7 +83,7 @@
     <div class="row">
         <div class="col-md-4">
             <h1 id="bugs">Reporting bugs <br/><small>and feature requests</small></h1>
-            <p>Please read our <a href="http://wiki.videolan.org/Report_bugs">reporting bugs policy</a>.</p>
+            <p>Please read our <a href="https://wiki.videolan.org/Report_bugs">reporting bugs policy</a>.</p>
 
             <h3>VLC bug tracker</h3>
             <p>Go to the <a href="https://trac.videolan.org/vlc/"><b>VLC</b> bug reporting site</a>.</p>

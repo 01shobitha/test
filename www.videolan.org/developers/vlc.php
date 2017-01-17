@@ -12,34 +12,34 @@ See the <a href="http://www.videolan.org/vlc/">VLC page</a> if you are not willi
 
 <h2>Developers' Wiki</h2>
 <p>As VLC media player evolves really fast, a lot of the documentation and tools information 
-has move to a <a href="http://wiki.videolan.org/Developers_Corner">wiki</a>.
+has move to a <a href="https://wiki.videolan.org/Developers_Corner">wiki</a>.
 Check it out!</p>
 
 <h2>Get VLC Source Code</h2>
 
 <p><code>VLC</code> is available through 
-<a href="http://wiki.videolan.org/Git">Git</a> or by
+<a href="https://wiki.videolan.org/Git">Git</a> or by
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>.</p>
 
 <p> You can also see the 
 <a href="http://trac.videolan.org/vlc/browser/NEWS?format=txt">release notes</a> and the 
 <a href="http://trac.videolan.org/vlc/browser/ChangeLog?format=txt">ChangeLog</a>.
-You can also give an eye on the <a href="http://wiki.videolan.org/GetTheSource">"Get the source" wiki page</a>.</p>
+You can also give an eye on the <a href="https://wiki.videolan.org/GetTheSource">"Get the source" wiki page</a>.</p>
 
 
 <h2>Coding VLC</h2>
 
 <p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments.<br /> 
 Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
-<p>Please try to keep to our <a href="http://wiki.videolan.org/Code_Conventions">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
-<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the Git tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the master head, you could follow <a href="http://wiki.videolan.org/Git#Submitting_patches_to_the_vlc-devel">those instructions</a>.</p>
+<p>Please try to keep to our <a href="https://wiki.videolan.org/Code_Conventions">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
+<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the Git tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the master head, you could follow <a href="https://wiki.videolan.org/Git#Submitting_patches_to_the_vlc-devel">those instructions</a>.</p>
 <p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below.</p>
 
 <h2>Developer Documentation</h2>
 
 <p>Some documentation is still on this website, but since VLC evolves fast, some has 
 been moved to the 
-<a href="http://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
+<a href="https://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
 </p>
 <table border="0">
 <tr>
@@ -102,7 +102,7 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
 <h2>Wiki Documentation</h2>
 
 <p>This part of the documentation has been moved to the 
-<a href="http://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
+<a href="https://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
 This page remains here for compatibility reasons.</p>
 <table border="0">
 <tr>
@@ -118,7 +118,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
   <td>
-     <a href="http://wiki.videolan.org/VideolanStringGuidelines">Wiki</a>
+     <a href="https://wiki.videolan.org/VideolanStringGuidelines">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
@@ -132,7 +132,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
   </td>
    <td>
-     <a href="http://wiki.videolan.org/UnixCompile">Wiki</a>
+     <a href="https://wiki.videolan.org/UnixCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
@@ -146,7 +146,7 @@ This page remains here for compatibility reasons.</p>
      Incomplete
   </td>
    <td>
-     <a href="http://wiki.videolan.org/ARM-XCompile">Wiki</a>
+     <a href="https://wiki.videolan.org/ARM-XCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:jpsaman_at_videolan_dot_org">Jean-Paul Saman</a>
@@ -172,7 +172,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
  <td>
-     <a href="http://wiki.videolan.org/Win32CompileCygwin">Wiki</a>
+     <a href="https://wiki.videolan.org/Win32CompileCygwin">Wiki</a>
    </td>
    <td>
      <a href="mailto:trax_@_videolan_dot_org">Trax</a>
@@ -185,7 +185,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
  <td>
-     <a href="http://wiki.videolan.org/Win32CompileMSYS">Wiki</a>
+     <a href="https://wiki.videolan.org/Win32CompileMSYS">Wiki</a>
    </td>
    <td>
      <a href="mailto:trax_@_videolan_dot_org">Trax</a>
@@ -198,7 +198,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
   </td>
    <td>
-     <a href="http://wiki.videolan.org/OSXCompile">Wiki</a>
+     <a href="https://wiki.videolan.org/OSXCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
@@ -211,7 +211,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
   <td>
-     <a href="http://wiki.videolan.org/BeOSCompile">Wiki</a>
+     <a href="https://wiki.videolan.org/BeOSCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:titer@videolan.org">Eric Petit</a>
@@ -221,7 +221,7 @@ This page remains here for compatibility reasons.</p>
 <tr>
   <td class="category">DirectFB plugin Compile HOWTO</td>
   <td class="yes">Up-to-date</td>   
-  <td><a href="http://wiki.videolan.org/DirectFB_Compile">Wiki</a></td>
+  <td><a href="https://wiki.videolan.org/DirectFB_Compile">Wiki</a></td>
   <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a></td>
 </tr>
 
@@ -243,7 +243,7 @@ start.</p>
 
 <h2 id="thirdparty">Third party libraries used by VLC</h2>
 
-<p>You'll find a complete list on the <a href="http://wiki.videolan.org/Contrib_Status">wiki</a>.</p>
+<p>You'll find a complete list on the <a href="https://wiki.videolan.org/Contrib_Status">wiki</a>.</p>
 <p>But, here are the most important libraries.</p>
 
 <b>Audio/Video codecs</b>

@@ -61,8 +61,8 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
                 <div class="col-xs-6 col-md-2">
                     <div class='footerHeading'><?php echo _("Community"); ?></div>
                     <ul>
-                        <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
-                        <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
+                        <li><a href='https://wiki.videolan.org/'>Wiki</a></li>
+                        <li><a href='https://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
                         <li><a href="<?php getLink('/support/lists.php'); ?>"><?php echo _("Mailing-Lists"); ?></a></li>
                         <li><a href="<?php getLink('/support/faq.html'); ?>"><?php echo _("FAQ"); ?></a></li>
                         <li><a href="<?php getLink('/contribute.html#money'); ?>"><?php echo _("Donate money"); ?></a></li>

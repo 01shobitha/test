@@ -38,13 +38,13 @@
         </a>
     </p>
 
-    <p><code>libbluray</code> is also available through <a href="http://wiki.videolan.org/git">git</a> at:</p>
+    <p><code>libbluray</code> is also available through <a href="https://wiki.videolan.org/git">git</a> at:</p>
     <pre><code>git clone http://git.videolan.org/git/libbluray.git</code></pre>
     <p>you can browse the source code at  <a href="http://git.videolan.org/?p=libbluray.git">git.videolan.org</a>.</p>
 
 
     <h2>Mailing list</h2>
-    <p>You can discuss about libbluray on the <a href="http://mailman.videolan.org/listinfo/libbluray-devel">libbluray-devel mailing list</a>.</p>
+    <p>You can discuss about libbluray on the <a href="https://mailman.videolan.org/listinfo/libbluray-devel">libbluray-devel mailing list</a>.</p>
 
 
     <h2>Légal</h2>

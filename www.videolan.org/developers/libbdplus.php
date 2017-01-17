@@ -35,12 +35,12 @@
         </a>
     </p>
 
-    <p><code>libbdplus</code> is also available through <a href="http://wiki.videolan.org/Git">Git</a> at:</p>
+    <p><code>libbdplus</code> is also available through <a href="https://wiki.videolan.org/Git">Git</a> at:</p>
     <pre><code>git clone http://git.videolan.org/git/libbdplus.git</code></pre>
     <p>You can browse the source code at  <a href="http://git.videolan.org/?p=libbdplus.git">git.videolan.org</a>.</p>
 
     <h2>Mailing list</h2>
-    <p>You can discuss about libbdplus on the <a href="http://mailman.videolan.org/listinfo/libbdplus-devel">libbdplus-devel mailing list</a>.</p>
+    <p>You can discuss about libbdplus on the <a href="https://mailman.videolan.org/listinfo/libbdplus-devel">libbdplus-devel mailing list</a>.</p>
 
     <h2>Legal</h2>
     <p><code>libbdplus</code> does not infringe DRM's right or copyright. See more on our <a href="/legal.html">legal page</a>.</p>

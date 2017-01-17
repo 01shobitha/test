@@ -9,10 +9,10 @@ echo $url;
 <html>
   <head>
     <title>VideoLAN - Download skin</title>
-    <meta http-equiv="refresh" content="0; url=http://www.videolan.org/vlc/skins2/<?php echo $url; ?>" />
+    <meta http-equiv="refresh" content="0; url=//www.videolan.org/vlc/skins2/<?php echo $url; ?>" />
   </head>
   <body>
-    <p>Click <a href="http://www.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
+    <p>Click <a href="//www.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
 <?php
   if( $url != "" )
   { 

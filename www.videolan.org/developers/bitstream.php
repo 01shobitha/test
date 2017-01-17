@@ -61,7 +61,7 @@
 
     <h2>Get biTStream</h2>
     <p>The latest <code>biTStream</code> release is <a href="https://get.videolan.org/bitstream/1.1/"><b>version 1.1</b></a>.</p>
-    <p><code>biTStream</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:</p>
+    <p><code>biTStream</code> is available through <a href="https://wiki.videolan.org/git">git</a> at:</p>
     <pre><code>git clone https://code.videolan.org/videolan/bitstream.git</code></pre>
 
     <p>All releases can be found by browsing the <a href="https://get.videolan.org/bitstream/"><b>releases</b></a>.</p>

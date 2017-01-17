@@ -47,7 +47,7 @@ Patches for older versions will be available through the git repositories
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <?php /* <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc.git;a=commit;h=7d282fac1cc455b5a5eca2bb56375efcbf879b06">http://git.videolan.org/?p=vlc.git</a>

@@ -37,7 +37,7 @@
     <h2>Get libdvbpsi</h2>
     <p>The latest <code>libdvbpsi</code> (LGPL v2.1) release <a href="/pub/libdvbpsi/1.3.0/"><b>version 1.3.0</b></a>. Note: the API has changed since version 0.2.2 you need to update your applications.</p>
     <p>The latest <code>libdvbpsi</code> GPL v2 release is <a href="/pub/libdvbpsi/0.1.7/"><b>version 0.1.7</b></a>.</p>
-    <p><code>libdvbpsi</code> source code is available through <a href="http://wiki.videolan.org/git">git</a> at:</p>
+    <p><code>libdvbpsi</code> source code is available through <a href="https://wiki.videolan.org/git">git</a> at:</p>
     <pre><code>git clone http://git.videolan.org/git/libdvbpsi.git</code></pre>
     <p>The stable release source code archive is available through:</p>
     <pre><code>git checkout -t origin/branch/1.3.0-bugfix</code></pre>
@@ -47,7 +47,7 @@
 
 
     <h2>Mailing list</h2>
-    <p>You can discuss about libdvbpsi on the <a href="http://mailman.videolan.org/listinfo/libdvbpsi-devel">libdvbpsi-devel mailing list</a>.</p>
+    <p>You can discuss about libdvbpsi on the <a href="https://mailman.videolan.org/listinfo/libdvbpsi-devel">libdvbpsi-devel mailing list</a>.</p>
 
 
     <h2>Documentation</h2>

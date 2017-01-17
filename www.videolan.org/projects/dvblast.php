@@ -76,7 +76,7 @@
             <h2>Support</h2>
             <p>User support and development is handled in the <a href="/developers/lists.html">dvblast-devel</a> mailing-list.</p>
             <h2>Development</h2>
-            <p>Hackers can participate to the development using <a href="http://wiki.videolan.org/Git">git</a>.</p>
+            <p>Hackers can participate to the development using <a href="https://wiki.videolan.org/Git">git</a>.</p>
             <p>The code is accessible from <code>https://code.videolan.org/videolan/dvblast.git</code> and
             you can <a href="https://code.videolan.org/videolan/dvblast.git">browse the source online</a></p>
         </div>

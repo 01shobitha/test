@@ -15,7 +15,7 @@ until further notice.
 </p>
 <p>Sorry for the inconvenience.</p>
 
-<p style="font-size:18px">Some VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
+<p style="font-size:18px">Some VLC documentation is available on the <a href='https://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
 
 <?php
 /*
@@ -334,7 +334,7 @@ until further notice.
  <h1> VideoLAN Wiki </h1> 	 
   	 
  <p>The VideoLAN Wiki is at <a 	 
- href="http://wiki.videolan.org">http://wiki.videolan.org/</a></p> 	 
+ href="https://wiki.videolan.org">https://wiki.videolan.org/</a></p> 	 
   	 
  <p>The Wiki is a website that anyone can change. Its goal is to document 	 
  all that is not in the official documentation: tips and tricks for each 	 
@@ -344,7 +344,7 @@ until further notice.
 <?php panel_start( "orange" ); ?>
  <h1>Still lost? - Forums</h1>
 
-<p>Try <a href="http://forum.videolan.org/search.php">searching</a> the VideoLAN <a href="http://forum.videolan.org">Forum</a>. A lot of information can be found here.</p>
+<p>Try <a href="https://forum.videolan.org/search.php">searching</a> the VideoLAN <a href="https://forum.videolan.org">Forum</a>. A lot of information can be found here.</p>
 <?php panel_end(); ?>
 
 </div>

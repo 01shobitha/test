@@ -19,7 +19,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                 <a href="http://videolabs.io/">
-                <img src="http://images.videolan.org/images/partners/videolabs.png" class="img-responsive center-block" alt="Videolabs" width="200" />
+                <img src="//images.videolan.org/images/partners/videolabs.png" class="img-responsive center-block" alt="Videolabs" width="200" />
             </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -34,7 +34,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://openheadend.tv/">
-                        <img src="http://images.videolan.org/images/partners/openheadend.png" class="img-responsive center-block" alt="OpenHeadEnd" width="200" />
+                        <img src="//images.videolan.org/images/partners/openheadend.png" class="img-responsive center-block" alt="OpenHeadEnd" width="200" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -49,7 +49,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.m2x.eu/">
-                        <img src="http://images.videolan.org/images/partners/m2x.png" class="img-responsive center-block" alt="M2X" width="200" />
+                        <img src="//images.videolan.org/images/partners/m2x.png" class="img-responsive center-block" alt="M2X" width="200" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -78,7 +78,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://free.fr/">
-                        <img src="http://images.videolan.org/images/partners/free.gif" class="img-responsive center-block" width="150" alt="Free" height="75" />
+                        <img src="//images.videolan.org/images/partners/free.gif" class="img-responsive center-block" width="150" alt="Free" height="75" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -94,7 +94,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.gandi.net/">
-                        <img src="http://images.videolan.org/images/partners/gandi.png" class="img-responsive center-block" width="200" alt="Gandi" />
+                        <img src="//images.videolan.org/images/partners/gandi.png" class="img-responsive center-block" width="200" alt="Gandi" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -113,7 +113,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.anevia.com/">
-                        <img src="http://images.videolan.org/images/partners/anevia.jpg" class="img-responsive center-block" width="200" alt="Anevia" />
+                        <img src="//images.videolan.org/images/partners/anevia.jpg" class="img-responsive center-block" width="200" alt="Anevia" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -129,7 +129,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.andrewbeveridge.co.uk">
-                        <img src="http://images.videolan.org/images/partners/ab.png" class="img-responsive center-block" width="100" height="80" alt="AB" />
+                        <img src="//images.videolan.org/images/partners/ab.png" class="img-responsive center-block" width="100" height="80" alt="AB" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -141,7 +141,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.ecp.fr/">
-                        <img src="http://images.videolan.org/images/partners/logoECP.png" class="img-responsive center-block" width="100" alt="ECP" height="80" />
+                        <img src="//images.videolan.org/images/partners/logoECP.png" class="img-responsive center-block" width="100" alt="ECP" height="80" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -183,7 +183,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.pugetsystems.com/">
-                        <img src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" class="img-responsive center-block" />
+                        <img src="//images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -211,7 +211,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://epitech.eu/">
-                        <img src="http://images.videolan.org/images/partners/epitech.jpg" width="190" alt="Epitech" class="img-responsive center-block" />
+                        <img src="//images.videolan.org/images/partners/epitech.jpg" width="190" alt="Epitech" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -228,7 +228,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="http://www.wdc.com">
-                        <img src="http://images.videolan.org/images/partners/wdlogo.jpg" width="150" alt="WD" class="img-responsive center-block" />
+                        <img src="//images.videolan.org/images/partners/wdlogo.jpg" width="150" alt="WD" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -245,7 +245,7 @@
             <div class="row card">
                 <div class="col-md-2 v-align display-block-xs display-block-sm">
                     <a href="https://metabrainz.org">
-                        <img src="http://images.videolan.org/images/partners/metabrainz.svg" width="200" alt="MetaBrainz Foundation" class="img-responsive center-block" />
+                        <img src="//images.videolan.org/images/partners/metabrainz.svg" width="200" alt="MetaBrainz Foundation" class="img-responsive center-block" />
                     </a>
                 </div>
                 <div class="col-md-10 v-align">
@@ -273,20 +273,20 @@
   <tr>
     <td  style="text-align:-center">
         <p class="center"><a href="http://www.hp.com"><img
-        src="http://images.videolan.org/images/partners/hpinvent.gif" alt="HP" /></a></p>
+        src="//images.videolan.org/images/partners/hpinvent.gif" alt="HP" /></a></p>
     </td>
     <td>
 
          <p>HP gave a DL 385 server which is now running
          most of the VideoLAN web sites and developement
-         tools : <a href="http://www.videolan.org">WWW</a>,
-         <a href="http://forum.videolan.org">Forum</a>, <a
+         tools : <a href="//www.videolan.org">WWW</a>,
+         <a href="https://forum.videolan.org">Forum</a>, <a
      href="http://download.videolan.org/pub/videolan/">Downloads</a>,
-<a href="http://wiki.videolan.org/Subversion">SVN</a> and
+<a href="https://wiki.videolan.org/Subversion">SVN</a> and
          <a href="https://trac.videolan.org">Trac</a>. This web
          server was shipped with two AMD opteron 2.4 GHz CPUs, 8 GB
          RAM and 4 36 GB SCSI hard drives. VideoLAN also won a <a
-         href="http://images.videolan.org/images/sirius1.png">nice
+         href="//images.videolan.org/images/sirius1.png">nice
          HP laptop</a> at <a
          href=""
          >Journées du Libre</a>.</p>

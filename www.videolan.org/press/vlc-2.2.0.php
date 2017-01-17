@@ -81,7 +81,7 @@ VideoLAN is a non-profit organization, with no employees, that supports the deve
 />There is no business model under VLC usage, and VLC is completely free: we don't use any ads, any spyware or other mis-features, that could be deceptive to the users.<br
 />
 <h2>Links</h2>
-VLC: <a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br />
+VLC: <a href="//www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br />
 VLC 2.2.0 <a href="/vlc/releases/2.2.0.html">http://www.videolan.org/vlc/releases/2.2.0.html</a><br
 />VLC for Android and Android TV:<br
 /><a href="https://play.google.com/store/apps/details?id=org.videolan.vlc">https://play.google.com/store/apps/details?id=org.videolan.vlc</a><br

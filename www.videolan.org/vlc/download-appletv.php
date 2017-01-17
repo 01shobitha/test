@@ -70,7 +70,7 @@
 <p class="projectDescription">VLC for Apple TV requires tvOS 9.0 or later. It runs on the fourth generation Apple TV. Previous devices are not supported.</p>
 
 <h2> Support </h2>
-<p class="projectDescription">You need help with VLC for Apple TV? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
+<p class="projectDescription">You need help with VLC for Apple TV? Be sure to check <a href="https://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
 
 <h2> Source </h2>
 <p class="projectDescription">You can find the source code for the latest release here:</p>

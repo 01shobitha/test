@@ -52,7 +52,7 @@ An exploit was posted on exploit-db by Vinay Katoch.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>Patch for VLC 1.1.3, 1.1.2, 1.1.1, 1.1.0</dt>
 <dd><a href="http://git.videolan.org/?p=vlc/vlc-1.1.git;a=commit;h=43a31df56c37bd62c691cdbe3c1f11babd164b56">commit 43a31df56c37bd62c691cdbe3c1f11babd164b56</a>

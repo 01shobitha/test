@@ -52,7 +52,7 @@
  hurry. Our software is free, but webspace and bandwidth aren't." </p>
 
  <p> <b>About VideoLAN:</b> VideoLAN (<a
- href="http://www.videolan.org/">http://www.videolan.org/</a>) is a project to
+ href="//www.videolan.org/">http://www.videolan.org/</a>) is a project to
  build open source, cross-platform multimedia tools. Their VLC media player
  is the most downloaded Mac OS X application according to versiontracker.com.
  </p>

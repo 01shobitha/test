@@ -46,7 +46,7 @@
 
     <p><i>Alien's VLC packages have no dependency on additional packages (except for libdvdcss if you want to play DVD's)</i></p>
 
-    <p>Instructions for building a package from source are available on the <a href="http://wiki.videolan.org/Slackware">VideoLAN Wiki</a></p>
+    <p>Instructions for building a package from source are available on the <a href="https://wiki.videolan.org/Slackware">VideoLAN Wiki</a></p>
 
     <h2> Packages on slacky.eu </h2>
 

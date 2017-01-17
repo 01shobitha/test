@@ -67,7 +67,7 @@ It also includes a widget for audio control, supports audio headsets control, co
 <p class="projectDescription">VLC for Chrome OS supports any Chromebook capable of running the latest version of Chrome OS.</p>
 
 <h2> Support </h2>
-<p class="projectDescription">You need help with VLC for Chrome OS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=35">our forum</a> and <a href="//www.videolan.org/support/">our support page</a>.</p>
+<p class="projectDescription">You need help with VLC for Chrome OS? Be sure to check <a href="https://forum.videolan.org/viewforum.php?f=35">our forum</a> and <a href="//www.videolan.org/support/">our support page</a>.</p>
 
 <h2>License </h2>
 <p class="projectDescription">VLC for Chrome OS is distributed under the <a href="http://opensource.org/licenses/GPL-3.0">GNU General Public License Version 3 or later</a>. You can modify or redistribute its sources under the conditions of this license. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>

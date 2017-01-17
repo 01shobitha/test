@@ -46,7 +46,7 @@ Rocco Calvi from stratsec on the VLC bug tracker.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN Project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>stratsec</dt>
 <dd><a href="http://www.stratsec.net/">http://www.stratsec.net/</a>

@@ -179,7 +179,7 @@
                     <div>2.1.2 fixes numerous bugs, notably numerous regressions introduced in "RinceWind".</div>
                     <div>Important fixes involve Audio devices management and SPDIF on Windows and Mac OS X.</div>
                     <div>2.1.2 also improves the Windows installer and updates most translations.</div>
-                    <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
+                    <div style="float: right;">Read the <a href="//www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>
             </div>

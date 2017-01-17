@@ -28,7 +28,7 @@
 
 
     <h2>Getting libdca</h2>
-    <p>Current release is <a href="http://download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2">libdca-0.0.5.tar.bz2</a></p>
+    <p>Current release is <a href="//download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2">libdca-0.0.5.tar.bz2</a></p>
     <p>The latest libdca source code can always be found in the <a href="https://code.videolan.org/videolan/libdca">GIT</a> repository:</p>
 
     <pre><code>$ git clone https://code.videolan.org/videolan/libdca</code></pre>
@@ -42,13 +42,13 @@
 
 
     <h2>Support</h2>
-    <p>For support information, have a look <a href="http://www.videolan.org/support/">here</a>.</p>
+    <p>For support information, have a look <a href="//www.videolan.org/support/">here</a>.</p>
     <p>A <a href="/lists.html">libdca-devel</a> mailing list is also available.</p>
 
 
     <h2>Projects using libdca</h2>
     <ul class="bullets">
-        <li><a href="http://www.videolan.org/">VLC media player</a>: a cross-platform video player and streaming solution.</li>
+        <li><a href="//www.videolan.org/">VLC media player</a>: a cross-platform video player and streaming solution.</li>
         <li><a href="http://sourceforge.net/projects/guliverkli/">Media Player Classic</a>: a win32 player just like WMP6.4 except that it has a lot more features.</li>
         <li><a href="http://xine.sourceforge.net/">Xine</a>: a free multimedia player.</li>
         <li><a href="http://ffmpeg.org/">FFmpeg</a>: a complete solution to record, convert and stream audio and video.</li>

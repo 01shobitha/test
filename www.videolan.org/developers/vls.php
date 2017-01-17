@@ -15,7 +15,7 @@ www.videolan.org. </p>
 
 <h2>Get VLS</h2>
 
-<p> <code>VLS</code> is available through <a href="http://wiki.videolan.org/Svn">Subversion</a> or by
+<p> <code>VLS</code> is available through <a href="https://wiki.videolan.org/Svn">Subversion</a> or by
 browsing the <a href="http://www.videolan.org/pub/vls/">releases</a>.</p>
 
 <p>For informations about the versions, see the 

@@ -18,7 +18,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
         <tr>
             <td>
-                <img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 15px" />
+                <img src="//images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 15px" />
             </td>
 
             <td>
@@ -28,12 +28,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                         <li ><strong>Programmers</strong>, to help us developing VLC.<br />
                             You should see the <a href="/developers/">developer documentation</a>,
                             subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
-                            a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
+                            a look at the <a href="https://trac.videolan.org/">bug-tracking system</a>,
                             join the <a href="/support/">IRC channel</a> to get help on how to start coding.</li>
                         <li ><strong>Writers</strong>, to help improve the documentation.</li>
                         <li ><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a>
                          <a href="/vlc">VLC</a> or other projects.</li>
-                        <li ><strong>Moderators &amp; Support</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists.</li>
+                        <li ><strong>Moderators &amp; Support</strong>, to answer on the <a href="https://forum.videolan.org">forums</a> and mailing lists.</li>
                         <li ><strong>Designers</strong>, for this website and VLC.</li>
                     </ul>
 
@@ -49,7 +49,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
         <tr>
             <td>
-                <img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px" />
+                <img src="//images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px" />
             </td>
 
             <td>
@@ -70,7 +70,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
         <tr>
             <td>
-                <img src="http://images.videolan.org/images/contribute-money.png" alt="" style="float: left; margin-right: 5px" />
+                <img src="//images.videolan.org/images/contribute-money.png" alt="" style="float: left; margin-right: 5px" />
             </td>
 
             <td>

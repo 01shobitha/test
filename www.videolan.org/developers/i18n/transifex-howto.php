@@ -110,7 +110,7 @@ If you are the only team member, you could pick me. This is just to have someone
 <h2>Start work</h2>
 
 <p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work, subscribe to the 
-<a href="http://mailman.videolan.org/listinfo/translators/">translators mailing list</a>: translators@videolan.org).</p>
+<a href="https://mailman.videolan.org/listinfo/translators/">translators mailing list</a>: translators@videolan.org).</p>
 
 <p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains 
 VLC media player (2.0.X and 2.1.X), translations for the website (only some pages), 

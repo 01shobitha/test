@@ -216,7 +216,7 @@
 				Audio desynchronisation compensation is limited by the cache size depending to the selected access module. This can be altered in the configuration panel.
 			</p>
 		</div>
-		Please, for the clueless people arguing that it doesn't work, include the information mentioned in the <cite>second post</cite> of <a href="http://forum.videolan.org/viewtopic.php?f=12&amp;t=19456&amp;p=61156&amp;hilit=desync#p61156">this thread</a> in The VideoLAN Forums exhaustingly, as by my nearly ever-lasting research on the same issue there are a lot of locations here and there where it isn't being mentioned unfortunately. Best if it was mentioned in the tooltip as well.
+		Please, for the clueless people arguing that it doesn't work, include the information mentioned in the <cite>second post</cite> of <a href="https://forum.videolan.org/viewtopic.php?f=12&amp;t=19456&amp;p=61156&amp;hilit=desync#p61156">this thread</a> in The VideoLAN Forums exhaustingly, as by my nearly ever-lasting research on the same issue there are a lot of locations here and there where it isn't being mentioned unfortunately. Best if it was mentioned in the tooltip as well.
 		<span style="font-size: x-small">Please do put this tag into the appropiate location or remove it once it is a documented feature inside the software, agreed?</span>
 	</div>
 
@@ -251,7 +251,7 @@
 
 	<h2 id="DoesntWork">My file doesn't seem to work!</h2>
 	<p>
-		Are you sure VLC supports the file? Try checking the <a href="http://www.videolan.org/vlc/features.html">features page</a>. If it supported and you compiled VLC yourself, check if you have downloaded and installed all the codecs correctly. If it is not supported, then you are out of luck for now.
+		Are you sure VLC supports the file? Try checking the <a href="//www.videolan.org/vlc/features.html">features page</a>. If it supported and you compiled VLC yourself, check if you have downloaded and installed all the codecs correctly. If it is not supported, then you are out of luck for now.
 	</p>
 
 	<h2 id="Subtitles">VLC doesn't display all subtitles</h2>

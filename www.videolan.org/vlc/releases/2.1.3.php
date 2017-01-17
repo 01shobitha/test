@@ -178,7 +178,7 @@
                     <div>2.1.3 fixes numerous bugs, notably numerous regressions introduced in "RinceWind" and 2.1.2.</div>
                     <div>Important fixes involve Audio and Video output management on most platforms.</div>
                     <div>2.1.3 also improves the demuxer and decoders for most formats, and the various interfaces.</div>
-                    <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
+                    <div style="float: right;">Read the <a href="//www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>
             </div>

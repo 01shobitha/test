@@ -43,7 +43,7 @@
         <div class="column col-xs-12 col-md-6">
             <h2>Getting x264</h2>
             <h3>Source</h3>
-            <p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
+            <p>The latest x264 source code can always be found by anonymous <a href="https://wiki.videolan.org/Git">git</a> repository:</p>
             <pre><code># git clone http://git.videolan.org/git/x264.git</code></pre>
             <p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
             <p>You can <a href="http://git.videolan.org/?p=x264.git;a=summary">browse the source</a> on-line.</p>
@@ -59,11 +59,11 @@
             <p><b>2013 May 20</b> &mdash; The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-May/010083.html">x264 Development Newsletter: Volume 37</a> is out.</p>
             <p><b>2013 May 4</b> &mdash; The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-May/010049.html">x264 Development Newsletter: Volume 36</a> is out.</p>
             <?php
-                /* <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
-                <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
-                <p><b>2011 April 26</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-April/008442.html">x264 Development Newsletter: Volume 15</a> is out.</p>
-                <p><b>2011 April 13</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-April/008388.html">x264 Development Newsletter: Volume 14</a> is out.</p>
-                <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-March/008353.html">x264 Development Newsletter: Volume 13</a> is out.</p> */
+                /* <p><b>2011 May 12</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
+                <p><b>2011 May 12</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
+                <p><b>2011 April 26</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2011-April/008442.html">x264 Development Newsletter: Volume 15</a> is out.</p>
+                <p><b>2011 April 13</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2011-April/008388.html">x264 Development Newsletter: Volume 14</a> is out.</p>
+                <p><b>2011 March 24</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2011-March/008353.html">x264 Development Newsletter: Volume 13</a> is out.</p> */
             ?>
         </div>
     </div>
@@ -108,7 +108,7 @@
         <div class="column col-xs-12 col-md-4">
             <h2>Support</h2>
             <p>For support information and to ask questions, you have the following possibilities:</p>
-            <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x264-devel">x264-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a> and <a href="irc://irc.freenode.net/x264dev">#x264dev@freenode</a>).</p>
+            <p>A mailing list (<a href="https://mailman.videolan.org/listinfo/x264-devel">x264-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a> and <a href="irc://irc.freenode.net/x264dev">#x264dev@freenode</a>).</p>
         </div>
         <div class="column col-xs-12 col-md-4">
             <h2>Bugs</h2>

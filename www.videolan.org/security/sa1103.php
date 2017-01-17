@@ -50,7 +50,7 @@ from the official VLC source code repositories.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc.git;a=commit;h=5637ca8141bf39f263ecdb62035d2cb45c740821">http://git.videolan.org/?p=vlc.git;a=commit;h=5637ca8141bf39f263ecdb62035d2cb45c740821</a>

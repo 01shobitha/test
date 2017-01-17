@@ -74,7 +74,7 @@
 <p class="projectDescription">VLC for iOS requires iOS 7.0 or later. It runs on any iPhone, iPad, or iPod touch. Previous releases for iOS 6.1 are available.</p>
 
 <h2> Support </h2>
-<p class="projectDescription">You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
+<p class="projectDescription">You need help with VLC for iOS? Be sure to check <a href="https://forum.videolan.org/viewforum.php?f=36">our forum</a>.</p>
 
 <h2> Source </h2>
 <p class="projectDescription">You can find the source code for the last release here:</p>

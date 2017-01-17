@@ -15,7 +15,7 @@
     <div class="row">
         <div class="column col-xs-12 col-md-6">
             <h2>About VLMa</h2>
-            <img style="border: 1px solid #bbb; padding: 1px" alt="VLMa logo" src="http://images.videolan.org/images/VLMa.png" />
+            <img style="border: 1px solid #bbb; padding: 1px" alt="VLMa logo" src="//images.videolan.org/images/VLMa.png" />
             <p>VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java.<br />
             It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad)
             and a web interface (called VLMaw).</p>
@@ -46,8 +46,8 @@
         </div>
         <div class="column col-xs-12 col-md-6">
             <h2>Screenshot</h2>
-            <a href="http://images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png">
-              <img style="height: 200px; border: 1px solid #bbb;" alt="DTT channel list" src="http://images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png" />
+            <a href="//images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png">
+              <img style="height: 200px; border: 1px solid #bbb;" alt="DTT channel list" src="//images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png" />
             </a>
         </div>
     </div>
@@ -58,7 +58,7 @@
         <div class="column col-xs-12 col-md-6">
             <h2>Support</h2>
             <p>For support information, have a look at <a href="/support/">our support page</a>.</p>
-            <p>A <a href="http://mailman.videolan.org/listinfo/vlma">mailing-list</a> and a <a href="http://forum.videolan.org/viewforum.php?f=30">forum</a> are also available.</p>
+            <p>A <a href="https://mailman.videolan.org/listinfo/vlma">mailing-list</a> and a <a href="https://forum.videolan.org/viewforum.php?f=30">forum</a> are also available.</p>
         </div>
         <div class="column col-xs-12 col-md-6">
             <h2>People using VLMa</h2>

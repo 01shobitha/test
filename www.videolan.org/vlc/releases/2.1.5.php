@@ -178,7 +178,7 @@
                     <div>2.1.5 fixes a few decoding bugs, on MP3, MKV, and hardware decoding on Windows.</div>
                     <div>It also fixes QTsound capture and audio channel orders for OS X.</div>
                     <div>2.1.5 also ships with updated GnuTLS and libpng libraries, because of security issues.</div>
-                    <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
+                    <div style="float: right;">Read the <a href="//www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>
             </div>

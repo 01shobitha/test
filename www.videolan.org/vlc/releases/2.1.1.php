@@ -180,7 +180,7 @@
                     <div>Important fixes involve Speex, WMV3, Alac and AVI decoding, but also numerous Mac OS X crashes
                          and GPU decoding on Windows.</div>
                     <div>2.1.1 also improves the Windows installer and updates most translations.</div>
-                    <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
+                    <div style="float: right;">Read the <a href="//www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>
             </div>

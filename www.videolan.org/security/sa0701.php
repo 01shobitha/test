@@ -96,18 +96,18 @@ as part of the <cite>Month Of Apple Bugs</cite> activity.
  >http://www.via.ecp.fr/via/ml/vlc-devel/2007-01/msg00005.html</a>
 </dd>
 <dt>Initial patch</dt>
-<dd><a href="http://trac.videolan.org/vlc/changeset/18481"
- >http://trac.videolan.org/vlc/changeset/18481</a>
+<dd><a href="https://trac.videolan.org/vlc/changeset/18481"
+ >https://trac.videolan.org/vlc/changeset/18481</a>
 </dd>
 <dt>VLC 0.8.6 official <strong>source code</strong> patch</dt>
 <dd><a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch"
- >http://www.videolan.org/patches/vlc-0.8.6-MOAB-02-01-2007.patch</a>
+ >http://www.videolan.org/security/patches/vlc-0.8.6-MOAB-02-01-2007.patch</a>
 </dd>
 <dd><a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc"
- >http://www.videolan.org/patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc</a>
+ >http://www.videolan.org/security/patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc</a>
 </dd>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>Public announce</dt>
 <dd><a

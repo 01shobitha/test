@@ -36,11 +36,11 @@
                 <p><b>2013 July 4</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2013-July/010170.html">x265 Development Newsletter: Volume 38</a> is out.</p>
                 <p><b>2013 May 20</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2013-May/010083.html">x265 Development Newsletter: Volume 37</a> is out.</p>
                 <p><b>2013 May 4</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2013-May/010049.html">x265 Development Newsletter: Volume 36</a> is out.</p>
-             /* <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-May/008508.html">x265 Development Newsletter: Volume 16</a> is out.</p>
-                <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-May/008508.html">x265 Development Newsletter: Volume 16</a> is out.</p>
-                <p><b>2011 April 26</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-April/008442.html">x265 Development Newsletter: Volume 15</a> is out.</p>
-                <p><b>2011 April 13</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-April/008388.html">x265 Development Newsletter: Volume 14</a> is out.</p>
-                <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-March/008353.html">x265 Development Newsletter: Volume 13</a> is out.</p>
+             /* <p><b>2011 May 12</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2011-May/008508.html">x265 Development Newsletter: Volume 16</a> is out.</p>
+                <p><b>2011 May 12</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2011-May/008508.html">x265 Development Newsletter: Volume 16</a> is out.</p>
+                <p><b>2011 April 26</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2011-April/008442.html">x265 Development Newsletter: Volume 15</a> is out.</p>
+                <p><b>2011 April 13</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2011-April/008388.html">x265 Development Newsletter: Volume 14</a> is out.</p>
+                <p><b>2011 March 24</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2011-March/008353.html">x265 Development Newsletter: Volume 13</a> is out.</p>
             </div>
 
         */
@@ -88,7 +88,7 @@
         <div class="column col-xs-12 col-md-4">
             <h2>Support</h2>
             <p>For support information and to ask questions, you have the following possibilities:</p>
-            <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x265-devel">x265-devel</a>), and IRC (<a href="irc://irc.freenode.net/x265">#x265@freenode</a> and <a href="irc://irc.freenode.net/x265dev">#x265dev@freenode</a>).</p>
+            <p>A mailing list (<a href="https://mailman.videolan.org/listinfo/x265-devel">x265-devel</a>), and IRC (<a href="irc://irc.freenode.net/x265">#x265@freenode</a> and <a href="irc://irc.freenode.net/x265dev">#x265dev@freenode</a>).</p>
         </div>
         <div class="column col-xs-12 col-md-4">
             <h2>Bugs</h2>

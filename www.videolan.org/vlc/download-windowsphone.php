@@ -67,7 +67,7 @@
 <p class="projectDescription">VLC for Windows Phone requires Windows Phone 8.1 or later. Earlier releases of the Windows Phone operating system are not supported.</p>
 
 <h2> Support </h2>
-<p class="projectDescription">You need help with VLC for Windows Store? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=37">our forum</a>.</p>
+<p class="projectDescription">You need help with VLC for Windows Store? Be sure to check <a href="https://forum.videolan.org/viewforum.php?f=37">our forum</a>.</p>
 
 <h2> Source </h2>
 <p class="projectDescription">You can find the source code for the latest release <a href="https://code.videolan.org/videolan/vlc-winrt/tags">here</a>.</p>

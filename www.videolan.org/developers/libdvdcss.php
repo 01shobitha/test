@@ -28,11 +28,11 @@
     <pre><code>deb-src http://download.videolan.org/pub/debian/stable/ /</code></pre>
     <p>And by running</p>
     <pre><code>wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc | sudo apt-key add -</code></pre>
-    <p><code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> or by browsing the <a href="//download.videolan.org/pub/libdvdcss/">releases</a>.</p>
+    <p><code>libdvdcss</code> is available through <a href="https://wiki.videolan.org/Git">Git</a> or by browsing the <a href="//download.videolan.org/pub/libdvdcss/">releases</a>.</p>
 
     <h3>Git checkout</h3>
     <pre><code>$ git clone http://code.videolan.org/videolan/libdvdcss.git</code></pre>
-    <p>You can also access the code <a href="http://code.videolan.org/videolan/libdvdcss">online</a>.</p>
+    <p>You can also access the code <a href="https://code.videolan.org/videolan/libdvdcss">online</a>.</p>
 
     <h2>Changelog and Documentation</h2>
     <p>You can see the <a href="libdvdcss/NEWS">release notes</a> and the <a href="libdvdcss/ChangeLog">ChangeLog</a>.</p>

@@ -57,7 +57,7 @@ videolan<span style="display: none;">removethis</span>@videolan.org
 <p>References&nbsp;:</p>
 <dl>
 <dt>VideoLAN project&nbsp;:</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a></dd>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a></dd>
 <dt>Free&nbsp;:</dt>
 <dd><a href="http://www.free.fr/">http://www.free.fr/</a></dd>
 <dt>&Eacute;cole Centrale Paris&nbsp;:</dt>

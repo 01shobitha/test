@@ -92,7 +92,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 <h1 class='clearme'>Help us!</h1>
 <h2>Test it</h2>
 <p class="projectDescription">We need help to test VLC under a variety of devices.<br />
-    Please join us on our <a href="http://forum.videolan.org/viewforum.php?f=35">forum</a> to provide feedback and get assistance with any issues you might have.</p>
+    Please join us on our <a href="https://forum.videolan.org/viewforum.php?f=35">forum</a> to provide feedback and get assistance with any issues you might have.</p>
 
 <h2>Send us phones</h2>
 <p class="projectDescription">If you are a phone manufacturer or have spare phones, please send them to us :)<br />

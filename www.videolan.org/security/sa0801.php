@@ -56,7 +56,7 @@ usability fixes. Version 0.8.6f implements additional security improvements to t
 <a href="http://aluigi.altervista.org/adv/vlcxhof-adv.txt">Heap overflow in sdpplin_parse and possible heap overflow in VideoLAN's VLC 0.8.6d</a>
 </dd>
 <dt>The VideoLAN Project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 </dl>
 <h2>History</h2>

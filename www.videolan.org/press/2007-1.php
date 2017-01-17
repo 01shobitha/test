@@ -24,7 +24,7 @@ of the new version 3 of its GNU General Public License (GPL)
 on the 29th of June 2007,
 contributors to the VLC media player,
 and other software projects hosted at <a
-href="http://www.videolan.org">videolan.org</a>,
+href="//www.videolan.org">videolan.org</a>,
 debated the possibility of <em>updating</em> the licensing terms
 for future version of the VLC media player and other hosted projects,
 to version 3 of the GPL.
@@ -122,7 +122,7 @@ References:
 </p>
 <dl>
 <dt>VLC media player</dt>
-<dd><a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
+<dd><a href="//www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
 </dd>
 <dt>GNU General Public License</dt>
 <dd><a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"

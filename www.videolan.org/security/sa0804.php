@@ -48,8 +48,8 @@ of the VideoLAN Team, notably Damien Fouilleul and R&eacute;mi Denis-Courmont.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://trac.videolan.org/vlc/ticket/1371">trac ticket #1371</a></dd>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="https://trac.videolan.org/vlc/ticket/1371">trac ticket #1371</a></dd>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 </dl>
 <h2>History</h2>

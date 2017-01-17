@@ -85,7 +85,7 @@ $sp_size = FormatSize( $r['size'] );
       <ul class="panel-blue-bullet">
         <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
         <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
-        <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
+        <li><a href="https://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
       </ul>    
     <p>
     You have made a new skin and want to share it?<br />

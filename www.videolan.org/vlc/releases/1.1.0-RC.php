@@ -152,7 +152,7 @@ If you link to this release, please use the following links.
 <a href="<?php echo getDownloadLink("vlc", "1.1.9", "win32/vlc-1.1.9-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 
 <h2>Issues</h2>
-<p>Please report issues on our <a href="http://forum.videolan.org">forum</a> in the <a href="http://forum.videolan.org/viewforum.php?f=34">1.1.0 section.</a> </p>
+<p>Please report issues on our <a href="https://forum.videolan.org">forum</a> in the <a href="https://forum.videolan.org/viewforum.php?f=34">1.1.0 section.</a> </p>
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

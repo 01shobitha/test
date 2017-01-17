@@ -92,7 +92,7 @@ function vlcskins($img,$thumb, $skin){
         ."<a href='//images.videolan.org/vlc/skins2/$img'><img
         src='//images.videolan.org/vlc/skins2/$thumb' alt='VLC media player' /></a>
     </div>";
-    echo "<a href='http://www.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
+    echo "<a href='//www.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
 }
         vlcskins('Preview.jpg', 'tm_Preview.jpg', 'eDark Vlc.vlt' );
         vlcskins('screen_vlc_def_mod.jpg', 'tm_screen_vlc_def_mod.jpg', 'default_mod_mentalrey.vlt' );

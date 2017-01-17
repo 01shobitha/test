@@ -40,7 +40,7 @@ Yes. Please check the legality of the distribution.</p>
 <p><b>Can I use "VLC" name for another application than VLC?</b><br />
 <b>NO</b>.</p>
 <p><b>I am interested in using libVLC or libVLCcore. Where can I contact you?</b><br />
-See how to <a href="http://www.videolan.org/contact.html">contact us</a>.</p>
+See how to <a href="//www.videolan.org/contact.html">contact us</a>.</p>
 <p><b>Why did you choose LGPLv2 instead of (L)GPLv3?</b><br />
 See http://www.videolan.org/press/2007-1.html</p>
 <p><b>Will this license change allow VLC to be available on the Apple stores?</b><br />

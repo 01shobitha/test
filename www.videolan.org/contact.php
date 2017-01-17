@@ -15,15 +15,15 @@
             <p>
                 For <a href="/vlc/">VLC media player</a> user-related questions, 
                 please see our <a href="/support/">Support section</a>.<br />
-                See also our <a href="http://wiki.videolan.org/">Wiki</a> and
-                our <a href="http://forum.videolan.org/">Forum</a>.
+                See also our <a href="https://wiki.videolan.org/">Wiki</a> and
+                our <a href="https://forum.videolan.org/">Forum</a>.
             </p>
         </div>
         <div class="col-md-6">
             <h2>VLC Development</h2>
             <p>
                 For <a href="/vlc/">VLC media player</a> developer questions,
-                please see our <a href="http://wiki.videolan.org/Developers_Corner">Developer section</a>.
+                please see our <a href="https://wiki.videolan.org/Developers_Corner">Developer section</a>.
             </p>
         </div>
     </div>

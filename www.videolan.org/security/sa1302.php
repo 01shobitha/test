@@ -47,7 +47,7 @@ macro with a static inline and improved bounds checking.</p>
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc.git;a=commit;h=b31ce523331aa3a6e620b68cdfe3f161d519631e">http://git.videolan.org/?p=vlc.git</a>

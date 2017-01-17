@@ -20,17 +20,17 @@
     <h2>Important mailing lists</h2>
     <p>The most important mailing-lists are:</p>
     <ul class="bullets">
-        <li><a href="http://mailman.videolan.org/listinfo/videolan-announce">Mailing list for announces of new software releases</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/vlc">Mailing list for VLC users</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/vlc-devel">Mailing list for VLC development</a> (for mobile ports: <a href="https://mailman.videolan.org/listinfo/android">Android</a>, <a href="https://mailman.videolan.org/listinfo/ios">iOS</a>)</li>
-        <li><a href="http://mailman.videolan.org/listinfo/x264-devel">Mailing list for x264 development</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/vlmc-devel">Mailing list for VLMC development</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/dvblast-devel">Mailing list for DVBlast development</a></li>
-        <li><a href="http://mailman.videolan.org/listinfo/libdvdcss-devel">Mailing list for libdvdcss development</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/videolan-announce">Mailing list for announces of new software releases</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/vlc">Mailing list for VLC users</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/vlc-devel">Mailing list for VLC development</a> (for mobile ports: <a href="https://mailman.videolan.org/listinfo/android">Android</a>, <a href="https://mailman.videolan.org/listinfo/ios">iOS</a>)</li>
+        <li><a href="https://mailman.videolan.org/listinfo/x264-devel">Mailing list for x264 development</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/vlmc-devel">Mailing list for VLMC development</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/dvblast-devel">Mailing list for DVBlast development</a></li>
+        <li><a href="https://mailman.videolan.org/listinfo/libdvdcss-devel">Mailing list for libdvdcss development</a></li>
     </ul>
 
     <h2>Web interface for subscription, archives, ...</h2>
-    <p>You can use our <a href="http://mailman.videolan.org/">Mailing-lists management</a> to:</p>
+    <p>You can use our <a href="https://mailman.videolan.org/">Mailing-lists management</a> to:</p>
     <ul class="bullets">
         <li>subscribe,</li>
         <li>unsubscribe,</li>
@@ -55,7 +55,7 @@
         and mirrored in a way that <strong>we CANNOT remove</strong> the posts.
     </p>
     <p>
-        If you want to stay anonymous, use <a href="http://forum.videolan.org">our forum</a> for user questions,
+        If you want to stay anonymous, use <a href="https://forum.videolan.org">our forum</a> for user questions,
         or <a href="/contact.html">contact us</a> for any other topic.
     </p>
 

@@ -52,7 +52,7 @@ from the official VLC source code repository 2.0 and 1.1 branches.
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN project</dt>
-<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+<dd><a href="//www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc.git;a=shortlog;h=b3b751cb99df71e3c0a18bcb38b4691cf98265fe">http://git.videolan.org/?p=vlc.git</a>

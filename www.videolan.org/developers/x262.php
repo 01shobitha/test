@@ -30,7 +30,7 @@
         <div class="column col-xs-12 col-md-6">
             <h2>Getting x262</h2>
             <h3>Source</h3>
-            <p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
+            <p>The latest x264 source code can always be found by anonymous <a href="https://wiki.videolan.org/Git">git</a> repository:</p>
             <pre><code># git clone http://git.videolan.org/git/x262.git</code></pre>
             <p>You can <a href="http://git.videolan.org/?p=x262.git;a=summary">browse the source</a> on-line.</p>
         </div>
@@ -55,7 +55,7 @@
         <div class="column col-xs-12 col-md-4">
             <h2>Support</h2>
             <p>For support information and to ask questions, you have the following possibilities:</p>
-            <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x264-devel">x264-devel</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a> and <a href="irc://irc.freenode.net/x264dev">#x264dev@freenode</a>). These are shared with the x264 project so remember to mention x262.</p>
+            <p>A mailing list (<a href="https://mailman.videolan.org/listinfo/x264-devel">x264-devel</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a> and <a href="irc://irc.freenode.net/x264dev">#x264dev@freenode</a>). These are shared with the x264 project so remember to mention x262.</p>
         </div>
         <div class="column col-xs-12 col-md-4">
             <h2>Bugs</h2>

@@ -85,7 +85,7 @@ References:
 </p>
 <dl>
 <dt>VLC media player</dt>
-<dd><a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
+<dd><a href="//www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
 </dd>
 </dl>
 </div>

@@ -149,7 +149,9 @@
         </div>
         <p>Zorglub held a short presentation of VLC, you can <a href="/videolan/events/20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="/videolan/events/20050226/Lightning_talk/">here</a>.</p>
 
-        <p>All the photo's can be viewed <a href="20050226/">here</a>. There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
+        <p>More photos: <a href="20050226/VideoLAN_Booth/Geeks/">Geeks</a>, <a href="20050226/VideoLAN_Booth/Misc/">Misc</a>, <a href="20050226/VideoLAN_Booth/Walls/">Walls</a>, <a href="20050226/VideoLAN_Booth/general_views/">General Views</a>, <a href="20050226/VideoLAN_Booth/other_demo/">Other demo</a>, <a href="20050226/VideoLAN_Booth/short_night/">Short night</a>, <a href="20050226/VideoLAN_Booth/the_end/">The end</a>.</p>
+
+        <p>There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
 
         <p>The VideoLAN team was represented by: zorglub, courmisch, yoann, dionoea, adn, thedj, bigben, jpsaman and fox. Niv Altivanik, Ruud Stelt and Peter and friend accompanied us frequently during FOSDEM and especially on <a href="20050226/Saturday_Evening/">saturday evening</a>.</p>
     </article>

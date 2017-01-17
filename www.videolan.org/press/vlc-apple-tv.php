@@ -44,7 +44,7 @@ Unlike any other player on Apple TV so far, VLC supports custom playback speed. 
 As part of our cross-platform initiative on improving subtitles support and rendering for VLC's forthcoming 3.0 desktop release, VLC on the Apple TV displays any kind of text (srt, SSA, WebVTT, ...) or bitmap subtitles including full support for Right-to-Left languages like Arabic and Hebrew, complex text layout for Malayalam or other Asian languages.<br />
 <br />
 For web radio and music playback, we integrated with the community service <a href="http://hatchet.is">hatchet.is</a> to show artist imagery and biographies in addition to album artwork.<br />
-For the first time, VLC directly integrates with <a href="OpenSubtitles.org">OpenSubtitles.org</a>, so missing subtitles can be downloaded by the user during playback.</p>
+For the first time, VLC directly integrates with <a href="http://OpenSubtitles.org">OpenSubtitles.org</a>, so missing subtitles can be downloaded by the user during playback.</p>
 <h2>Content Discovery &amp; Remote Playback</h2>
 <p>VLC for Apple TV integrates discovery of services on the local network, for Windows Shares (SMB), DLNA/UPnP media servers, FTP and PLEX servers.&nbsp;<br />
 Login credentials for devices and services can be securely stored on the Apple TV and will be synchronized to the user's iPad or iPhone (and the other way around) to ease access.<br />

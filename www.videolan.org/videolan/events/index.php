@@ -100,7 +100,7 @@
         </p>
         <img src="/videolan/events/20080223/crew.jpg" alt="FOSDEM 2008" class="center-block img-responsive" />
         <p>From left to right: ivoire, LeJo, phytos, jpountz, jb, JPeg, jpsaman, dionoea and Remiii.</p>
-        <p><a href="/videolan/events/20080223">Here</a> you can find other photos of the VideoLAN team at this event thanks to ivoire and phytos.</p>
+        <p><a href="/videolan/events/20080223/">Here</a> you can find other photos of the VideoLAN team at this event thanks to ivoire and phytos.</p>
     </article>
     <hr />
 

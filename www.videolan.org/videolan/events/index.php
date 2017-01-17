@@ -120,14 +120,14 @@
         </p>
         <div class="row">
             <div class="col-md-6">
-                <a href="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG">
+                <a href="/videolan/events/20050226/VideoLAN_Booth/other_demo/IMG_1258.JPG">
                     <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1258.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1258.JPG (1600x1200)">
                 </a>
                 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it
                 Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
             </div>
             <div class="col-md-6">
-                <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG">
+                <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1205.JPG">
                     <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1205.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1205.JPG (1600x1200)">
                 </a>
                 <p>Then a demo of Firefox showing a html page with the VLC plugin embedded (3 times) showing 3 different movies on Linux</p>
@@ -135,23 +135,23 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG">
+                <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1259.JPG">
                     <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1259.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1259.JPG (1600x1200)">
                 </a>
                 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
             </div>
             <div class="col-md-6">
-                <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG">
+                <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1211.JPG">
                     <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1211.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1211.JPG (1600x1200)">
                 </a>
                 <p>The last demo shows the rotate filter, the wall filter, UTF-8 (japanese) subtitles, and some text overlays</p>
             </div>
         </div>
-        <p>Zorglub held a short presentation of VLC, you can <a href="/videolan/events/20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="/videolan/events/20050226/Lightning%20talk/">here</a>.</p>
+        <p>Zorglub held a short presentation of VLC, you can <a href="/videolan/events/20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="/videolan/events/20050226/Lightning_talk/">here</a>.</p>
 
         <p>All the photo's can be viewed <a href="20050226/">here</a>. There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
 
-        <p>The VideoLAN team was represented by: zorglub, courmisch, yoann, dionoea, adn, thedj, bigben, jpsaman and fox. Niv Altivanik, Ruud Stelt and Peter and friend accompanied us frequently during FOSDEM and especially on <a href="20050226/Saturday%20Evening/">saturday evening</a>.</p>
+        <p>The VideoLAN team was represented by: zorglub, courmisch, yoann, dionoea, adn, thedj, bigben, jpsaman and fox. Niv Altivanik, Ruud Stelt and Peter and friend accompanied us frequently during FOSDEM and especially on <a href="20050226/Saturday_Evening/">saturday evening</a>.</p>
     </article>
     <hr />
 

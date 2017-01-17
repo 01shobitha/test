@@ -120,7 +120,7 @@
                     <h2>Anevia</h2>
                     <p>French company founded by four members of the VideoLAN team (Brieuc
                     Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
-                    know more about them, see the <a href="/team/">VideoLAN team page</a>).
+                    know more about them, see the <a href="/videolan/">VideoLAN team page</a>).
                     Anevia sells professional video servers and provides development and
                     integration of high quality video streaming solutions.</p>
                 </div>

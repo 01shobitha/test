@@ -729,9 +729,9 @@ endorsement by the project.</pre>
     has been built by <a href="http://www.jpsaman.org/">Jean-Paul Saman</a> on RH 9.0, but should also be
     useable on SuSE, Mandrake and other RPM-aware distributions.</p>
     <p>To install the package:</p>
-    <p>Download the rpm here: <code><a href="http://images.videolan.org/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a></code>.</p>
+    <p>Download the rpm here: <code><a href="http://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a></code>.</p>
     <p>Use <code>rpm ivh -prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm</code> to relocated the installed images to a new location on e.g: SuSE systems.</p>
-    <p>The source package can be found <a href="http://images.videolan.org/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
+    <p>The source package can be found <a href="http://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 
 </section>
 

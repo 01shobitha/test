@@ -59,9 +59,9 @@
             <h1 id="location">Venue at Institut Telecom</h1>
             <p>Public transportation:</p>
             <ul class="bullets">
-                <li><img src="http://images.videolan.org/images/subway-paris.png"/> <b>7</b>: Tolbiac</li>
-                <li><img src="http://images.videolan.org/images/subway-paris.png"/> <b>6</b>: Corvisart</li>
-                <li><img src="http://images.videolan.org/images/rer-paris.png"/> <b>B</b>: Cité Universitaire</li>
+                <li><img src="//images.videolan.org/images/subway-paris.png"/> <b>7</b>: Tolbiac</li>
+                <li><img src="//images.videolan.org/images/subway-paris.png"/> <b>6</b>: Corvisart</li>
+                <li><img src="//images.videolan.org/images/rer-paris.png"/> <b>B</b>: Cité Universitaire</li>
             </ul>
             <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance, as shown on the photo.</p>
 

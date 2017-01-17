@@ -121,14 +121,14 @@
         <div class="row">
             <div class="col-md-6">
                 <a href="/videolan/events/20050226/VideoLAN_Booth/other_demo/IMG_1258.JPG">
-                    <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1258.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1258.JPG (1600x1200)">
+                    <img src="//images.videolan.org/images/events/fosdem-2005/IMG_1258.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1258.JPG (1600x1200)">
                 </a>
                 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it
                 Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
             </div>
             <div class="col-md-6">
                 <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1205.JPG">
-                    <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1205.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1205.JPG (1600x1200)">
+                    <img src="//images.videolan.org/images/events/fosdem-2005/IMG_1205.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1205.JPG (1600x1200)">
                 </a>
                 <p>Then a demo of Firefox showing a html page with the VLC plugin embedded (3 times) showing 3 different movies on Linux</p>
             </div>
@@ -136,13 +136,13 @@
         <div class="row">
             <div class="col-md-6">
                 <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1259.JPG">
-                    <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1259.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1259.JPG (1600x1200)">
+                    <img src="//images.videolan.org/images/events/fosdem-2005/IMG_1259.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1259.JPG (1600x1200)">
                 </a>
                 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
             </div>
             <div class="col-md-6">
                 <a href="/videolan/events/20050226/VideoLAN_Booth/Walls/IMG_1211.JPG">
-                    <img src="https://images.videolan.org/images/events/fosdem-2005/IMG_1211.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1211.JPG (1600x1200)">
+                    <img src="//images.videolan.org/images/events/fosdem-2005/IMG_1211.JPG" alt="" class="center-block img-responsive img-thumbnail" title="IMG_1211.JPG (1600x1200)">
                 </a>
                 <p>The last demo shows the rotate filter, the wall filter, UTF-8 (japanese) subtitles, and some text overlays</p>
             </div>

@@ -56,7 +56,7 @@
         <p>As <a href="/">VideoLAN</a> was a student project, the university had moral rights on the software produced.</p>
         <p>Thanks to the <b>students</b> and Professor <a href="http://fr.linkedin.com/pub/jean-philippe-rey/16/b19/95a">Jean-Philippe Rey</a>,
          the direction of the university allowed the switch of all code produced to GPL.</p>
-        <p>The <a href="http://images.videolan.org/images/paper.jpeg">letter</a> from Mr. Gourisse was signed on February 1<sup>st</sup>, <b>2001</b>.</p>
+        <p>The <a href="//images.videolan.org/images/paper.jpeg">letter</a> from Mr. Gourisse was signed on February 1<sup>st</sup>, <b>2001</b>.</p>
 
         <h2>Since 2001</h2>
         <p>Afterward, the project has went on, with <b>students</b> and then <b>volunteers</b> from around the world.</p>
@@ -89,8 +89,8 @@
 <?php
 function vlcskins($img,$thumb, $skin){
     echo"<div style='width: 230px; font-size: 2em; float: left; text-align: center;'><div class='screenshot' style='overflow: hidden; width: 200px; height: 120px;'>"
-        ."<a href='http://images.videolan.org/vlc/skins2/$img'><img
-        src='http://images.videolan.org/vlc/skins2/$thumb' alt='VLC media player' /></a>
+        ."<a href='//images.videolan.org/vlc/skins2/$img'><img
+        src='//images.videolan.org/vlc/skins2/$thumb' alt='VLC media player' /></a>
     </div>";
     echo "<a href='http://www.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
 }
@@ -191,16 +191,16 @@ function vlcskins($img,$thumb, $skin){
 
         <h2>Funny cones</h2>
         <p>High-Quality Cone icons done by Tom Bigelajzen</p>
-            <p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
+            <p><a href="//images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="//images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="//images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="//images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Video-large.png"><img src="//images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
         </p>
         <p>
-            <a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
-            <a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="//images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Input-large.png"><img src="//images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="//images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
+            <a href="//images.videolan.org/images/goodies/Cone-List-large.png"><img src="//images.videolan.org/images/goodies/Cone-List-small.png" /></a>
         </p>
     </div>
 

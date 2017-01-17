@@ -1,7 +1,7 @@
 <?php
+   $language = "";
    $title = "Official Download of VLC media player for Mac OS X";
    $new_design = true;
-   $lang = "en";
    $menu = array( "vlc", "download" );
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");

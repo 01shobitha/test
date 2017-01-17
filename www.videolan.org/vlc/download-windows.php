@@ -37,6 +37,5 @@
     version of VLC</p>
     <h2>Older versions</h2>
     <?php browse_old("vlc") ?>
-    </div>
 </div>
 <?php footer('$Id$'); ?>

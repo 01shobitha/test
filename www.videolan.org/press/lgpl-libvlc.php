@@ -1,6 +1,6 @@
 <?php
    $title = "Press Release on libVLC relicensing to LGPL";
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VLC engine relicensed to LGPL</h1>

@@ -2,7 +2,7 @@
    $title = "VideoLAN - Press Release - Announcing VLC for Apple TV";
    $lang = "en";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 <style>
  body {

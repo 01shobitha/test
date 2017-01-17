@@ -2,7 +2,7 @@
    $title = "VideoLAN - Press Release - Successful fundraising campaign for VLC ports to Windows 8, RT and Phone";
    $lang = "en";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>Successful fundraising campaign for VLC ports to Windows 8, RT and Phone</h1>

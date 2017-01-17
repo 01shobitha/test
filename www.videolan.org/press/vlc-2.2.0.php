@@ -2,7 +2,7 @@
    $title = "VideoLAN - Press Release - VLC 2.2.0 releases";
    $lang = "en";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 <style>
  body {

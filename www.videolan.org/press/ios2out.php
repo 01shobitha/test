@@ -2,7 +2,7 @@
    $title = "VideoLAN - Press Release - VLC for iOS 2.0";
    $lang = "en";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VLC for iOS 2.0</h1>

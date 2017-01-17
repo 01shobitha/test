@@ -2,7 +2,7 @@
    $title = "Apple-VideoLAN partnership announced, Mac VLC to be Intel only";
    $lang = "en";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <div id="fullwidth">

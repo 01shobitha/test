@@ -51,4 +51,7 @@
     <p class="projectDescription">Use VLC 0.7.0. Get it for <a href="https://get.videolan.org/vlc/0.7.0/macosx/vlc-0.7.0.dmg">PowerPC</a>.</p>
 </div>
 
-<?php footer('$Id$'); ?>
+<?php
+footer( '$Id', $alternate_lang);
+sf_money();
+?>

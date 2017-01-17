@@ -57,7 +57,7 @@
   <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
   <li>Include video filters, playback speed manipulation, and fine seeking.</li>
-  <li>A media library, with WiFi Uploads & Downloads, Dropbox, Google Drive, iCloud Drive, OneDrive & Box.com integration and optional passcode lock.</li>
+  <li>A media library, with WiFi Uploads &amp; Downloads, Dropbox, Google Drive, iCloud Drive, OneDrive &amp; Box.com integration and optional passcode lock.</li>
   <li>Web Interface for easy uploads and downloads to/from device.</li>
   <li>Integration for bluetooth headsets and AirPlay.</li>
   <li>Full support for file servers (SMB / Windows shares and FTP)</li>

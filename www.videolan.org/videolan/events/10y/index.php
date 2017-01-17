@@ -35,7 +35,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <div id="days">
     <div id="day1" style="display: none;">
         <h1>Day 1: a VideoLAN history</h1>
-        <p>Most people know <a href="/vlc/"/>VLC</a>, but they don't know the history of the <a href="/videolan/">VideoLAN project</a>.</p>
+        <p>Most people know <a href="/vlc/">VLC</a>, but they don't know the history of the <a href="/videolan/">VideoLAN project</a>.</p>
         <p>Well, they don't even know what VideoLAN is, and that we are not a company...</p>
         <h2>1st February 2011</h2>
         <p>Today is the <b>10<sup>th</sup> anniversary</b> of the switch to <a href="http://www.opensource.org/">GPL</a> of the VideoLAN project

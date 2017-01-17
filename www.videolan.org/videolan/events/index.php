@@ -96,7 +96,7 @@
     <article>
         <h2>23, 24 February 2008 - FOSDEM</h2>
         <p>
-            Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.
+            Once again, a few of us attended <a href="https://archive.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.
         </p>
         <img src="/videolan/events/20080223/crew.jpg" alt="FOSDEM 2008" class="center-block img-responsive" />
         <p>From left to right: ivoire, LeJo, phytos, jpountz, jb, JPeg, jpsaman, dionoea and Remiii.</p>

@@ -26,7 +26,7 @@
 
 <div class="container">
     <?php drawVLCdownloadSection("osx", $dropdownItems, false, "VLC for Mac OS X"); ?>
-    <span lang dir="ltr" lang="en">
+    <span dir="ltr" lang="en">
     <h2>Devices and Mac OS X version</h2>
     <p class="projectDescription">VLC media player requires Mac OS X 10.6 or later. It runs on any 64bit Intel-based Mac. Previous devices are supported by older releases.<br />Note that the first generation of Intel-based Macs equipped with Core Solo or Core Duo processors is no longer supported. Please use version 2.0.10 linked below.</p>
 

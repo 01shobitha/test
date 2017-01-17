@@ -28,7 +28,7 @@
    );
 ?>
 
-<div class="container">
+<div class="container" dir="ltr" lang="en">
     <?php drawVLCdownloadSection("windows", $dropdownItems, false, "VLC for Windows"); ?>
    <h2>Windows requirements</h2>
     <p>VLC runs on all versions of Windows, from Windows XP SP3 to the last version of Windows 10.</p>

@@ -138,11 +138,10 @@ function start_head( $title,
         <?php endif; ?>
 
         <meta name="Author" content="VideoLAN" />
-        <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download,
-        media player, player download, codec, encoder, media converter, video, video player, multimedia, multicast,
-        VLC, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
-        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
-        open source, free software, floss, free" />
+        <meta name="Keywords" content=
+        "VideoLAN, VLC, VLC player, VLC media player, download, media player, player download, codec, encoder, media converter, video, video player,
+        multimedia, multicast, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Android, Streaming,
+        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, MKV, m2ts, open source, free software, floss, free" />
 
         <meta name="Description" content="<?php echo _( $title ); ?>" />
         <meta name="apple-itunes-app" content="app-id=650377962"/>

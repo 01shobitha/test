@@ -169,14 +169,21 @@ function start_head( $title,
             echo "<!-- ".$root_filename[0]." -->";
 
             foreach($alternate_lang as $lang) {
-                if( $lang == "en" )
+                if( $lang == "en" ) {
                     echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n";
-                else
+                    /* we need a ref to v.o/ or v.o/vlc/  but use this header as well for i.e. vlc/download-windows.html
+                    * so, only place it if we are in a "index" file */
+                    if (strcasecmp(substr($root_filename[0], strlen($root_filename[0]) - 5),"index")===0) {
+                        echo  '<link rel="alternate" hreflang="x-default" href="/'.substr($root_filename[0], 0, -5).'" />'."\n";
+                    }
+                }
+                else {
                     /* hreflang probably requires - instead of _ this probably needs fixing
                     * ask google to include all those?
                     * http://www.w3.org/International/articles/bcp47/
                     */
                     echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
+                }
             }
         }
         /* Common styles */

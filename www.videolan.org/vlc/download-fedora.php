@@ -40,23 +40,23 @@
 
 <div id="fullwidth">
 
-<p>Most of our packages for fedora can be found on RPM Fusion <a href="http://rpmfusion.org/">RPM Fusion</a><br />
+<p>Most of our packages for fedora can be found on <a href="http://rpmfusion.org/">RPM Fusion</a><br />
 You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a></p>
 
 <p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
 
-<h2>Fedora 11 (Leonidas), Fedora 12 (Constantine), Fedora 13 (Goddard) and Fedora 14 (Laughlin) </h2>
+<h2>Fedora 22 and later (dnf)</h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F11, F12, F13 and F14 (available for x86, x86_64, ppc and ppc64)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for Fedora (available for x86, x86_64, armhfp)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F11, F12, F13 and F14.</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for currently maintained fedora.</p>
 
 <pre>
     $> su -
-    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
-    #> yum install vlc
-    #> yum install mozilla-vlc (optional)
+    #> dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+    #> dnf install vlc
+    #> dnf install python-vlc npapi-vlc (optionals)
 </pre>
 
 
@@ -68,20 +68,33 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 
 <pre>
     $> su -
-    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm 
-    #> yum install vlc
-    #> yum install mozilla-vlc (optional)
+    #> dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm
+    #> dnf install vlc
+    #> dnf install python-vlc npapi-vlc (optionals)
 </pre>
 
 <br />
 <h2>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h2>
 <p><strong>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).</strong></p>
 
-<h3>Fedora 8, 9, 10</h3>
+<h3>Fedora 14 up to 21</h3>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8, F9 and F10 (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> (available for x86, x86_64 and ppc)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8, F9 and F10</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a></p>
+
+<pre>
+    $> su -
+    #> yum localinstall --nogpgcheck https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+    #> yum install vlc
+    #> yum install python-vlc npapi-vlc (optionals)
+</pre>
+
+<h3>Fedora 8 up to 14</h3>
+
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> (available for x86, x86_64 and ppc)<br />
+
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a></p>
 
 <pre>
     $> su -

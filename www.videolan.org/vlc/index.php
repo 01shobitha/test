@@ -10,7 +10,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
-   
+
    function vlcscreenshot($img, $thumb, $desc) {
         echo"<div class='screenshot-4-3-responsive screenshot-small'><a href='http://images.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
         src='//images.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
@@ -69,7 +69,7 @@
                          <a href="/vlc/skineditor.html"><?php echo _("Create skins with")." <b>"._("VLC skin editor")."</b>."; ?></a>
                     </li>
                     <li>
-                        <a href="http://addons.videolan.org/index.php?xcontentmode=903"><?php echo _("Install")." <b>"._("extensions")."</b>."; ?></a>
+                        <a href="https://addons.videolan.org/index.php?xcontentmode=903"><?php echo _("Install")." <b>"._("extensions")."</b>."; ?></a>
                     </li>
                 </ul>
             </div>

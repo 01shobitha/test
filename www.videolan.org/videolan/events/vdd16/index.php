@@ -8,7 +8,6 @@
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
    $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css", "/videolan/events/vdd16/style.css");
-   require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 <header class="header-bg">

@@ -153,7 +153,7 @@
                 <?php
                     addos( "Debian GNU/Linux", "debian", "download-debian.html" );
                     addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
-                    addos( "Mint", "mint", "http://community.linuxmint.com/software/view/vlc" );
+                    addos( "Mint", "mint", "https://community.linuxmint.com/software/view/vlc" );
                     addos( "openSUSE", "suse", "download-suse.html" );
                     addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
                     addos( "Fedora", "fedora", "download-fedora.html" );

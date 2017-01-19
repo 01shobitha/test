@@ -113,7 +113,7 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
                         <span dir="ltr" lang="en">
                             | <a href='/contact.html'>Report Trademark Abuse</a><br />
 
-                            VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="/videolan">VideoLAN non-profit organization.</a><br />
+                            VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="/videolan/">VideoLAN non-profit organization.</a><br />
                             VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.
                         </span>
                     </p>

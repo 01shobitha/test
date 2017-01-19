@@ -105,15 +105,6 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
 <h1>Documentation</h1>
 <p class="projectDescription">We have documentation available on our wiki - please have a look <a href="https://wiki.videolan.org/Documentation:Android/">here</a>.
 
-<h1>Thanks</h1>
-<p class="projectDescription">
-We would like to thank our partners:<br />
-<a href="http://www.solutionslinux.fr/"><?php image( 'partners/android/SL.png', 'SolutionLinux', '' ); ?></a>
-<a href="http://www.dojocrea.fr/"><?php image( 'partners/android/dojocrea.jpg', 'Dojocrea', '' ); ?></a>
-<a href="http://www.jbmm.fr/"><?php image( 'partners/android/jbmm.png', 'JBMM', '' ); ?></a>
-<a href="http://fr.asus.com/"><?php image( 'partners/android/asus.jpg', 'Asus France', '' ); ?></a>
-</p>
-
 </div>
 
 <?php

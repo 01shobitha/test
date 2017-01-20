@@ -2,13 +2,12 @@
    $language="";
    $title = _("VLMC, open source video editor");
    $new_design = true;
-   
+
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
    $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");
 
-   require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   
+
    function vlmcscreenshot($img, $thumb, $desc) {
         echo"<div class='screenshot-4-3-responsive screenshot-small'><a href='http://images.videolan.org/vlmc/screenshots/$img' rel='lightbox-vlc'><img
         src='//images.videolan.org/vlmc/screenshots/$thumb' alt='VLMC - $desc' /></a>

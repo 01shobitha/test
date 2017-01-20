@@ -340,7 +340,7 @@
       </div>
         <div class="col-md-6 ">
         <h2 class="uppercase">Registration</h2>
-        <p>As VDD is part of QtCon this year, you need to register for QtCon.</b>
+        <p>As VDD is part of QtCon this year, you need to register for QtCon.</p>
       </div>
     </div>
   </div>

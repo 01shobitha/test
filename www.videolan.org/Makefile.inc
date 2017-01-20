@@ -121,7 +121,6 @@ locales: index.af.php \
          index.ur.php \
          index.uz.php \
          index.vi.php \
-         index.wa.php \
          index.zh.php \
          index.zh-TW.php \
          include/header.php

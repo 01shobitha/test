@@ -15,12 +15,11 @@ function draw_donate( $currency_code, $amount = null, $hosted_button_id = null, 
             return;
     }
 ?>
-<form class="donate2" action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+<form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <fieldset>
         <input name="cmd" value="_xclick" type="hidden"/>
         <input name="business" value="sponsor@videolan.org" type="hidden"/>
         <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-        <input name="no_note" value="0" type="hidden"/>
         <input name="currency_code" value="<?php echo $currency_code ?>" type="hidden"/>
         <input name="tax" value="0" type="hidden"/>
         <input name="lc" value="<?php echo $lc ?>" type="hidden"/>

@@ -60,6 +60,8 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
             <li><a href="<?php getLink('/vlc/'); ?>">VLC media player</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="<?php getLink('/developers/libdvdcss.html'); ?>">libdvdcss</a></li>
+            <li><a href="<?php getLink('/developers/libdvdnav.html'); ?>">libdvdnav</a></li>
+            <li><a href="<?php getLink('/developers/libdvdnav.html'); ?>">libdvdread</a></li>
             <li><a href="<?php getLink('/developers/libbluray.html'); ?>">libbluray</a></li>
             <li><a href="<?php getLink('/developers/libdvbpsi.html'); ?>">libdvbpsi</a></li>
             <li><a href="<?php getLink('/developers/libaacs.html'); ?>">libaacs</a></li>

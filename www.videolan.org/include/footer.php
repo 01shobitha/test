@@ -51,6 +51,8 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
                         <li><a href="<?php getLink('/projects/multicat.html'); ?>">multicat</a></li>
                         <li><a href="<?php getLink('/projects/vlma/'); ?>">VLMa</a></li>
                         <li><a href="<?php getLink('/developers/libdvdcss.html'); ?>">libdvdcss</a></li>
+                        <li><a href="<?php getLink('/developers/libdvdnav.html'); ?>">libdvdnav</a></li>
+                        <li><a href="<?php getLink('/developers/libdvdnav.html'); ?>">libdvdread</a></li>
                         <li><a href="<?php getLink('/developers/libbluray.html'); ?>">libbluray</a></li>
                         <li><a href="<?php getLink('/developers/libdvbpsi.html'); ?>">libdvbpsi</a></li>
                         <li><a href="<?php getLink('/developers/libaacs.html'); ?>">libaacs</a></li>

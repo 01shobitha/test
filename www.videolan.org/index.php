@@ -107,6 +107,9 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                     <a href='/developers/libdvdcss.html' class='noUnderline'>
                         <span class='productName padding-bottom-15'>libdvdcss</span>
                     </a>
+                    <a href='/developers/libdvdnav.html' class='noUnderline'>
+                        <span class='productName padding-bottom-15'>libdvdnav</span>
+                    </a>
                     <a href='/developers/libdvbpsi.html' class='noUnderline'>
                         <span class='productName padding-bottom-15'>libdvdpsi</span>
                     </a>

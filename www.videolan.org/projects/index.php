@@ -125,6 +125,14 @@
         <div class="col-md-3 padding-bottom-24">
             <ul class="media-list">
                 <li class="media">
+                    <a href="/developers/libdvdnav.html">
+                        <span class='productName'>libdvdnav</span>
+                        <span class='productDescription'>
+                            <?php echo _("The reference open-source cross-platform library for DVD menu handling."); ?>
+                        </span>
+                    </a>
+                </li>
+                <li class="media">
                     <a href="/developers/libbluray.html">
                         <span class='productName'>libbluray</span>
                         <span class='productDescription'>
@@ -144,6 +152,14 @@
         </div>
         <div class="col-md-3 padding-bottom-24">
             <ul class="media-list">
+                <li class="media">
+                    <a href="/developers/libdvdnav.html">
+                        <span class='productName'>libdvdread</span>
+                        <span class='productDescription'>
+                            <?php echo _("The reference open-source cross-platform library for DVD video images."); ?>
+                        </span>
+                    </a>
+                </li>
                 <li class="media">
                     <a href="/developers/libdvbpsi.html">
                         <span class='productName'>libdvbpsi</span>

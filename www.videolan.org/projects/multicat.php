@@ -54,8 +54,8 @@
 	<h2>Get Multicat</h2>
 
 	<p> The latest official version of <code>Multicat</code>
-	is numbered 2.1, and is available <a
-	href="https://get.videolan.org/multicat/2.1/multicat-2.1.tar.bz2">here</a>.</p>
+	is numbered 2.2, and is available <a
+	href="https://get.videolan.org/multicat/2.2/multicat-2.2.tar.bz2">here</a>.</p>
 
 	<p><a href="/developers/bitstream.html">biTStream</a> needs to be installed at build-time.</p>
 

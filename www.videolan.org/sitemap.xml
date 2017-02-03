@@ -1052,7 +1052,7 @@
   <loc>http://www.videolan.org/vlc/streaming.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/index.html</loc>
+  <loc>http://www.videolan.org/videolan/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/mirrors.html</loc>
@@ -1061,13 +1061,13 @@
   <loc>http://www.videolan.org/videolan/partners.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/team/index.html</loc>
+  <loc>http://www.videolan.org/videolan/team/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/support/faq.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/support/index.html</loc>
+  <loc>http://www.videolan.org/support/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/support/lists.html</loc>
@@ -1166,7 +1166,7 @@
   <loc>http://www.videolan.org/vlc/releases/2.2.4.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/vlc/releases/index.html</loc>
+  <loc>http://www.videolan.org/vlc/releases/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/press/2005-1.html</loc>
@@ -1190,7 +1190,7 @@
   <loc>http://www.videolan.org/press/eucd.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/press/index.html</loc>
+  <loc>http://www.videolan.org/press/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/press/ios2out.html</loc>
@@ -1220,7 +1220,7 @@
   <loc>http://www.videolan.org/press/win8ks.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/security/index.html</loc>
+  <loc>http://www.videolan.org/security/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/security/sa0701.html</loc>
@@ -1331,19 +1331,19 @@
   <loc>http://www.videolan.org/security/sa1601.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/vlmc/index.html</loc>
+  <loc>http://www.videolan.org/vlmc/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/projects/dvblast.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/projects/index.html</loc>
+  <loc>http://www.videolan.org/projects/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/projects/multicat.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/projects/vlma/doc/index.html</loc>
+  <loc>http://www.videolan.org/projects/vlma/doc/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/projects/vlma/doc/media.html</loc>
@@ -1367,7 +1367,7 @@
   <loc>http://www.videolan.org/projects/vlma/download.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/projects/vlma/index.html</loc>
+  <loc>http://www.videolan.org/projects/vlma/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/projects/vlma/screenshots.html</loc>
@@ -1395,6 +1395,9 @@
 </url>
 <url>
   <loc>http://www.videolan.org/vlc/skinedhlp/i-image.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/skinedhlp/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/vlc/skinedhlp/index.html</loc>
@@ -1478,10 +1481,10 @@
   <loc>http://www.videolan.org/videolan/events/10y/day9.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/10y/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/10y/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20010407/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20010407/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20010407/slide001.html</loc>
@@ -1547,16 +1550,16 @@
   <loc>http://www.videolan.org/videolan/events/20010407/slide021.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020130/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020130/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020201/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020201/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020228/photos/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020228/photos/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020228/slides/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020228/slides/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20020228/slides/mgp00001.html</loc>
@@ -1670,22 +1673,22 @@
   <loc>http://www.videolan.org/videolan/events/20020228/slides/mgp00037.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020423/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020423/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020520/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020520/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20020529/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20020529/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20020529/team.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20021102/pictures/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20021102/pictures/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20021102/slides/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20021102/slides/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20021102/slides/mgp00001.html</loc>
@@ -1760,7 +1763,7 @@
   <loc>http://www.videolan.org/videolan/events/20021102/slides/mgp00024.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20021114/slides/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20021114/slides/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20021114/slides/mgp00001.html</loc>
@@ -1850,10 +1853,10 @@
   <loc>http://www.videolan.org/videolan/events/20021114/slides/mgp00029.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20030204/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20030204/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20030321/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20030321/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20030321/mgp00001.html</loc>
@@ -1979,43 +1982,43 @@
   <loc>http://www.videolan.org/videolan/events/20030321/mgp00041.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20030625/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20030625/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050201/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050201/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/Lightning_talk/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/Lightning_talk/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/others/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/others/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/Saturday_Evening/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/Saturday_Evening/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Geeks/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Geeks/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/general_views/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/general_views/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Misc/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Misc/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/other_demo/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/other_demo/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/short_night/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/short_night/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/the_end/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/the_end/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Walls/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20050226/VideoLAN_Booth/Walls/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20080223/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20080223/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/20081220/VDD/img-10.html</loc>
@@ -2060,13 +2063,13 @@
   <loc>http://www.videolan.org/videolan/events/20081220/VDD/img-9.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/20081220/VDD/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/20081220/VDD/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/journeevia-20030321-presentVL/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/journeevia-20030321-presentVL/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/videolan/events/vdd09.html</loc>
@@ -2075,25 +2078,25 @@
   <loc>http://www.videolan.org/videolan/events/vdd11.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/vdd12/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/vdd12/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/vdd13/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/vdd13/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/vdd15/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/vdd15/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/videolan/events/vdd16/index.html</loc>
+  <loc>http://www.videolan.org/videolan/events/vdd16/</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/doc/index.html</loc>
+  <loc>http://www.videolan.org/doc/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/developers/bitstream.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/developers/index.html</loc>
+  <loc>http://www.videolan.org/developers/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/developers/libaacs.html</loc>
@@ -2144,7 +2147,7 @@
   <loc>http://www.videolan.org/developers/dvblast/ChangeLog.html</loc>
 </url>
 <url>
-  <loc>http://www.videolan.org/developers/i18n/index.html</loc>
+  <loc>http://www.videolan.org/developers/i18n/</loc>
 </url>
 <url>
   <loc>http://www.videolan.org/developers/i18n/transifex-howto.html</loc>

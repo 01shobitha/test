@@ -299,7 +299,7 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
                 <h6><?= _("Partners"); ?></h6>
                 <div id="sponsors-carousel">
                     <?php foreach($sponsors as $sponsor) {
-                        echo '<a target="_blank" href="' . $sponsor["link"] .'">' .
+                        echo '<a target="_blank" rel="noopener" href="' . $sponsor["link"] .'">' .
                         '<img src="' . $sponsorsDir . $sponsor["imgSrc"] . '" />' .
                         '</a>';
                     }

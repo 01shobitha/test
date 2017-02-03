@@ -14,7 +14,7 @@
 		The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player without having to know about the internal structure of VLC's skin files.
 	</p>
 	<p>
-		The skin editor is <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> editor for VLC skins that helps designers to create skins faster and easier.
+		The skin editor is <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" rel="noopener" class="wiki">WYSIWYG</a> editor for VLC skins that helps designers to create skins faster and easier.
 	</p>
 
 	<div class="row">
@@ -41,7 +41,7 @@
 	<p>You can download the latest build at <strong><a href="http://get.videolan.org/skin-editor/0.8.5/">the download page</a></strong>.</p>
 
 	<div class="alert alert-warning" role="alert">
-		<strong>Note!</strong> This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at the Java <a href="https://java.com/de/download/" target="_blank">download page</a>.
+		<strong>Note!</strong> This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at the Java <a href="https://java.com/de/download/" target="_blank" rel="noopener">download page</a>.
 	</div>
 
 	<h2>Features</h2>
@@ -62,7 +62,7 @@
 
 	<h2>How to support the project</h2>
 	<p>The project needs developers and also testers who check the program for usability and identify bugs.</p>
-	<p>If you have knowledge of Java feel free to join the developer team. Check the <a href="https://code.videolan.org/videolan/skin-designer" target="_blank">source code</a> for more information.</p>
+	<p>If you have knowledge of Java feel free to join the developer team. Check the <a href="https://code.videolan.org/videolan/skin-designer" target="_blank" rel="noopener">source code</a> for more information.</p>
 </div>
 
 <?php footer(''); ?>

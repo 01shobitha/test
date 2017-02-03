@@ -90,7 +90,7 @@
         </header>
         <section>
             <p>
-            Today, the <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">kickstarter campaign</a> run by several core members of the VLC development team ended. £47,056 was pledged by 3080 generous backers.
+            Today, the <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank" rel="noopener">kickstarter campaign</a> run by several core members of the VLC development team ended. £47,056 was pledged by 3080 generous backers.
             We would like to thank everyone who made this possible<br />
             This is a tremendous and somewhat unexpected success. We are very pleased about it.
             </p>

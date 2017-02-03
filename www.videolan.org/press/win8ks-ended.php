@@ -11,7 +11,7 @@
 <div class="longtext">
 <div class="date">Paris, 29 Dec 2012</div>
 
-<p><b>Today, the <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">kickstarter campaign</a> run by several core members of the VLC development team ended. £47,056 was pledged by 3080 generous backers. We would like to thank everyone who made this possible!</b></p>
+<p><b>Today, the <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank" rel="noopener">kickstarter campaign</a> run by several core members of the VLC development team ended. £47,056 was pledged by 3080 generous backers. We would like to thank everyone who made this possible!</b></p>
 
 <p>This is a tremendous and somewhat unexpected success. We are very pleased about it.</p>
 
@@ -30,9 +30,9 @@ We will perform detailed scheduling early next month and reach out to major IT c
 
 <h2>Links</h2>
 <p><a href="//www.videolan.org/press/win8ks.html">VideoLAN press statement on fundraising campaign for Windows 8 and RT (Nov 29)</a></p>
-<p><a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">Fundraiser on Kickstarter</a></p>
-<p><a href="http://windows.microsoft.com/en-US/windows-8/meet" target="_blank">Windows 8 & RT</a></p>
-<p><a href="http://www.windowsphone.com" target="_blank">Windows Phone</a></p>
+<p><a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank" rel="noopener">Fundraiser on Kickstarter</a></p>
+<p><a href="http://windows.microsoft.com/en-US/windows-8/meet" target="_blank" rel="noopener">Windows 8 & RT</a></p>
+<p><a href="http://www.windowsphone.com" target="_blank" rel="noopener">Windows Phone</a></p>
 
 <h2>Contacts</h2>
 <p>Felix Paul Kühne, <a href="mailto:fkuehne@videolan.org">fkuehne at videolan dot org</a></p>

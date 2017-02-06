@@ -228,7 +228,7 @@ function start_head( $title,
         <script async="async" src="<?= isDeveloper() ? '/js/bootstrap.min.js': '//images.videolan.org/js/bootstrap.min.js' ?>" type="text/javascript"></script>
         <?php if( isset($additional_js) ) {
             foreach($additional_js as $js) {
-                echo '<script async="async" src="'.$js.'" type="text/javascript"></script>';
+                echo '<script defer src="'.$js.'" type="text/javascript"></script>';
             }
         } ?>
 

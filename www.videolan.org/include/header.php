@@ -145,7 +145,7 @@ function start_head( $title,
 
         <meta name="Description" content="<?php echo _( $title ); ?>" />
         <meta name="apple-itunes-app" content="app-id=650377962"/>
-        <title>VideoLAN - <?php echo _( $title ); ?></title>
+        <title><?php echo _( $title ); ?> - VideoLAN</title>
 
         <?php /* Additional Meta */
             if( isset($additional_meta) ) {

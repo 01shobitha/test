@@ -34,7 +34,7 @@ function footer($tag = "", $alternate_lang=array(), $additional_class = "") {
                         <li><a href="<?php getLink('/vlc/download-android.html'); ?>">VLC for Android</a></li>
                         <li><a href="<?php getLink('/vlc/download-ios.html'); ?>">VLC for iOS</a></li>
                         <li><a href="<?php getLink('/vlc/skins.html'); ?>"><?php echo _("Skins"); ?></a></li>
-                        <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
+                        <li><a href='https://addons.videolan.org/browse/cat/323/ord/latest/'><?php echo _("Extensions"); ?></a></li>
                         <li><a href="<?php getLink('/vlc/features.html'); ?>"><?php echo _("Features"); ?></a></li>
                         <li><a href="<?php getLink('/vlc/screenshots.html'); ?>"><?php echo _("Screenshots"); ?></a></li>
                         <li><a href="<?php getLink('/vlc/skineditor.html'); ?>">VLC Skin Editor</a></li>

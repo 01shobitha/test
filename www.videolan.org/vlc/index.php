@@ -69,7 +69,7 @@
                          <a href="/vlc/skineditor.html"><?php echo _("Create skins with")." <b>"._("VLC skin editor")."</b>."; ?></a>
                     </li>
                     <li>
-                        <a href="https://addons.videolan.org/index.php?xcontentmode=903"><?php echo _("Install")." <b>"._("extensions")."</b>."; ?></a>
+                        <a href="https://addons.videolan.org/browse/cat/323/ord/latest/"><?php echo _("Install")." <b>"._("extensions")."</b>."; ?></a>
                     </li>
                 </ul>
             </div>

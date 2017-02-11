@@ -1,5 +1,6 @@
 <?php
 $alternate_lang = array(
+    "af",
     "ar",
     "be",
     "bg",
@@ -31,6 +32,7 @@ $alternate_lang = array(
     "is",
     "it",
     "ja",
+    "ka",
     "km",
     "kn",
     "ko",
@@ -63,6 +65,7 @@ $alternate_lang = array(
     "tt",
     "uk",
     "ur",
+    "uz",
     "vi",
     "zh",
     "zh-TW"

@@ -30,7 +30,7 @@
 
 <div class="container">
   <?php drawVLCdownloadSection("windows", $dropdownItems, false, "VLC for Windows"); ?>
-  <span dir="ltr" lang="en">
+  <div dir="ltr" lang="en">
     <h2>Windows requirements</h2>
     <p>VLC runs on all versions of Windows, from Windows XP SP3 to the last version of Windows 10.</p>
     <h2>VLC for Windows 95/98/Me</h2>
@@ -38,6 +38,6 @@
     version of VLC</p>
     <h2>Older versions</h2>
     <?php browse_old("vlc") ?>
-  </span>
+  </div>
 </div>
 <?php footer('$Id$'); ?>

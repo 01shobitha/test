@@ -1,6 +1,6 @@
 <?php
    $language = "";
-   $title = "Official Download of VLC media player for Mac OS X";
+   $title = _("Official Download of VLC media player for Mac OS X");
    $new_design = true;
    $menu = array( "vlc", "download" );
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 06:41-0500\n"
+"POT-Creation-Date: 2017-02-19 17:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/header.php:292
+#: include/header.php:290
 msgid "a project and a"
 msgstr ""
 
-#: include/header.php:292
+#: include/header.php:290
 msgid "non-profit organization"
 msgstr ""
 
-#: include/header.php:301 include/footer.php:80
+#: include/header.php:299 include/footer.php:82
 msgid "Partners"
 msgstr ""
 
@@ -37,19 +37,19 @@ msgstr ""
 msgid "Consulting Services &amp; Partners"
 msgstr ""
 
-#: include/menus.php:34 include/footer.php:83
+#: include/menus.php:34 include/footer.php:85
 msgid "Events"
 msgstr ""
 
-#: include/menus.php:35 include/footer.php:78 include/footer.php:112
+#: include/menus.php:35 include/footer.php:80 include/footer.php:114
 msgid "Legal"
 msgstr ""
 
-#: include/menus.php:36 include/footer.php:82
+#: include/menus.php:36 include/footer.php:84
 msgid "Press center"
 msgstr ""
 
-#: include/menus.php:37 include/footer.php:79
+#: include/menus.php:37 include/footer.php:81
 msgid "Contact us"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: include/menus.php:47 include/footer.php:70
+#: include/menus.php:47 include/footer.php:72
 msgid "Get Goodies"
 msgstr ""
 
@@ -73,27 +73,27 @@ msgstr ""
 msgid "Projects"
 msgstr ""
 
-#: include/menus.php:69 include/footer.php:44
+#: include/menus.php:71 include/footer.php:44
 msgid "All Projects"
 msgstr ""
 
-#: include/menus.php:73 index.php:165
+#: include/menus.php:75 index.php:168
 msgid "Contribute"
 msgstr ""
 
-#: include/menus.php:75
+#: include/menus.php:77
 msgid "Getting started"
 msgstr ""
 
-#: include/menus.php:76 include/menus.php:94
+#: include/menus.php:78 include/menus.php:96
 msgid "Donate"
 msgstr ""
 
-#: include/menus.php:77
+#: include/menus.php:79
 msgid "Report a bug"
 msgstr ""
 
-#: include/menus.php:81
+#: include/menus.php:83
 msgid "Support"
 msgstr ""
 
@@ -109,51 +109,51 @@ msgstr ""
 msgid "Screenshots"
 msgstr ""
 
-#: include/footer.php:62
+#: include/footer.php:64
 msgid "Community"
 msgstr ""
 
-#: include/footer.php:65
+#: include/footer.php:67
 msgid "Forums"
 msgstr ""
 
-#: include/footer.php:66
+#: include/footer.php:68
 msgid "Mailing-Lists"
 msgstr ""
 
-#: include/footer.php:67
+#: include/footer.php:69
 msgid "FAQ"
 msgstr ""
 
-#: include/footer.php:68
+#: include/footer.php:70
 msgid "Donate money"
 msgstr ""
 
-#: include/footer.php:69
+#: include/footer.php:71
 msgid "Donate time"
 msgstr ""
 
-#: include/footer.php:76
+#: include/footer.php:78
 msgid "Project and Organization"
 msgstr ""
 
-#: include/footer.php:77
+#: include/footer.php:79
 msgid "Team"
 msgstr ""
 
-#: include/footer.php:81
+#: include/footer.php:83
 msgid "Mirrors"
 msgstr ""
 
-#: include/footer.php:84
+#: include/footer.php:86
 msgid "Security center"
 msgstr ""
 
-#: include/footer.php:85
+#: include/footer.php:87
 msgid "Get Involved"
 msgstr ""
 
-#: include/footer.php:86
+#: include/footer.php:88
 msgid "News"
 msgstr ""
 
@@ -230,70 +230,70 @@ msgstr ""
 msgid "For Developers"
 msgstr ""
 
-#: index.php:137
+#: index.php:140
 msgid "View All Projects"
 msgstr ""
 
-#: index.php:141
+#: index.php:144
 msgid "Help us out!"
 msgstr ""
 
-#: index.php:145
+#: index.php:148
 msgid "donate"
 msgstr ""
 
-#: index.php:153
+#: index.php:156
 msgid "VideoLAN is a non-profit organization."
 msgstr ""
 
-#: index.php:154
+#: index.php:157
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr ""
 
-#: index.php:157 index.php:177 index.php:195
+#: index.php:160 index.php:180 index.php:198
 msgid "Learn More"
 msgstr ""
 
-#: index.php:173
+#: index.php:176
 msgid "VideoLAN is open-source software."
 msgstr ""
 
-#: index.php:174
+#: index.php:177
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
 msgstr ""
 
-#: index.php:184
+#: index.php:187
 msgid "Spread the Word"
 msgstr ""
 
-#: index.php:192
+#: index.php:195
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr ""
 
-#: index.php:212
+#: index.php:215
 msgid "News &amp; Updates"
 msgstr ""
 
-#: index.php:215
+#: index.php:218
 msgid "More News"
 msgstr ""
 
-#: index.php:219
+#: index.php:222
 msgid "Development Blogs"
 msgstr ""
 
-#: index.php:248
+#: index.php:251
 msgid "Social media"
 msgstr ""
 
 #: vlc/index.php:3
-msgid "Official page for VLC media player, the Open Source video framework!"
+msgid "Official download of VLC media player, the best Open Source player"
 msgstr ""
 
 #: vlc/index.php:21

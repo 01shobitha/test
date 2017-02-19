@@ -1,6 +1,6 @@
 <?php
    $language = "";
-   $title = _("Official page for VLC media player, the Open Source video framework!");
+   $title = _("Official download of VLC media player, the best Open Source player");
    $new_design = true;
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
    $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css");

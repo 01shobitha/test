@@ -66,7 +66,7 @@ VLC for Android is a full audio player, with a complete database, an equalizer a
                   <li>Audio and video media library, with full search.</li>
                   <li>Support for network streams, including HLS.</li>
                   <li>Supports Android Version 2.2 (platform-8) or later.</li>
-                  <li>Supports ARMv6, ARMv7, ARMv8 / AArch64, MIPS and x86.</li>
+                  <li>Supports ARMv7, ARMv8 / AArch64, MIPS and x86.</li>
                   <li>Supports secondary display.</li>
                </ul>
            </div>

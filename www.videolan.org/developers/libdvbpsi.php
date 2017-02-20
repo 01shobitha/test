@@ -43,7 +43,7 @@
     <pre><code>git checkout -t origin/branch/1.3.0-bugfix</code></pre>
 
     <p>All releases can be found by browsing the <a href="/pub/libdvbpsi/"><b>releases</b></a>.</p>
-    <p>The source code can browsed at  <a href="http://git.videolan.org/?p=libdvbpsi.git">git.videolan.org</a>.</p>
+    <p>The source code can browsed at  <a href="https://code.videolan.org/videolan/libdvbpsi">code.videolan.org</a>.</p>
 
 
     <h2>Mailing list</h2>

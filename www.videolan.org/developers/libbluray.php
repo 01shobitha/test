@@ -4,7 +4,7 @@
     $new_design = true;
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-    $libbluray_version = "0.9.2";
+    $libbluray_version = "1.0.0";
 ?>
 
 <div class="container">

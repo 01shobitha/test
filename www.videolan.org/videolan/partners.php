@@ -272,7 +272,7 @@
                     <h2>Yubico</h2>
                     <p>
                         <a href="https://www.yubico.com">Yubico</a> kindly offered a discount on their Yubikey&nbsp;4
-                        products to equip all active members of the the association with a Yubikey&nbsp;4 or a Yubikey
+                        products to equip all active members of the association with a Yubikey&nbsp;4 or a Yubikey
                         nano. These security keys will help us to improve the overall security within the VideoLAN
                         organization to sign and secure many of the VideoLAN projects.
                     </p>

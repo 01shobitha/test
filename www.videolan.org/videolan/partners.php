@@ -261,6 +261,23 @@
                     </p>
                 </div>
             </div>
+
+            <div class="row card">
+                <div class="col-md-2 v-align display-block-xs display-block-sm">
+                    <a href="https://www.yubico.com/">
+                        <img src="//images.videolan.org/images/partners/yubico.png" width="200" alt="Yubico" class="img-responsive center-block" />
+                    </a>
+                </div>
+                <div class="col-md-10 v-align">
+                    <h2>Yubico</h2>
+                    <p>
+                        <a href="https://www.yubico.com">Yubico</a> kindly offered a discount on their Yubikey&nbsp;4
+                        products to equip all active members of the the association with a Yubikey&nbsp;4 or a Yubikey
+                        nano. These security keys will help us to improve the overall security within the VideoLAN
+                        organization to sign and secure many of the VideoLAN projects.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

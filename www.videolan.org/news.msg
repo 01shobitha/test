@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|9 March 2017|Press release: Wikileaks revelations about VLC|Following the recent revelations from Wikileaks about the use of VLC by the CIA, you can download the <a href="/press/PR_CIA_Vault7_VLC.pdf">official statement from the VideoLAN organization here</a>.
+
 |24 February 2017|VLC for Android 2.1 beta|VideoLAN and the VLC development team are happy to publish beta version 2.1 of VLC for Android today<br />It brings 360° video & faster audio codecs passthru support, performances improvements, Android auto integration and a refreshed UX.<br /><a href="https://geoffreymetais.github.io/features/vlc-21-beta/">See all new features and get it</a>
 
 |21 June 2016|VLC for Android 2.0.0|VideoLAN and the VLC development team are happy to publish version 2.0 of VLC for Android today<br />It supports network shares browsing and playback, video playlists, downloading subtitles, pop-up video view and multiwindows, the new releases of the Android operating system, and merged Android TV and Android packages.<br />Get it <a href="/vlc/download-android.html">now!</a> and give us your feedback.

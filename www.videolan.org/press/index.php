@@ -12,6 +12,24 @@
 
     <article>
         <header>
+            <h2><a href="/press/PR_CIA_Vault7_VLC.pdf">Wikileaks revelations about VLC</a></h2>
+            <p><time datetime="2017-03-09">2017-03-09</time></p>
+        </header>
+        <section>
+            <p>
+            Following the recent revelations from Wikileaks about the use of VLC by the CIA,
+            you can download the <a href="/press/PR_CIA_Vault7_VLC.pdf">official statement
+            from the VideoLAN organization here</a>.
+            </p>
+        </section>
+        <footer>
+            <a href="/press/PR_CIA_Vault7_VLC.pdf">More &rarr;</a>
+        </footer>
+    </article>
+    <hr />
+
+    <article>
+        <header>
             <h2><a href="/press/vlc-apple-tv.html">Announcing VLC for Apple TV</a></h2>
             <p><time datetime="2016-01-12">2016-01-12</time></p>
         </header>

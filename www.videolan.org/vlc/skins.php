@@ -7,7 +7,7 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
 {
   if( $_COOKIE["skinrated_{$_POST["skin_id"]}"] != $_POST["skin_id"] )
   {
-    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
+    pg_query_params('INSERT INTO "skins-rating" ("skin_id", "rating") VALUES ($1, $2) = $1', array($_POST["skin_id"], $_POST["rating"]));
     setcookie( "skinrated_{$_POST["skin_id"]}", $_POST["skin_id"], time()+24*60*60, "/", ".videolan.org" );
     $_COOKIE["skinrated_{$_POST["skin_id"]}"] = $_POST["skin_id"];
   }

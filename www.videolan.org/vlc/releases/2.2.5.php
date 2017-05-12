@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 2.2.4 WeatherWax");
+   $title = _("VLC 2.2.5.1 WeatherWax");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -9,8 +9,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
-   $macosxversion = "2.2.4";
-   $win32version = "2.2.4";
+   $macosxversion = "2.2.5.1";
+   $win32version = "2.2.5.";
 ?>
     <div>
             <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.5</b> "Weatherwax"</h1>
@@ -158,7 +158,7 @@
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>2.2.4</span>
+                    Version <span id='downloadVersion'>2.2.5.1</span>
                     </span>
                 </a>
                 <script type="text/javascript">

@@ -13,8 +13,8 @@
    $win32version = "2.2.4";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.4</b> "Weatherwax"</h1>
-            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.2.4 is the fourth bugfix release of the "Weatherwax" branch of our popular media player.</div>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.5</b> "Weatherwax"</h1>
+            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.2.5 is the fifth bugfix release of the "Weatherwax" branch of our popular media player.</div>
             </center>
 
             <style>
@@ -174,15 +174,17 @@
 
         <div class="clearme" style='padding-top: 30px;'>
             <div style='float: left; width: 600px;'>
-            <h1 style='margin-bottom: 12px;'><?php echo _("2.2.4 Highlights"); ?></h1>
+            <h1 style='margin-bottom: 12px;'><?php echo _("2.2.5 Highlights"); ?></h1>
                 <div class='projectDescription' style="width: 600px;">
-                    <div style="padding-bottom: 8px;">VLC 2.2.4 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is the fourth update to VLC's 2.2 release series. </div>
-                    <div>Fix crash in G.711 wav files</div>
-                    <div>Fix mp3 crash in libmad</div>
-                    <div>Fix out-of-bound write in adpcm QT IMA codec (<a href="/security/sa1601.html">VideoLAN-SA-1601</a>, CVE-2016-5108)</div>
-                    <div>Fix overlay creation on Windows XP for DirectDraw video output</div>
-                    <div>Improve compilation support for GNU/HURD</div>
-                    <div>Minor UI improvements for the Qt interface on Windows, Linux, BSD, ...</div>
+                    <div style="padding-bottom: 8px;">VLC 2.2.5 <a href="https://wiki.videolan.org/VLC_CodeNames">"Weatherwax"</a> is the fifth update to VLC's 2.2 release series. </div>
+                    <div>Fix green line rendering on Windows with AMD drivers</div>
+                    <div>Fix mp3 playback regression on macOS and 64bit Windows leading to distortion for some media</div>
+                    <div>Fix screenshots size</div>
+                    <div>Improved lua scripts for various websites</div>
+                    <div>Various security improvements in demuxers and decoders</div>
+                    <div>Security hardening for DLL hijacking environments</div>
+                    <div>Fix scrolling sensitivity on Sierra</div>
+                    <div>Fix screen recording on Windows</div>
 
              <h2 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h2>
                     <div>VLC 2.2.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>

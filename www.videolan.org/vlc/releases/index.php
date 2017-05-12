@@ -12,6 +12,9 @@
 <a href="/vlc/releases/2.2.0.html">VLC 2.2.0</a><br />
 <a href="/vlc/releases/2.2.1.html">VLC 2.2.1</a><br />
 <a href="/vlc/releases/2.2.2.html">VLC 2.2.2</a><br />
+<a href="/vlc/releases/2.2.3.html">VLC 2.2.3</a><br />
+<a href="/vlc/releases/2.2.4.html">VLC 2.2.4</a><br />
+<a href="/vlc/releases/2.2.5.html">VLC 2.2.5</a><br />
 
 <h2>VLC 2.1.x branch</h2>
 <a href="/vlc/releases/2.1.0.html">VLC 2.1.0</a><br />

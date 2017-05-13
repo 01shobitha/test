@@ -10,7 +10,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
    $macosxversion = "2.2.5.1";
-   $win32version = "2.2.5.";
+   $win32version = "2.2.5.1";
 ?>
     <div>
             <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.5</b> "Weatherwax"</h1>

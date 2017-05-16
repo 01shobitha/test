@@ -30,7 +30,7 @@ em { font-style: italic; }
 
 <span style="float: right; margin: 10px;"><?php image('partners/aomedia.png', "Alliance for Open Media"); ?></span>
 
-<p>Since its creation, the VideoLAN project has worked to make multimedia simple for everyone, users and professionals. To achieve that goal, VideoLAN has developed several pieces of open source software, including the <a href="/vlc/">VLC media player</a>, the <a href="/developers/x264.html">x264</a> encoder and the <a href="/developers/libdvdcss.html">libdvdcss</a> library. The organization also supports and funds other open source projects such as <a href="http://ffmpeg.org/">FFmpeg</a>, <a href="https://libav.org">Libav</a>, and Handbrake.</p>
+<p>Since its creation, the VideoLAN project has worked to make multimedia simple for everyone, users and professionals. To achieve that goal, VideoLAN has developed several pieces of open source software, including the <a href="/vlc/">VLC media player</a>, the <a href="/developers/x264.html">x264</a> encoder and the <a href="/developers/libdvdcss.html">libdvdcss</a> library. The organization also supports and funds other open source projects such as <a href="http://ffmpeg.org/">FFmpeg</a>, <a href="https://libav.org">Libav</a>, and <a href="https://handbrake.fr/">Handbrake</a>.</p>
 
 <p><a href="/">VideoLAN</a> has constantly <b>opposed software patents</b>, as they hinder innovation and increase costs for all but a few. Therefore VideoLAN welcomes the Open Media initiative as an excellent opportunity to create a set of high-quality codecs that seek to remove hidden costs and usage limitations from video streaming.</p>
 

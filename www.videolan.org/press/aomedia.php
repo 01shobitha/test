@@ -8,8 +8,8 @@
  body {
       color: #232525;
     }
-p { font-size:14px; line-height: 22px; }
-    .subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; } 
+p { font-size:14px; line-height: 26px; }
+.subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; }
 .productDescription li { margin-left: 20px; font-size: 13px; }
 
 h2 { margin-top: 20px; margin-bottom: 12px; }

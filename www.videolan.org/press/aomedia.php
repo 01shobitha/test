@@ -1,0 +1,55 @@
+<?php
+   $title = "Press Release - VideoLAN Joins the Alliance for Open Media";
+   $lang = "en";
+   $menu = array( "vlc" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+?>
+<style>
+ body {
+      color: #232525;
+    }
+p { font-size:14px; line-height: 22px; }
+    .subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; } 
+.productDescription li { margin-left: 20px; font-size: 13px; }
+
+h3 { color: #999; font-size: 16px; }
+</style>
+
+<h1>VideoLAN Joins the Alliance for Open Media</h1>
+<br />
+
+<div class="longtext productDescription">
+<div class="date"><b>Paris, May 16 2017</b></div>
+
+<p>VideoLAN, a non-profit organization that develops and promotes open source multimedia solutions, has joined the Alliance for Open Media, a non-profit effort to develop a new open and royalty-free video codec. VideoLAN will bring nearly 20 years of experience developing open source multimedia software to help build the next-generation video codec.</p>
+
+<p>Since its creation, the VideoLAN project has worked to make multimedia simple for everyone, users and professionals. To achieve that goal, VideoLAN has developed several pieces of open source software, including the VLC media player, the x264 encoder and the libdvdcss library. The organization also supports and funds other open source projects such as FFmpeg, Libav, and Handbrake.</p>
+
+<p>VideoLAN has constantly opposed software patents, as they hinder innovation and increase costs for all but a few. Therefore VideoLAN welcomes the Open Media initiative as an excellent opportunity to create a set of high-quality codecs that seek to remove hidden costs and usage limitations from video streaming.</p>
+
+<p>“The Alliance for Open Media is one of the best opportunities we have to finally put multimedia on the right track without having to fear hidden fees or legal threats, or resorting to sub-par quality codecs,” said Jean-Baptiste Kempf, President of the VideoLAN association.</p>
+
+<p>The Alliance for Open Media brings together the leading experts in the entire video stack, including our friends from the Xiph project, to work together in pursuit of open, royalty-free and interoperable solutions for the next generation of video delivery.</p>
+
+<p>"We're pleased to welcome VideoLAN to the Alliance for Open Media," said Gabe Frost, Executive Director of the Alliance for Open Media. "Customer expectations for media delivery continue to grow, and fulfilling their expectations requires the concerted energy of the entire ecosystem. We look forward to VideoLAN's contributions to this initiative, which will open the door to a new era of openness and interoperability for internet video."</p>
+
+
+<h3>About the Alliance for Open Media</h3>
+
+<p>The Alliance for Open Media is a project of the Joint Development Foundation, an independent non-profit organization that provides the corporate and legal infrastructure to enable groups to establish and operate standards and source code development collaborations. Launched in 2015, the Alliance for Open Media was formed to define and develop media technologies to address market demand for an open standard for video compression and online delivery.<br />
+Its founding members are Amazon, ARM, Cisco, Google, IBM, Intel, Microsoft, Mozilla, Netflix and NVIDIA.</p>
+<p>Visit <a href="http://aomedia.org/">http://aomedia.org/</a>.</p>
+
+<h3>About VideoLAN</h3>
+
+<p>VideoLAN is a non-profit organization, run by volunteers, that supports the development of free and open source multimedia solutions.<br />
+Its most famous distributed software, VLC media player, is completely free and is one of the most used programs in the world. It is free of advertisements, spyware, bloatware or other mis-features that could be deceptive to its users.</p>
+                   
+<p>Visit <a href="http://www.videolan.org/">http://www.videolan.org/></a>.</p>
+
+<h3>Press Contact</h3>
+<p>press@videolan.org</p>
+
+</div>
+<?php footer('$Id:$'); ?>
+

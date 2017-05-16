@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|16 May 2017|VideoLAN joins the Alliance for Open Media|The <a href="/videolan/">VideoLAN</a> non-profit organization is joining the <a href="http://aomedia.org">Alliance for Open Media</a>, to help developping open and royalty-free codecs and other video technologies!<br /> More information in our press release: <a href="https://www.videolan.org/press/aomedia.html">VideoLAN joins Alliance for Open Media</a>.
+
 |12 May 2017|VLC 2.2.5.1|VideoLAN and the VLC development team are happy to publish version 2.2.5.1 of VLC media player today<br />This fifth stable release of the "WeatherWax" version of VLC fixes a few bugs reported on VLC 2.2.4, notably video rendering issues on AMD graphics card as well as audio distortion on macOS and 64bit Windows for certain audio files. It also includes updated codecs libraries and improves overall security.<br /><a href="/vlc/releases/2.2.5.html">Read more</a> about it on our <a href="/vlc/releases/2.2.5.html">release page</a>.
 
 |9 March 2017|Press release: Wikileaks revelations about VLC|Following the recent revelations from Wikileaks about the use of VLC by the CIA, you can download the <a href="/press/PR_CIA_Vault7_VLC.pdf">official statement from the VideoLAN organization here</a>.

@@ -43,14 +43,14 @@ h3 { color: #999; font-size: 16px; }
 
 <p>The <a href="http://aomedia.org/">Alliance for Open Media</a> is a project of the Joint Development Foundation, an independent non-profit organization that provides the corporate and legal infrastructure to enable groups to establish and operate standards and source code development collaborations. Launched in 2015, the Alliance for Open Media was formed to define and develop media technologies to address market demand for an open standard for video compression and online delivery.<br />
 Its founding members are <b>Amazon, ARM, Cisco, Google, IBM, Intel, Microsoft, Mozilla, Netflix and NVIDIA</b>.</p>
-<p>Visit <a href="http://aomedia.org/">http://aomedia.org/</a>.</p>
+<p>Visit <a href="http://aomedia.org/">http://aomedia.org</a>.</p>
 
 <h2>About VideoLAN</h2>
 
 <p><a href="/">VideoLAN</a> is a non-profit organization, run by volunteers, that supports the development of free and open source multimedia solutions.<br />
 Its most famous distributed software, <a href="/vlc">VLC media player</a>, is completely free and is one of the most used programs in the world. It is free of advertisements, spyware, bloatware or other mis-features that could be deceptive to its users.</p>
                    
-<p>Visit <a href="http://www.videolan.org/">http://www.videolan.org/></a>.</p>
+<p>Visit <a href="http://www.videolan.org/">http://www.videolan.org</a>.</p>
 
 <h3>Press Contact</h3>
 <p>press@videolan.org</p>

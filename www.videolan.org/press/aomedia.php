@@ -14,7 +14,7 @@ p { font-size:14px; line-height: 22px; }
 
 h2 { margin-top: 20px; margin-bottom: 12px; }
 h3 { color: #999; font-size: 16px; }
-em { font-style: italic: }
+em { font-style: italic; }
 
 </style>
 

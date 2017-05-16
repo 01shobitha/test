@@ -43,7 +43,8 @@ em { font-style: italic; }
 
 <h2>About the Alliance for Open Media</h2>
 
-<p>The <a href="http://aomedia.org/">Alliance for Open Media</a> is a project of the Joint Development Foundation, an independent non-profit organization that provides the corporate and legal infrastructure to enable groups to establish and operate standards and source code development collaborations. Launched in 2015, the Alliance for Open Media was formed to define and develop media technologies to address market demand for an open standard for video compression and online delivery.<br />
+<p>The <a href="http://aomedia.org/">Alliance for Open Media</a> is a project of the Joint Development Foundation, an independent non-profit organization that provides the corporate and legal infrastructure to enable groups to establish and operate standards and source code development collaborations.<br />
+Launched in 2015, the Alliance for Open Media was formed to define and develop media technologies to address market demand for an open standard for video compression and online delivery.<br />
 Its founding members are <b>Amazon, ARM, Cisco, Google, IBM, Intel, Microsoft, Mozilla, Netflix and NVIDIA</b>.</p>
 <p>Visit <a href="http://aomedia.org/">http://aomedia.org</a>.</p>
 

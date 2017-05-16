@@ -26,6 +26,8 @@ h3 { color: #999; font-size: 16px; }
 
 <p><a href="/videolan/">VideoLAN</a>, a non-profit organization that develops and promotes open source multimedia solutions, has joined the <a href="http://aomedia.org/">Alliance for Open Media</a>, a non-profit effort to develop a new <b>open</b> and <b>royalty-free</b> video codec. <a href="/">VideoLAN</a> will bring nearly 20 years of experience developing open source multimedia software to help build the next-generation video codec.</p>
 
+<?php image('partners/aomedia.png', "Alliance for Open Media"); ?>
+
 <p>Since its creation, the VideoLAN project has worked to make multimedia simple for everyone, users and professionals. To achieve that goal, VideoLAN has developed several pieces of open source software, including the <a href="/vlc/">VLC media player</a>, the <a href="/developers/x264.html">x264</a> encoder and the <a href="/developers/libdvdcss.html">libdvdcss</a> library. The organization also supports and funds other open source projects such as <a href="http://ffmpeg.org/">FFmpeg</a>, <a href="https://libav.org">Libav</a>, and Handbrake.</p>
 
 <p><a href="/">VideoLAN</a> has constantly <b>opposed software patents</b>, as they hinder innovation and increase costs for all but a few. Therefore VideoLAN welcomes the Open Media initiative as an excellent opportunity to create a set of high-quality codecs that seek to remove hidden costs and usage limitations from video streaming.</p>

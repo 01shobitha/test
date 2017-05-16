@@ -4,7 +4,7 @@
     $new_design = true;
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-    $libaacs_version = "0.8.1";
+    $libaacs_version = "0.9.0";
 ?>
 
 <div class="container">

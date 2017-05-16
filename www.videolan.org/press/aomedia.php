@@ -24,7 +24,7 @@ h3 { color: #999; font-size: 16px; }
 
 <h2>VideoLAN Joins the Alliance for Open Media</h2>
 
-<p><a href="/videolan/">VideoLAN</a>, a non-profit organization that develops and promotes open source multimedia solutions, has joined the <a href="http://aomedia.org/">Alliance for Open Media</a>, a non-profit effort to develop a new <b>open</b> and <b>royalty-free</b> video codec. <a href="/">VideoLAN</a> will bring nearly 20 years of experience developing open source multimedia software to help build the next-generation video codec.</p>
+<p><a href="/videolan/">VideoLAN</a>, a non-profit organization that develops and promotes open source multimedia solutions, has joined the <a href="http://aomedia.org/">Alliance for Open Media</a>, a non-profit effort to develop a new <b>open</b> and <b>royalty-free</b> video codec: <b>AV-1</b> <a href="/">VideoLAN</a> will bring nearly 20 years of experience developing open source multimedia software to help build the next-generation video codec.</p>
 
 <span style="float: right; margin: 10px;"><?php image('partners/aomedia.png', "Alliance for Open Media"); ?></span>
 

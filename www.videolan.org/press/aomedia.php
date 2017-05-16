@@ -36,6 +36,7 @@ em { font-style: italic; }
 
 <p><em>“The Alliance for Open Media is one of the best opportunities we have to finally put multimedia on the right track without having to fear hidden fees or legal threats, or resorting to sub-par quality codecs,”</em> said Jean-Baptiste Kempf, President of the VideoLAN association.</p>
 
+<span style="float: left;"><?php image('goodies/Cone-Video-large.png', "VLC logo", "", "300px"); ?> </span>
 <p>The <a href="http://aomedia.org/">Alliance for Open Media</a> brings together the leading experts in the entire video stack, including our friends from the Xiph project, to work together in pursuit of open, royalty-free and interoperable solutions for the next generation of video delivery.</p>
 
 <p><em>"We're pleased to welcome VideoLAN to the Alliance for Open Media,"</em> said Gabe Frost, Executive Director of the Alliance for Open Media. <em>"Customer expectations for media delivery continue to grow, and fulfilling their expectations requires the concerted energy of the entire ecosystem. We look forward to VideoLAN's contributions to this initiative, which will open the door to a new era of openness and interoperability for internet video."</em></p>

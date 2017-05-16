@@ -51,7 +51,7 @@ Its founding members are <b>Amazon, ARM, Cisco, Google, IBM, Intel, Microsoft, M
 <h2>About VideoLAN</h2>
 
 <p><a href="/">VideoLAN</a> is a non-profit organization, run by volunteers, that supports the development of free and open source multimedia solutions.<br />
-Its most famous distributed software, <a href="/vlc">VLC media player</a>, is completely free and is one of the most used programs in the world. It is free of advertisements, spyware, bloatware or other mis-features that could be deceptive to its users.</p>
+Its most famous distributed software, <a href="/vlc">VLC media player</a>, is completely free and is one of the most used programs in the world. It is free of advertisements, spyware, bloatware or other misfeatures that could be deceptive to its users.</p>
                    
 <p>Visit <a href="http://www.videolan.org/">http://www.videolan.org</a>.</p>
 

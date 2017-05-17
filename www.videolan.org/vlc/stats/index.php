@@ -16,7 +16,7 @@
 
 <h1>Download statistics</h1>
 
-<p><a href="/vlc/stats/downloads.php">View download statistics</a></p>
+<p><a href="/vlc/stats/downloads.html">View download statistics</a></p>
 
 </div>
 

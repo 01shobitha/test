@@ -826,7 +826,7 @@ endorsement by the project.</pre>
         Get a hand on the famous and unique <a href="http://shop.borgodoro.it/products/vlc-chocolate">VLC Chocolate</a> made in Italia ! (from 30€/25 bars)
     </p>
 
-    <img width="250" height="250" src="http://cdn.shopify.com/s/files/1/0293/4893/products/borgodoro-box_1024x1024.png?v=1384180629" alt="VLC Chocolate">
+    <img width="250" height="250" src="//cdn.shopify.com/s/files/1/0293/4893/products/borgodoro-box_1024x1024.png?v=1384180629" alt="VLC Chocolate">
 
 </section>
 
@@ -841,7 +841,7 @@ endorsement by the project.</pre>
         Stickers designed to customize your notebook, pc, workstation, server with a professional look and a fresh design, at <a href="http://www.unixstickers.com/vlc-videolan-software-shaped-sticker">UnixStickers</a>
     </p>
 
-    <img width="180" height="180" src="http://www.unixstickers.com/image/cache/data/stickers/vlc/vlc_bumper.sh-180x180.png" alt="VLC Stickers">
+    <img width="180" height="180" src="//www.unixstickers.com/image/cache/data/stickers/vlc/vlc_bumper.sh-180x180.png" alt="VLC Stickers">
 
     <p>Another set of stickers is provided by <a href="http://www.it2l.com/videolan-vlc-d-31.html">it2l</a> (shipping only to France)</p>
 

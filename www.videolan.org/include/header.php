@@ -159,7 +159,7 @@ function start_head( $title,
 
         <?php /* RSS */ ?>
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="//images.videolan.org/videolan-news.rss" />
-        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="//planet.videolan.org/rss20.xml" />
 
         <?php
         /* Alternate */

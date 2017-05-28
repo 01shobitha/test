@@ -254,10 +254,10 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
                     } else {
                         echo ' style="padding-right: 20px;"';
                     } ?>>
-                        <a class="social" href="http://www.twitter.com/videolan">
+                        <a class="social" href="https://www.twitter.com/videolan">
                             <i class="icon-twitter"></i>
                         </a>
-                        <a class="social" href="http://www.facebook.com/vlc.media.player">
+                        <a class="social" href="https://www.facebook.com/vlc.media.player">
                             <i class="icon-facebook"></i>
                         </a>
                     </span>

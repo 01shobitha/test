@@ -56,12 +56,12 @@
 
     <div class="clearme">
         <h2>Source-code snapshots</h2>
-        <p><a href="/build/source/">Download here</a> the tarballs (bz2) or use <a href="http://wiki.videolan.org/Git">Git</a> to get the latest source code.</p>
+        <p><a href="/build/source/">Download here</a> the tarballs (bz2) or use <a href="//wiki.videolan.org/Git">Git</a> to get the latest source code.</p>
 
         <h2><a id="ubuntu">Ubuntu PPA</a></h2>
         <p>The nightly builds for Ubuntu are available
-        on <a href="http://launchpad.net/">Launchpad</a> from
-        the <a href="https://launchpad.net/~videolan/+archive/master-daily"
+        on <a href="//launchpad.net/">Launchpad</a> from
+        the <a href="//launchpad.net/~videolan/+archive/master-daily"
         >VideoLAN team's <code>master-daily</code> PPA</a>.
         Once you have activated the correct repository, you can simply
         update the VLC (<code>vlc</code>) package.
@@ -90,11 +90,11 @@
 
         <h2><a id='suse'>VLC SVN Snapshots for openSUSE</a></h2>
         <p>For openSUSE 11.4, 12.3, 13.1, 13.2 and Tumbleweed we offer also RPMs from SVN snapshots. The packages are updated approximatively once per week.</p>
-        <p>In order to test it, follow the usual instructions to install VLC as described on <a href="http://www.videolan.org/vlc/download-suse.html">http://www.videolan.org/vlc/download-suse.html</a>,
+        <p>In order to test it, follow the usual instructions to install VLC as described on <a href="//www.videolan.org/vlc/download-suse.html">www.videolan.org/vlc/download-suse.html</a>,
          but replace the packagename <b>vlc</b> with <b>vlc-beta</b>. <i>You can only install one version, so either vlc OR vlc-beta. They conflict each other. </i></p>
 
         <h2><a id='gentoo'>VLC Git Ebuild for Gentoo</a></h2>
-        <p>Alexis Ballier maintains Ebuild for the <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-9999.ebuild?rev=1.1&amp;view=log'>master (vlc-9999.ebuild)</a> Git branch in the Portage tree.</p>
+        <p>Alexis Ballier maintains Ebuild for the <a href='//sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-9999.ebuild?rev=1.1&amp;view=log'>master (vlc-9999.ebuild)</a> Git branch in the Portage tree.</p>
         As it is a live ebuild it comes without any keyword so you'll have to put a '**' entry for it in package.keywords in order to be able to install it and, when appropriate, an entry in package.unmask .
     </div>
 

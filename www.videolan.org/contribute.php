@@ -148,7 +148,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 <p>Use the following address: <b>1DST3gm6JthxhuoNKFqXrdpzPFfz1WgHpW</b></p>
                 <p>Or the QR-Code:</p>
                 <div style="margin-left: 60px;">
-                    <a href="bitcoin:1DST3gm6JthxhuoNKFqXrdpzPFfz1WgHpW"><img src="//images.videolan.org/images/bitcoin-address.png" alt="Bitcoin QR-Code" /></a>
+                    <a href="bitcoin:1DST3gm6JthxhuoNKFqXrdpzPFfz1WgHpW"><img src="//images.videolan.org/images/bitcoin-1DST3gm6JthxhuoNKFqXrdpzPFfz1WgHpW.png" alt="Bitcoin QR-Code" /></a>
                 </div>
            </td>
         </tr>

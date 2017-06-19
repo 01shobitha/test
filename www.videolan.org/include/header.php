@@ -164,7 +164,7 @@ function start_head( $title,
         <?php
         /* Alternate */
         if( isset($alternate_lang) ) {
-            $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
+            $root_filename = explode('.', $_SERVER['SCRIPT_NAME'] );
             echo "<!-- ".$root_filename[0]." -->";
 
             foreach($alternate_lang as $lang) {

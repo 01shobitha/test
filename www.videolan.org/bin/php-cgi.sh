@@ -24,7 +24,7 @@ export PATH_INFO=`echo "$1" | cut -d '?' -f1`
 
 export PATH_TRANSLATED="${2}${PATH_INFO}"
 
-export SCRIPT_NAME="/cgi-bin/php5"
+export SCRIPT_FILENAME="/cgi-bin/php5"
 export QUERY_STRING=`echo "$1" | cut -d '?' -f2`
 export REMOTE_HOST="localhost"
 export REMOTE_ADDR="127.0.0.1"

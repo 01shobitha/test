@@ -41,13 +41,13 @@
                           <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.1/vlc.ymp">VLC for Leap 42.1</a>
                         </div>
                         <div class="installbtn" style="float: left;">
+                          <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.2/vlc.ymp">VLC for Leap 42.2</a>
+                        </div>
+                        <div class="installbtn" style="float: left;">
                           <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
                         </div>
                         <div class="installbtn" style="float: left;">
-                          <a href="http://download.videolan.org/pub/vlc/SuSE/13.2/vlc.ymp">VLC for 13.2</a>
-                        </div>
-                        <div class="installbtn" style="float: left;">
-                          <a href="http://download.videolan.org/pub/vlc/SuSE/13.1/vlc.ymp">VLC for 13.1</a>
+                          <a href="http://download.videolan.org/pub/vlc/SuSE/SLE12/vlc.ymp">VLC for SLE12</a>
                         </div>
 			        </div>
 			        <div id="downloadDetails">
@@ -73,9 +73,10 @@ Version. Supported at this time are :</p>
 <p class="projectDescription">
 <ul class="bullets">
 <li>Leap_42.1</li>
+<li>Leap_42.1</li>
+<li>Leap_42.3</li>
 <li>Tumbleweed</li>
-<li>13.2</li>
-<li>13.1</li>
+<li>SLE12</li>
 </ul>
 </p>
 <p class="projectDescription">Finally, confirm the addition.</p>
@@ -110,7 +111,7 @@ sudo zypper in vlc
 </pre>
 </p>
 
-<p class="projectDescription">&lt;SUSE version&gt; can be 11.4, 12.3 or 13.1, 13.2, Tumbleweed, Factory</p>
+<p class="projectDescription">&lt;SUSE version&gt; can be Leap_42.1, Leap_42.2, Leap_42.3, Tumbleweed, SLE12</p>
 
 </div>
 

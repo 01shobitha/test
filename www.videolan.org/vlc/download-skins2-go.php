@@ -4,15 +4,16 @@ if( strpos( $url, "/" ) ) $url ="";
 #if( strpos( $url, " " ) ) $url ="";
 if( strpos( $url, '"' ) ) $url ="";
 if( strpos( $url, "'" ) ) $url ="";
-echo $url;
+$displayURL = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
+echo $displayURL;
 ?>
 <html>
   <head>
     <title>VideoLAN - Download skin</title>
-    <meta http-equiv="refresh" content="0; url=//www.videolan.org/vlc/skins2/<?php echo $url; ?>" />
+    <meta http-equiv="refresh" content="0; url=//www.videolan.org/vlc/skins2/<?php echo $displayURL; ?>" />
   </head>
   <body>
-    <p>Click <a href="//www.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
+    <p>Click <a href="//www.videolan.org/vlc/skins2/<?php echo $displayURL; ?>">here</a> if your download doesn't start.</p>
 <?php
   if( $url != "" )
   { 

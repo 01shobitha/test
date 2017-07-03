@@ -219,7 +219,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/include/magpierss/rss_fetch.inc");
         </div>
 
         <div class="col-md-6">
-            <h1 style='margin-bottom: 13px;'><a href="http://planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
+            <h1 style='margin-bottom: 13px;'><a href="//planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
 
             <div lang="en">
                 <?php

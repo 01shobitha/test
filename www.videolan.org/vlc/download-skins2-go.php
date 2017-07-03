@@ -5,7 +5,6 @@ if( strpos( $url, "/" ) ) $url ="";
 if( strpos( $url, '"' ) ) $url ="";
 if( strpos( $url, "'" ) ) $url ="";
 $displayURL = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
-echo $displayURL;
 ?>
 <html>
   <head>

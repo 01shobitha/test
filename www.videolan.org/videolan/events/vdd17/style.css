@@ -1,0 +1,104 @@
+.header-bg {
+    background: url('/images/events/vdd16/vdd14-blurred.jpg') center no-repeat;
+    padding: 180px 0;
+    margin-top: -91px;
+    background-size: cover;
+}
+
+.header-bg {
+    color: white !important;
+}
+
+.header-bg h1 {
+    font-size: 36px;
+}
+
+.header-bg h1, .header-bg h3, .header-bg a {
+    color: white;
+}
+
+.header-bg a:hover, a:active, a:focus {
+    color: #e0e0e0;
+}
+
+.header-bg h4 {
+    font-weight: bold;
+}
+
+#nonprofitOrganizationDiv2 {
+    color: #e0e0e0;
+}
+
+#nonprofitOrganizationDiv2 a {
+    color: #d0d0d0;
+}
+
+section {
+   padding: 35px 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#where {
+    background: url('/images/events/vdd16/crowd-of-people.jpg') center no-repeat fixed;
+    color: white;
+}
+
+#where a, #where h2, #where p {
+    color: white;
+}
+
+.btn-border {
+    border: 1px solid #fff;
+}
+
+.event-inner {
+    display: table-row;
+}
+
+.tab-content {
+    margin-left: 1px;
+}
+
+.event {
+    color: #4d4d4d;
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+    /*height: 110px;*/
+}
+
+.event h3 {
+    color: #4d4d4d;
+}
+
+.event-time, .event-description {
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+}
+
+.event-time {
+    min-width: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    width: 16%;
+    padding: 5px;
+    text-align: center;
+}
+
+.event-description {
+    background-color: #fff;
+    padding: 15px;
+}

@@ -160,8 +160,8 @@
         <p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
       </div>
         <div class="col-md-6 ">
-        <h2 class="uppercase">Registration</h2>
-        <p>As VDD is part of QtCon this year, you need to register for QtCon.</p>
+        <h2 class="uppercase">Register!</h2>
+            <p><b><a href="http://goo.gl/forms/Kdi5LSu1u9">Register <strong>now!</strong></a></b></p>
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
       </div>
       <div class="col-md-6">
         <h2 class="uppercase">Accommodation </h2>
-        <p>For active members of the open-source multimedia communities who registered until August 5, we will provide accommodation.</p>
+        <p>For active members of the open-source multimedia communities who registered until August 25, we will provide accommodation.</p>
       </div>
     </div>
   </div>

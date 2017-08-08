@@ -161,7 +161,7 @@
       </div>
         <div class="col-md-6 ">
         <h2 class="uppercase">Register!</h2>
-            <p><b><a href="http://goo.gl/forms/Kdi5LSu1u9">Register <strong>now!</strong></a></b></p>
+            <p><b><a href="https://goo.gl/forms/YJ0IakCQ7WLyUYgr1">Register <strong>now!</strong></a></b></p>
       </div>
     </div>
   </div>

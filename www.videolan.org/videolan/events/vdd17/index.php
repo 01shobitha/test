@@ -75,7 +75,7 @@
                   <h3>Community Bonding Day</h3>
                   <p>This year we'll do a <b>tbd...</b>!<br/>
                   The VideoLAN organization will pay for the entrance tickets.<br/>
-                  <b>To participate you'll need to be in downtown Berlin, on Friday morning at 9:00!</b><br/>Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
+                  Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
                 </div>
               </div>
             </div>

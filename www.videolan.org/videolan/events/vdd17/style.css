@@ -105,11 +105,15 @@ h2 {
 
 #sponsors {
     position: absolute;
-    top: 30px;
-    right: 60px;
+    top: -154px;
+    right: 15px;
 }
 
 .youtube-logo {
     width: auto;
     height: 38px;
+}
+
+header-bg .container {
+    position: relative;
 }

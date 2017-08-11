@@ -74,8 +74,7 @@
                 <div class="event-description">
                   <h3>Community Bonding Day</h3>
                   <p>This year we'll do a <b>tbd...</b>!<br/>
-                  The VideoLAN organization will pay for the entrance tickets.<br/>
-                  Please note, that VideoLAN will not pay for a hotel on Thursday night, except very special cases.</p>
+                  The VideoLAN organization will pay for the entrance tickets, or whatever costs associated with the event.<br/></p>
                 </div>
               </div>
             </div>

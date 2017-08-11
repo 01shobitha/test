@@ -102,3 +102,14 @@ h2 {
     background-color: #fff;
     padding: 15px;
 }
+
+#sponsors {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+.youtube-logo {
+    width: auto;
+    height: 38px;
+}

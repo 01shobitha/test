@@ -7,7 +7,7 @@
    $menu = array( "videolan", "events" );
 
    $additional_js = array("/js/slimbox2.js", "/js/slick-init.js", "/js/slick.min.js");
-   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css", "/videolan/events/vdd16/style.css");
+   $additional_css = array("/js/css/slimbox2.css", "/style/slick.min.css", "/videolan/events/vdd17/style.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 <header class="header-bg">
@@ -20,6 +20,10 @@
         <h4>22nd and 24th of September 2017</h4>
         <h4>Paris, France</h4>
       </div>
+    </div>
+    <div id="sponsors">
+      <h5>Sponsors</h5>
+      <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'youtube-logo'); ?>
     </div>
   </div>
 </header>

@@ -22,9 +22,11 @@
         <h4>Paris, France</h4>
       </div>
     </div>
+  </div>
+  <div class="container">
     <div id="sponsors">
-      <h5>Sponsors</h5>
-      <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'youtube-logo'); ?>
+        <h5>Sponsors</h5>
+        <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'youtube-logo'); ?>
     </div>
   </div>
 </header>

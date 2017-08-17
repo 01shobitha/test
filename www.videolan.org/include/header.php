@@ -309,7 +309,7 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
         <?php } ?>
         <?php if ($show_vdd_banner) { ?>
             <a href='/videolan/events/vdd17'>
-                <?php image( 'events/vdd17/banner01.jpg' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
+                <?php image( 'events/vdd17/banner01.png' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
             </a>
         <?php } ?>
     </div>

@@ -40,7 +40,7 @@
       <p>For its <b>ninth edition</b>, people from the VideoLAN and open source multimedia communities will meet on the
       <strong>22nd and 24th of September 2017</strong>, to gather, work, discuss and meet, in: <strong>Paris, France</strong>!</p>
       <p>This event is focused on technical discussions and decisions about <strong>multimedia</strong>.</p>
-      <?php image( 'events/vdd17/banner02.jpg' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
+      <?php image( 'events/vdd17/banner02.png' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
     </div>
   </div>
 </div>

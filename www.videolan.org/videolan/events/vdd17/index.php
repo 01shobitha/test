@@ -174,28 +174,31 @@
                 <div class="event-time">
                   14:00 - 16:00
                 </div>
-                <div class="event-description">
-                  <h3>AV1 Technical Meeting</h3>
-                </div>
-              </div>
-            </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  14:00 - 16:00
-                </div>
-                <div class="event-description">
-                  <h3>libav Technical Meeting</h3>
-                </div>
-              </div>
-            </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  14:00 - 16:00
-                </div>
-                <div class="event-description">
-                  <h3>VLC Technical Meeting</h3>
+                <div class="event-description event-row">
+                  <div class="event-col">
+                    <div class="header">
+                      Salle 1
+                    </div>
+                    <div class="body">
+                      <h3>AV1 Technical Meeting</h3>
+                    </div>
+                  </div>
+                  <div class="event-col">
+                    <div class="header">
+                      Salle 2
+                    </div>
+                    <div class="body">
+                      <h3>libav Technical Meeting</h3>
+                    </div>
+                  </div>
+                  <div class="event-col">
+                    <div class="header">
+                      Salle 3
+                    </div>
+                    <div class="body">
+                    <h3>VLC Technical Meeting</h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

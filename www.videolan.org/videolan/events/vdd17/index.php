@@ -210,28 +210,6 @@
                 </div>
               </div>
             </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  16:00 - 18:00
-                </div>
-                <div class="event-description">
-                  <h3>VideoLAN asso meeting</h3>
-                  <h5>For non-profit members only</h5>
-                </div>
-              </div>
-            </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  16:00 - 18:00
-                </div>
-                <div class="event-description">
-                  <h3>VideoLAN asso meeting</h3>
-                  <h5>For non-profit members only</h5>
-                </div>
-              </div>
-            </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="sunday">
             <div class="event">

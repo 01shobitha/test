@@ -102,28 +102,129 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  09:00 - 09:30
+                  08:45 - 09:15
                 </div>
                 <div class="event-description">
-                  <h3>Breakfast</h3>
+                  <h3>Welcome & Breakfast</h3>
                 </div>
               </div>
             </div>
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  10:00 - 13:00
+                  09:15 - 09:45
                 </div>
                 <div class="event-description">
-                  <h3>Talks</h3>
-                  <h5>Room ...</h5>
+                  <h3>VLC 3.0</h3>
                 </div>
               </div>
             </div>
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  17:00 - 18:30
+                  09:45 - 10:20
+                </div>
+                <div class="event-description">
+                  <h3>Opus Encoder</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  10:40 - 11:15
+                </div>
+                <div class="event-description">
+                  <h3>MKV IETF Update</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  11:15 - 11:45
+                </div>
+                <div class="event-description">
+                  <h3>AV1 Update</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  11:45 - 12:15
+                </div>
+                <div class="event-description">
+                  <h3>Empty Slot</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  12:15 - 14:00
+                </div>
+                <div class="event-description">
+                  <h3>Lunch Break</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  14:00 - 16:00
+                </div>
+                <div class="event-description">
+                  <h3>AV1 Technical Meeting</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  14:00 - 16:00
+                </div>
+                <div class="event-description">
+                  <h3>libav Technical Meeting</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  14:00 - 16:00
+                </div>
+                <div class="event-description">
+                  <h3>VLC Technical Meeting</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:00 - 18:00
+                </div>
+                <div class="event-description">
+                  <h3>VideoLAN asso meeting</h3>
+                  <h5>For non-profit members only</h5>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:00 - 18:00
+                </div>
+                <div class="event-description">
+                  <h3>VideoLAN asso meeting</h3>
+                  <h5>For non-profit members only</h5>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  16:00 - 18:00
                 </div>
                 <div class="event-description">
                   <h3>VideoLAN asso meeting</h3>
@@ -146,11 +247,20 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
-                  09:30 - 17:00
+                  09:30 - 12:00
                 </div>
                 <div class="event-description">
-                  <h3>Unconference</h3>
-                  <h5>Room ...</h5>
+                  <h3>Lightning talks</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
+                  14:00 - 18:00
+                </div>
+                <div class="event-description">
+                  <h3>Unconferences</h3>
                 </div>
               </div>
             </div>

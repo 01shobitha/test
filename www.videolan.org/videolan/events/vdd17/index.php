@@ -235,6 +235,16 @@
             <div class="event">
               <div class="event-inner">
                 <div class="event-time">
+                  12:00 - 14:00
+                </div>
+                <div class="event-description">
+                  <h3>Lunch</h3>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-inner">
+                <div class="event-time">
                   14:00 - 18:00
                 </div>
                 <div class="event-description">

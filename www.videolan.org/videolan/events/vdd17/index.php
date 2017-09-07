@@ -18,8 +18,7 @@
         <img src="//images.videolan.org/images/VLC-IconSmall.png">
         <h1>VideoLAN Dev Days 2017</h1>
         <h3>The Open Multimedia Conference that frees the cone in you!</h3>
-        <h4>22nd and 24th of September 2017</h4>
-        <h4>Paris, France</h4>
+        <h4>22 - 24 September 2017, Paris</h4>
       </div>
     </div>
   </div>
@@ -37,10 +36,11 @@
       <h2 class="uppercase">About VideoLAN Dev Days 2017</h2>
       <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
       invite you to the multimedia open-source event of the summer!</p>
-      <p>For its <b>ninth edition</b>, people from the VideoLAN and open source multimedia communities will meet on the
-      <strong>22nd and 24th of September 2017</strong>, to gather, work, discuss and meet, in: <strong>Paris, France</strong>!</p>
-      <p>This event is focused on technical discussions and decisions about <strong>multimedia</strong>.</p>
-      <?php image( 'events/vdd17/banner02.png' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
+      <p>For its <b>ninth edition</b>, people from the VideoLAN and open source multimedia communities will meet in <strong>Paris</strong>
+      to discuss and work on the future of the open-source multimedia community</p>
+
+      <p>This event is a very <strong>technical</strong> conferences.</p>
+      <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong>Paris, France</strong>!</p>
     </div>
   </div>
 </div>

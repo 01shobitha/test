@@ -34,6 +34,7 @@
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 text-center">
       <h2 class="uppercase">About VideoLAN Dev Days 2017</h2>
+      <hr class="spacer">
       <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
       invite you to the multimedia open-source event of the summer!</p>
       <p>For its <b>ninth edition</b>, people from the VideoLAN and open source multimedia communities will meet in <strong>Paris</strong>
@@ -61,203 +62,170 @@
     <div class="row">
       <div class="text-center">
         <h2 class="uppercase">Schedule</h2>
+        <hr class="spacer">
       </div>
       <div class="col-lg-10 col-lg-offset-1">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday 22</a></li>
-        <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday 23</a></li>
+        <li role="presentation"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday 22</a></li>
+        <li role="presentation" class="active"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday 23</a></li>
         <li role="presentation"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday 24</a></li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active fade in" id="friday">
+        <div role="tabpanel" class="tab-pane fade" id="friday">
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  09:30 - 18:30
-                </div>
-                <div class="event-description">
-                  <h3>Community Bonding Day</h3>
-                  <p>This year we'll do a <b>tbd...</b>!<br/>
-                  The VideoLAN organization will pay for the entrance tickets, or whatever costs associated with the event.<br/></p>
-                </div>
+              <h4 class="event-time">09:30 - 18:30</h4>
+              <div class="event-description">
+                <h3>Community Bonding Day</h3>
+                <p>This year we'll do a <b>tbd...</b>!<br/>
+                The VideoLAN organization will pay for the entrance tickets, or whatever costs associated with the event.<br/></p>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  19:00
-                </div>
-                <div class="event-description">
-                  <h3>Evening reception</h3>
-                  <p>On <strong>Friday at 19h00</strong>, people are welcome to come and
-                  share a few good drinks, with all attendees, somewhere near the Hotel.</p>
-                </div>
+              <h4 class="event-time">19:00</h4>
+              <div class="event-description">
+                <h3>Evening reception</h3>
+                <p>On <strong>Friday at 19h00</strong>, people are welcome to come and
+                share a few good drinks, with all attendees, somewhere near the Hotel.</p>
               </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade" id="saturday">
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  08:45 - 09:15
-                </div>
-                <div class="event-description">
-                  <h3>Welcome & Breakfast</h3>
-                </div>
+        <div role="tabpanel" class="tab-pane fade active in" id="saturday">
+            <div class="event event-bg">
+              <h4 class="event-time">
+                08:45 - 09:15
+              </h4>
+              <div class="event-description">
+                <h3>Welcome & Breakfast</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  09:15 - 09:45
-                </div>
-                <div class="event-description">
-                  <h3>VLC 3.0</h3>
-                  <p>Jean-Baptiste Kempf, VideoLAN</p>
-                </div>
+              <h4 class="event-time">
+                09:15 - 09:45
+              </h4>
+              <p class="event-author">Jean-Baptiste Kempf, VideoLAN</p>
+              <div class="event-description">
+                <h3>VLC 3.0</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  09:45 - 10:20
-                </div>
-                <div class="event-description">
-                  <h3>A new Opus Encoder</h3>
-                  <p>Rostislav Pehlivanov, FFmpeg</p>
-                </div>
+              <h4 class="event-time">
+                09:45 - 10:20
+              </h4>
+              <p class="event-author">Rostislav Pehlivanov, FFmpeg</p>
+              <div class="event-description">
+                <h3>A new Opus Encoder</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  10:40 - 11:15
-                </div>
-                <div class="event-description">
-                  <h3>MKV IETF Update</h3>
-                  <p>Steve Lhomme, Matroska</p>
-                </div>
+              <h4 class="event-time">
+                10:40 - 11:15
+              </h4>
+              <p class="event-author">Steve Lhomme, Matroska</p>
+              <div class="event-description">
+                <h3>MKV IETF Update</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  11:15 - 11:45
-                </div>
-                <div class="event-description">
-                  <h3>AV1 Update</h3>
-                  <p>Timothy B. Terriberry, Mozilla</p>
-                </div>
+              <h4 class="event-time">
+                11:15 - 11:45
+              </h4>
+              <p class="event-author">Timothy B. Terriberry, Mozilla</p>
+              <div class="event-description">
+                <h3>AV1 Update</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  11:45 - 12:15
-                </div>
-                <div class="event-description">
-                  <h3>Spatial audio formats</h3>
-                  <p>Damien Kelly, Youtube</p>
-                </div>
+              <h4 class="event-time">
+                11:45 - 12:15
+              </h4>
+              <p class="event-author">Damien Kelly, Youtube</p>
+              <div class="event-description">
+                <h3>Spatial audio formats</h3>
+              </div>
+            </div>
+            <div class="event event-bg">
+              <h4 class="event-time">
+                12:15 - 14:00
+              </h4>
+              <div class="event-description">
+                <h3>Lunch Break</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  12:15 - 14:00
-                </div>
-                <div class="event-description">
-                  <h3>Lunch Break</h3>
-                </div>
-              </div>
-            </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  14:00 - 16:00
-                </div>
-                <div class="event-description event-row">
-                  <div class="event-col">
-                    <div class="header">
-                      Salle 1
-                    </div>
-                    <div class="body">
-                      <h3>AV1 Technical Meeting</h3>
-                    </div>
+              <h4 class="event-time">
+                14:00 - 16:00
+              </h4>
+              <div class="event-description event-row">
+                <div class="event-col">
+                  <div class="header">
+                    Salle 1
                   </div>
-                  <div class="event-col">
-                    <div class="header">
-                      Salle 2
-                    </div>
-                    <div class="body">
-                      <h3>libav Technical Meeting</h3>
-                    </div>
+                  <div class="body">
+                    <h3>AV1 Technical Meeting</h3>
                   </div>
-                  <div class="event-col">
-                    <div class="header">
-                      Salle 3
-                    </div>
-                    <div class="body">
-                    <h3>VLC Technical Meeting</h3>
-                    </div>
+                </div>
+                <div class="event-col">
+                  <div class="header">
+                    Salle 2
+                  </div>
+                  <div class="body">
+                    <h3>libav Technical Meeting</h3>
+                  </div>
+                </div>
+                <div class="event-col">
+                  <div class="header">
+                    Salle 3
+                  </div>
+                  <div class="body">
+                  <h3>VLC Technical Meeting</h3>
                   </div>
                 </div>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  16:00 - 18:00
-                </div>
-                <div class="event-description">
-                  <h3>VideoLAN asso meeting</h3>
-                  <h5>For non-profit members only</h5>
-                </div>
+              <h4 class="event-time">
+                16:00 - 18:00
+              </h4>
+              <div class="event-description">
+                <h3>VideoLAN asso meeting</h3>
+                <h5>For non-profit members only</h5>
               </div>
             </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="sunday">
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  09:00 - 09:30
-                </div>
-                <div class="event-description">
-                  <h3>Breakfast</h3>
-                </div>
+            <div class="event event-bg">
+              <h4 class="event-time">
+                09:00 - 09:30
+              </h4>
+              <div class="event-description">
+                <h3>Breakfast</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  09:30 - 12:00
-                </div>
-                <div class="event-description">
-                  <h3>Lightning talks</h3>
-                </div>
+              <h4 class="event-time">
+                09:30 - 12:00
+              </h4>
+              <div class="event-description">
+                <h3>Lightning talks</h3>
+              </div>
+            </div>
+            <div class="event event-bg">
+              <h4 class="event-time">
+                12:00 - 14:00
+              </h4>
+              <div class="event-description">
+                <h3>Lunch</h3>
               </div>
             </div>
             <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  12:00 - 14:00
-                </div>
-                <div class="event-description">
-                  <h3>Lunch</h3>
-                </div>
-              </div>
-            </div>
-            <div class="event">
-              <div class="event-inner">
-                <div class="event-time">
-                  14:00 - 18:00
-                </div>
-                <div class="event-description">
-                  <h3>Unconferences</h3>
-                </div>
+              <h4 class="event-time">
+                14:00 - 18:00
+              </h4>
+              <div class="event-description">
+                <h3>Unconferences</h3>
               </div>
             </div>
             <div class="event">
@@ -282,9 +250,10 @@
         <p><strong>Anyone</strong> who cares about open source multimedia technologies and development. Remember that it targets a technical crowd!</p>
         <p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
       </div>
-        <div class="col-md-6 ">
+      <div class="col-md-6 ">
         <h2 class="uppercase">Register!</h2>
-            <p><b><a href="https://goo.gl/forms/YJ0IakCQ7WLyUYgr1">Register <strong>now!</strong></a></b></p>
+        <p><b>Registration are closed.</b></p>
+        <p>If you are a member of the community and forgot to register, please email <a href="mailto:hugo@videolan.org">hugo@videolan.org</a></p>
       </div>
     </div>
   </div>

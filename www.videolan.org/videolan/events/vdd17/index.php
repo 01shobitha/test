@@ -116,6 +116,7 @@
                 </div>
                 <div class="event-description">
                   <h3>VLC 3.0</h3>
+                  <p>Jean-Baptiste Kempf, VideoLAN</p>
                 </div>
               </div>
             </div>
@@ -125,7 +126,8 @@
                   09:45 - 10:20
                 </div>
                 <div class="event-description">
-                  <h3>Opus Encoder</h3>
+                  <h3>A new Opus Encoder</h3>
+                  <p>Rostislav Pehlivanov, FFmpeg</p>
                 </div>
               </div>
             </div>
@@ -136,6 +138,7 @@
                 </div>
                 <div class="event-description">
                   <h3>MKV IETF Update</h3>
+                  <p>Steve Lhomme, Matroska</p>
                 </div>
               </div>
             </div>
@@ -146,6 +149,7 @@
                 </div>
                 <div class="event-description">
                   <h3>AV1 Update</h3>
+                  <p>Timothy B. Terriberry, Mozilla</p>
                 </div>
               </div>
             </div>
@@ -155,7 +159,8 @@
                   11:45 - 12:15
                 </div>
                 <div class="event-description">
-                  <h3>Empty Slot</h3>
+                  <h3>Spatial audio formats</h3>
+                  <p>Damien Kelly, Youtube</p>
                 </div>
               </div>
             </div>

@@ -41,6 +41,7 @@
       to discuss and work on the future of the open-source multimedia community</p>
 
       <p>This event is a very <strong>technical</strong> conferences.</p>
+      <br />
       <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong>Paris, France</strong>!</p>
     </div>
   </div>

@@ -10,7 +10,7 @@
 }
 
 .header-bg h1 {
-    font-size: 36px;
+    font-size: 44px;
 }
 
 .header-bg h1, .header-bg h3, .header-bg a {
@@ -87,6 +87,8 @@ h2 {
     font-weight: bold;
     color: black;
     background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    border-radius: 6px;
 }
 
 .youtube-logo {
@@ -203,4 +205,10 @@ h2 {
 
 .event-bg {
     background-color: #fbfbfb;
+}
+
+p {
+    line-height: 22px;
+    margin: 0 0 10px;
+    padding: 0;
 }

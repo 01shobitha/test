@@ -25,8 +25,8 @@
   <div class="container">
     <div id="sponsors">
         <h5>Sponsors</h5>
-        <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'sponsors-logo'); ?>
-        <?php image( 'events/vdd17/sponsors/42_logo.svg' , '42', 'sponsors-logo'); ?>
+        <a href="https://www.youtube.com"><?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'sponsors-logo'); ?></a>
+        <a href="http://www.42.fr"><?php image( 'events/vdd17/sponsors/42_logo.svg' , '42', 'sponsors-logo'); ?></a>
     </div>
   </div>
 </header>

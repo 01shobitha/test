@@ -42,7 +42,7 @@
 
       <p>This event is a very <strong>technical</strong> conferences.</p>
       <br />
-      <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong>Paris, France</strong>!</p>
+      <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong>Ecole 42, Paris</strong>!</p>
     </div>
   </div>
 </div>
@@ -80,7 +80,7 @@
               <h4 class="event-time">09:30 - 18:30</h4>
               <div class="event-description">
                 <h3>Community Bonding Day</h3>
-                <p>This year we'll do a <b>tbd...</b>!<br/>
+                <p>This year we'll do a <b>Disneyland Paris competition</b>!<br/>
                 The VideoLAN organization will pay for the entrance tickets, or whatever costs associated with the event.<br/></p>
               </div>
             </div>
@@ -96,13 +96,22 @@
         <div role="tabpanel" class="tab-pane fade active in" id="saturday">
             <div class="event event-bg">
               <h4 class="event-time">
-                08:45 - 09:15
+                08:30 - 09:00
               </h4>
               <div class="event-description">
-                <h3>Welcome & Breakfast</h3>
+                <h3>Registration & Breakfast</h3>
               </div>
             </div>
             <div class="event">
+              <h4 class="event-time">
+                09:00 - 09:15
+              </h4>
+              <p class="event-author">Jean-Baptiste Kempf, VideoLAN</p>
+              <div class="event-description">
+                <h3>Welcome</h3>
+              </div>
+            </div>
+             <div class="event">
               <h4 class="event-time">
                 09:15 - 09:45
               </h4>

@@ -262,8 +262,8 @@
       </div>
       <div class="col-md-6 ">
         <h2 class="uppercase">Register!</h2>
-        <p><b>Registration are closed.</b></p>
-        <p>If you are a member of the community and forgot to register, please email <a href="mailto:hugo@videolan.org">hugo@videolan.org</a></p>
+        <p><b>Main registration is closed.</b></p>
+        <p>If you want to attend and did not have time to register, please email <a href="mailto:hugo@videolan.org">hugo@videolan.org</a></p>
       </div>
     </div>
   </div>

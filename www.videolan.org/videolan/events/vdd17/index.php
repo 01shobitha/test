@@ -25,7 +25,8 @@
   <div class="container">
     <div id="sponsors">
         <h5>Sponsors</h5>
-        <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'youtube-logo'); ?>
+        <?php image( 'events/vdd17/sponsors/youtube_logo.svg' , 'Youtube', 'sponsors-logo'); ?>
+        <?php image( 'events/vdd17/sponsors/42_logo.svg' , '42', 'sponsors-logo'); ?>
     </div>
   </div>
 </header>

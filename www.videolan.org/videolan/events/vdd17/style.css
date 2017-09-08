@@ -91,9 +91,11 @@ h2 {
     border-radius: 6px;
 }
 
-.youtube-logo {
+.sponsors-logo {
     width: auto;
     height: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .header-bg .container {

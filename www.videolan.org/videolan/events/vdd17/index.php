@@ -54,7 +54,7 @@
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2 class="uppercase">Where?</h2>
         <p>The venue is in Paris!</p>
-        <p><a href="https://www.google.fr/maps/place/Ecole+42/@48.8965533,2.3163477,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fa9e6616ed9:0xe4d627301e40e170!8m2!3d48.8965533!4d2.3185364">Ecole 42, 96 Boulevard Bessières, 75017 Paris, France</a><br />
+        <p style="font-weight: bold; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="https://www.google.fr/maps/place/Ecole+42/@48.8965533,2.3163477,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fa9e6616ed9:0xe4d627301e40e170!8m2!3d48.8965533!4d2.3185364">Ecole 42, 96 Boulevard Bessières, 75017 Paris, France</a><br />
       </div>
     </div>
   </div>

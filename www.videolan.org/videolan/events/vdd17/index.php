@@ -52,7 +52,8 @@
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2 class="uppercase">Where?</h2>
-        <p>The venue is in Paris!<br />
+        <p>The venue is in Paris!</p>
+        <p>The venue is at the <strong>École 42</strong>, 96 Boulevard Bessières, 75017 Paris.</p>
       </div>
     </div>
   </div>

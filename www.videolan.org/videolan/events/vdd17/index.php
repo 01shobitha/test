@@ -101,7 +101,7 @@
                 08:30 - 09:00
               </h4>
               <div class="event-description">
-                <h3>Registration & Breakfast</h3>
+                <h3>Registration & Coffee</h3>
               </div>
             </div>
             <div class="event">

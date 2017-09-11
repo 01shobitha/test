@@ -283,8 +283,8 @@
         <h2 class="uppercase">Accommodation </h2>
         <p>For active members of the open-source multimedia communities who registered until August 25 and got a confirmation, your hotel will be:</p>
         <p><b><a href="https://goo.gl/maps/vzSVwssbJJB2">
-        TIMHOTEL Berthier – Paris XVII
-        4, Boulevard Berthier – 75017 Paris</a>
+        TIMHOTEL Berthier – Paris XVII<br/>
+        4, Boulevard Berthier – 75017 Paris</a><br/>
         Phone: +33 (0)1 46 27 10 00
         </b></p>
       </div>

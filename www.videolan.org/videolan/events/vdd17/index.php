@@ -43,7 +43,7 @@
 
       <p>This is a <strong>technical</strong> conference.</p>
       <br />
-      <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong><a href="https://www.google.fr/maps/place/Ecole+42/@48.8965533,2.3163477,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fa9e6616ed9:0xe4d627301e40e170!8m2!3d48.8965533!4d2.3185364">Ecole 42, Paris</a></strong></p>
+      <p>Date: <strong>22nd - 24th of September 2017</strong>, Location: <strong><a href="https://www.google.fr/maps/place/Ecole+42/@48.8965533,2.3163477,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fa9e6616ed9:0xe4d627301e40e170!8m2!3d48.8965533!4d2.3185364">Ecole 42, Paris</a></strong> (<a href="https://drive.google.com/open?id=1aOiHg2lYyNjcKhP7IukOty6BcYI">Full map</a>)</p>
     </div>
   </div>
 </div>

@@ -81,8 +81,6 @@
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$iosversion/vlc-ios-$iosversion.tar.gz'>VLC for iOS $iosversion source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.7.4/MediaLibraryKit-2.6.2.tar.gz">MediaLibraryKit 2.6.2 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.7.4/VLCKit-3.0.0-pre3.tar.gz">MobileVLCKit 3.0.0-pre3 source code</a></code><br />
 
 <h2> Binary </h2>
 <p class="projectDescription">You can also get the binary from our servers instead of the App Store:

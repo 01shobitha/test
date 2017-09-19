@@ -81,24 +81,24 @@
             <div class="event">
               <h4 class="event-time">09:30 - 18:30</h4>
               <div class="event-description">
-                <h3>Community Bonding Day</h3>
+                <h3>Community Bonding Day: Disneyleak!</h3>
                 <p>This year we'll do a <b>Disneyland Paris competition</b>!<br/>
                 The VideoLAN organization will pay for the entrance tickets, or whatever costs associated with the event.<br/></p>
               </div>
             </div>
             <div class="event">
-              <h4 class="event-time">19:00</h4>
+              <h4 class="event-time">19:30</h4>
               <div class="event-description">
-                <h3>Evening reception</h3>
-                <p>On <strong>Friday at 19h00</strong>, people are welcome to come and
-                share a few good drinks, with all attendees, somewhere near the Hotel.</p>
+                <h3>Evening drinks</h3>
+                <p>On <strong>Friday at 19h30</strong>, people are welcome to come and
+                share a few good drinks, with all attendees, in the center of Paris.</p>
               </div>
             </div>
         </div>
         <div role="tabpanel" class="tab-pane fade active in" id="saturday">
             <div class="event event-bg">
               <h4 class="event-time">
-                08:30 - 09:00
+                08:45 - 09:15
               </h4>
               <div class="event-description">
                 <h3>Registration & Coffee</h3>
@@ -106,7 +106,7 @@
             </div>
             <div class="event">
               <h4 class="event-time">
-                09:00 - 09:15
+                09:15 - 09:40
               </h4>
               <p class="event-author">Jean-Baptiste Kempf, VideoLAN</p>
               <div class="event-description">
@@ -115,7 +115,7 @@
             </div>
              <div class="event">
               <h4 class="event-time">
-                09:15 - 09:45
+                09:40 - 10:10
               </h4>
               <p class="event-author">Jean-Baptiste Kempf, VideoLAN</p>
               <div class="event-description">
@@ -124,7 +124,7 @@
             </div>
             <div class="event">
               <h4 class="event-time">
-                09:45 - 10:20
+                10:10 - 10:40
               </h4>
               <p class="event-author">Rostislav Pehlivanov, FFmpeg</p>
               <div class="event-description">
@@ -133,7 +133,7 @@
             </div>
             <div class="event">
               <h4 class="event-time">
-                10:40 - 11:15
+                11:00 - 11:30
               </h4>
               <p class="event-author">Steve Lhomme, Matroska</p>
               <div class="event-description">
@@ -142,7 +142,7 @@
             </div>
             <div class="event">
               <h4 class="event-time">
-                11:15 - 11:45
+                11:30 - 12:00
               </h4>
               <p class="event-author">Timothy B. Terriberry, Mozilla</p>
               <div class="event-description">
@@ -151,16 +151,16 @@
             </div>
             <div class="event">
               <h4 class="event-time">
-                11:45 - 12:15
+                12:00 - 12:30
               </h4>
-              <p class="event-author">Damien Kelly, Youtube</p>
+              <p class="event-author">Jan Skoglund, Chrome &amp; Damien Kelly, YouTube</p>
               <div class="event-description">
-                <h3>Spatial audio formats</h3>
+                <h3>Spatial Audio and Ambisonic Compression</h3>
               </div>
             </div>
             <div class="event event-bg">
               <h4 class="event-time">
-                12:15 - 14:00
+                12:30 - 14:00
               </h4>
               <div class="event-description">
                 <h3>Lunch Break</h3>
@@ -176,7 +176,7 @@
                     Salle 1
                   </div>
                   <div class="body">
-                    <h3>AV1 Technical Meeting</h3>
+                    <h3>FFmpeg Technical Meeting</h3>
                   </div>
                 </div>
                 <div class="event-col">

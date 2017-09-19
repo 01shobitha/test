@@ -210,7 +210,7 @@ endorsement by the project.</pre>
                     <img src="//images.videolan.org/images/goodies/thumbnails/cone_i2Es.png" alt="Cone with garland around the base">
                 </a>
                 <div class="caption">
-                    <p>Cone made by <a href="http://www.design-fu.co.uk/">Mr. Lee</a></p>
+                    <p>Cone made by <a href="https://design-fu.com">Mr. Lee</a></p>
                 </div>
             </div>
         </div>

@@ -210,10 +210,10 @@
         <div role="tabpanel" class="tab-pane fade" id="sunday">
             <div class="event event-bg">
               <h4 class="event-time">
-                09:00 - 09:30
+                09:15 - 09:30
               </h4>
               <div class="event-description">
-                <h3>Breakfast</h3>
+                <h3>Welcome</h3>
               </div>
             </div>
             <div class="event">
@@ -222,6 +222,15 @@
               </h4>
               <div class="event-description">
                 <h3>Lightning talks</h3>
+                <ul>
+                  <li>Technical view on HDR</li>
+                  <li>x265 update</li>
+                  <li>PoC on sandboxing VLC</li>
+                  <li>A Rust AV1 encoder</li>
+                  <li>VANC, ancillary and passthrough</li>
+                  <li>Optimal encoding at scale aka dynamic optimizer</li>
+                  <li>AV1 Chroma from Luma </li>
+                </ul>
               </div>
             </div>
             <div class="event event-bg">

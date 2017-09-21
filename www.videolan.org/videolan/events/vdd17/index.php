@@ -241,13 +241,13 @@
               <div class="event-description">
                 <h3>Lightning talks</h3>
                 <ul>
-                  <li>Technical view on HDR</li>
-                  <li>x265 update</li>
-                  <li>PoC on sandboxing VLC</li>
-                  <li>A Rust AV1 encoder</li>
-                  <li>VANC, ancillary and passthrough</li>
-                  <li>Optimal encoding at scale aka dynamic optimizer</li>
-                  <li>AV1 Chroma from Luma </li>
+                  <li>Technical view on HDR (<i>Vittorio Giovara</i>)</li>
+                  <li>x265 update (<i>Pradeep Ramachandran</i>)</li>
+                  <li>PoC on sandboxing VLC (<i>Guillaume Fournier</i>)</li>
+                  <li>A Rust AV1 encoder (<i>Thomas Daede</i>)</li>
+                  <li>VANC, ancillary and passthrough (<i>Jacob Green</i>)</li>
+                  <li>Optimal encoding at scale aka dynamic optimizer (<i>Anush Moorthy</i>)</li>
+                  <li>AV1 Chroma from Luma (<i>Luc Trudeau</i>)</li>
                 </ul>
               </div>
             </div>

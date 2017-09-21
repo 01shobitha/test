@@ -133,6 +133,14 @@
             </div>
             <div class="event">
               <h4 class="event-time">
+                10:40 - 11:00
+              </h4>
+              <div class="event-description">
+                <h3>Coffee Break</h3>
+              </div>
+            </div>
+            <div class="event">
+              <h4 class="event-time">
                 11:00 - 11:30
               </h4>
               <p class="event-author">Steve Lhomme, Matroska</p>

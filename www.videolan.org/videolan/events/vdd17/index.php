@@ -214,6 +214,16 @@
                 <h5>For non-profit members only</h5>
               </div>
             </div>
+            <div class="event">
+              <h4 class="event-time">
+                19:30 - ??
+              </h4>
+              <div class="event-description">
+                <h3>Community Dinner</h3>
+                <h4>Café de Luna</h4>
+                <h5>122 Boulevard de Clichy - 75018 Paris</h5>
+              </div>
+            </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="sunday">
             <div class="event event-bg">

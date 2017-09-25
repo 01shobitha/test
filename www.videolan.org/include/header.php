@@ -270,7 +270,7 @@ function start_head( $title,
 }
 
 /* Actual start of the body */
-function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel, $show_vdd_banner )
+function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel )
 {
     echo "<body class='$new_design_class'>";
     echo "<div id='bodyInner' class='$body_color'>";
@@ -307,11 +307,6 @@ function start_body( $body_color, $language, $b_show_donate = true, $nobanner, $
                 </div>
             </div>
         <?php } ?>
-        <?php if ($show_vdd_banner) { ?>
-            <a href='/videolan/events/vdd17'>
-                <?php image( 'events/vdd17/banner01.png' , 'VDD17 Videolan banner', 'vdd17-videolan-banner img-responsive center-block'); ?>
-            </a>
-        <?php } ?>
     </div>
 <?php
 }
@@ -333,11 +328,10 @@ if(!isset($nobanner))               $nobanner       = false;
 if(!isset($show_donate))            $show_donate    = true;
 if(!isset($new_design))             $new_design     = false;
 if(!isset($show_sponsors_carousel)) $show_sponsors_carousel = false;
-if(!isset($show_vdd_banner)) $show_vdd_banner = true;
 
 $new_design_class = $new_design ? 'new-design' : '';
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload, $new_design );
-start_body( $body_color, $language, $show_donate, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel, $show_vdd_banner );
+start_body( $body_color, $language, $show_donate, $nobanner, $alternate_lang, $new_design_class, $show_sponsors_carousel );
 ?>

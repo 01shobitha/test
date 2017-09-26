@@ -72,7 +72,7 @@
                 <li>
                     Our live-chat IRC channel on the <a href="http://www.freenode.net">Freenode</a> Network:<br />
                     Server: <code>irc.freenode.org</code></br>
-                    Cannel: <code>#videolan</code></br>
+                    Channel: <code>#videolan</code></br>
                     Use the <a href="https://webchat.freenode.net/?channels=videolan">Freenode Web</a> interface, if you don't have an IRC client at hand.
                 </li>
             </ul>

@@ -196,6 +196,14 @@
                         </span>
                     </a>
                 </li>
+                <li class="media">
+                    <a href="https://code.videolan.org/videolan/libcloudstorage">
+                        <span class='productName'>libcloudstorage</span>
+                        <span class='productDescription'>
+                            <?php echo _("A cross-platform development library to abstract access to cloud storage services like Google Drive or Dropbox."); ?>
+                        </span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

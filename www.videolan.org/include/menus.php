@@ -108,7 +108,7 @@ function draw_menus( $nobanner, $alternate_lang, $imgSrc, $b_show_donate )
         <?php } ?>
         <?php if (isset($sponsor) && !$b_show_donate) { ?>
             <div class="navbar-header pull-right">
-                <div id="sponsor">
+                <div id="friends">
                     <?php echo $sponsor ?>
                 </div>
             </div>

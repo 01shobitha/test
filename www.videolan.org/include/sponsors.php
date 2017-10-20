@@ -2,7 +2,7 @@
 
 $SPONSORS = array(
     array (
-        "imgSrc"    => "VideoUnified.png"
+        "imgSrc"    => "VideoUnified.png",
         "link"      => "http://www.video-unified.com/"
     )
 );

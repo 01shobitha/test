@@ -72,6 +72,15 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     #> dnf install vlc
     #> dnf install python-vlc npapi-vlc (optionals)
 </pre>
+<br />
+
+<?php panel_start( "blue" ); ?>
+<h1>Playing DVD</h1>
+
+To play DVD, you need to install the libdvdcss package.</p>
+
+<?php panel_end(); ?>
+
 
 <br />
 <h2>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h2>

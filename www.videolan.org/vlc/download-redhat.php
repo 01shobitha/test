@@ -39,17 +39,55 @@
     </section>
 
 <div id="fullwidth">
-<h2> 0.9.9 Packages for RHEL 5, x86 and x86_64 on RPMforge</h2>
-<p>Use <a href="http://apt.sw.be/">RPMforge</a> to have 0.9.9 for those versions!</p>
+<p>Most of our packages for Enterprise Linux can be found on <a href="https://rpmfusion.org/">RPM Fusion</a><br />
+You can also use this repository from distribution derived from <a href="https://www.redhat.com/rhel/">RHEL</a> such as <a href="https://centos.org">CentOS</a> or <a href="https://www.scientificlinux.org/">Scientific Linux</a></p>
 
-<h2> 0.8.6 Packages for RHEL 4 and RHEL 5, x86 and x86_64 on RPMforge</h2>
-<p>Use <a href="http://apt.sw.be/">RPMforge</a> to have 0.8.6 for those versions!</p>
+<p>Please report "packaging bugs" on <a href="https://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
-<h2>Red Hat 9.0 and RHEL 3 packages for i386</h2>
-<p>Those versions are not supported anymore. You can get some very old versions of VideoLan Client on RPMforge.</p>
 
-<h2>Older versions</h2>
-<?php browse_old( "vlc" ); ?>
+<h2>RHEL/CentOS/SL 7</h2>
+
+<p>Use <a href="https://rpmfusion.org/Configuration/">RPM Fusion</a> for EL7. Only available for x86_64.<br />
+<p>This repository uses <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a>. Please verify to enable the "optionals" and "extras" channels for RHN subscriptions.<br/>
+<p>The vlc-2.2x branch is provided for EL7<br/>
+
+Install <a href="https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for EL7.</p>
+
+<pre>
+    $> su -
+    #> yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    #> yum install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+    #> yum install vlc
+    #> yum install vlc-core (for minimal headless/server install)
+    #> yum install python-vlc npapi-vlc (optionals)
+</pre>
+
+
+<h2>RHEL/CentOS/SL 6</h2>
+
+<p>Use <a href="https://rpmfusion.org/Configuration/">RPM Fusion</a> for EL6. Available for i686 and x86_64.<br />
+<p>This repository uses <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a>. Please verify to enable the "optionals" channel for RHN subscriptions.<br/>
+<p>The vlc-2.0x branch is provided for EL6<br/>
+
+Install <a href="https://download1.rpmfusion.org/free/el/rpmfusion-free-release-6.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for EL6.</p>
+
+<pre>
+    $> su -
+    #> yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+    #> yum install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-6.noarch.rpm
+    #> yum install vlc
+    #> yum install vlc-core (for minimal headless/server install)
+    #> yum install python-vlc npapi-vlc (optionals)
+</pre>
+
+<?php panel_start( "blue" ); ?>
+<h1>Playing DVD</h1>
+
+To play DVD, you need to install the libdvdcss package.</p>
+
+<?php panel_end(); ?>
+
+<br />
 
 </div>
 </div>

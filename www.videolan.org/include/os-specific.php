@@ -5,7 +5,7 @@ $oldmacosxversion = '2.0.10';
 $version = '2.2.6';
 $iosversion = '2.8.5';
 $tvosversion = '1.1.0';
-$androidversion = '2.5.9';
+$androidversion = '2.5.12';
 $winrtversion = '2.0.0';
 
 $dlBase = "//get.videolan.org/vlc";

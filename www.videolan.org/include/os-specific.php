@@ -1,8 +1,8 @@
 <?php
-$win32version = '2.2.6';
-$macosxversion = '2.2.6';
+$win32version = '2.2.8';
+$macosxversion = '2.2.8';
 $oldmacosxversion = '2.0.10';
-$version = '2.2.6';
+$version = '2.2.8';
 $iosversion = '2.8.5';
 $tvosversion = '1.1.0';
 $androidversion = '2.5.12';

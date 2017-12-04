@@ -40,7 +40,7 @@
 
 <div id="fullwidth">
 
-Arch Linux has a VLC package in its 'Extra' repository (see <a href='http://www.archlinux.org/packages/extra/i686/vlc/'>http://www.archlinux.org/packages/extra/i686/vlc/</a>).
+Arch Linux has a VLC package in its 'Extra' repository (see <a href='https://www.archlinux.org/packages/extra/x86_64/vlc/'>https://www.archlinux.org/packages/extra/x86_64/vlc/</a>).
 
 Issue this command to install:
 <pre>

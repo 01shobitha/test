@@ -40,9 +40,9 @@
 
 <div id="left">
 
-<h2> Debian stable (jessie) </h2>
+<h2> Debian stable (stretch) and oldstable (jessie) </h2>
 
-<p> Debian jessie follows the 2.2.x release branch of <a href="/vlc/">VLC</a>.<br />
+<p> Debian stretch and jessie follow the 2.2.x release branch of <a href="/vlc/">VLC</a>.<br />
 Install <code>vlc</code>, <code>browser-plugin-vlc</code> the usual way you do it.</p>
 
 

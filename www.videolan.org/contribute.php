@@ -69,7 +69,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
         </tr>
 
         <tr>
-            <td>
+            <td valign="top">
                 <img src="//images.videolan.org/images/contribute-money.png" alt="" style="float: left; margin-right: 5px" />
             </td>
 

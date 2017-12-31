@@ -142,9 +142,16 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                     </b></p>
                 </div>
 
+                <a id="monero"></a>
+                <h3>Donate to VideoLAN using Monero</h3>
+                <p>Use the following address: <b>41gP4569HkeAJPcqSTizJYiMcMZVQekGvAAgAucaVCwaNsmbSrkcFY41w4FwgtD6N5XLV88xwrLjn87dpjUbtZJoDUuSeJF</b></p>
+                <p>Or the QR-Code:</p>
+                <div style="margin-left: 60px;">
+                    <img src="//images.videolan.org/images/monero-41gP4569HkeAJPcqSTizJYiMcMZVQekGvAAgAucaVCwaNsmbSrkcFY41w4FwgtD6N5XLV88xwrLjn87dpjUbtZJoDUuSeJF.png" alt="Monero QR-Code" />
+                </div>
 
-                <h3>Donate to VideoLAN using Bitcoins</h3>
                 <a id="bitcoin"></a>
+                <h3>Donate to VideoLAN using Bitcoin</h3>
                 <p>Use the following address: <b>3EowKLZ7Gf86BrHad7XXNpFk8jfXBeNPuF</b></p>
                 <p>Or the QR-Code:</p>
                 <div style="margin-left: 60px;">

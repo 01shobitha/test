@@ -21,7 +21,7 @@
     </ul>
 
     <h2>Get libdvdcss</h2>
-    <p>The latest version of <code>libdvdcss</code> is <b>1.4.0</b>.</p>
+    <p>The latest version of <code>libdvdcss</code> is <b>1.4.1</b>.</p>
 
     <p>Our Debian/Ubuntu repository can be accessed by adding the following lines to /etc/apt/sources.list</p>
     <pre><code>deb http://download.videolan.org/pub/debian/stable/ /</code></pre>

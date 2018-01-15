@@ -322,10 +322,10 @@
             companies and institutions who helped VideoLAN.</p>
 
             <ul class="bullets">
-                <li>The <a href="http://www.nicolas-chevallier.fr/">GNI MEDIA SARL</a> company for donating 500€ to the project.</li>
-                <li>The global <a href="https://www.aoe.com/de/lp/magento.html">Magento provider</a> and Open Source company <strong>AOE</strong> for donating $500 to the VideoLAN project.</li>
+                <li>The <a href="http://www.nicolas-chevallier.fr/" rel="nofollow">GNI MEDIA SARL</a> company for donating 500€ to the project.</li>
+                <li>The global <a href="https://www.aoe.com/de/lp/magento.html" rel="nofollow">Magento provider</a> and Open Source company <strong>AOE</strong> for donating $500 to the VideoLAN project.</li>
                 <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
-                <li>The online magazine <a href="http://www.netzwelt.de"><strong>netzwelt.de</strong></a>, which is
+                <li>The online magazine <a href="http://www.netzwelt.de" rel="nofollow"><strong>netzwelt.de</strong></a>, which is
                 one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
                 project.</li>
                 <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow"><strong>Pepermunt.net</strong></a>,
@@ -335,10 +335,10 @@
                 &euro; to help us buy a PowerMac G5</li>
                 <li>The French magazine <strong>à vos MAC</strong> gave 500 &euro; to
                 help us buy a PowerMac G5</li>
-                <li>The <a href="http://www.psw.net/">PSW Group</a> who made a 1&nbsp;000&euro; donation to the project</li>
-                <li>The Dutch company <a href="http://www.netoda.nl">Netoda</a> who made a 500&euro; donation to the project</li>
-                <li>The German company <a href="http://www.hitmeister.de">Hitmeister</a> who made 650&euro; donation to the project</li>
-                <li>The German company <a href="https://www.betrugstest.com">Betrugtest</a> who made a 1&nbsp;500&euro; donation to the project</li>
+                <li>The <a href="http://www.psw.net/" rel="nofollow">PSW Group</a> who made a 1&nbsp;000&euro; donation to the project</li>
+                <li>The Dutch company <a href="http://www.netoda.nl" rel="nofollow">Netoda</a> who made a 500&euro; donation to the project</li>
+                <li>The German company <a href="http://www.hitmeister.de" rel="nofollow">Hitmeister</a> who made 650&euro; donation to the project</li>
+                <li>The German company <a href="https://www.betrugstest.com" rel="nofollow">Betrugtest</a> who made a 1&nbsp;500&euro; donation to the project</li>
             </ul>
         </div>
     </div>

@@ -338,6 +338,7 @@
                 <li>The <a href="http://www.psw.net/">PSW Group</a> who made a 1&nbsp;000&euro; donation to the project</li>
                 <li>The Dutch company <a href="http://www.netoda.nl">Netoda</a> who made a 500&euro; donation to the project</li>
                 <li>The German company <a href="http://www.hitmeister.de">Hitmeister</a> who made 650&euro; donation to the project</li>
+                <li>The German company <a href="https://www.betrugstest.com">Betrugtest</a> who made a 1&nbsp;500&euro; donation to the project</li>
             </ul>
         </div>
     </div>

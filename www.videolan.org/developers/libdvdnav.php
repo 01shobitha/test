@@ -21,7 +21,7 @@
     </p>
 
     <h2>Get libdvdnav</h2>
-    <p>The latest version of <code>libdvdnav</code> is <b>5.0.3</b>.</p>
+    <p>The latest version of <code>libdvdnav</code> is <b>6.0.0</b>.</p>
 
     <p><code>libdvdnav</code> is available through <a href="https://wiki.videolan.org/Git">Git</a> or by browsing the <a href="//download.videolan.org/pub/videolan/libdvdnav/">releases</a>.</p>
 
@@ -30,7 +30,7 @@
     <p>You can also access the code <a href="https://code.videolan.org/videolan/libdvdnav">online</a>.</p>
 
     <h2>Get libdvdread</h2>
-    <p>The latest version of <code>libdvdread</code> is <b>5.0.3</b>.</p>
+    <p>The latest version of <code>libdvdread</code> is <b>6.0.0</b>.</p>
 
     <p><code>libdvdread</code> is available through <a href="https://wiki.videolan.org/Git">Git</a> or by browsing the <a href="//download.videolan.org/pub/videolan/libdvdread/">releases</a>.</p>
 

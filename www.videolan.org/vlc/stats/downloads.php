@@ -195,6 +195,8 @@
                     "2.2.4"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.5.1" => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.6"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "2.2.7"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "2.2.8"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
     );
 
     $table = array_merge( $table_old, $table_sf );
@@ -391,7 +393,16 @@
                                         "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
                                         "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
                                  ),
-
+                    "2.2.7" => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.7z?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.zip?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.7z?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.zip?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
+                    "2.2.8" => array(
+                                        "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.7z?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.zip?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.7z?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.zip?stats" ),
+                                        "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                        "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                 ),
     );
 
     foreach( $table as $key => $t )

@@ -88,9 +88,11 @@
     biTStream in proprietary applications. However, if you add new structures,
     or fix bugs in current structures, you'd be very nice to contribute them
     (again, there is no point in concealing this). Thanks.</p>
+    
+    <p>Contributions can be sent as pull requests in our <a href="https://github.com/videolan/bitstream">github repository</a>.</p>
 
     <h2>Mailing list</h2>
-    <p>There is a mailing-list dedicated to biTStream development. Patches can be sent there.
+    <p>There is a mailing-list dedicated to biTStream development.
     Subscribe <a href="/developers/lists.html">here</a>.</p>
 </div>
 <?php footer(); ?>

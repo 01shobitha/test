@@ -65,6 +65,7 @@
 
 	<p>User support and development is handled in the <a
 	href="/developers/lists.html">multicat-devel mailing-list</a>.</p>
+    <p>Contributions can be sent as pull requests in our <a href="https://github.com/videolan/multicat">github repository</a>.</p>
 </div>
 
 <?php footer('$Id: multicat.php 5717 2009-11-24 08:46:34Z md $'); ?>

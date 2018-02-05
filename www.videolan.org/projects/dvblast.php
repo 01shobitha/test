@@ -78,7 +78,8 @@
             <h2>Development</h2>
             <p>Hackers can participate to the development using <a href="https://wiki.videolan.org/Git">git</a>.</p>
             <p>The code is accessible from <code>https://code.videolan.org/videolan/dvblast.git</code> and
-            you can <a href="https://code.videolan.org/videolan/dvblast.git">browse the source online</a></p>
+            you can <a href="https://code.videolan.org/videolan/dvblast.git">browse the source online</a>.</p>
+            <p>Contributions can be sent as pull requests in our <a href="https://github.com/videolan/dvblast">github repository</a>.</p>
         </div>
     </div>
 </div>

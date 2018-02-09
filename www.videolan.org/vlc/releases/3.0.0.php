@@ -380,7 +380,7 @@
         </div>
 
         <h1>Download VLC</h1>
-        <div style="width: 50%;">
+        <div style="width: 50%; float: left;">
         <h2>Windows</h2>
            <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $win32version, "win32/vlc-$win32version-win32.exe"); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
@@ -389,7 +389,7 @@
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
         </div>
-        <div style="width: 40%; float: left; margin-left: 96px; margin-top:10px;">
+        <div style="width: 45%; float: left;">
          <h2>Android</h2>
             <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
         </div>

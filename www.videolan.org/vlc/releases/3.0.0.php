@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 3.0.0 Vetinari");
+   $title = _("VLC 3.0 Vetinari");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -13,7 +13,7 @@
    $win32version = "3.0.0";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>3.0.0</b> multi-releases</h1>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>3.0</b>!</h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 3.0.0 is the first version of "Vetinari" branch of our popular media player.</div>
             </center>
 
@@ -139,12 +139,12 @@
 
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
-                <img src="/vlc/releases/3.0.0/vlc-2.2-mac.gif">
-                <img src="/vlc/releases/3.0.0/VVS.jpg">
-                <img src="/vlc/releases/3.0.0/winrt.jpg">
-                <img src="/vlc/releases/3.0.0/ios-2.4.1-phone.gif">
-                <img src="/vlc/releases/3.0.0/android.jpg">
-                <img src="/vlc/releases/3.0.0/addons.png">
+                <img src="/vlc/releases/3.0.0/carousel-3.0-360.jpg">
+                <img src="/vlc/releases/3.0.0/carousel-3.0-hdr.jpg">
+                <img src="/vlc/releases/3.0.0/carousel-chromecast2.jpg">
+                <img src="/vlc/releases/3.0.0/carousel-iphone10-1.jpg">
+                <img src="/vlc/releases/3.0.0/carousel-3.0-xbox.jpg">
+                <img src="/vlc/releases/3.0.0/carousel-iphone10-2.jpg">
          </div>
         <h2 class="subtext" id="text_1">Restart where you left off</h2>
         <h2 class="subtext" style="display: none;" id="text_2">Fight the Vertical Video Syndrome</h2>
@@ -158,7 +158,7 @@
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>3.0.0</span>
+                    Version <span id='downloadVersion'>3.0</span>
                     </span>
                 </a>
                 <script>
@@ -174,10 +174,10 @@
 
         <div class="clearme" style='padding-top: 30px;'>
             <div style='float: left; width: 600px;'>
-            <h1 style='margin-bottom: 12px;'><?php echo _("3.0.0 Highlights"); ?></h1>
+            <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
                 <div class='projectDescription' style="width: 600px;">
-                    <div style="padding-bottom: 8px;">VLC 3.0.0 "Vetinari" is a new major update of VLC.</div>
-                    <div>VLC 3.0.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
+                    <div style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</div>
+                    <div>VLC 3.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
                     <div>VLC now resumes where you left off in all versions</div>
                     <div>Improves support for new HD codecs, VP9, opus and H.265/HEVC, for decoding and for encoding.</div>
                     <div>Extensions are now downloadable from within the application.</div>
@@ -223,7 +223,7 @@
 /
 -->
         <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'> 3.0.0 <?php echo _("Features"); ?></h1>
+            <h1 style='margin-bottom: 12px;'> 3.0 <?php echo _("Features"); ?></h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
                 <div class='audienceCallout'><?php echo _("Core"); ?></div>
@@ -421,7 +421,7 @@
         </div>
         <div style="width: 45%; float: left;">
          <h2>Linux</h2>
-         <p>Ask your favorite packager for VLC 2.2!</p>
+         <p>Ask your favorite packager for VLC 3.0!</p>
         </div>
 
 

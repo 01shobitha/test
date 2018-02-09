@@ -33,10 +33,10 @@ part with '@'. </p>
       global $count, $file;
       if( $count >= count($file) ) return('');
 
-      $line = preg_replace("\n", '',$file[$count]);
+      $line = ereg_replace("\n", '',$file[$count]);
       $count++;
 
-      if( preg_match('^[ #]+', $line) ) return('');
+      if( ereg('^[ #]+', $line) ) return('');
 
       return htmlspecialchars($line);
    }
@@ -103,7 +103,7 @@ part with '@'. </p>
 
    $handle=opendir('.'); 
    while (false!=($f = readdir($handle))) { 
-      if(preg_match("AUTHORS.vlc", $f)) {
+      if(ereg("AUTHORS.vlc", $f)) {
         $file = file($f);
         foreach( $file as $line ) {
         ?><p><?php
@@ -111,7 +111,7 @@ part with '@'. </p>
         ?></p><?php
         }
         }
-      else if(preg_match("AUTHORS",$f)) {
+      else if(ereg("AUTHORS",$f)) {
          parselist(substr($f,8));
       } 
    }

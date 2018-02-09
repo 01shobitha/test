@@ -1,157 +1,157 @@
-	<?php
+<?php
 
-	/**
-	* Project:     MagpieRSS: a simple RSS integration tool
-	* File:        rss_parse.inc  - parse an RSS or Atom feed
-	*               return as a simple object.
-	*
-	* Handles RSS 0.9x, RSS 2.0, RSS 1.0, and Atom 0.3
-	*
-	* The lastest version of MagpieRSS can be obtained from:
-	* http://magpierss.sourceforge.net
-	*
-	* For questions, help, comments, discussion, etc., please join the
-	* Magpie mailing list:
-	* magpierss-general@lists.sourceforge.net
-	*
-	* @author           Kellan Elliott-McCrea <kellan@protest.net>
-	* @version          0.7a
-	* @license          GPL
-	*
-	*/
+/**
+* Project:     MagpieRSS: a simple RSS integration tool
+* File:        rss_parse.inc  - parse an RSS or Atom feed
+*               return as a simple object.
+*
+* Handles RSS 0.9x, RSS 2.0, RSS 1.0, and Atom 0.3
+*
+* The lastest version of MagpieRSS can be obtained from:
+* http://magpierss.sourceforge.net
+*
+* For questions, help, comments, discussion, etc., please join the
+* Magpie mailing list:
+* magpierss-general@lists.sourceforge.net
+*
+* @author           Kellan Elliott-McCrea <kellan@protest.net>
+* @version          0.7a
+* @license          GPL
+*
+*/
 
-	define('RSS', 'RSS');
-	define('ATOM', 'Atom');
+define('RSS', 'RSS');
+define('ATOM', 'Atom');
 
-	require_once (MAGPIE_DIR . 'rss_utils.inc');
+require_once (MAGPIE_DIR . 'rss_utils.inc');
 
-	/**
-	* Hybrid parser, and object, takes RSS as a string and returns a simple object.
-	*
-	* see: rss_fetch.inc for a simpler interface with integrated caching support
-	*
-	*/
-	class MagpieRSS {
-	    var $parser;
-	    
-	    var $current_item   = array();  // item currently being parsed
-	    var $items          = array();  // collection of parsed items
-	    var $channel        = array();  // hash of channel fields
-	    var $textinput      = array();
-	    var $image          = array();
-	    var $feed_type;
-	    var $feed_version;
-	    var $encoding       = '';       // output encoding of parsed rss
-	    
-	    var $_source_encoding = '';     // only set if we have to parse xml prolog
-	    
-	    var $ERROR = "";
-	    var $WARNING = "";
-	    
-	    // define some constants
-	    
-	    var $_CONTENT_CONSTRUCTS = array('content', 'summary', 'info', 'title', 'tagline', 'copyright');
-	    var $_KNOWN_ENCODINGS    = array('UTF-8', 'US-ASCII', 'ISO-8859-1');
+/**
+* Hybrid parser, and object, takes RSS as a string and returns a simple object.
+*
+* see: rss_fetch.inc for a simpler interface with integrated caching support
+*
+*/
+class MagpieRSS {
+    var $parser;
+    
+    var $current_item   = array();  // item currently being parsed
+    var $items          = array();  // collection of parsed items
+    var $channel        = array();  // hash of channel fields
+    var $textinput      = array();
+    var $image          = array();
+    var $feed_type;
+    var $feed_version;
+    var $encoding       = '';       // output encoding of parsed rss
+    
+    var $_source_encoding = '';     // only set if we have to parse xml prolog
+    
+    var $ERROR = "";
+    var $WARNING = "";
+    
+    // define some constants
+    
+    var $_CONTENT_CONSTRUCTS = array('content', 'summary', 'info', 'title', 'tagline', 'copyright');
+    var $_KNOWN_ENCODINGS    = array('UTF-8', 'US-ASCII', 'ISO-8859-1');
 
-	    // parser variables, useless if you're not a parser, treat as private
-	    var $stack              = array(); // parser stack
-	    var $inchannel          = false;
-	    var $initem             = false;
-	    var $incontent          = false; // if in Atom <content mode="xml"> field 
-	    var $intextinput        = false;
-	    var $inimage            = false;
-	    var $current_namespace  = false;
-	    
+    // parser variables, useless if you're not a parser, treat as private
+    var $stack              = array(); // parser stack
+    var $inchannel          = false;
+    var $initem             = false;
+    var $incontent          = false; // if in Atom <content mode="xml"> field 
+    var $intextinput        = false;
+    var $inimage            = false;
+    var $current_namespace  = false;
+    
 
-	    /**
-	     *  Set up XML parser, parse source, and return populated RSS object..
-	     *   
-	     *  @param string $source           string containing the RSS to be parsed
-	     *
-	     *  NOTE:  Probably a good idea to leave the encoding options alone unless
-	     *         you know what you're doing as PHP's character set support is
-	     *         a little weird.
-	     *
-	     *  NOTE:  A lot of this is unnecessary but harmless with PHP5 
-	     *
-	     *
-	     *  @param string $output_encoding  output the parsed RSS in this character 
-	     *                                  set defaults to ISO-8859-1 as this is PHP's
-	     *                                  default.
-	     *
-	     *                                  NOTE: might be changed to UTF-8 in future
-	     *                                  versions.
-	     *                               
-	     *  @param string $input_encoding   the character set of the incoming RSS source. 
-	     *                                  Leave blank and Magpie will try to figure it
-	     *                                  out.
-	     *                                  
-	     *                                   
-	     *  @param bool   $detect_encoding  if false Magpie won't attempt to detect
-	     *                                  source encoding. (caveat emptor)
-	     *
-	     */
-	    function MagpieRSS ($source, $output_encoding='ISO-8859-1', 
-				$input_encoding=null, $detect_encoding=true) 
-	    {   
-		# if PHP xml isn't compiled in, die
-		#
-		if (!function_exists('xml_parser_create')) {
-		    $this->error( "Failed to load PHP's XML Extension. " . 
-				  "http://www.php.net/manual/en/ref.xml.php",
-				   E_USER_ERROR );
-		}
-		
-		list($parser, $source) = $this->create_parser($source, 
-			$output_encoding, $input_encoding, $detect_encoding);
-		
-		
-		if (!is_resource($parser)) {
-		    $this->error( "Failed to create an instance of PHP's XML parser. " .
-				  "http://www.php.net/manual/en/ref.xml.php",
-				  E_USER_ERROR );
-		}
+    /**
+     *  Set up XML parser, parse source, and return populated RSS object..
+     *   
+     *  @param string $source           string containing the RSS to be parsed
+     *
+     *  NOTE:  Probably a good idea to leave the encoding options alone unless
+     *         you know what you're doing as PHP's character set support is
+     *         a little weird.
+     *
+     *  NOTE:  A lot of this is unnecessary but harmless with PHP5 
+     *
+     *
+     *  @param string $output_encoding  output the parsed RSS in this character 
+     *                                  set defaults to ISO-8859-1 as this is PHP's
+     *                                  default.
+     *
+     *                                  NOTE: might be changed to UTF-8 in future
+     *                                  versions.
+     *                               
+     *  @param string $input_encoding   the character set of the incoming RSS source. 
+     *                                  Leave blank and Magpie will try to figure it
+     *                                  out.
+     *                                  
+     *                                   
+     *  @param bool   $detect_encoding  if false Magpie won't attempt to detect
+     *                                  source encoding. (caveat emptor)
+     *
+     */
+    function MagpieRSS ($source, $output_encoding='ISO-8859-1', 
+                        $input_encoding=null, $detect_encoding=true) 
+    {   
+        # if PHP xml isn't compiled in, die
+        #
+        if (!function_exists('xml_parser_create')) {
+            $this->error( "Failed to load PHP's XML Extension. " . 
+                          "http://www.php.net/manual/en/ref.xml.php",
+                           E_USER_ERROR );
+        }
+        
+        list($parser, $source) = $this->create_parser($source, 
+                $output_encoding, $input_encoding, $detect_encoding);
+        
+        
+        if (!is_resource($parser)) {
+            $this->error( "Failed to create an instance of PHP's XML parser. " .
+                          "http://www.php.net/manual/en/ref.xml.php",
+                          E_USER_ERROR );
+        }
 
-		
-		$this->parser = $parser;
-		
-		# pass in parser, and a reference to this object
-		# setup handlers
-		#
-		xml_set_object( $this->parser, $this );
-		xml_set_element_handler($this->parser, 
-			'feed_start_element', 'feed_end_element' );
-				
-		xml_set_character_data_handler( $this->parser, 'feed_cdata' ); 
-	    
-		$status = xml_parse( $this->parser, $source );
-		
-		if (! $status ) {
-		    $errorcode = xml_get_error_code( $this->parser );
-		    if ( $errorcode != XML_ERROR_NONE ) {
-			$xml_error = xml_error_string( $errorcode );
-			$error_line = xml_get_current_line_number($this->parser);
-			$error_col = xml_get_current_column_number($this->parser);
-			$errormsg = "$xml_error at line $error_line, column $error_col";
+        
+        $this->parser = $parser;
+        
+        # pass in parser, and a reference to this object
+        # setup handlers
+        #
+        xml_set_object( $this->parser, $this );
+        xml_set_element_handler($this->parser, 
+                'feed_start_element', 'feed_end_element' );
+                        
+        xml_set_character_data_handler( $this->parser, 'feed_cdata' ); 
+    
+        $status = xml_parse( $this->parser, $source );
+        
+        if (! $status ) {
+            $errorcode = xml_get_error_code( $this->parser );
+            if ( $errorcode != XML_ERROR_NONE ) {
+                $xml_error = xml_error_string( $errorcode );
+                $error_line = xml_get_current_line_number($this->parser);
+                $error_col = xml_get_current_column_number($this->parser);
+                $errormsg = "$xml_error at line $error_line, column $error_col";
 
-			$this->error( $errormsg );
-		    }
-		}
-		
-		xml_parser_free( $this->parser );
+                $this->error( $errormsg );
+            }
+        }
+        
+        xml_parser_free( $this->parser );
 
-		$this->normalize();
-	    }
-	    
-	    function feed_start_element($p, $element, &$attrs) {
-		$el = $element = strtolower($element);
-		$attrs = array_change_key_case($attrs, CASE_LOWER);
-		
-		// check for a namespace, and split if found
-		$ns = false;
-		if ( strpos( $element, ':' ) ) {
-		    list($ns, $el) = preg_split( ':', $element, 2); 
-		}
+        $this->normalize();
+    }
+    
+    function feed_start_element($p, $element, &$attrs) {
+        $el = $element = strtolower($element);
+        $attrs = array_change_key_case($attrs, CASE_LOWER);
+        
+        // check for a namespace, and split if found
+        $ns = false;
+        if ( strpos( $element, ':' ) ) {
+            list($ns, $el) = split( ':', $element, 2); 
+        }
         if ( $ns and $ns != 'rdf' ) {
             $this->current_namespace = $ns;
         }

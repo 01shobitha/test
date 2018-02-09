@@ -351,7 +351,7 @@
                <a href="https://www.facebook.com/vlc.media.player/posts/10152764178381245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
                <a href="https://twitter.com/videolan/status/961979766097235972"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
                <a href="https://plus.google.com/+vlc/posts/9i6gqyAUwJq"><img src='//images.videolan.org/images/gplus.png' alt='Google plus'></a>
-               <a href="https://news.ycombinator.com/item?id=9119587"><img src='//images.videolan.org/images/hackernews.png' alt='Hacker News'></a>
+               <a href="https://news.ycombinator.com/item?id=16340741"><img src='//images.videolan.org/images/hackernews.png' alt='Hacker News'></a>
                <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/"><img src='//images.videolan.org/images/reddit.png' alt='Reddit'></a>
         </div>
 

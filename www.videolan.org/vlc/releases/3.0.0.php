@@ -125,6 +125,12 @@
     section.no-check ul li:before {
         content: none;
     }
+    .slide-container {
+        z-index: 1;
+    }
+    .text-container {
+        z-index: 0;
+    }
 </style>
             <script>
               $(function(){
@@ -156,7 +162,7 @@
             </script>
 
         <div class="container">
-        <div class="row col-md-12">
+        <div class="row col-md-12 slide-container">
           <div id="slides" style="margin: 0 auto;">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-4k.jpg">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-hdr.jpg">
@@ -166,7 +172,7 @@
                 <img src="/vlc/releases/3.0.0/carousel-3.0-xbox.jpg">
          </div>
         </div>
-        <div class="row col-md-12">
+        <div class="row col-md-12 text-container">
         <h2 class="subtext2" id="text_1">Hardware accelerated decoding for HD and UHD</h2>
         <h2 class="subtext2" style="display: none;" id="text_2">Supports HDR and HDR tone-mapping</h2>
         <h2 class="subtext2" style="display: none;" id="text_3">360° video navigation</h2>

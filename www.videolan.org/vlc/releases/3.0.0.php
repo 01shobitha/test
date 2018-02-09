@@ -248,17 +248,19 @@
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Formats"); ?></div>
+                <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for BD-Java menus and overlay in Blu-Ray</li>
-                           <li>Acceleration of VP9 and H.265/HEVC decoders</li>
-                           <li>Rewritten support for WMV, Ogg, MP4 and AVI, notably for seeking</li>
-                           <li>Support for encoding in H.265, Opus and VP9</li>
-                           <li>Support for WebVTT, Ogg/VP8, Opus/MKV, CAF</li>
-                           <li>Support for THP, Renderware and Escape Replay videogames files</li>
-                           <li>Support for SRT language detection</li>
+                            <li>Support for BD-Java menus and overlay in Blu-Ray</li>
+                            <li>Support for experimental AV1 video and Daala video</li>
+                            <li>Support for the OggSpots video codec</li>
+                            <li>New MPEG-1 & 2 audio layer I, II, III + MPEG 2.5 decoder based on libmpg123</li>
+                            <li>New BPG decoder based on libbpg</li>
+                            <li>Support TDSC, Canopus HQX, Cineform, SpeedHQ, Pixlet, QDMC and FMVC codecs</li>
+                            <li>TTML subtitles support, including EBU-TT-D variant</li>
+                            <li>Rewrite of webVTT subtitles support, including CSS style support</li>
+                            <li>BluRay text subtitles (HDMV) are now decoded</li>
                         </ul>
                     </div>
                 </div>

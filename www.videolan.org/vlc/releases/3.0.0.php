@@ -247,7 +247,25 @@
                     </div>
                 </div>
             </div>
+
             <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("Acceleration"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                            <li>Support HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
+                            <li>Support hardware decoding using Direct3D11 and DxVA2, including GPU-zerocopy mode</li>
+                            <li>Support HEVC hardware decoding using OMX and MediaCodec (Android)</li>
+                            <li>Support MPEG-2, VC1/WMV3 on Android using MediaCodec</li>
+                            <li>OMX GPU-zerocopy support for decoding and display on Android using OpenMax IL</li>
+                            <li>Important improvements for the MMAL decoder and output for rPI and rPI2</li>
+                            <li>New hardware accelerated decoder for OS X and and iOS based on Video Toolbox</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
                 <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -261,23 +279,6 @@
                             <li>TTML subtitles support, including EBU-TT-D variant</li>
                             <li>Rewrite of webVTT subtitles support, including CSS style support</li>
                             <li>BluRay text subtitles (HDMV) are now decoded</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Acceleration"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
-                            <li>Support HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
-                            <li>Support hardware decoding using Direct3D11 and DxVA2, including GPU-zerocopy mode</li>
-                            <li>Support HEVC hardware decoding using OMX and MediaCodec (Android)</li>
-                            <li>Support MPEG-2, VC1/WMV3 on Android using MediaCodec</li>
-                            <li>OMX GPU-zerocopy support for decoding and display on Android using OpenMax IL</li>
-                            <li>Important improvements for the MMAL decoder and output for rPI and rPI2</li>
-                            <li>New hardware accelerated decoder for OS X and and iOS based on Video Toolbox</li>
                         </ul>
                     </div>
                 </div>
@@ -318,21 +319,23 @@
             </div>
 
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Platform integration")?></div>
+                <div class='audienceCallout'><?php echo _("Audio outputs and filters"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Port of the interface to Yosemite</li>
-                           <li>Support drag'n drop in the skins2 interface</li>
-                           <li>New TLS module on OS X and iOS, using the central store</li>
-                           <li>Signature of the Windows binaries</li>
-                           <li>Improvement of audio device detections on OS X and Windows</li>
-                           <li>Support of audio ducking in various audio outputs</li>
+                            <li>Complete rewrite of the AudioTrack Android output</li>
+                            <li>Add a Tizen audio output</li>
+                            <li>HDMI/SPDIF pass-through support for WASAPI (AC3/DTS/DTSHD/EAC3/TRUEHD)</li>
+                            <li>Support EAC3 and TRUEHD pass-through for PulseAudio</li>
+                            <li>Important rework of the AudioUnit modules to share more code between iOS and macOS</li>
+                            <li>Add SoX Resampler library audio filter module (converter and resampler)</li>
+                            <li>Add an Ambisonics audio renderer, supporting up to 3rd order</li>
+                            <li>Add a Binauralizer audio filter, working with Ambisonics or 5.1/7.1 streams</li>
+                            <li>Add a pitch shifting module</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
                 <div class='audienceCallout'><?php echo _("OS Versions"); ?></div>
@@ -352,21 +355,17 @@
                 </div>
             </div>
 
-
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Audio outputs and filters"); ?></div>
+                <div class='audienceCallout'><?php echo _("Platform integration")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Complete rewrite of the AudioTrack Android output</li>
-                            <li>Add a Tizen audio output</li>
-                            <li>HDMI/SPDIF pass-through support for WASAPI (AC3/DTS/DTSHD/EAC3/TRUEHD)</li>
-                            <li>Support EAC3 and TRUEHD pass-through for PulseAudio</li>
-                            <li>Important rework of the AudioUnit modules to share more code between iOS and macOS</li>
-                            <li>Add SoX Resampler library audio filter module (converter and resampler)</li>
-                            <li>Add an Ambisonics audio renderer, supporting up to 3rd order</li>
-                            <li>Add a Binauralizer audio filter, working with Ambisonics or 5.1/7.1 streams</li>
-                            <li>Add a pitch shifting module</li>
+                           <li>Port of the interface to Yosemite</li>
+                           <li>Support drag'n drop in the skins2 interface</li>
+                           <li>New TLS module on OS X and iOS, using the central store</li>
+                           <li>Signature of the Windows binaries</li>
+                           <li>Improvement of audio device detections on OS X and Windows</li>
+                           <li>Support of audio ducking in various audio outputs</li>
                         </ul>
                     </div>
                 </div>

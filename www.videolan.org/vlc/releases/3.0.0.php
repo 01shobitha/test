@@ -3,6 +3,7 @@
    $body_color = "red";
    $language = "";
    $nobanner = true;
+   $new_design = true;
    $additional_js = array("/js/slimbox2.js", "/js/jquery.slides.min.js");
    $additional_css= array("/js/css/slimbox2.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
@@ -12,7 +13,7 @@
    $macosxversion = "3.0.0";
    $win32version = "3.0.0";
 ?>
-    <div>
+    <div class="container">
 
             <center><h1 class='bigtitle' style="padding-bottom: 3px;">NOT RELEASED YET <b>!!</b></h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 3.0.0 is the first version of "Vetinari" branch of our popular media player.</div>
@@ -172,7 +173,9 @@
                      }, 2000);
                 });
                 </script>
+        </div>
 
+        <div class="container">
         <div class="clearme" style='padding-top: 30px;'>
             <div style='float: left; width: 600px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
@@ -190,6 +193,7 @@
             </div>
             <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
         </div>
+    </div>
 <!--
 <p>So, what's new in <b>VLC 3.0.0</b>, codename <i>Vetinari</i>?</p>
 <ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
@@ -224,7 +228,7 @@
 /><br
 /
 -->
-        <div class="clearme" style='padding-top: 20px;'>
+        <div class="container">
             <h1 style='margin-bottom: 12px;'> 3.0 <?php echo _("Features"); ?></h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
@@ -358,13 +362,13 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 <!-- Downloads -->
-        <div class="clearme"></div>
+        <div class="container">
 
         <a name="download" id="getit"></a>
 
-        <div class="clearme"></div>
         <div style="float: right; width: 50%;">
             <h1>Spread the news</h1>
                <a href="https://www.facebook.com/vlc.media.player/posts/10152764178381245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
@@ -436,6 +440,7 @@
         <h1>Contact</h1>
         <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
         </div>
+    </div>
 
 </div>
 <?php footer('$Id: index.php 7173 2012-02-11 00:58:09Z jb $'); ?>

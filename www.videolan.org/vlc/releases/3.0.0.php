@@ -182,52 +182,20 @@
                 <div class='projectDescription' style="width: 600px;">
                     <div style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</div>
                     <div>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></div>
-                    <div>It supports 10bits and HDR</div>
-                    <div>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</div>
+                    <div>Supports 4K, 10bits and HDR</div>
+                    <div>Playback 360 video and 3D audio, up to Ambisoncics 3rd order</div>
                     <div>Allows passthrough for HD audio codecs</div>
                     <div>Can stream to Chromecast devices, even in formats not supported natively</div>
                     <div>Can play Blu-Ray Java menus: BD-J</div>
                     <div>VLC supports browsing of local network drives and NAS</div>
+                    <div>Support for more formats and faster seeking</div>
+                    <div>New subtitles renderer support Complex Text Scripts and Fonts fallback</div>
                     <div style="float: right; margin-top: 10px">Read the complete <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</div>
                 </div>
             </div>
             <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
         </div>
     </div>
-<!--
-<p>So, what's new in <b>VLC 3.0.0</b>, codename <i>Vetinari</i>?</p>
-<ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
-><li>This is supported for MP4/MOV, MKV and raw H264.</li
-><li>Resume playback&nbsp; where you left off. Supported on all the mobile versions of VLC for&nbsp; quite some time, it is now available on the desktop.</li
-><li>Vastly improved support for UltraHD video codecs like VP9 and H265, including encoding.</li
-><li>New&nbsp; hardware acceleration mechanism, GPU 0-copy decoding, faster and&nbsp; implementations for Linux, Android, and Raspberry Pi. (Other OSes will&nbsp; have it in 3.0.0)</li
-><li>Extensions: supported since a long time, we now feature an in-app downloader for the desktop, like Firefox</li
-><li>Subtitles downloading extension</li
-><li>Compatibility with a very large number of unusual codecs</li
-><li>Vastly improved compatibility for problematic files in Ogg, MP4, and WMV.</li
-><li>Support for Digital Cinema Package to play native movie theater formats.</li
-><li>Experimental support of Interactive Menus of BluRays: BD-J</li
-><li>On OS X, we've updated the interface for Yosemite compatibility.</li
-><li>On Android, we rewrote most of the UI to match Google Material Design.</li
-><li>This is the first public beta releases for Windows Phone, Windows RT and Android TV.</li
-><li>It is also the first non-beta release on Android.</li></ul>
-
-<p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
--->
- <!--
-<h2>Quotes</h2>
-<h3>Jean-Baptiste Kempf, president of the VideoLAN non-profit:</h3>
-"I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
-/>"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
-/><br
-/><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer:</h3>
-"Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
-/><br
-/><h3>Ludovic Fauvet, treasurer of the VideoLAN non-profit:</h3>
-"The VideoLAN community shows this time again an unprecedented level of professionalism in releasing VLC media player 3.0.0 simultaneously on all supported platforms. This is a groundbreaking change that any contributor can be proud of."<br
-/><br
-/
--->
         <div class="container">
             <h1 style='margin-bottom: 12px;'> 3.0 <?php echo _("Features"); ?></h1>
 
@@ -236,13 +204,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Support network browsing for distant filesystems (SMB, FTP, SFTP, NFS...)
-                            <li>Support HDMI passthrough for Audio HD codecs, like E-AC3, TrueHD or DTS-HD
-                            <li>Support for 12bits codec and extended colorspaces (HDR)
-                            <li>Support output renderers, like Chromecast
-                            <li>Support for 360 video and audio, including viewpoint modification
-                            <li>Support for ambisonic audio and more than 8 audio channels
-                            <li>Support subtitles size live adjustments
+                            <li>Network browsing for distant filesystems (SMB, FTP, SFTP, NFS...)
+                            <li>HDMI passthrough for Audio HD codecs, like E-AC3, TrueHD or DTS-HD
+                            <li>12bits codec and extended colorspaces (HDR)
+                            <li>Stream to distant renderers, like Chromecast
+                            <li>360 video and 3D audio playback with viewpoint change
+                            <li>Support for Ambisonics audio and more than 8 audio channels
+                            <li>Subtitles size modification live
                         </ul>
                     </div>
                 </div>
@@ -253,13 +221,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Support HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
-                            <li>Support hardware decoding using Direct3D11 and DxVA2, including GPU-zerocopy mode</li>
-                            <li>Support HEVC hardware decoding using OMX and MediaCodec (Android)</li>
-                            <li>Support MPEG-2, VC1/WMV3 on Android using MediaCodec</li>
-                            <li>OMX GPU-zerocopy support for decoding and display on Android using OpenMax IL</li>
+                            <li>Hardware decoding and display on all platforms</li>
+                            <li>HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
+                            <li>HEVC hardware decoding using OMX and MediaCodec (Android)</li>
+                            <li>MPEG-2, VC1/WMV3 hardware decoding on Android</li>
                             <li>Important improvements for the MMAL decoder and output for rPI and rPI2</li>
                             <li>New hardware accelerated decoder for OS X and and iOS based on Video Toolbox</li>
+                            <li>New VA-API decoder and rendering for Linux</li>
                         </ul>
                     </div>
                 </div>

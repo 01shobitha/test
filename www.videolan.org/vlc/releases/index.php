@@ -8,6 +8,9 @@
 
 <h1>VLC Releases</h1>
 
+<h2>VLC 3.0.X branch</h2>
+<a href="/vlc/releases/3.0.0.html">VLC 3.0.0</a><br />
+
 <h2>VLC 2.2.x branch</h2>
 <a href="/vlc/releases/2.2.0.html">VLC 2.2.0</a><br />
 <a href="/vlc/releases/2.2.1.html">VLC 2.2.1</a><br />

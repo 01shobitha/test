@@ -108,6 +108,7 @@
     }
 
     .subtext { position: relative; top: -20px; left:250px; width: 400px; text-align: center; }
+    .subtext2 { position: relative; top: -20px; width: 100%; text-align: center; }
 
 </style>
             <script>
@@ -131,7 +132,7 @@
                  callback: {
                          complete: function(number) {
                                 var selector = "#text_" + number;
-                                $(".subtext").css("display", "none");
+                                $(".subtext2").css("display", "none");
                                 $(selector).css("display", "block");
                          }
                  }
@@ -148,12 +149,14 @@
                 <img src="/vlc/releases/3.0.0/carousel-iphone10-1.jpg">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-xbox.jpg">
          </div>
-        <h2 class="subtext" id="text_1">Hardware accelerated decoding for HD and UHD</h2>
-        <h2 class="subtext" style="display: none;" id="text_2">Supports HDR and HDR tone-mapping</h2>
-        <h2 class="subtext" style="display: none;" id="text_3">360° video navigation</h2>
-        <h2 class="subtext" style="display: none;" id="text_4">Chromecast streaming</h2>
-        <h2 class="subtext" style="display: none;" id="text_5">Optimized for iPhone X</h2>
-        <h2 class="subtext" style="display: none;" id="text_6">Faster version for UWP and XBox One</h2>
+        </div>
+        <div class="row col-md-12">
+        <h2 class="subtext2" id="text_1">Hardware accelerated decoding for HD and UHD</h2>
+        <h2 class="subtext2" style="display: none;" id="text_2">Supports HDR and HDR tone-mapping</h2>
+        <h2 class="subtext2" style="display: none;" id="text_3">360° video navigation</h2>
+        <h2 class="subtext2" style="display: none;" id="text_4">Chromecast streaming</h2>
+        <h2 class="subtext2" style="display: none;" id="text_5">Optimized for iPhone X</h2>
+        <h2 class="subtext2" style="display: none;" id="text_6">Faster version for UWP and XBox One</h2>
         </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 20px;">

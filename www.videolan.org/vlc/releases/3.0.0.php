@@ -232,13 +232,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Auto-rotation of phone movies, to fight Vertical Video Syndrome</li>
-                           <li>Resume playback where you left off</li>
-                           <li>Extensions API and repository to download extensions directly from the application</li>
-                           <li>GPU 0-copy support for decoding and displaying using hardware</li>
-                           <li>Improved support for UltraHD codecs, notably H.265 and VP9</li>
-                           <li>Subtitles download from the web, using OpenSubtitles</li>
-                           <li>Audio core upgrade, notably to support short samples</li>
+                            <li>Support network browsing for distant filesystems (SMB, FTP, SFTP, NFS...)
+                            <li>Support HDMI passthrough for Audio HD codecs, like E-AC3, TrueHD or DTS-HD
+                            <li>Support for 12bits codec and extended colorspaces (HDR)
+                            <li>Support output renderers, like ChromeCast
+                            <li>Support for 360 video and audio, including viewpoint modification
+                            <li>Support for ambisonic audio and more than 8 audio channels
+                            <li>Support subtitles size live adjustments
                         </ul>
                     </div>
                 </div>

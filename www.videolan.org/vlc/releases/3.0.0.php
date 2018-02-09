@@ -238,15 +238,15 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Support for BD-Java menus and overlay in Blu-Ray</li>
-                            <li>Support for experimental AV1 video and Daala video</li>
-                            <li>Support for the OggSpots video codec</li>
+                            <li>BD-Java menus and overlay in Blu-Ray</li>
+                            <li>Experimental AV1 video and Daala video decoders</li>
+                            <li>OggSpots video decoder</li>
                             <li>New MPEG-1 & 2 audio layer I, II, III + MPEG 2.5 decoder based on libmpg123</li>
                             <li>New BPG decoder based on libbpg</li>
-                            <li>Support TDSC, Canopus HQX, Cineform, SpeedHQ, Pixlet, QDMC and FMVC codecs</li>
-                            <li>TTML subtitles support, including EBU-TT-D variant</li>
+                            <li>TDSC, Canopus HQX, Cineform, SpeedHQ, Pixlet, QDMC and FMVC decoders</li>
+                            <li>TTML subtitles support</li>
                             <li>Rewrite of webVTT subtitles support, including CSS style support</li>
-                            <li>BluRay text subtitles (HDMV) are now decoded</li>
+                            <li>BluRay text subtitles (HDMV) deocoder</li>
                         </ul>
                     </div>
                 </div>
@@ -256,10 +256,10 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Important rework of the MP4 demuxer</li>
-                            <li>Important rework of the TS demuxer</li>
-                            <li>Support of HD-DVD .evo</li>
-                            <li>Important rework of the PS demuxer</li>
+                            <li>Rework of the MP4 demuxer</li>
+                            <li>Rework of the TS demuxer</li>
+                            <li>HD-DVD .evo support</li>
+                            <li>Rework of the PS demuxer</li>
                             <li>Improvements on MKV</li>
                         </ul>
                     </div>
@@ -271,13 +271,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Linux/BSD default video output is now OpenGL, instead of Xvideo</li>
-                            <li>Improvements in OpenGL output (multi-platform direct displaying, HDR tonemapping):</li>
+                            <li>OpenGL as Linux/BSD default video output</li>
+                            <li>Improvements in OpenGL output: direct displaying and HDR tonemapping</li>
                             <li>Rework of the Android video outputs</li>
-                            <li>Add a Direct3D11 video output supporting both Windows desktop and WinRT modes</li>
-                            <li>Support of HDR10 in Direct3D11 with Windows 10 Fall Creator Update</li>
+                            <li>New Direct3D11 video output supporting both Windows desktop and WinRT modes</li>
+                            <li>HDR10 support in Direct3D11 with Windows 10 Fall Creator Update</li>
                             <li>Hardware deinterlacing on the rPI, using MMAL</li>
-                            <li>New video filter to convert between fps rates</li>
+                            <li>Video filter to convert between fps rates</li>
                             <li>Hardware accelerated deinterlacing/adjust/sharpen/chroma with VA-API</li>
                             <li>Hardware accelerated adjust/invert/posterize/sepia/sharpen with CoreImage</li>
                             <li>Hardware accelerated deinterlacing/adjust/chroma with D3D9 and D3D11</li>
@@ -292,14 +292,14 @@
                     <div class='productDescription'>
                         <ul>
                             <li>Complete rewrite of the AudioTrack Android output</li>
-                            <li>Add a Tizen audio output</li>
+                            <li>New Tizen audio output</li>
                             <li>HDMI/SPDIF pass-through support for WASAPI (AC3/DTS/DTSHD/EAC3/TRUEHD)</li>
                             <li>Support EAC3 and TRUEHD pass-through for PulseAudio</li>
-                            <li>Important rework of the AudioUnit modules to share more code between iOS and macOS</li>
-                            <li>Add SoX Resampler library audio filter module (converter and resampler)</li>
-                            <li>Add an Ambisonics audio renderer, supporting up to 3rd order</li>
-                            <li>Add a Binauralizer audio filter, working with Ambisonics or 5.1/7.1 streams</li>
-                            <li>Add a pitch shifting module</li>
+                            <li>Rework of the AudioUnit modules to share more code between iOS and macOS</li>
+                            <li>SoX Resampler library audio filter module (converter and resampler)</li>
+                            <li>Ambisonics audio renderer, supporting up to 3rd order</li>
+                            <li>Binauralizer audio filter, working with Ambisonics or 5.1/7.1 streams</li>
+                            <li>Pitch shifting module</li>
                         </ul>
                     </div>
                 </div>

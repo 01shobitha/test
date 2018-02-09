@@ -13,3 +13,13 @@ some PHP scripts from static preprocessing.
 
 -- 
 Remi Denis-Courmont
+
+
+NOTES
+-----
+
+What packages to install to build locally:
+- php-cgi
+- php-xml
+- sassc
+

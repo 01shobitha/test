@@ -239,7 +239,7 @@
                             <li>Support network browsing for distant filesystems (SMB, FTP, SFTP, NFS...)
                             <li>Support HDMI passthrough for Audio HD codecs, like E-AC3, TrueHD or DTS-HD
                             <li>Support for 12bits codec and extended colorspaces (HDR)
-                            <li>Support output renderers, like ChromeCast
+                            <li>Support output renderers, like Chromecast
                             <li>Support for 360 video and audio, including viewpoint modification
                             <li>Support for ambisonic audio and more than 8 audio channels
                             <li>Support subtitles size live adjustments
@@ -360,7 +360,7 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>ChromeCast support from your phone</li>
+                            <li>Chromecast support from your phone</li>
                             <li>HEVC hardware decoding using MediaCodec</li>
                             <li>Android Auto with voice actions</li>
                             <li>Available on all Android TV, Chromebooks & DeX</li>

@@ -331,16 +331,18 @@
 
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Mobile Versions"); ?></div>
+                <div class='audienceCallout'><?php echo _("OS Versions"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>VLC for iOS 2.4.1 release is out</li>
-                           <li>VLC for Windows Phone 1.1.0 public beta is out</li>
-                           <li>VLC for WinRT 1.1.0, x86 and ARM</li>
-                           <li>VLC for Android TV 1.1.0</li>
-                           <li>VLC for Android 1.1.0 beta</li>
-                           <li>VLC for iOS 2.5.0 is in testing</li>
+                           <li>Windows XP ➔ 10 RS3</li>
+                           <li>macOS 10.7 ➔ 10.13</li>
+                           <li>iOS 7 ➔ 11</li>
+                           <li>Android 2.3 ➔ 8.1</li>
+                           <li>Android TV, Chromebooks with Play Store</li>
+                           <li>Windows RT 8.1, Windows Phone 8.1</li>
+                           <li>Windows 10 Mobile, Xbox 1, Windows Store</li>
+                           <li>GNU/Linux, Ubuntu, *BSD</li>
                         </ul>
                     </div>
                 </div>

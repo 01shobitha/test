@@ -356,16 +356,16 @@
             </div>
 
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Platform integration")?></div>
+                <div class='audienceCallout'><?php echo _("Android specific")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Port of the interface to Yosemite</li>
-                           <li>Support drag'n drop in the skins2 interface</li>
-                           <li>New TLS module on OS X and iOS, using the central store</li>
-                           <li>Signature of the Windows binaries</li>
-                           <li>Improvement of audio device detections on OS X and Windows</li>
-                           <li>Support of audio ducking in various audio outputs</li>
+                            <li>ChromeCast support from your phone</li>
+                            <li>HEVC hardware decoding using MediaCodec</li>
+                            <li>Android Auto with voice actions</li>
+                            <li>Available on all Android TV, Chromebooks & DeX</li>
+                            <li>Support for Picture-in-Picture</li>
+                            <li>Playlist files detection</li>
                         </ul>
                     </div>
                 </div>

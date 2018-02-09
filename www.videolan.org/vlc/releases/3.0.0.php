@@ -182,7 +182,7 @@
         </div>
         </div>
 
-        <div class="clearme" style='padding-top: 30px;'>
+        <div class="clearme" style='padding-top: 10px;'>
 
 
         <div class="container">
@@ -207,7 +207,6 @@
 		</div>
                 <div class='col-md-4'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
             </div>
-            <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
         </div>
     </div>
         </section>

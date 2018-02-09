@@ -201,6 +201,8 @@
                     <li>Can stream to Chromecast devices, even in formats not supported natively</li>
                     <li>Can play Blu-Ray Java menus: BD-J</li>
                     <li>VLC supports browsing of local network drives and NAS</li>
+                    <br>
+                    <li>Read the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</li>
                 </ul>
 		</div>
                 <div class='col-md-4'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>

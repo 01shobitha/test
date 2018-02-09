@@ -184,7 +184,6 @@
 
         <div class="clearme" style='padding-top: 10px;'>
 
-
         <div class="container">
         <section>
         <div class="container">
@@ -202,6 +201,7 @@
                     <li>Can stream to Chromecast devices, even in formats not supported natively</li>
                     <li>Can play Blu-Ray Java menus: BD-J</li>
                     <li>VLC supports browsing of local network drives and NAS</li>
+                    <br>
                     <li>Read the <a href="/press/vlc-3.0.0.html">Press release</a> and the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</li>
                 </ul>
 		</div>
@@ -211,7 +211,7 @@
     </div>
         </section>
         </div>
-	<section class="bg-gray" style='padding-top: 30px;'>
+	<section class="bg-gray" style='padding-top: 10px;'>
         <div class="container">
 	    <div class="row">
             <div class="col-md-12">

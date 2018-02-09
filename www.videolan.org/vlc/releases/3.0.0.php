@@ -283,18 +283,15 @@
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Codecs / Protocols"); ?></div>
+                <div class='audienceCallout'><?php echo _("Containers"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for MMS split streams for audio selection (European Parliament)</li>
-                           <li>Support FTPS (FTP/TLS) protocol</li>
-                           <li>New decoder for VP8 and VP9 using libvpx for Linux distributions without avcodec</li>
-                           <li>Improvements on Teletext, Subrip, and Tx3g subtitles</li>
-                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4 </li>
-                           <li>Support for IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
-                           <li>Support x264 and FFv1 codecs RGB modes </li>
-                           <li>Fixes for DVD, Audio-CD, M2TS LPCM audio, Speex
+                            <li>Important rework of the MP4 demuxer</li>
+                            <li>Important rework of the TS demuxer</li>
+                            <li>Support of HD-DVD .evo</li>
+                            <li>Important rework of the PS demuxer</li>
+                            <li>Improvements on MKV</li>
                         </ul>
                     </div>
                 </div>

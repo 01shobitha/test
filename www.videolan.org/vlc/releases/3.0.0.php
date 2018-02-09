@@ -110,7 +110,12 @@
     .subtext { position: relative; top: -20px; left:250px; width: 400px; text-align: center; }
     .subtext2 { position: relative; top: -20px; width: 100%; text-align: center; }
     .features ul li:before {
-        padding-left: 22px;
+        padding-left: 18px;
+        width: 10px;
+        height: 10px;
+    }
+    .audienceCallout {
+        font-weight: bold;
     }
 
 </style>
@@ -185,7 +190,6 @@
         </div>
         </div>
 
-        <div class="clearme" style='padding-top: 10px;'>
         <section class="features">
             <div class="container">
                 <div class="row">

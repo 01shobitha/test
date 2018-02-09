@@ -148,15 +148,15 @@
                 <img src="/vlc/releases/3.0.0/carousel-iphone10-1.jpg">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-xbox.jpg">
          </div>
-        <h2 class="subtext" id="text_1">Hardware accelerated on all systems</h2>
-        <h2 class="subtext" style="display: none;" id="text_2">Compatible with all HDR content</h2>
+        <h2 class="subtext" id="text_1">Hardware accelerated decoding for HD and UHD</h2>
+        <h2 class="subtext" style="display: none;" id="text_2">Supports HDR and HDR tone-mapping</h2>
         <h2 class="subtext" style="display: none;" id="text_3">360° video navigation</h2>
         <h2 class="subtext" style="display: none;" id="text_4">Chromecast streaming</h2>
-        <h2 class="subtext" style="display: none;" id="text_5">Optimized for iPhone 10</h2>
-        <h2 class="subtext" style="display: none;" id="text_6">Brand new version for XBox</h2>
+        <h2 class="subtext" style="display: none;" id="text_5">Optimized for iPhone X</h2>
+        <h2 class="subtext" style="display: none;" id="text_6">Faster version for UWP and XBox One</h2>
         </div>
 
-                <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">
+                <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 20px;">
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>

@@ -177,13 +177,14 @@
             <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
                 <div class='projectDescription' style="width: 600px;">
                     <div style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</div>
-                    <div>VLC 3.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
-                    <div>VLC now resumes where you left off in all versions</div>
-                    <div>Improves support for new HD codecs, VP9, opus and H.265/HEVC, for decoding and for encoding.</div>
-                    <div>Extensions are now downloadable from within the application.</div>
-                    <div>VLSub extension can download subtitles from the application.</div>
-                    <div>We release at the same time, new versions and betas for iOS, Android, Windows Phone, Android TV and Windows RT.</div>
-                    <div style="float: right;">Read the <a href="/press/vlc-3.0.0.html">Press release</a> and the <a href="/developers/vlc/NEWS"/>Changelog</a>.</div>
+                    <div>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></div>
+                    <div>It supports 10bits and HDR</div>
+                    <div>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</div>
+                    <div>Allows passthrough for HD audio codecs</div>
+                    <div>Can stream to Chromecast devices, even in formats not supported natively</div>
+                    <div>Can play Blu-Ray Java menus: BD-J</div>
+                    <div>VLC supports browsing of local network drives and NAS</div>
+                    <div style="float: right;">Read the <a href="/press/vlc-3.0.0.html">Press release</a> and the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</div>
                 </div>
             </div>
             <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>

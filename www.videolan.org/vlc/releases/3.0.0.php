@@ -265,14 +265,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>GPU 0-copy decoding-rendering for Android using MediaCodec</li>
-                           <li>GPU accelerated auto-rotation, in OpenGL, Direct3D and Mediacodec</li>
-                           <li>GPU 0-copy decoding-rendering for Linux using VDPAU</li>
-                           <li>Support for HLSL shaders in Direct3D video output</li>
-                           <li>Media Foundation Transform audio and video decoder for Windows Vista/7</li>
-                           <li>GPU 0-copy decoding-rendering for RaspberryPi using MMAL</li>
-                           <li>OpenMAX IL improvements for Android, Linux and rPi</li>
-                           <li>Support GStreamer codecs on Linux</li>
+                            <li>Support HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
+                            <li>Support hardware decoding using Direct3D11 and DxVA2, including GPU-zerocopy mode</li>
+                            <li>Support HEVC hardware decoding using OMX and MediaCodec (Android)</li>
+                            <li>Support MPEG-2, VC1/WMV3 on Android using MediaCodec</li>
+                            <li>OMX GPU-zerocopy support for decoding and display on Android using OpenMax IL</li>
+                            <li>Important improvements for the MMAL decoder and output for rPI and rPI2</li>
+                            <li>New hardware accelerated decoder for OS X and and iOS based on Video Toolbox</li>
                         </ul>
                     </div>
                 </div>

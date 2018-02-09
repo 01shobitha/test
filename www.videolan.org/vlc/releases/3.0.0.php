@@ -387,8 +387,8 @@
 
         <div class="clearme"></div>
         <div style="width: 50%; float: left;">
-            <h2  style="margin-top: 30px; margin-bottom: 10px;">Windows RT and Windows Metro</h2>
-            <a href="http://apps.microsoft.com/windows/en-us/app/vlc-for-windows-8/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72"><img src="/images/badges/WS_green.png" /></a>
+            <h2  style="margin-top: 30px; margin-bottom: 10px;">Windows Store and UWP</h2>
+            <a href="https://www.microsoft.com/en-US/store/p/vlc/9nblggh4vvnh"><img src="/images/badges/WS_green.png" /></a>
         </div>
 
         <div style="width: 45%; float: left;">

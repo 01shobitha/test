@@ -119,6 +119,12 @@
     }
     .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
     .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    section.no-check ul li {
+        list-style-type: initial;
+    }
+    section.no-check ul li:before {
+        content: none;
+    }
 </style>
             <script>
               $(function(){
@@ -193,8 +199,8 @@
 
         <section class="features">
             <div class="container">
+                <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
                 <div class="row">
-                    <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
                     <div class="col-sm-6">
                         <ul>
                             <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
@@ -228,7 +234,7 @@
             </div>
         </div>
     </section>
-	<section class="bg-gray features" style='padding-top: 10px;'>
+	<section class="bg-gray features no-check" style='padding-top: 10px;'>
         <div class="container">
 	    <div class="row">
             <div class="col-md-12">

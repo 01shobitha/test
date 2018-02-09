@@ -146,7 +146,7 @@
                 <img src="/vlc/releases/3.0.0/carousel-iphone10-1.jpg">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-xbox.jpg">
          </div>
-        <h2 class="subtext" id="text_1">Automatic hardware acceleration on all systems</h2>
+        <h2 class="subtext" id="text_1">Hardware accelerated on all systems</h2>
         <h2 class="subtext" style="display: none;" id="text_2">Compatible with all HDR content</h2>
         <h2 class="subtext" style="display: none;" id="text_3">360° video navigation</h2>
         <h2 class="subtext" style="display: none;" id="text_4">Chromecast streaming</h2>

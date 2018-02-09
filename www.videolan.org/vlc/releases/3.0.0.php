@@ -298,16 +298,20 @@
             </div>
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Professional"); ?></div>
+                <div class='audienceCallout'><?php echo _("Video outputs and filters"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for Digital Cinema Packages and encrypted DCP with KDM</li>
-                           <li>HEVC encoding and muxing in MP4 and TS</li>
-                           <li>Support VP8 encoding inside Ogg</li>
-                           <li>Improvements of audio bar graph, for speed and resiliance</li>
-                           <li>Support MPEG-2 video encoding through x262</li>
-                           <li>Large improvements of teletext rendering, for speed and alignments</li>
+                            <li>Linux/BSD default video output is now OpenGL, instead of Xvideo</li>
+                            <li>Improvements in OpenGL output (multi-platform direct displaying, HDR tonemapping):</li>
+                            <li>Rework of the Android video outputs</li>
+                            <li>Add a Direct3D11 video output supporting both Windows desktop and WinRT modes</li>
+                            <li>Support of HDR10 in Direct3D11 with Windows 10 Fall Creator Update</li>
+                            <li>Hardware deinterlacing on the rPI, using MMAL</li>
+                            <li>New video filter to convert between fps rates</li>
+                            <li>Hardware accelerated deinterlacing/adjust/sharpen/chroma with VA-API</li>
+                            <li>Hardware accelerated adjust/invert/posterize/sepia/sharpen with CoreImage</li>
+                            <li>Hardware accelerated deinterlacing/adjust/chroma with D3D9 and D3D11</li>
                         </ul>
                     </div>
                 </div>
@@ -348,21 +352,26 @@
                 </div>
             </div>
 
+
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("For developers")?></div>
+                <div class='audienceCallout'><?php echo _("Audio outputs and filters"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Add equalizer API for libVLC</li>
-                           <li>Add functions for scrambling detection</li>
-                           <li>Experimental new C++11 libVLC library: libvlcpp</li>
-                           <li>New Android buildsystem and Java SDK</li>
-                           <li>New WinRT library component for libVLC: libVLCX</li>
-                           <li>Improvements for iOS/OSX VLCKit: Swift support and ARC</li>
+                            <li>Complete rewrite of the AudioTrack Android output</li>
+                            <li>Add a Tizen audio output</li>
+                            <li>HDMI/SPDIF pass-through support for WASAPI (AC3/DTS/DTSHD/EAC3/TRUEHD)</li>
+                            <li>Support EAC3 and TRUEHD pass-through for PulseAudio</li>
+                            <li>Important rework of the AudioUnit modules to share more code between iOS and macOS</li>
+                            <li>Add SoX Resampler library audio filter module (converter and resampler)</li>
+                            <li>Add an Ambisonics audio renderer, supporting up to 3rd order</li>
+                            <li>Add a Binauralizer audio filter, working with Ambisonics or 5.1/7.1 streams</li>
+                            <li>Add a pitch shifting module</li>
                         </ul>
                     </div>
                 </div>
             </div>
+
         </div>
 
 <!-- Downloads -->

@@ -25,13 +25,13 @@
 
   while( !feof($file) )
   {
-      $line=ereg_replace("\n","",fgets($file,4096));
+      $line=preg_replace("\n","",fgets($file,4096));
 
       // Comments are allowed
-      if( !ereg("^ *#",$line) && !ereg("^ *$",$line) )
+      if( !preg_match("^ *#",$line) && !preg_match("^ *$",$line) )
       {
           // Topics start with "|"
-          if( ereg("^ *\|",$line) && $msg )
+          if( preg_match("^ *\|",$line) && $msg )
           {
               $ex=explode("|",$msg);
               $date = $ex[1];

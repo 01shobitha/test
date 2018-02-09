@@ -140,7 +140,8 @@
               });
             </script>
 
-        <div style="width: 940px; margin: 0 auto;">
+        <div class="container">
+        <div class="row col-md-12">
           <div id="slides" style="margin: 0 auto;">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-4k.jpg">
                 <img src="/vlc/releases/3.0.0/carousel-3.0-hdr.jpg">
@@ -159,7 +160,8 @@
         <h2 class="subtext2" style="display: none;" id="text_6">Faster version for UWP and XBox One</h2>
         </div>
 
-                <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 20px;">
+        <div class="row col-md-offset-4 col-md-4">
+                <a id='downloadButton' href='#download' style="margin-top: 0px;">
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
@@ -177,32 +179,49 @@
                 });
                 </script>
         </div>
+        </div>
+        </div>
+
+        <div class="clearme" style='padding-top: 30px;'>
+
 
         <div class="container">
-        <div class="clearme" style='padding-top: 30px;'>
-            <div style='float: left; width: 600px;'>
-            <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
-                <div class='projectDescription' style="width: 600px;">
-                    <div style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</div>
-                    <div>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></div>
-                    <div>Supports 4K, 10bits and HDR</div>
-                    <div>Playback 360 video and 3D audio, up to Ambisoncics 3rd order</div>
-                    <div>Allows passthrough for HD audio codecs</div>
-                    <div>Can stream to Chromecast devices, even in formats not supported natively</div>
-                    <div>Can play Blu-Ray Java menus: BD-J</div>
-                    <div>VLC supports browsing of local network drives and NAS</div>
-                    <div>Support for more formats and faster seeking</div>
-                    <div>New subtitles renderer support Complex Text Scripts and Fonts fallback</div>
-                    <div style="float: right; margin-top: 10px">Read the complete <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</div>
-                </div>
+        <section>
+        <div class="container">
+            <div class="row col-md-12">
+                <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
+            </div>
+	    <div class="row projectDescription" style="width:100%">
+                <div class='col-md-8'>
+		<ul>
+                    <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
+                    <li>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
+                    <li>It supports 10bits and HDR</li>
+                    <li>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</li>
+                    <li>Allows passthrough for HD audio codecs</li>
+                    <li>Can stream to Chromecast devices, even in formats not supported natively</li>
+                    <li>Can play Blu-Ray Java menus: BD-J</li>
+                    <li>VLC supports browsing of local network drives and NAS</li>
+                    <li>Read the <a href="/press/vlc-3.0.0.html">Press release</a> and the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</li>
+                </ul>
+		</div>
+                <div class='col-md-4'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
             </div>
             <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
         </div>
     </div>
+        </section>
+        </div>
+	<section class="bg-gray" style='padding-top: 30px;'>
         <div class="container">
+	    <div class="row">
+            <div class="col-md-12">
             <h1 style='margin-bottom: 12px;'> 3.0 <?php echo _("Features"); ?></h1>
+            </div>
+            </div>
 
-            <div style='float: left; width: 480px; margin-bottom: 25px;'>
+	    <div class="row">
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Core"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -218,8 +237,7 @@
                     </div>
                 </div>
             </div>
-
-            <div style='float: left; width: 480px;'>
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Acceleration"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -235,8 +253,10 @@
                     </div>
                 </div>
             </div>
+            </div>
 
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+	    <div class="row">
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -254,7 +274,7 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 480px;'>
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Containers"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -268,8 +288,10 @@
                     </div>
                 </div>
             </div>
+            </div>
 
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+	    <div class="row">
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Video outputs and filters"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -288,8 +310,7 @@
                     </div>
                 </div>
             </div>
-
-            <div style='float: left; width: 480px;'>
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Audio outputs and filters"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -307,8 +328,10 @@
                     </div>
                 </div>
             </div>
+            </div>
 
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+	    <div class="row">
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("OS Versions"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -325,8 +348,7 @@
                     </div>
                 </div>
             </div>
-
-            <div style='float: left; width: 480px;'>
+            <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Android specific")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -341,8 +363,10 @@
                     </div>
                 </div>
             </div>
+            </div>
 
         </div>
+	</section>
 
 <!-- Downloads -->
         <div class="container">

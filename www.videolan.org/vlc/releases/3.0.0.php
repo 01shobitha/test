@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 3.0.0 Weatherwax");
+   $title = _("VLC 3.0.0 Vetinari");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -14,7 +14,7 @@
 ?>
     <div>
             <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>3.0.0</b> multi-releases</h1>
-            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 3.0.0 is the first version of "Weatherwax" branch of our popular media player.</div>
+            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 3.0.0 is the first version of "Vetinari" branch of our popular media player.</div>
             </center>
 
             <style>
@@ -176,7 +176,7 @@
             <div style='float: left; width: 600px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("3.0.0 Highlights"); ?></h1>
                 <div class='projectDescription' style="width: 600px;">
-                    <div style="padding-bottom: 8px;">VLC 3.0.0 "Weatherwax" is a new major update of VLC.</div>
+                    <div style="padding-bottom: 8px;">VLC 3.0.0 "Vetinari" is a new major update of VLC.</div>
                     <div>VLC 3.0.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
                     <div>VLC now resumes where you left off in all versions</div>
                     <div>Improves support for new HD codecs, VP9, opus and H.265/HEVC, for decoding and for encoding.</div>

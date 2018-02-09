@@ -109,6 +109,9 @@
 
     .subtext { position: relative; top: -20px; left:250px; width: 400px; text-align: center; }
     .subtext2 { position: relative; top: -20px; width: 100%; text-align: center; }
+    .features ul li:before {
+        padding-left: 22px;
+    }
 
 </style>
             <script>
@@ -183,35 +186,32 @@
         </div>
 
         <div class="clearme" style='padding-top: 10px;'>
-
-        <div class="container">
-        <section>
-        <div class="container">
-            <div class="row col-md-12">
-                <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <h1 style='margin-bottom: 12px;'><?php echo _("3.0 Highlights"); ?></h1>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
+                            <li>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
+                            <li>It supports 10bits and HDR</li>
+                            <li>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Allows passthrough for HD audio codecs</li>
+                            <li>Can stream to Chromecast devices, even in formats not supported natively</li>
+                            <li>Can play Blu-Ray Java menus: BD-J</li>
+                            <li>VLC supports browsing of local network drives and NAS</li>
+                            <div class="feat-margin-left extra-info-link2 padding-top pull-right">Read the <a href="/press/vlc-3.0.0.html">Press release</a> and the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</div>
+                        </ul>
+                    </div>
+                </div>
             </div>
-	    <div class="row projectDescription" style="width:100%">
-                <div class='col-md-8'>
-		<ul>
-                    <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
-                    <li>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
-                    <li>It supports 10bits and HDR</li>
-                    <li>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</li>
-                    <li>Allows passthrough for HD audio codecs</li>
-                    <li>Can stream to Chromecast devices, even in formats not supported natively</li>
-                    <li>Can play Blu-Ray Java menus: BD-J</li>
-                    <li>VLC supports browsing of local network drives and NAS</li>
-                    <br>
-                    <li>Read the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</li>
-                </ul>
-		</div>
-                <div class='col-md-4'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
-            </div>
-        </div>
-    </div>
         </section>
-        </div>
-	<section class="bg-gray" style='padding-top: 10px;'>
+
+	<section class="bg-gray features" style='padding-top: 10px;'>
         <div class="container">
 	    <div class="row">
             <div class="col-md-12">
@@ -223,7 +223,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Core"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>Network browsing for distant filesystems (SMB, FTP, SFTP, NFS...)
                             <li>HDMI passthrough for Audio HD codecs, like E-AC3, TrueHD or DTS-HD
@@ -239,7 +239,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Acceleration"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>Hardware decoding and display on all platforms</li>
                             <li>HEVC hardware decoding on Windows, using DxVA2 and D3D11</li>
@@ -258,7 +258,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>BD-Java menus and overlay in Blu-Ray</li>
                             <li>Experimental AV1 video and Daala video decoders</li>
@@ -276,7 +276,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Containers"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>Rework of the MP4 demuxer</li>
                             <li>Rework of the TS demuxer</li>
@@ -293,7 +293,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Video outputs and filters"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>OpenGL as Linux/BSD default video output</li>
                             <li>Improvements in OpenGL output: direct displaying and HDR tonemapping</li>
@@ -312,7 +312,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Audio outputs and filters"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>Complete rewrite of the AudioTrack Android output</li>
                             <li>New Tizen audio output</li>
@@ -333,7 +333,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("OS Versions"); ?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                            <li>Windows XP ➔ 10 RS3</li>
                            <li>macOS 10.7 ➔ 10.13</li>
@@ -350,7 +350,7 @@
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Android specific")?></div>
                 <div class='clearme'>
-                    <div class='productDescription'>
+                    <div>
                         <ul>
                             <li>Chromecast support from your phone</li>
                             <li>HEVC hardware decoding using MediaCodec</li>

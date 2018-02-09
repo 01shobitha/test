@@ -13,7 +13,8 @@
    $win32version = "3.0.0";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>3.0</b>!</h1>
+
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">NOT RELEASED YET <b>!!</b></h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 3.0.0 is the first version of "Vetinari" branch of our popular media player.</div>
             </center>
 

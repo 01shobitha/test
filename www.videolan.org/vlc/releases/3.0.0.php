@@ -204,17 +204,17 @@
                     <div class="col-sm-6">
                         <ul>
                             <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
-                            <li>VLC 3.0 activates hardware decoding by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
-                            <li>It supports 10bits and HDR</li>
-                            <li>VLC supports 360 video and 3D audio, up to Ambisoncics 3rd order</li>
+                            <li>VLC 3.0 activates <b>hardware decoding</b> by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
+                            <li>It supports <b>10bits</b> and <b>HDR</b></li>
+                            <li>VLC supports <b>360 video</b> and <b>3D audio</b>, up to Ambisoncics 3rd order</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul>
-                            <li>Allows passthrough for HD audio codecs</li>
-                            <li>Can stream to Chromecast devices, even in formats not supported natively</li>
-                            <li>Can play Blu-Ray Java menus: BD-J</li>
-                            <li>VLC supports browsing of local network drives and NAS</li>
+                            <li>Allows <b>audio passthrough</b> for HD audio codecs</li>
+                            <li>Can stream to <b>Chromecast</b> devices, even in formats not supported natively</li>
+                            <li>Can play <b>Blu-Ray Java menus</b>: BD-J</li>
+                            <li>VLC supports browsing of <b>local network</b> drives and NAS</li>
                             <div class="feat-margin-left extra-info-link2 padding-top pull-right">Read the <a href="/developers/vlc-branch/NEWS"/>Changelog</a>.</div>
                         </ul>
                     </div>

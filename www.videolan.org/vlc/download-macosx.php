@@ -28,11 +28,14 @@
     <?php drawVLCdownloadSection("osx", $dropdownItems, false, "VLC for Mac OS X"); ?>
     <div dir="ltr" lang="en">
     <h2>Devices and Mac OS X version</h2>
-    <p class="projectDescription">VLC media player requires Mac OS X 10.6 or later. It runs on any 64bit Intel-based Mac. Previous devices are supported by older releases.<br />Note that the first generation of Intel-based Macs equipped with Core Solo or Core Duo processors is no longer supported. Please use version 2.0.10 linked below.</p>
+    <p class="projectDescription">VLC media player requires Mac OS X 10.7 or later. It runs on any 64bit Intel-based Mac. Previous devices are supported by older releases.<br />Note that the first generation of Intel-based Macs equipped with Core Solo or Core Duo processors is no longer supported. Please use version 2.0.10 linked below.</p>
 
     <h2>Older versions of Mac OS X and VLC media player</h2>
     <p class="projectDescription">We provide older releases for users who wish to deploy our software on legacy releases of Mac OS X. You can find recommendations for the respective operating system version below. Note that <b>support ended</b> for all releases listed below and hence they won't receive any further updates.</p>
     <p class="projectDescription">If you need help in finding the correct package matching your Mac's processor architecture, please see <a href="https://support.apple.com/HT201580">this official support document by Apple</a>.</p>
+    <h3>Mac OS X 10.6 Snow Leopard</h3>
+    <p class="projectDescription">Use VLC 2.2.8. Get it <a href="https://get.videolan.org/vlc/2.2.8/macosx/vlc-2.2.8.dmg">here</a>.</p>
+    <br />
     <h3>Mac OS X 10.5 Leopard</h3>
     <p class="projectDescription">Use VLC 2.0.10. Get it for <a href="https://get.videolan.org/vlc/2.0.10/macosx/vlc-2.0.10-powerpc.dmg">PowerPC</a> or <a href="https://get.videolan.org/vlc/2.0.10/macosx/vlc-2.0.10-intel32.dmg">32bit Intel</a>.</p>
     <br />

@@ -275,7 +275,7 @@
                             <li>HEVC hardware decoding using OMX and MediaCodec (Android)</li>
                             <li>MPEG-2, VC1/WMV3 hardware decoding on Android</li>
                             <li>Important improvements for the MMAL decoder and output for rPI and rPI2</li>
-                            <li>New hardware accelerated decoder for OS X and and iOS based on Video Toolbox</li>
+                            <li>HEVC and H.264 hardware decoding for macOS and and iOS based on VideoToolbox</li>
                             <li>New VA-API decoder and rendering for Linux</li>
                         </ul>
                     </div>
@@ -426,10 +426,10 @@
         </div>
         <div class="clearme"></div>
         <div style="width: 50%; float: left;">
-        <h2 style="margin-top: 30px;">OS X</h2>
+        <h2 style="margin-top: 30px;">macOS</h2>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-               <span class='downloadText'><?php echo _("VLC for OS X"); ?></span>
+               <span class='downloadText'><?php echo _("VLC for macOS"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
                Version <span id='downloadVersion'><?php echo $macosxversion ?></span> - 64bits</span>
            </a>

@@ -212,7 +212,7 @@
                             <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
                             <li>VLC 3.0 activates <b>hardware decoding</b> by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
                             <li>It supports <b>10bits</b> and <b>HDR</b></li>
-                            <li>VLC supports <b>360 video</b> and <b>3D audio</b>, up to Ambisoncics 3rd order</li>
+                            <li>VLC supports <b>360 video</b> and <b>3D audio</b>, up to Ambisonics 3rd order</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">

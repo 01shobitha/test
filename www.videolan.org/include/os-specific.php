@@ -10,6 +10,7 @@ $winrtversion = '3.0.0';
 
 $dlBase = "//get.videolan.org/vlc";
 $windowsLocation = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
+$windows64Location = "$dlBase/$win32version/win64/vlc-$win32version-win64.exe";
 $osxLocation = "$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg";
 
 function replaceDLinfos( $downloadButton = "#downloadButton" )
@@ -38,7 +39,17 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
         var OS="windows"; //Default
 
        if (navigator.appVersion.indexOf("Win")!=-1) {
-         OS="windows";
+           if (navigator.userAgent.indexOf('Win64')>-1 ||
+               navigator.platform=='Win64' ||
+               navigator.userAgent.indexOf('x86_64')>-1 ||
+               navigator.userAgent.indexOf('x86_64')>-1 ||
+               navigator.userAgent.indexOf('amd64')>-1 ||
+               navigator.userAgent.indexOf('AMD64')>-1 ||
+               navigator.userAgent.indexOf('WOW64')>-1
+           )
+           OS="windows64";
+         else
+           OS="windows";
        }
        if (navigator.appVersion.indexOf("Mac")!=-1) {
           if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
@@ -99,6 +110,7 @@ function downloadButton()
 
 function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     global $windowsLocation;
+    global $windows64Location;
     global $osxLocation;
     global $win32version;
     global $version;
@@ -115,6 +127,12 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
             "size"          => '38&nbsp;MB',
             "latestVersion" => $win32version,
             "location"      => $windowsLocation
+        ),
+        "windows64"   => array(
+            "name"          => "Windows 64bit",
+            "size"          => '40&nbsp;MB',
+            "latestVersion" => $win32version,
+            "location"      => $windows64Location
         ),
         "windowsphone"      => array(
             "name"          => "Windows Phone",

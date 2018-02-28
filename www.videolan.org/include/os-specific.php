@@ -9,7 +9,6 @@ $androidversion = '3.0.1';
 $winrtversion = '3.0.0';
 
 $dlBase = "//get.videolan.org/vlc";
-$dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
 $windowsLocation = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
 $osxLocation = "$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg";
 
@@ -83,10 +82,10 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
 
 function downloadButton()
 {
-    global $dlUrl;
+    global $windowsLocation;
     global $win32version;
 ?>
-     <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+     <a id='downloadButton' href='<?php echo $windowsLocation; ?>'>
          <img style='position: absolute; top: -10px; left: -10px;' src='//images.videolan.org/images/downloadVLC.png' alt='Download VLC icon' />
          <span class='downloadText'><?php echo _("Download VLC"); ?></span>
          <span id='downloadDetails' style='font-size: 12px; color: white;'>
@@ -223,9 +222,8 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
 
 function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOSicons = true, $alternativeTitle = null)
 {
-    global $dlUrl;
-    global $win32version;
     global $windowsLocation;
+    global $win32version;
     global $osxLocation;
     $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 6) : $dropdownItems;
     $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;

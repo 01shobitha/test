@@ -198,6 +198,7 @@
                     "2.2.7"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "2.2.8"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "3.0.0"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "3.0.1"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
     );
 
     $table = array_merge( $table_old, $table_sf );
@@ -405,6 +406,11 @@
                                         "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
                                  ),
                      "3.0.0" => array(
+                                         "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.7z?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.zip?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.7z?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.zip?stats" ),
+                                         "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
+                                         "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",
+                                  ),
+                     "3.0.1" => array(
                                          "Windows" => array( "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.exe?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.exe?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.7z?stats", "https://get.videolan.org/vlc/#version#/win32/vlc-#version#-win32.zip?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.7z?stats", "https://get.videolan.org/vlc/#version#/win64/vlc-#version#-win64.zip?stats" ),
                                          "Macintosh" => "https://get.videolan.org/vlc/#version#/macosx/vlc-#version#.dmg?stats",
                                          "Source" => "https://get.videolan.org/vlc/#version#/vlc-#version#.tar.xz?stats",

@@ -243,7 +243,7 @@ function downloadButton2($dropdownItems = null, $targetOS = null, $displayMainOS
     global $windowsLocation;
     global $win32version;
     global $osxLocation;
-    $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 6) : $dropdownItems;
+    $dropdownItems = is_null($dropdownItems) ? getOS(null, 0, 7) : $dropdownItems;
     $defaultOS = is_null($targetOS) || $targetOS == 'All' ? "windows" : $targetOS;
     $defaultDetail = getOS($defaultOS);
     ?>

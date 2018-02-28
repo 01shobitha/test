@@ -113,7 +113,7 @@ function getOS($os = null, $offset = 0, $count = null, $encode = null) {
     $OSs = array(
         "windows"   => array(
             "name"          => "Windows",
-            "size"          => '28&nbsp;MB',
+            "size"          => '38&nbsp;MB',
             "latestVersion" => $win32version,
             "location"      => $windowsLocation
         ),

@@ -39,14 +39,16 @@ function replaceDLinfos( $downloadButton = "#downloadButton" )
         var OS="windows"; //Default
 
        if (navigator.appVersion.indexOf("Win")!=-1) {
-           if (navigator.userAgent.indexOf('Win64')>-1 ||
-               navigator.platform=='Win64' ||
-               navigator.userAgent.indexOf('x86_64')>-1 ||
-               navigator.userAgent.indexOf('x86_64')>-1 ||
-               navigator.userAgent.indexOf('amd64')>-1 ||
-               navigator.userAgent.indexOf('AMD64')>-1 ||
-               navigator.userAgent.indexOf('WOW64')>-1
-           )
+           if (navigator.userAgent.indexOf('Windows NT 5.0') == -1 &&
+               navigator.userAgent.indexOf('Windows NT 5.1') == -1 &&
+                 (navigator.userAgent.indexOf('Win64')>-1 ||
+                   navigator.platform=='Win64' ||
+                   navigator.userAgent.indexOf('x86_64')>-1 ||
+                   navigator.userAgent.indexOf('x86_64')>-1 ||
+                   navigator.userAgent.indexOf('amd64')>-1 ||
+                   navigator.userAgent.indexOf('AMD64')>-1 ||
+                   navigator.userAgent.indexOf('WOW64')>-1
+           ))
            OS="windows64";
          else
            OS="windows";

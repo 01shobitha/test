@@ -1,5 +1,7 @@
 # Comments begin with a #
 # New topics begin with mechanism#
+|23 April 2018|VLC 3.0.2|VideoLAN is publishing the VLC 3.0.2 release, for general availability. This release is fixing most of the important bugs and regressions from VLC 3.0.0, "Vetinari", and improves decoding speed on macOS. More than 150 bugs were fixed since the 3.0.0 release.
+
 |28 February 2018|VLC 3.0.1|VideoLAN and the VLC development team are releasing VLC 3.0.1, the first bugfix release of the "Vetinari" branch, for Linux, Windows and macOS. This version improves the chromecast support, hardware decoding, adaptive streaming, and fixes many bugs or crashes encountered in the 3.0.0 version. In total more than 30 issues have been fixed, on all platforms. The complete changelog can be found <a href="http://git.videolan.org/?p=vlc/vlc-3.0.git;a=blob;f=NEWS;hb=399713b542d29c81300d23a657fd2ec22bc927b6">here</a>.
 
 |9 February 2018|VLC 3.0.0|VideoLAN and the VLC development team are releasing VLC 3.0.0 "Vetinari" for Linux, Windows, OS X, BSD, Android, iOS, UWP and Windows Phone today!<br />This is the first major release in three years. It activates hardware decoding by default to get 4K and 8K playback, supports 10bits and HDR playback, 360° video and 3D audio, audio passthrough for HD audio codecs, streaming to Chromecast devices (even in formats not supported natively), playback of Blu-Ray Java menus and adds browsing of local network drives.<br />More info on our <a href="https://www.videolan.org/vlc/releases/3.0.0.html">release page</a>.

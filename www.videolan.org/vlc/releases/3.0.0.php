@@ -209,7 +209,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul>
-                            <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC.</li>
+                            <li style="padding-bottom: 8px;">VLC 3.0 "Vetinari" is a new major update of VLC</li>
                             <li>VLC 3.0 activates <b>hardware decoding</b> by default, to get <a href="https://vimeo.com/254723528">4K and 8K playback!</a></li>
                             <li>It supports <b>10bits</b> and <b>HDR</b></li>
                             <li>VLC supports <b>360 video</b> and <b>3D audio</b>, up to Ambisonics 3rd order</li>
@@ -240,15 +240,15 @@
             </div>
         </div>
     </section>
-	<section class="bg-gray features no-check" style='padding-top: 10px;'>
+    <section class="bg-gray features no-check" style='padding-top: 10px;'>
         <div class="container">
-	    <div class="row">
+        <div class="row">
             <div class="col-md-12">
             <h1 style='margin-bottom: 12px;'> 3.0 <?php echo _("Features"); ?></h1>
             </div>
             </div>
 
-	    <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Core"); ?></div>
                 <div class='clearme'>
@@ -283,7 +283,7 @@
             </div>
             </div>
 
-	    <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
@@ -318,7 +318,7 @@
             </div>
             </div>
 
-	    <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("Video outputs and filters"); ?></div>
                 <div class='clearme'>
@@ -358,7 +358,7 @@
             </div>
             </div>
 
-	    <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <div class='audienceCallout'><?php echo _("OS Versions"); ?></div>
                 <div class='clearme'>
@@ -394,7 +394,7 @@
             </div>
 
         </div>
-	</section>
+    </section>
 
 <!-- Downloads -->
         <div class="container">

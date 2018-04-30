@@ -6,6 +6,10 @@
 ?>
 
 <div class="container" style="max-width: 1000px !important;">
+       <style type="text/css">
+        li { font-size: 10px; margin-left: 20px; list-style-type: initial; }
+       </style>
+
    <h1 class="bigtitle">Privacy policy</h1>
 
     <h2>Introduction</h2>
@@ -17,7 +21,7 @@
     a few distinctions will be done between:<br />
     <ul>
         <li>VLC software,</li>
-        <li>VLC mobile versions,<li>
+        <li>VLC mobile versions,</li>
         <li>the main VideoLAN website,</li>
         <li>community VideoLAN websites.</li>
     </ul>

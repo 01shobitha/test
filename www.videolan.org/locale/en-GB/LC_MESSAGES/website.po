@@ -25,11 +25,11 @@ msgstr "a project and a"
 
 #: include/header.php:291
 msgid "non-profit organization"
-msgstr "non-profit organisation"
+msgstr "non-profit organization"
 
 #: include/menus.php:27
 msgid "Team &amp; Organization"
-msgstr "Team &amp; Organisation"
+msgstr "Team &amp; Organization"
 
 #: include/menus.php:28
 msgid "Consulting Services &amp; Partners"

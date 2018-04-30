@@ -64,7 +64,7 @@
     <!--<p>Any question about <strong>VLC usage</strong> and <strong>BUGS</strong> will <strong>not be</strong> answered.
     See the <a href="/support">Support center</a> for these matters.</p>-->
     <p>
-        <strong>Remember</strong>, we are a <strong>volunteer non-profit organisation</strong>, and we do not offer jobs and
+        <strong>Remember</strong>, we are a <strong>volunteer non-profit organization</strong>, and we do not offer jobs and
         cannot sponsor third party events.
     </p>
 

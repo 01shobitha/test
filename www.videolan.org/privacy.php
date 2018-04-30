@@ -18,7 +18,7 @@
     <p>There is no business-model around VideoLAN, and the only revenue we receive is through donations.</p>
 
     <p>For privacy policies and conformance to <a href="https://www.eugdpr.org/">GDPR</a>,
-    a few distinctions will be done between:<br />
+    a few distinctions will be done between:</p>
     <ul>
         <li>VLC software,</li>
         <li>VLC mobile versions,</li>
@@ -26,7 +26,7 @@
         <li>community VideoLAN websites.</li>
     </ul>
 
-    For each of the previous software/websites, we'll detail the different privacy policies.</p>
+    <p>For each of the previous software/websites, we'll detail the different privacy policies.</p>
 
     <h2>IP logs</h2>
     <p>For <b>all</b> of the VideoLAN services, IPs can be found in connection logs.</p>

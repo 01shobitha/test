@@ -22,6 +22,10 @@
            "location"   => "$dlBase/$win32version/win64/vlc-$win32version-win64.exe",
        ),
        array(
+           "name"       => "ARM 64 version",
+           "location"   => "http://people.videolan.org/~jb/Builds/ARM/vlc-4.0.0-dev-20180508-aarch64.zip",
+       ),
+       array(
            "name"       => "Source code",
            "location"   => "download-sources.html",
        )

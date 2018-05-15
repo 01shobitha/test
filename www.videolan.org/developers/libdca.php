@@ -28,7 +28,7 @@
 
 
     <h2>Getting libdca</h2>
-    <p>Current release is <a href="//download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2">libdca-0.0.5.tar.bz2</a></p>
+    <p>Current release is <a href="//download.videolan.org/pub/videolan/libdca/0.0.6/libdca-0.0.6.tar.bz2">libdca-0.0.6.tar.bz2</a></p>
     <p>The latest libdca source code can always be found in the <a href="https://code.videolan.org/videolan/libdca">GIT</a> repository:</p>
 
     <pre><code>$ git clone https://code.videolan.org/videolan/libdca</code></pre>

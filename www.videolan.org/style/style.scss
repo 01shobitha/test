@@ -56,11 +56,19 @@ ul, li
     list-style-type: none;
 }
 
+$font-path-raleway: "/style/fonts/Raleway";
+
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 100;
-    src: local("Raleway Thin"), local("Raleway-Thin"), url("//themes.googleusercontent.com/font?kit=RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c") format("truetype");
+    src: local("Raleway Thin"), local("Raleway-Thin"),
+        url('#{$font-path-raleway}/Raleway-Thin.eot'),
+        url('#{$font-path-raleway}/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path-raleway}/Raleway-Thin.woff2') format('woff2'),
+        url('#{$font-path-raleway}/Raleway-Thin.woff') format('woff'),
+        url('#{$font-path-raleway}/Raleway-Thin.ttf') format('truetype'),
+        url('#{$font-path-raleway}/Raleway-Thin.svg#Raleway-Thin') format('svg');
 }
 
 @font-face {

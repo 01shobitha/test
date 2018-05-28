@@ -62,8 +62,7 @@ $font-path-raleway: "/style/fonts/Raleway";
     font-family: "Raleway";
     font-style: normal;
     font-weight: 100;
-    src: local("Raleway Thin"), local("Raleway-Thin"),
-        url('#{$font-path-raleway}/Raleway-Thin.eot'),
+    src: url('#{$font-path-raleway}/Raleway-Thin.eot'),
         url('#{$font-path-raleway}/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
         url('#{$font-path-raleway}/Raleway-Thin.woff2') format('woff2'),
         url('#{$font-path-raleway}/Raleway-Thin.woff') format('woff'),

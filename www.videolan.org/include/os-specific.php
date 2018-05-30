@@ -1,12 +1,12 @@
 <?php
-$win32version = '3.0.2';
-$macosxversion = '3.0.2';
+$win32version = '3.0.3';
+$macosxversion = '3.0.3';
 $oldmacosxversion = '2.0.10';
-$version = '3.0.2';
+$version = '3.0.3';
 $iosversion = '3.0.3';
 $tvosversion = '3.0.3';
-$androidversion = '3.0.9';
-$winrtversion = '3.0.2';
+$androidversion = '3.0.10';
+$winrtversion = '3.0.3';
 
 $dlBase = "//get.videolan.org/vlc";
 $windowsLocation = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";

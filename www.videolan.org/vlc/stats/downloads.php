@@ -199,6 +199,8 @@
                     "2.2.8"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "3.0.0"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
                     "3.0.1"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "3.0.2"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
+                    "3.0.3"   => array( "Windows" => 0,                 "Macintosh" => 0,                   "Total" => 0 ),
     );
 
     $table = array_merge( $table_old, $table_sf );

@@ -38,16 +38,16 @@
 			    <div class="inner center-xs">
 			        <div class="btn-group">
                         <div class="installbtn" style="float: left;">
-                          <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.2/vlc.ymp">VLC for Leap 42.2</a>
+                          <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.3/vlc.ymp">VLC for Leap 42.3</a>
                         </div>
                         <div class="installbtn" style="float: left;">
-                          <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_42.3/vlc.ymp">VLC for Leap 42.3</a>
+                          <a href="http://download.videolan.org/pub/vlc/SuSE/Leap_15.0/vlc.ymp">VLC for Leap 15.0</a>
                         </div>
                         <div class="installbtn" style="float: left;">
                           <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
                         </div>
                         <div class="installbtn" style="float: left;">
-                          <a href="http://download.videolan.org/pub/vlc/SuSE/SLE12/vlc.ymp">VLC for SLE12</a>
+                          <a href="http://download.videolan.org/pub/vlc/SuSE/SLE15/vlc.ymp">VLC for SLE15</a>
                         </div>
 			        </div>
 			        <div id="downloadDetails">
@@ -72,10 +72,11 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 Version. Supported at this time are :</p>
 <p class="projectDescription">
 <ul class="bullets">
-<li>Leap_42.2</li>
 <li>Leap_42.3</li>
+<li>Leap_15.0</li>
 <li>Tumbleweed</li>
 <li>SLE12</li>
+<li>SLE15</li>
 </ul>
 </p>
 <p class="projectDescription">Finally, confirm the addition.</p>
@@ -110,7 +111,7 @@ sudo zypper in vlc
 </pre>
 </p>
 
-<p class="projectDescription">&lt;SUSE version&gt; can be Leap_42.2, Leap_42.3, Tumbleweed, SLE12</p>
+<p class="projectDescription">&lt;SUSE version&gt; can be Leap_42.3, Leap_15.0, Tumbleweed, SLE12, SLE15</p>
 
 </div>
 

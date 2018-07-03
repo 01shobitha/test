@@ -19,11 +19,11 @@
                  DVBlast is a simple and powerful MPEG-2/TS demux and streaming
                  application.
             </div>
-            <a id="downloadButton" href="https://get.videolan.org/dvblast/3.1/dvblast-3.1.tar.bz2">
+            <a id="downloadButton" href="https://get.videolan.org/dvblast/3.3/dvblast-3.3.tar.bz2">
                 <img style="position: absolute; top: -10px; left: -10px;" src="/images/downloadDVBlast.png" alt="Download DVBlast icon" />
                 <div class="downloadText">Download DVBlast</div>
                 <span id="downloadDetails" style="font-size: 12px;">
-                    Version 3.1 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 80 KiB
+                    Version 3.3 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 86 KiB
                 </span>
             </a>
         </div>

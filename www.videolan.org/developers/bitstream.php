@@ -36,9 +36,11 @@
         <li>ETSI TS 103 194 (DVB Simulcrypt)</li>
         <li>IETF RFC 3550 (Real Time Protocol)</li>
         <li>IETF RFC 2250 (Real Time Protocol for MPEG-1/2 audio/video)</li>
+        <li>IETF RFC 3611 (Real Time Control Protocol Extended Reports)</li>
         <li>SMPTE 2022-1 (Forward Error Correction)</li>
         <li>SMPTE 2022-6 (hbrmt)</li>
         <li>SMPTE 291 (Ancillary Data Packet and Space Formatting)</li>
+        <li>SMPTE 352 (Payload Identification)</li>
         <li>SMPTE 337 (Non-PCM data in AES3)</li>
         <li>IEEE 802.3 (Ethernet frames)</li>
         <li>SCTE-35 (Splice Information Table)</li>
@@ -66,7 +68,7 @@
     </ul>
 
     <h2>Get biTStream</h2>
-    <p>The latest <code>biTStream</code> release is <a href="https://get.videolan.org/bitstream/1.3/"><b>version 1.3</b></a>.</p>
+    <p>The latest <code>biTStream</code> release is <a href="https://get.videolan.org/bitstream/1.4/"><b>version 1.4</b></a>.</p>
     <p><code>biTStream</code> is available through <a href="https://wiki.videolan.org/git">git</a> at:</p>
     <pre><code>git clone https://code.videolan.org/videolan/bitstream.git</code></pre>
 

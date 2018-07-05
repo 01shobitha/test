@@ -16,6 +16,14 @@ for underlying third party libraries.
 Please refer to the concerned third parties as appropriate.
 </p>
 
+<h2>2018</h2>
+<dl>
+
+<dt>VideoLAN-SA-1801</dt>
+<dd>Heap use after free in avformat demuxer
+ <a href="sa1801.html">Details</a>
+</dd>
+
 <h2>2016</h2>
 <dl>
 
